@@ -2,7 +2,7 @@
 title: Sonoran Radio
 description: Experience the Next Level of Radio Communications
 published: true
-date: 2021-09-30T01:52:48.788Z
+date: 2021-09-30T02:28:36.066Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-29T20:50:45.190Z
@@ -24,7 +24,7 @@ Complete with inter-personnel text messaging and Sonoran CAD integration, Sonora
 
 ## Why Choose Sonoran Radio?
 
-- [CLICK ME See Why To Choose Sonoran Radio?](/home)
+- [See Why To Choose Sonoran Radio?](/home)
 {.links-list}
 
 ## Where to access Sonoran Radio?
