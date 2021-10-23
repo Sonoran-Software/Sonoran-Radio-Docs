@@ -2,7 +2,7 @@
 title: TeamSpeak Websocket API
 description: 
 published: true
-date: 2021-10-23T03:53:37.733Z
+date: 2021-10-23T03:55:50.409Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-13T04:55:08.744Z
@@ -65,7 +65,8 @@ interface client_gamestate {
 
 ```ts
 interface server_config {
-	id: number; // integer (unique to each server)
+  id: number; // integer (unique to each server)
+  pending: false;
   server_uid: string;
   /// 0 = free
   /// 1 = plus
