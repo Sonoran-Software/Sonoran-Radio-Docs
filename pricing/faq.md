@@ -2,7 +2,7 @@
 title: Pricing FAQ
 description: Want to get the best deals, or maybe just see how our prices work?
 published: true
-date: 2021-10-23T04:16:02.007Z
+date: 2021-10-23T04:17:55.523Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T04:16:02.007Z
@@ -24,7 +24,7 @@ You must first register your TeamSpeak server with our platform.
 
 ## Step 2
 
-Purchase a subscription in our billing portal
+Purchase your desired subscription on our billing portal. You will be able to select the TeamSpeak server you want it for there.
 
 ![subscription.png](https://i.imgur.com/rFH4iP8.png)
 
@@ -40,7 +40,7 @@ You are able to manage and cancel your subscription in the Billing Portal
 
 # Are subscriptions a one-time payment, or monthly?
 
-All subscriptions will be charged on a monthy payment, until cancelled.
+All subscriptions will be charged on a monthy basis, until cancelled.
 
 Subscriptions are renewed one month after the start date. You will receive an email from Stripe a few days before you are charged again. This way, you aren't charged again without prior notice.
 
