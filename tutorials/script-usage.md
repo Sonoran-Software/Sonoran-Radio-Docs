@@ -2,7 +2,7 @@
 title: FiveM Radio Script
 description: How to use the in game radio script
 published: true
-date: 2021-10-23T14:37:59.927Z
+date: 2021-10-23T14:38:40.813Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T14:23:15.408Z
@@ -43,4 +43,4 @@ To add frequency to scan list, set your radio to that frequency, click on scan l
 
 ## Usage - Activating Panic Button
 
-Usage of the panic button requires the sonrad plugin for the Sonoran CAD. You can download and install that plugin here: [Self Radio Settings](https://github.com/Sonoran-Software/sonoran_sonrad)
+Usage of the panic button requires the sonrad plugin for the Sonoran CAD. You can download and install that plugin here: [Sonoran CAD Sonrad Plugin](https://github.com/Sonoran-Software/sonoran_sonrad)
