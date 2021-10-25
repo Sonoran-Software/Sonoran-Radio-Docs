@@ -2,7 +2,7 @@
 title: Why Choose Sonoran Radio
 description: Sonoran Radio blurs the line between roleplay and real life. See what we have to offer!
 published: true
-date: 2021-10-23T19:42:17.750Z
+date: 2021-10-25T18:51:31.506Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-02T03:28:27.555Z
@@ -53,7 +53,7 @@ Users can change their unit status and activate their panic toggle right through
 
 **COMING SOON**: Additionally, users can also view dispatch call information, send notes, and more!
 
-Check out the [Sonoran CAD integration plugin for Sonoran Radio](https://github.com/Sonoran-Software/sonoran_sonrad)!
+Check out the [Sonoran CAD integration plugin for Sonoran Radio](https://info.sonorancad.com/integration-plugins/integration-plugins/available-plugins/sonoran-radio-sonrad)!
 
 ## 📋 Frequent Updates
 
