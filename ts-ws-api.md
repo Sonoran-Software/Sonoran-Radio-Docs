@@ -2,7 +2,7 @@
 title: TeamSpeak Websocket API
 description: 
 published: true
-date: 2021-10-23T03:55:50.409Z
+date: 2021-10-29T06:37:41.951Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-13T04:55:08.744Z
@@ -35,6 +35,12 @@ type frequency = [number, number] // both integers (NOT FLOATS!)
 ```ts
 interface client_state {
   spec: number; // incremented on major version upgrade
+  /// build type of the client
+  /// 0 = DEBUG
+  /// 1 = PRODUCTION
+  /// 2 = DEVELOPMENT
+  /// since: 0.2.1
+  interop: number;
   version: string;
   freq_recv: frequency;
   freq_xmit: frequency;
@@ -98,10 +104,12 @@ interface controller {
   cid: number; // integer, corresponds to the connection/tab
   server_uid: string;
 
+  /// since 0.2.1
+  nickname: string; // nickname of own client
   state: client_state; // state of own client
   config: server_config;
   in_patrol_channel: boolean;
-  channel_clients: channel_client[]
+  channel_clients: channel_client[];
 }
 ```
 
@@ -131,7 +139,7 @@ If an exception (error) occurs while handling an event, it will dispatch a ws->c
 }
 ```
 
-> If on Free version, all client->ws events will produce exceptions with message
+> If on Free version, all client->ws events (except `get_controllers` + `get_controller_data`) will produce exceptions with message
 > `ws api endpoint blocked for subscription level`
 {.is-danger}
 
