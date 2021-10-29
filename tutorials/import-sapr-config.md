@@ -1,8 +1,8 @@
 ---
 title: Import your SAPR Config
 description: Import your San Andreas Police Radio configuration into Sonoran Radio!
-published: false
-date: 2021-10-29T08:40:56.867Z
+published: true
+date: 2021-10-29T08:41:26.120Z
 tags: sapr, import
 editor: markdown
 dateCreated: 2021-10-29T08:40:56.867Z
