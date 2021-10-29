@@ -2,7 +2,7 @@
 title: Import your SAPR Config
 description: Import your San Andreas Police Radio configuration into Sonoran Radio!
 published: true
-date: 2021-10-29T08:41:26.120Z
+date: 2021-10-29T08:46:06.993Z
 tags: sapr, import
 editor: markdown
 dateCreated: 2021-10-29T08:40:56.867Z
@@ -13,7 +13,7 @@ Importing your SAPR Config is fast and easy!
 *Note: If you haven't already, you will need to register your server and completed the server authorization.*
 
 1. Navigate to the server management portal of your desired server.
-![h7l8ocv.png](/h7l8ocv.png)
+![mehbdw5.png](/mehbdw5.png)
 
 2. Click the `Import SAPR Config` button located next to the `Save Server` button.
 ![mlgafjd.png](/mlgafjd.png)
