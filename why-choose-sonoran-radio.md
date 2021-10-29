@@ -2,7 +2,7 @@
 title: Why Choose Sonoran Radio
 description: Sonoran Radio blurs the line between roleplay and real life. See what we have to offer!
 published: true
-date: 2021-10-25T18:51:31.506Z
+date: 2021-10-29T20:12:09.126Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-02T03:28:27.555Z
@@ -58,3 +58,8 @@ Check out the [Sonoran CAD integration plugin for Sonoran Radio](https://info.so
 ## 📋 Frequent Updates
 
 Sonoran Radio is always providing updates to help improve the experience, customizability, and realism of the product. We're always looking for new ideas and suggestions!
+
+## Migrating from SAPR?
+We've built an easy migration tool to automatically import your existing SAPR config right to Sonoran Radio!
+
+[Learn more about migrating, and our special offer!]([import-sapr-config](/tutorials/import-sapr-config))
