@@ -2,7 +2,7 @@
 title: Installing the TeamSpeak Plugin
 description: Download the TeamSpeak plugin and integrations here!
 published: true
-date: 2021-10-30T23:08:30.308Z
+date: 2021-10-30T23:11:30.864Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-05T05:02:14.308Z
@@ -43,6 +43,7 @@ All community members will need to download the 64 or 32 bit version of the Sono
 ### C++ Redistributable
 Some users may be missing a required C++ redistributable on their PC.
 > Plugin failed to load: failed to open plugin.: -834026130 (minimum 23, current: 25)
+{.is-danger}
 
 You can [download and install this package](https://aka.ms/vs/16/release/vc_redist.x64.exe) from Microsoft.
 
