@@ -2,11 +2,16 @@
 title: Plugin Changelog
 description: All version updates for the TeamSpeak plugin
 published: true
-date: 2021-10-30T02:38:24.566Z
+date: 2021-10-31T05:01:31.838Z
 tags: changelog
 editor: markdown
 dateCreated: 2021-10-07T04:39:14.544Z
 ---
+
+## 0.2.2 (2021-10-30)
+
+* **Fixed** invalid event data being sent (breaking FiveM)
+* **Fixed** whispers being treated as transmissions
 
 ## 0.2.1 (2021-10-29)
 
