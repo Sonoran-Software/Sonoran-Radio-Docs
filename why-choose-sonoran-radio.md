@@ -2,7 +2,7 @@
 title: Why Choose Sonoran Radio
 description: Sonoran Radio blurs the line between roleplay and real life. See what we have to offer!
 published: true
-date: 2021-10-29T20:12:09.126Z
+date: 2021-11-04T18:36:26.861Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-02T03:28:27.555Z
@@ -62,4 +62,4 @@ Sonoran Radio is always providing updates to help improve the experience, custom
 ## Migrating from SAPR?
 We've built an easy migration tool to automatically import your existing SAPR config right to Sonoran Radio!
 
-[Learn more about migrating, and our special offer!]([import-sapr-config](/tutorials/import-sapr-config))
+[Learn more about migrating, and our special offer!](/tutorials/import-sapr-config)
