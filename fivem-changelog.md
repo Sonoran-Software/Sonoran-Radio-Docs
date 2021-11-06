@@ -2,11 +2,18 @@
 title: In-Game Radio Changelog
 description: All version updates for the in-game FiveM radio resource.
 published: true
-date: 2021-11-06T05:21:53.116Z
+date: 2021-11-06T05:25:19.377Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T05:11:41.006Z
 ---
+
+## v1.1.2
+## v1.1.0
+- **FEAT: Preset Dial Keybinds**
+- **FEAT: Radio Power Keybind**
+- **FEAT; Panic Button Keybind**
+- **Tweak: Remove More Debug Messages**
 
 ## v1.0.8 (2021-10-23)
 - **FEAT: Radio Power Keybind**
@@ -14,6 +21,7 @@ dateCreated: 2021-10-07T05:11:41.006Z
 - **Fix: Remove Some Logging**
 - **Fix: Radio Power Button** 
 - **Tweak: CI Pipeline**
+- **Tweak: manifest.lua**
 
 ## v1.0.7 (2021-10-19)
 - **FEAT: CAD Integration with Sonrad Plugin**
