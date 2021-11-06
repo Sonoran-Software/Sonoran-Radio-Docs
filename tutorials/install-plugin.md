@@ -2,7 +2,7 @@
 title: Installing the TeamSpeak Plugin
 description: Download the TeamSpeak plugin and integrations here!
 published: true
-date: 2021-10-30T23:11:30.864Z
+date: 2021-11-06T04:34:49.997Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-05T05:02:14.308Z
@@ -20,7 +20,7 @@ All community members will need to download the 64 or 32 bit version of the Sono
 
 ## 2. Install the Plugin
 
-![installer.png](https://i.imgur.com/0x3QQ3X.png)
+![installer.png](https://i.imgur.com/xktrfnX.png)
 
 1. Download the plugin by clicking the links above
 2. Make sure your TeamSpeak is completely closed
@@ -39,6 +39,10 @@ All community members will need to download the 64 or 32 bit version of the Sono
   a. This can be checked in `Tools -> Options -> Addons`
   
 ## Important Notes
+
+### Auto-update
+
+When a new update for Sonoran Radio is detected, the plugin will automatically prompt you saying that there is a new update. It is recommended that you install the update ASAP as it can include critical bug fixes.
 
 ### C++ Redistributable
 Some users may be missing a required C++ redistributable on their PC.
