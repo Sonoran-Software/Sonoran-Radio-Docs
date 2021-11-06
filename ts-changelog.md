@@ -2,11 +2,24 @@
 title: Plugin Changelog
 description: All version updates for the TeamSpeak plugin
 published: true
-date: 2021-10-31T05:01:31.838Z
+date: 2021-11-06T05:09:32.706Z
 tags: changelog
 editor: markdown
 dateCreated: 2021-10-07T04:39:14.544Z
 ---
+
+## 0.2.3 (2021-11-05)
+
+* **Added** a list of preset-sorted users in channel description
+  * ![example.png](https://i.imgur.com/Xlnjy04.png)
+* **Changed** dispatch dialog channel users to alphabetical sort (and add preset/freq next to name)
+  * ![example.png](https://i.imgur.com/KEG6akK.png)
+* **Fixed** mic clicks playing when unintended (ex. if a person was blocked from transmitting)
+* **Fixed** failure opening downloaded update package
+* **Fixed** radio on/off not working in Free subscription
+* **Fixed** simplex frequencies that overlap with duplex frequencies having unintended repeated transmissions
+* **Fixed** rare crash when closing dispatch dialog
+* **Fixed** fonts in all dialogs
 
 ## 0.2.2 (2021-10-30)
 
