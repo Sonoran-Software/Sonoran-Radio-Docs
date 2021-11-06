@@ -2,13 +2,31 @@
 title: In-Game Radio Changelog
 description: All version updates for the in-game FiveM radio resource.
 published: true
-date: 2021-11-06T05:25:19.377Z
+date: 2021-11-06T05:35:52.949Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T05:11:41.006Z
 ---
 
+## v1.1.3
+- **FEAT: Radio reconnect command: `/radioreset`**
+- **FEAT: Add channel switch in-game notifications**
+- **FEAT: Add panic button in-game notification**
+- **FEAT: Add radio on/off in-game notifications**
+- **FEAT: Turn on/off scanning from the scan list (Pro)**
+- **Fix: Add restrictions and notifications for free tier**
+- **Fix: Radio stays in hand when restarting script**
+- **Tweak: Gracefully handle known socket error messages**
+- **Tweak: Suppress unknown/unexpected socket error messages**
+
 ## v1.1.2
+- **Fix: Corrected Frequency Bounds for Custom Frequency**
+- **Fix: Corrected Handling of Config Changed Event**
+
+## v1.1.1
+- **Fix: Fix Custom Frequencies**
+- **Tweak: Remove More Debug Messages**
+
 ## v1.1.0
 - **FEAT: Preset Dial Keybinds**
 - **FEAT: Radio Power Keybind**
