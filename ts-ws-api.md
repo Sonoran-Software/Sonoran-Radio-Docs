@@ -2,7 +2,7 @@
 title: TeamSpeak Websocket API
 description: 
 published: true
-date: 2021-10-29T06:37:41.951Z
+date: 2021-11-06T03:47:01.842Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-13T04:55:08.744Z
@@ -139,15 +139,11 @@ If an exception (error) occurs while handling an event, it will dispatch a ws->c
 }
 ```
 
-> If on Free version, all client->ws events (except `get_controllers` + `get_controller_data`) will produce exceptions with message
-> `ws api endpoint blocked for subscription level`
-{.is-danger}
-
-**NOTE**: 
- 
 ## <var>get_controllers</var>
  
-Will immediately produce the `recv_controllers` ws->client event 
+Will immediately produce the `recv_controllers` ws->client event
+
+**Minimum tier**: `Free`
 
 ```json
 {
@@ -159,6 +155,8 @@ Will immediately produce the `recv_controllers` ws->client event
 
 Will immediately produce the `recv_controller_data` ws->client. Recommended to be used with `to_cid`, otherwise just use `get_controllers`.
 
+**Minimum tier**: `Free`
+
 ```json
 {
   "type": "get_controller_data"
@@ -168,6 +166,8 @@ Will immediately produce the `recv_controller_data` ws->client. Recommended to b
 ## <var>set_frequencies</var>
 
 Sets the XMIT & RECV frequencies of own client
+
+**Minimum tier**: `Plus`
 
 ```json
 {
@@ -179,7 +179,7 @@ Sets the XMIT & RECV frequencies of own client
 
 ## <var>set_frequencies_scanned</var>
 
-**ONLY**: With Pro (otherwise error will be produced)
+**Minimum tier**: `Pro`
 
 ```json
 {
@@ -190,7 +190,7 @@ Sets the XMIT & RECV frequencies of own client
 
 ## <var>set_scanning_enabled</var>
 
-**ONLY**: With Pro (otherwise error will be produced)
+**Minimum tier**: `Pro`
 
 ```json
 {
@@ -204,6 +204,7 @@ Sets the XMIT & RECV frequencies of own client
 Should be called often. If left untouched for >5m, `state.game` will revert to `null`
 
 **Since**: 0.1.2
+**Minimum tier**: `Free`
 
 ```json
 {
@@ -215,6 +216,8 @@ Should be called often. If left untouched for >5m, `state.game` will revert to `
 ## <var>print_chat_message</var>
 
 Prints a message to the chat (only local user can see). Supports TeamSpeak formatting (like BBCode)
+
+**Minimum tier**: `Plus`
 
 ```json
 {
