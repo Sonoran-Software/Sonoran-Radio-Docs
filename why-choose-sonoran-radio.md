@@ -2,7 +2,7 @@
 title: Why Choose Sonoran Radio
 description: Sonoran Radio blurs the line between roleplay and real life. See what we have to offer!
 published: true
-date: 2021-11-04T18:36:26.861Z
+date: 2021-11-06T05:47:20.546Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-02T03:28:27.555Z
@@ -21,7 +21,7 @@ Setup is instant! There's no wait times for installation or configuration.
 
 Our webpanel offers many ways to configure Sonoran Radio to your roleplay needs. In addition, these changes are automatically synced by the users using the plugin!
 
-![webpanel.png](https://cdn.discordapp.com/attachments/892235148056199198/892235722419994624/sonoran-radio-web-preview.png =70%x){.align-center}
+![webpanel.png](https://i.imgur.com/ngO9rWF.png =70%x){.align-center}
 
 ## 💯 Most Realistic Roleplay Radio Available
 
@@ -37,7 +37,7 @@ Our product is drag-and-drop! Once users install the plugin, it does all the mag
 
 The plugin offers a dispatch panel to easily change the state of your radio or the radio of other units!
 
-![dispatch.png](https://i.imgur.com/jojCxbP.png =50%x){.align-center}
+![dispatch.png](https://i.imgur.com/KEG6akK.png =50%x){.align-center}
 
 ## λ FiveM Integration
 
