@@ -2,24 +2,31 @@
 title: In-Game Radio Changelog
 description: All version updates for the in-game FiveM radio resource.
 published: true
-date: 2021-11-06T05:17:03.187Z
+date: 2021-11-06T05:21:53.116Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T05:11:41.006Z
 ---
+
+## v1.0.8 (2021-10-23)
+- **FEAT: Radio Power Keybind**
+- **FEAT: Panic Button Keybind**
+- **Fix: Remove Some Logging**
+- **Fix: Radio Power Button** 
+- **Tweak: CI Pipeline**
 
 ## v1.0.7 (2021-10-19)
 - **FEAT: CAD Integration with Sonrad Plugin**
 - **FEAT: Radio Power Button**
 - **FEAT: Unit Status**
 - **FEAT: Panic Button**
-- **Fix: Build Process**
-- **Fix: CI Pipeline**
-- **Fix: Game State Updates** 
+- **Tweak: Build Process**
+- **Tweak: CI Pipeline**
+- **Tweak: Game State Updates** 
 
 ## v1.0.6 (2021-10-11)
-- **Feat: Radio Branding**
-- **Feat: Open Animation**
+- **FEAT: Radio Branding**
+- **FEAT: Open Animation**
 - **Fix: Scrolling for Presets and Scan List**
 - **Fix: Preset Header Overflow**
 
@@ -27,10 +34,10 @@ dateCreated: 2021-10-07T05:11:41.006Z
 - **Initial release of FiveM script for alpha testing**
 
 ## v1.0.4 (2021-10-05)
-- **(Fix) Minor bug fixes relating to build.**
+- **Fix: Minor bug fixes relating to build.**
 
 ## v1.0.3 (2021-10-05)
-- **(Feature) Add keybind for radio command**
+- **Feat: Add keybind for radio command**
 
 ## v1.0.2 (2021-09-30)
 - **(Tweak) auto-updater script**
