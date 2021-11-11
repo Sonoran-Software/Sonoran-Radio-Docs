@@ -2,7 +2,7 @@
 title: In-Game Radio Script
 description: These are in the instructions for installing and using the in-game radio script.
 published: true
-date: 2021-10-25T20:19:58.527Z
+date: 2021-11-11T03:52:39.633Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T04:57:05.274Z
@@ -58,3 +58,6 @@ To change frequency using the radio, click on the box that has the name of the c
 To add a frequency to your scan list, click on the Scan List button on the radio screen. This will display the frequencies that you are currently scanning.
 
 If you want to add the current receieve frequency to the scan list, click on the `+` button on the top of the Scan List screen. To remove a scanned frequency from the screen, click on the `x` button next to the frequency to remove it from the Scan List.
+
+## Sonoran CAD Integration
+For use of the panic button, unit status, and call information section, check out our [Sonoran CAD integration](https://info.sonorancad.com/integration-plugins/integration-plugins/available-plugins/sonoran-radio-sonrad).
