@@ -2,7 +2,7 @@
 title: FiveM Radio Script
 description: How to use the in game radio script
 published: true
-date: 2021-11-13T03:07:32.066Z
+date: 2021-11-13T03:08:07.296Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T14:23:15.408Z
@@ -14,7 +14,7 @@ dateCreated: 2021-10-23T14:23:15.408Z
 {.is-warning}
 
 - [Install TeamSpeak 3 Plugin *Each user needs to install this to use the radio*](/tutorials/install-plugin)
-- [Install FiveM Radio Script](/tutorials/in-game-radio)*Allows users to change radio settings in game*
+- [Install FiveM Radio Script*Allows users to change radio settings in game*](/tutorials/in-game-radio)
 - [Core Concepts *Understand the theory of our radio*](/tutorials/core-concepts)
 {.links-list}
 
