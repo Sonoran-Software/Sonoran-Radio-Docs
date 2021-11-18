@@ -2,7 +2,7 @@
 title: TeamSpeak Websocket API
 description: 
 published: true
-date: 2021-11-06T03:47:01.842Z
+date: 2021-11-18T07:29:14.118Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-13T04:55:08.744Z
@@ -92,6 +92,8 @@ interface server_config {
     freq_xmit?: frequency;
     repeats_xmit: boolean;
   }[]
+  
+  disabled_vers: string[]; // array of disabled versions of plugin. can be ignored in most cases
 }
 ```
 
