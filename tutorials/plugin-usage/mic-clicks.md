@@ -2,13 +2,13 @@
 title: Changing Mic Clicks
 description: Hate the original default mic clicks? Look here on a short tutorial on how to change them!
 published: true
-date: 2021-11-19T05:55:47.776Z
+date: 2021-11-19T05:56:56.089Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-19T05:55:47.776Z
 ---
 
-The plguin comes standard with some basic mic clicks, however they may not suit anybody. Follow this tutorial on how to change them for your needs!
+The plguin comes standard with some basic mic clicks, however, they may not suit everybody. Follow this tutorial on how to change them for your needs!
 
 > Please note that you are only able to select `.wav` files. TeamSpeak does not support any other file.
 {.is-danger}
