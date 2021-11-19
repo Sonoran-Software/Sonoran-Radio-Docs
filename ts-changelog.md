@@ -2,11 +2,26 @@
 title: Plugin Changelog
 description: All version updates for the TeamSpeak plugin
 published: true
-date: 2021-11-06T05:09:32.706Z
+date: 2021-11-19T05:39:38.553Z
 tags: changelog
 editor: markdown
 dateCreated: 2021-10-07T04:39:14.544Z
 ---
+
+## 0.3.0 (2021-11-18)
+
+* **Added** the ability to change mic click sounds
+  1. ![actbar.png](https://i.imgur.com/z2u3Vox.png)
+  2. ![settings.png](https://i.imgur.com/fWPQZDn.png)
+* **Added** presistent states
+  * Your frequencies will now be saved when you leave and re-join a TeamSpeak server
+* **Changed** most windows to be responsive/resizable
+	* You're now able to resize the Dispatch UI to whatever size fits your needs
+* **Tweaked** mic click propagation
+  * **NOTE**: Imcompatible with previous versions
+* **Fixed** issues engaging talkover protection in plus subscription
+* **Fixed** custom channel description character limit
+* **Fixed** custom channel description not updating on frequency updates
 
 ## 0.2.3 (2021-11-05)
 
