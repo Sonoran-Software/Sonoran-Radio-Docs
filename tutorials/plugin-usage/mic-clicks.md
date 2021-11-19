@@ -2,15 +2,15 @@
 title: Changing Mic Clicks
 description: Hate the original default mic clicks? Look here on a short tutorial on how to change them!
 published: true
-date: 2021-11-19T05:56:56.089Z
+date: 2021-11-19T06:01:34.828Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-19T05:55:47.776Z
 ---
 
-The plguin comes standard with some basic mic clicks, however, they may not suit everybody. Follow this tutorial on how to change them for your needs!
+The plugin comes standard with some basic mic clicks, however, they may not suit everybody. Follow this tutorial on how to change them for your needs!
 
-> Please note that you are only able to select `.wav` files. TeamSpeak does not support any other file.
+> Please note that you are only able to use `.wav` files. TeamSpeak does not support any other file.
 {.is-danger}
 
 # 1. Open Settings
