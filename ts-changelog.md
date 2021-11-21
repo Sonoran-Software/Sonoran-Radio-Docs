@@ -2,11 +2,15 @@
 title: Plugin Changelog
 description: All version updates for the TeamSpeak plugin
 published: true
-date: 2021-11-19T05:39:38.553Z
+date: 2021-11-21T04:41:35.638Z
 tags: changelog
 editor: markdown
 dateCreated: 2021-10-07T04:39:14.544Z
 ---
+
+## 0.3.1 (2021-11-20)
+
+* **Fixed** frequent TeamSpeak crash when changing frequencies from websocket (FiveM script)
 
 ## 0.3.0 (2021-11-18)
 
