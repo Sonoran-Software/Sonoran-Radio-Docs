@@ -2,7 +2,7 @@
 title: FiveM Radio Script
 description: How to use the in game radio script
 published: true
-date: 2021-11-25T03:17:15.852Z
+date: 2021-11-25T04:26:09.230Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T14:23:15.408Z
