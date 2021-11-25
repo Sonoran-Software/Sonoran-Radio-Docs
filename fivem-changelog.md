@@ -2,11 +2,31 @@
 title: In-Game Radio Changelog
 description: All version updates for the in-game FiveM radio resource.
 published: true
-date: 2021-11-06T05:37:28.093Z
+date: 2021-11-25T04:35:29.404Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T05:11:41.006Z
 ---
+
+## v1.1.5 (2021-11-24)
+*Note: Requires v1.2 of the sonrad plugin for SonoranCAD integration.*
+ - **Feat: Unit Status**
+ - **Feat: First Preset Button**
+ - **Feat: Add Icons to Radio**
+ - **Feat: Contacts list**
+ - **Feat: Settings Page**
+ - **Feat: Radio Status Color Indicators**
+ - **Fix: Sonrad Panic**
+ - **Fix: Radio Clock**
+ - **Fix: Frequency Notification Issue**
+ - **Fix: Channel name too long issue**
+ - **Tweak: goToPreset Added**
+ - **Tweak: Suppress Connection Messages**
+ - **Tweak: Remove Logging**
+ - **Tweak: Connection State Awareness**
+
+## v1.1.4 (2021-11-09)
+ - **Hot Fix: Send notifications only when radio is switched on.**
 
 ## v1.1.3 (2021-11-06)
 - **FEAT: Radio reconnect command: `/radioreset`**
