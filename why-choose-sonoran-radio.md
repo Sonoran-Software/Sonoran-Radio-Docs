@@ -2,7 +2,7 @@
 title: Why Choose Sonoran Radio
 description: Sonoran Radio blurs the line between roleplay and real life. See what we have to offer!
 published: true
-date: 2021-11-25T05:19:14.617Z
+date: 2021-11-25T05:22:41.821Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-02T03:28:27.555Z
@@ -51,7 +51,7 @@ Sonoran Radio provides an optional integration to SonoranCAD through the FiveM r
 
 Check out the [Sonoran CAD integration plugin for Sonoran Radio](https://info.sonorancad.com/integration-plugins/integration-plugins/available-plugins/sonoran-radio-sonrad)!
 
-![unknown.png](/cad_call_details.png =30%x){.align-center}
+![unknown.png](/cad_call_details.png =20%x){.align-center}
 
 ### CAD: Unit Status and Panic
 Users can view their unit status and activate their panic toggle right through the radio!
