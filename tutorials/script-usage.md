@@ -2,7 +2,7 @@
 title: FiveM Radio Script
 description: How to use the in game radio script
 published: true
-date: 2021-11-25T04:26:09.230Z
+date: 2021-11-25T05:06:50.099Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T14:23:15.408Z
@@ -34,7 +34,17 @@ When you install the script, your users can use and configure the keybinds or co
 You can click on the dial on the top right of the radio to toggle the radio on and off. You will also see this reflected in the teamspeak interface.
 
 ## Radio Status Indicator
-The color of the bar next to your current frequency indicates the state of your radio. If you are disconnected from TeamSpeak the indicator will be gray, if you are connected to TeamSpeak, the indicator will be blue. If you have configured the [sonrad](https://info.sonorancad.com/integration-plugins/integration-plugins/available-plugins/sonoran-radio-sonrad) correctly, and you are logged into the CAD system, the radio status indicator will be green. When your status indicator is green, your radio panic button will activate your panic through CAD, and you will be able to view basic call information by clicking on the Call Details button.
+The color of the bar next to your current frequency indicates the state of your radio.
+
+- Status Color: Gray 
+If you are disconnected from TeamSpeak the indicator will be gray.
+
+- Status Color: Blue 
+If you are connected to TeamSpeak, the indicator will be blue.
+
+- Status Color: Green 
+If you have configured the [sonrad](https://info.sonorancad.com/integration-plugins/integration-plugins/available-plugins/sonoran-radio-sonrad) correctly and you are logged into the CAD system, the radio status indicator will be green.
+When your status indicator is green, your radio panic button will activate your panic through CAD, and you will be able to view basic call information by clicking on the Call Details button.
 
 ## Change Frequency
 
@@ -53,7 +63,8 @@ To add frequency to scan list, set your radio to that the frequency you would li
 ## Integrating With Sonoran CAD
 
 Usage of the Sonoran CAD integrations requires the sonrad plugin for the Sonoran CAD. You can download and install that plugin [here](https://github.com/Sonoran-Software/sonoran_sonrad).
-Learn more about the Sonoran CAD radio plugin [here](https://info.sonorancad.com/integration-plugins/integration-plugins/available-plugins/sonoran-radio-sonrad).
+
+Or, learn more about the Sonoran CAD radio plugin [here](https://info.sonorancad.com/integration-plugins/integration-plugins/available-plugins/sonoran-radio-sonrad).
 
 ### Sonoran CAD Panic Button
 To activate your panic from your radio, you can use the button on the top of your radio. This button can also be pressed by a keybind that you can set in your FiveM Keybinds.
