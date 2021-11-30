@@ -2,7 +2,7 @@
 title: Why Choose Sonoran Radio
 description: Sonoran Radio blurs the line between roleplay and real life. See what we have to offer!
 published: true
-date: 2021-11-25T05:22:41.821Z
+date: 2021-11-30T08:01:10.357Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-02T03:28:27.555Z
@@ -44,6 +44,13 @@ The plugin offers a dispatch panel to easily change the state of your radio or t
 Sonoran Radio provides an out-of-the-box FiveM server resource that interfaces with the plugin. It allows emergency personnel to easily change and configure their radios on the fly.
 
 ![fivem.png](https://cdn.discordapp.com/attachments/892235148056199198/892236345500655617/FiveM_-_Lansings_Test_Server_9_27_2021_9_38_04_PM.png =30%x){.align-center}
+
+## 📡 In-Game Towers
+Our custom in-game towers allow you to dynamically place repeaters around the map, customize the signal range, and more!
+
+[Learn more about tower configuration](/tutorials/in-game-radio#modifying-in-game-towers)!
+
+![tower_in_game.jpeg](/tower_in_game.jpeg =30%x){.align-center}
 
 ## 🏆 Sonoran CAD Integration
 
