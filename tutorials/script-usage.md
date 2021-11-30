@@ -2,7 +2,7 @@
 title: FiveM Radio Script
 description: How to use the in game radio script
 published: true
-date: 2021-11-25T05:06:50.099Z
+date: 2021-11-30T08:02:12.058Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T14:23:15.408Z
@@ -71,3 +71,8 @@ To activate your panic from your radio, you can use the button on the top of you
 
 ### Sonoran CAD Call Details
 If you have configured your Sonoran CAD [sonrad](https://info.sonorancad.com/integration-plugins/integration-plugins/available-plugins/sonoran-radio-sonrad) plugin correctly, and you are attached to a call, you can click on the "Call Details" button to review the details of the call that you are attached to.
+
+## 📡 Modifying In-Game Towers
+Our custom in-game towers allow you to dynamically place repeaters around the map, customize the signal range, and more!
+
+[Learn more about tower configuration](/tutorials/in-game-radio#modifying-in-game-towers)!
