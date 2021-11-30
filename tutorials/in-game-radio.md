@@ -2,7 +2,7 @@
 title: In-Game Radio Script
 description: These are in the instructions for installing and using the in-game radio script.
 published: true
-date: 2021-11-30T07:42:18.841Z
+date: 2021-11-30T07:55:26.422Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T04:57:05.274Z
@@ -66,21 +66,47 @@ To add a frequency to your scan list, click on the Scan List button on the radio
 
 If you want to add the current receieve frequency to the scan list, click on the `+` button on the top of the Scan List screen. To remove a scanned frequency from the screen, click on the `x` button next to the frequency to remove it from the Scan List.
 
-## Modifying Towers List
-To modify the list of towers, you can either add-on to the existing list by using `/spawntower` and then `/savetowers` while in-game or alternatively you can edit the file `towers.json` in the `sonoranradio` resource.
+## Modifying In-Game Towers
+![tower_in_game.jpeg](/tower_in_game.jpeg =20%x){.align-center}
+To modify the list of towers, you can either add-on to the existing list by using `/spawntower` and then `/savetowers` while in-game
 
-In order to add multiple towers, you need to add a comma after each tower in the file and copy the parts in curly brackets `{}` not with the square brackets `[]`.
-
-**Example Data Structure:**
+**Command ACE Permissions**
 ```json
-[{
-	"Swankiness":0.0,
-	"PropPosition": {"x":0.0,"y":0.0,"z":0.0},
-	"DestructionTimer":0,
-	"Destruction":false,
-	"Range":0
-}]
+add_ace group.admin sonoranradio.towers allow
+add_ace sonoranradio.towers command.createtower allow
+add_ace sonoranradio.towers command.savetowers allow
 ```
+
+
+Alternatively, you can edit the file `towers.json` in the `sonoranradio` resource.
+
+The config example below shows two radio tower placements.
+
+**Example Config Structure:**
+```json
+[
+	{
+		"Swankiness":0.0,
+		"PropPosition": {"x":0.0,"y":0.0,"z":0.0},
+		"DestructionTimer":0,
+		"Destruction":false,
+		"Range":0
+	},
+	{
+		"Swankiness":0.0,
+		"PropPosition": {"x":100.0,"y":0.0,"z":0.0},
+		"DestructionTimer":0,
+		"Destruction":false,
+		"Range":0
+	},
+]
+```
+**Config Object Properties:**
+`Swankiness` - Not yet implemented
+`PropPosition` - X, Y, Z coordinate positioning object
+`DestructionTimer` - Not yet implemented
+`Destruction` - Not yet implemented
+`Range` - Tower's range with in-game radios
 
 ## Sonoran CAD Integration
 For use of the panic button, unit status, and call information section, check out our [Sonoran CAD integration](https://info.sonorancad.com/integration-plugins/integration-plugins/available-plugins/sonoran-radio-sonrad).
