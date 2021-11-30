@@ -2,7 +2,7 @@
 title: In-Game Radio Script
 description: These are in the instructions for installing and using the in-game radio script.
 published: true
-date: 2021-11-30T04:04:52.841Z
+date: 2021-11-30T07:42:18.841Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T04:57:05.274Z
@@ -30,7 +30,9 @@ add_ace resource.sonoranradio command allow
 add_ace resource.sonoranradio_updatehelper command allow
 
 # permissions for sonrad tower commands
-add_ace group.admin command.createtower allow
+add_ace group.admin sonoranradio.towers allow
+add_ace sonoranradio.towers command.createtower allow
+add_ace sonoranradio.towers command.savetowers allow
 ``` 
 
 >   It is very important that the `sonoranradio_updatehelper` resource is not started manually. Doing so may cause a server crash if updates are available due to a race condition.
@@ -48,6 +50,8 @@ The Sonoran Radio in-game resource will automatically update with the latest fea
 | Command | Description 								|
 | ------- | --------------------------- |
 | `/radio`  | Opens the radio Interface.	|
+| `/spawntower`  | Spawns a radio tower at your location.	|
+| `/savetowers`  | Saves the currently spawned towers.	|
 
 # Usage
 When you have the script installed on your server, you can use the `/radio` command to display the radio interface. If you have the TeamSpeak plugin installed and are in an appropriate patrol channel, the radio will display a connected status.
@@ -61,6 +65,22 @@ To change frequency using the radio, click on the box that has the name of the c
 To add a frequency to your scan list, click on the Scan List button on the radio screen. This will display the frequencies that you are currently scanning.
 
 If you want to add the current receieve frequency to the scan list, click on the `+` button on the top of the Scan List screen. To remove a scanned frequency from the screen, click on the `x` button next to the frequency to remove it from the Scan List.
+
+## Modifying Towers List
+To modify the list of towers, you can either add-on to the existing list by using `/spawntower` and then `/savetowers` while in-game or alternatively you can edit the file `towers.json` in the `sonoranradio` resource.
+
+In order to add multiple towers, you need to add a comma after each tower in the file and copy the parts in curly brackets `{}` not with the square brackets `[]`.
+
+**Example Data Structure:**
+```json
+[{
+	"Swankiness":0.0,
+	"PropPosition": {"x":0.0,"y":0.0,"z":0.0},
+	"DestructionTimer":0,
+	"Destruction":false,
+	"Range":0
+}]
+```
 
 ## Sonoran CAD Integration
 For use of the panic button, unit status, and call information section, check out our [Sonoran CAD integration](https://info.sonorancad.com/integration-plugins/integration-plugins/available-plugins/sonoran-radio-sonrad).
