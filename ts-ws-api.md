@@ -2,7 +2,7 @@
 title: TeamSpeak Websocket API
 description: 
 published: true
-date: 2021-11-18T07:29:14.118Z
+date: 2021-12-03T06:42:22.276Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-13T04:55:08.744Z
@@ -333,5 +333,30 @@ There has been some update to the clients currently in the channel with the plug
   "type": "channel_clients_changed",
   "cid": number,
   "data": channel_client[]
+}
+```
+
+## <var>client_xmit_change</var>
+
+Broadcasted whenever a client in a patrol channel begins or ends a transmission. This will be broadcasted if any client speaks, even if this client cannot hear the other.
+
+The `xmit_type` is the internal mic click identifier. `*_talk_permit` at the beginning of a transmission, and `*_squelch` is at the end of a transmission. The current values passed are (NOTE: may change in the future):
+* `self_talk_permit`
+* `self_squelch`
+* `unit_talk_permit`
+* `unit_squelch`
+
+```json
+{
+  "type": "client_xmit_change",
+  "cid": number,
+  "client": {
+    "id": number,
+    "nickname": string,
+    "state": client_state,
+    "self": boolean
+  },
+  "can_hear": boolean, // indicator if we can hear the other client
+  "xmit_type": string // see above
 }
 ```
