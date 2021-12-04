@@ -2,7 +2,7 @@
 title: Registering Your Community
 description: Before you begin using Sonoran Radio, you will need to register a community. Sonoran Radio uses your Sonoran Software account.
 published: true
-date: 2021-10-23T02:38:42.541Z
+date: 2021-12-04T20:45:20.988Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T06:06:34.627Z
@@ -30,7 +30,7 @@ Registering your community and setting up Sonoran Radio is fast, easy, and free!
     
 5. Paste the Server UID into the new server form and press `Register Server`
 
-![unknown.png](/unknown.png)
+![unknown.png](https://i.imgur.com/eOTfAkY.png)
 
 6. Copy the Authorization Code given, re-connect to your TeamSpeak Server and paste the code in the popup
 
