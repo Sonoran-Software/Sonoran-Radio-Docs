@@ -2,11 +2,20 @@
 title: Plugin Changelog
 description: All version updates for the TeamSpeak plugin
 published: true
-date: 2021-11-21T04:41:35.638Z
+date: 2021-12-10T06:53:03.269Z
 tags: changelog
 editor: markdown
 dateCreated: 2021-10-07T04:39:14.544Z
 ---
+
+## 0.3.2 (2021-12-09)
+
+* **Added** better voice destruction for talk-around frequencies
+  * Range is extended, and destruction based on distance is [no longer linear](https://i.imgur.com/XYtrelf.png)
+* **Added** event for when a client transmits (integration available soon in the FiveM script)
+* **Fixed** mic clicks playing while muted
+* **Fixed** mic clicks playing while radio is disabled
+* **Fixed** path parsing for local cache
 
 ## 0.3.1 (2021-11-20)
 
