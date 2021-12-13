@@ -2,7 +2,7 @@
 title: In-Game Radio Script
 description: These are in the instructions for installing and using the in-game radio script.
 published: true
-date: 2021-11-30T07:55:26.422Z
+date: 2021-12-13T22:07:46.213Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T04:57:05.274Z
@@ -28,6 +28,9 @@ ensure sonoranradio
 # permissions for auto-updater (REQUIRED)
 add_ace resource.sonoranradio command allow
 add_ace resource.sonoranradio_updatehelper command allow
+
+# enable or disable the towers
+set sonrad_tower true
 
 # permissions for sonrad tower commands
 add_ace group.admin sonoranradio.towers allow
