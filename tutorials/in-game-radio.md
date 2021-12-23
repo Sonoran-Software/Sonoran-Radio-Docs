@@ -2,7 +2,7 @@
 title: In-Game Radio Script
 description: These are in the instructions for installing and using the in-game radio script.
 published: true
-date: 2021-12-20T04:21:50.627Z
+date: 2021-12-23T21:42:23.058Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T04:57:05.274Z
@@ -76,8 +76,14 @@ To modify the list of towers, you can either add-on to the existing list by usin
 **Command ACE Permissions**
 ```json
 add_ace group.admin sonoranradio.towers allow
-add_ace sonoranradio.towers command.createtower allow
+add_ace sonoranradio.towers command.spawntower allow
 add_ace sonoranradio.towers command.savetowers allow
+```
+
+**YOU WILL NEED TO SET A USER AS `group.admin` STILL TO GIVE PERMISSION TO COMMANDS** 
+You can do this by setting a user's identifier as group.admin with the following line...
+```lua
+add_principal license:{GTA License} group.admin
 ```
 
 
