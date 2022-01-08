@@ -2,7 +2,7 @@
 title: In-Game Radio Script
 description: These are in the instructions for installing and using the in-game radio script.
 published: true
-date: 2021-12-23T21:42:23.058Z
+date: 2022-01-08T05:44:02.068Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T04:57:05.274Z
@@ -28,9 +28,6 @@ ensure sonoranradio
 # permissions for auto-updater (REQUIRED)
 add_ace resource.sonoranradio command allow
 add_ace resource.sonoranradio_updatehelper command allow
-
-# enable or disable the towers
-set sonrad_tower true
 
 # permissions for sonrad tower commands
 add_principal group.admin sonoranradio.towers
@@ -75,7 +72,7 @@ To modify the list of towers, you can either add-on to the existing list by usin
 
 **Command ACE Permissions**
 ```json
-add_ace group.admin sonoranradio.towers allow
+add_principal group.admin sonoranradio.towers
 add_ace sonoranradio.towers command.spawntower allow
 add_ace sonoranradio.towers command.savetowers allow
 ```
@@ -95,27 +92,31 @@ The config example below shows two radio tower placements.
 ```json
 [
 	{
+    "Id": "74d910e5-5705-4b58-baaf-88a8ca82734c",
 		"Swankiness":0.0,
-		"PropPosition": {"x":0.0,"y":0.0,"z":0.0},
-		"DestructionTimer":0,
+		"PropPosition":{"x":0.0,"y":0.0,"z":0.0},
 		"Destruction":false,
-		"Range":0
+		"Range":1500.0
 	},
 	{
+    "Id": "7a4cb19d-e158-4afa-9e56-6de0c5446626",
 		"Swankiness":0.0,
-		"PropPosition": {"x":100.0,"y":0.0,"z":0.0},
-		"DestructionTimer":0,
+		"PropPosition":{"x":100.0,"y":0.0,"z":0.0},
 		"Destruction":false,
-		"Range":0
+		"Range":1500.0
 	},
 ]
 ```
 **Config Object Properties:**
 `Swankiness` - Not yet implemented
 `PropPosition` - X, Y, Z coordinate positioning object
-`DestructionTimer` - Not yet implemented
-`Destruction` - Not yet implemented
+`Destruction` - Toggles whether this specific tower can be destroyed
 `Range` - Tower's range with in-game radios
+
+> **Pro Tip** Enabling `Config.debug` in the `config.lua` file will display a radius around each tower, where the edge
+> represents 50% radio quality
+{.is-info}
+
 
 ## Sonoran CAD Integration
 For use of the panic button, unit status, and call information section, check out our [Sonoran CAD integration](https://info.sonorancad.com/integration-plugins/integration-plugins/available-plugins/sonoran-radio-sonrad).
