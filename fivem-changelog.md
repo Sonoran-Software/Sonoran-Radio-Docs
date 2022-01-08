@@ -2,11 +2,16 @@
 title: In-Game Radio Changelog
 description: All version updates for the in-game FiveM radio resource.
 published: true
-date: 2021-11-25T04:35:29.404Z
+date: 2022-01-08T06:09:44.491Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T05:11:41.006Z
 ---
+
+## v1.3.0
+ - **Feat: Tower Destruction / Repair**
+ - **Feat: New Configuration Options**
+ - **Fix: Auto-updater merge issue**
 
 ## v1.1.5 (2021-11-24)
 *Note: Requires v1.2 of the sonrad plugin for SonoranCAD integration.*
