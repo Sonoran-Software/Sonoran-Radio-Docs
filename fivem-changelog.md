@@ -2,13 +2,13 @@
 title: In-Game Radio Changelog
 description: All version updates for the in-game FiveM radio resource.
 published: true
-date: 2022-01-08T06:09:44.491Z
+date: 2022-01-08T06:09:52.617Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T05:11:41.006Z
 ---
 
-## v1.3.0
+## v1.3.0 (2022-01-07)
  - **Feat: Tower Destruction / Repair**
  - **Feat: New Configuration Options**
  - **Fix: Auto-updater merge issue**
