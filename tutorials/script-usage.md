@@ -2,7 +2,7 @@
 title: FiveM Radio Script
 description: How to use the in game radio script
 published: true
-date: 2021-11-30T08:02:12.058Z
+date: 2022-01-08T05:56:20.445Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T14:23:15.408Z
@@ -76,3 +76,23 @@ If you have configured your Sonoran CAD [sonrad](https://info.sonorancad.com/int
 Our custom in-game towers allow you to dynamically place repeaters around the map, customize the signal range, and more!
 
 [Learn more about tower configuration](/tutorials/in-game-radio#modifying-in-game-towers)!
+
+# In-game Towers
+
+![tower.png](https://i.imgur.com/PO2E6mz.jpeg)
+
+## Locations
+
+Tower locations are controlled by the server owner, and they may not always disclose the location of their towers. Look out for signal towers that look like the above and have the Sonoran Radio logo on the top dish!
+
+## Destroying a Tower
+
+If enabled, towers are able to be destroyed by anyone in server with weapons. By shooting the four dishes half-way up the tower, you are able to disable them one-by-one. As more dishes get destroyed, the more the tower's performance is impacted.
+
+![shooting.png](https://i.imgur.com/5TP9vmS.jpeg)
+
+## Repairing a Tower
+
+Once a tower is either partially or completely destroyed, anyone is able to locate and repair that tower. To repair, go near the ladder and cable at the bottom of the tower, and a popup will show telling you to press `G` to repair.
+
+![repair.png](https://i.imgur.com/rqn1Ped.png)
