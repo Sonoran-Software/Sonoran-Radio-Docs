@@ -2,7 +2,7 @@
 title: Plugin Changelog
 description: All version updates for the TeamSpeak plugin
 published: true
-date: 2022-01-12T05:38:42.137Z
+date: 2022-01-12T05:38:57.156Z
 tags: changelog
 editor: markdown
 dateCreated: 2021-10-07T04:39:14.544Z
@@ -13,7 +13,7 @@ dateCreated: 2021-10-07T04:39:14.544Z
 * **Added** transmit log tab in Dispatch UI
 * **Added** client profile in info data
   * ![info.png](https://i.imgur.com/aW0yogr.png)
-* **Tweaked** range falloff distance
+* **Tweaked** radio falloff distance
 * **Fixed** update dialog happening in patrol channel
 * **Fixed** nicknames being interpreted as BB Code
 
