@@ -2,7 +2,7 @@
 title: Using the Plugin
 description: Explanations on how to use the plugin features in TeamSpeak
 published: true
-date: 2021-11-06T04:40:09.169Z
+date: 2022-01-12T06:10:48.343Z
 tags: teamspeak, ts, plugin, tutorial
 editor: markdown
 dateCreated: 2021-10-06T04:39:08.853Z
@@ -86,5 +86,15 @@ The second page you will see in the UI is the tab to change the radio settings o
 
 You can edit the XMIT/RECV frequencies of another unit by changing the spinners and pressing `Change Frequency`. `Fill Preset` has the same behavior as on the [Self Radio Settings](#self-radio-settings) tab. `Match Selected Client` being checked means that as you click different clients, the XMIT/RECV frequencies will be automatically filled in for that client.
 
-> **Pro Tip** You are able to select multiple clients at the same time by control-clicking the clients or shift-clicking the clients. You are not able to edit the nickname of a client while selecting multiple clients.
+> **Pro Tip** You are able to select multiple clients at the same time by control-clicking or shift-clicking the clients. You are not able to edit the nickname of a client while selecting multiple clients.
 {.is-success}
+
+## Transmit Log
+
+The third tab in the UI displays a log of the transmissions of each unit.
+
+![xmit_log.png](https://i.imgur.com/jOkn9MT.png)
+
+A <span style="color:green">green</span> log represents a client has begun and transmission, and a <span style="color:red">red</span> log represents when a client has ended a transmission.
+
+The timestamp and nickname of the client are displayed first, then either the preset name or, if that doesn't exist, the RECV Frequency of the client is shown after the `/`.
