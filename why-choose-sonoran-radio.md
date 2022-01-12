@@ -2,7 +2,7 @@
 title: Why Choose Sonoran Radio
 description: Sonoran Radio blurs the line between roleplay and real life. See what we have to offer!
 published: true
-date: 2021-11-30T08:01:10.357Z
+date: 2022-01-12T06:14:34.420Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-02T03:28:27.555Z
@@ -51,6 +51,14 @@ Our custom in-game towers allow you to dynamically place repeaters around the ma
 [Learn more about tower configuration](/tutorials/in-game-radio#modifying-in-game-towers)!
 
 ![tower_in_game.jpeg](/tower_in_game.jpeg =30%x){.align-center}
+
+## 💣 Tower Destruction
+
+The physical in-game towers are able to be destroyed by criminals, which will devastate quality of radios around it.
+
+See our [tower destruction and repairing](/tutorials/script-usage#destroying-a-tower) info!
+
+![](https://i.imgur.com/5TP9vmS.jpeg =60%x){.align-center}
 
 ## 🏆 Sonoran CAD Integration
 
