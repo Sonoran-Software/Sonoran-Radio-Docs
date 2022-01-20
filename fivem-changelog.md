@@ -2,11 +2,14 @@
 title: In-Game Radio Changelog
 description: All version updates for the in-game FiveM radio resource.
 published: true
-date: 2022-01-08T06:09:52.617Z
+date: 2022-01-20T06:40:24.277Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T05:11:41.006Z
 ---
+
+## v1.3.1 (2022-01-19)
+- **Fix: AI density lowered when towers are enabled**
 
 ## v1.3.0 (2022-01-07)
  - **Feat: Tower Destruction / Repair**
