@@ -2,7 +2,7 @@
 title: In-Game Radio Script
 description: These are in the instructions for installing and using the in-game radio script.
 published: true
-date: 2022-01-08T05:44:02.068Z
+date: 2022-01-28T05:28:13.308Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T04:57:05.274Z
@@ -80,7 +80,7 @@ add_ace sonoranradio.towers command.savetowers allow
 **YOU WILL NEED TO SET A USER AS `group.admin` STILL TO GIVE PERMISSION TO COMMANDS** 
 You can do this by setting a user's identifier as group.admin with the following line...
 ```lua
-add_principal license:{GTA License} group.admin
+add_principal identifier.license:{GTA License} group.admin
 ```
 
 
