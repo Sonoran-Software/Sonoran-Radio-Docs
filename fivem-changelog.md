@@ -2,11 +2,15 @@
 title: In-Game Radio Changelog
 description: All version updates for the in-game FiveM radio resource.
 published: true
-date: 2022-01-20T06:40:24.277Z
+date: 2022-02-04T06:42:38.320Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T05:11:41.006Z
 ---
+
+## v1.3.2 (2020-02-03)
+- **Fix: tower components not respawning if they're deleted or removed**
+- **Tweak: amount TS is updated with gamestate** (will decrease chance of antiflood engaging)
 
 ## v1.3.1 (2022-01-19)
 - **Fix: AI density lowered when towers are enabled**
