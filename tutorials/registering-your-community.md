@@ -2,7 +2,7 @@
 title: Registering Your Community
 description: Before you begin using Sonoran Radio, you will need to register a community. Sonoran Radio uses your Sonoran Software account.
 published: true
-date: 2021-12-04T20:45:20.988Z
+date: 2022-02-14T23:04:05.878Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T06:06:34.627Z
@@ -46,20 +46,34 @@ Registering your community and setting up Sonoran Radio is fast, easy, and free!
 
 8. Click on the `Add Patrol Channel` button under the **Patrol Channels** section of the radio management portal. Insert that channels Unique ID and press `Add Patrol Channel`
 
-![snag_baf56630.png](/snag_baf56630.png)
-Note: Checking Allow Talkover disables preventing units from talking over one another.
+![UMb4NXq.png](https://i.imgur.com/UMb4NXq.png)
+Note: Checking Allow Talkover Protection disables preventing units from talking over one another.
+Note: Customizable Talk-Around Ranges vary from Short Range (600m) to Extra Long Range (1400m) with a 400m difference between each range option. The Customizable Talk-Around Range only applies to talk-around frequencies, transmit frequencies that don't get repeated over the radio tower network.
 
 9. To create a new profile, click on the `Add Profile` button on the radio management portal.
 
- ![snag_bb00cfc2.png](/snag_bb00cfc2.png)
+*Basic Profile Creation*
+Basic Profile Creation is meant for a quick and easy way to create profiles without the hassle of organizing frequencies. Receiver Frequency & Transmit Frequency with automatically be generated on creation.
+ ![sOlsmli.png](https://i.imgur.com/sOlsmli.png)
  * Set the display name of the profile. This will display in both TeamSpeak and the in-game radio.
+ 
+ *Advanced Profile Creation*
+ Advanced Profile Creation is meant for a more customizable and in-depth way to create profiles if you have the knowledge of how our Simplex & Duplex radio system works.
+ ![SvlxfEp.png](https://i.imgur.com/SvlxfEp.png)
  * Set the Receive Frequency. In Simplex, this should be set to the same as the Transmit Frequency. In Duplex, this is the frequency of the transmissions from the repeater.
  * Set the Transmit Frequency. In Simplex, this should be set to the same as the Receive Frequency. In Duplex, this is the frequency that the repeater is listening for transmissions on.
  * Check the Repeats Transmit Frequency to enable the duplex repeater functionality.
 - [Learn More About Simplex & Duplex Mode](/tutorials/core-concepts)
 {.links-list}
 
-10. The setup process is complete. You will need to disconnect and reconnect to your teamspeak server. If the setup process was successful, you should see the following:
+10. To reorder the position of profiles, click on the `Reorder Profiles` button on the radio management portal.
+
+![AI0jMdC.png](https://i.imgur.com/AI0jMdC.png)
+* Click the green boxes with the up & down arrows to move profiles.
+* Click the `Save Reordered Profiles` button above the profiles table to save.
+* Click the `Cancel Reordered Profiles` button above the profiles table to cancel, it will reset any reordering changes you made.
+
+11. The setup process is complete. You will need to disconnect and reconnect to your teamspeak server. If the setup process was successful, you should see the following:
 
  * `Server Authenticated` message in teamspeak when you join the server.
  ![snag_bb07b571.png](/snag_bb07b571.png)
