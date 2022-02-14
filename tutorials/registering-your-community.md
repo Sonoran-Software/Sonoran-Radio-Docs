@@ -2,7 +2,7 @@
 title: Registering Your Community
 description: Before you begin using Sonoran Radio, you will need to register a community. Sonoran Radio uses your Sonoran Software account.
 published: true
-date: 2022-02-14T23:04:05.878Z
+date: 2022-02-14T23:04:59.293Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T06:06:34.627Z
@@ -48,7 +48,7 @@ Registering your community and setting up Sonoran Radio is fast, easy, and free!
 
 ![UMb4NXq.png](https://i.imgur.com/UMb4NXq.png)
 Note: Checking Allow Talkover Protection disables preventing units from talking over one another.
-Note: Customizable Talk-Around Ranges vary from Short Range (600m) to Extra Long Range (1400m) with a 400m difference between each range option. The Customizable Talk-Around Range only applies to talk-around frequencies, transmit frequencies that don't get repeated over the radio tower network.
+Note: Customizable Talk-Around Ranges vary from Short Range (600m) to Extra Long Range (1400m) with a 400m difference between each range option. The Customizable Talk-Around Range only applies to talk-around frequencies, transmitted frequencies that don't get repeated over the radio tower network.
 
 9. To create a new profile, click on the `Add Profile` button on the radio management portal.
 
