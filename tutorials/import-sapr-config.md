@@ -2,7 +2,7 @@
 title: Import your SAPR Config
 description: Import your San Andreas Police Radio configuration into Sonoran Radio!
 published: true
-date: 2021-10-29T20:46:20.738Z
+date: 2022-02-14T18:46:49.981Z
 tags: sapr, import
 editor: markdown
 dateCreated: 2021-10-29T08:40:56.867Z
@@ -17,6 +17,7 @@ By switching to Sonoran Radio, your community's experience is upgraded to the be
 - Instant configuration changes through our [web panel](https://sonoranradio.com/#/)
 - Directly migrate your configuration from SAPR
 - Modern "Smart Radio" UI
+- [In-Game Destructible Towers]((/tutorials/script-usage#destroying-a-tower))
 - Frequent Updates - No more crashing!
 - Dedicated live chat [support](https://support.sonoransoftware.com/) hours 7 days a week
 - [Sonoran CAD Integration](https://info.sonorancad.com/integration-plugins/integration-plugins/available-plugins/sonoran-radio-sonrad)
@@ -24,6 +25,9 @@ By switching to Sonoran Radio, your community's experience is upgraded to the be
 
 ## Start Today and Save!
 You can [sign up](/tutorials/getting-started) for Sonoran Radio for free, or save 25% off your first month with code `BYESAPR` at checkout!
+
+## Download our FREE SAPR Removal Tool!
+Having trouble removing SAPR? Our [free removal tool](https://download.sonoransoftware.com/sonoranradio/BYESAPR.exe) for Windows automatically finds and uninstalls your SAPR TeamSpeak plugin!
 
 ## Importing your SAPR Config to Sonoran Radio
 Importing your SAPR Config is fast and easy!
