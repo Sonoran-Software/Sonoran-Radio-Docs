@@ -2,7 +2,7 @@
 title: Registering Your Community
 description: Before you begin using Sonoran Radio, you will need to register a community. Sonoran Radio uses your Sonoran Software account.
 published: true
-date: 2022-02-14T23:04:59.293Z
+date: 2022-02-15T19:57:39.958Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T06:06:34.627Z
@@ -68,8 +68,8 @@ Basic Profile Creation is meant for a quick and easy way to create profiles with
 
 10. To reorder the position of profiles, click on the `Reorder Profiles` button on the radio management portal.
 
-![AI0jMdC.png](https://i.imgur.com/AI0jMdC.png)
-* Click the green boxes with the up & down arrows to move profiles.
+![0PJHbo7.png](https://i.imgur.com/0PJHbo7.png)
+* Drag and drop the rows in the order that you'd like them to be.
 * Click the `Save Reordered Profiles` button above the profiles table to save.
 * Click the `Cancel Reordered Profiles` button above the profiles table to cancel, it will reset any reordering changes you made.
 
