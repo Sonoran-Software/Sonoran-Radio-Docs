@@ -2,7 +2,7 @@
 title: Using the Plugin
 description: Explanations on how to use the plugin features in TeamSpeak
 published: true
-date: 2022-01-12T06:10:48.343Z
+date: 2022-02-18T06:14:39.275Z
 tags: teamspeak, ts, plugin, tutorial
 editor: markdown
 dateCreated: 2021-10-06T04:39:08.853Z
@@ -22,7 +22,7 @@ dateCreated: 2021-10-06T04:39:08.853Z
 When connecting to a server that does not enable Sonoran Radio, the plugin will essentially stay dormant. It will display some basic information on the side panel when clicking the virtual server row (the top channel). If you expect the server to be authorized but it isn't, then contact the server owner for assistance.
 
 ## Example
-![example.png](https://i.imgur.com/EvVvHSQ.png)
+![example.png](https://i.imgur.com/JtzaM3y.png)
 
 # Server Information
 
@@ -34,7 +34,7 @@ The virtual server (or topmost item) will display information about global autho
 
 |Virtual Server|Channel|Client/User|
 |-|-|-|
-|![vs_example.png](https://i.imgur.com/yyzETdm.png)|![chan_example.png](https://i.imgur.com/olvbvSY.png)|![user_example.png](https://i.imgur.com/569GuCm.png)|
+|![vs_example.png](https://i.imgur.com/6iA7o6x.png)|![chan_example.png](https://i.imgur.com/yDhoPGV.png)|![user_example.png](https://i.imgur.com/4Hri5BM.png)|
 
 # Patrol Channels
 
