@@ -2,7 +2,7 @@
 title: Why Choose Sonoran Radio
 description: Sonoran Radio blurs the line between roleplay and real life. See what we have to offer!
 published: true
-date: 2022-01-12T06:14:34.420Z
+date: 2022-02-18T06:21:01.298Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-02T03:28:27.555Z
@@ -59,6 +59,14 @@ The physical in-game towers are able to be destroyed by criminals, which will de
 See our [tower destruction and repairing](/tutorials/script-usage#destroying-a-tower) info!
 
 ![](https://i.imgur.com/5TP9vmS.jpeg =60%x){.align-center}
+
+## 🔦 TeamSpeak Theme Support
+
+Sonoran Radio will automatically adjust its color scheme based on if you are using a light or dark theme
+
+|Light Theme|Dark Theme|
+|-|-|
+|![](https://i.imgur.com/yeEY6R3.png)|![](https://i.imgur.com/EgVsbwo.png)|
 
 ## 🏆 Sonoran CAD Integration
 
