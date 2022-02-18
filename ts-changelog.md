@@ -2,11 +2,19 @@
 title: Plugin Changelog
 description: All version updates for the TeamSpeak plugin
 published: true
-date: 2022-01-12T05:38:57.156Z
+date: 2022-02-18T05:57:44.890Z
 tags: changelog
 editor: markdown
 dateCreated: 2021-10-07T04:39:14.544Z
 ---
+
+## 0.3.4 (2022-02-17)
+
+* **Added** better palette of colors for formatted text
+* **Added** improved support for dark TS themes
+* **Added** toggle for trace logging (default off)
+* **Tweaked** display of radio tower quality (percent instead of decimal)
+* **Fixed** units being heard after switching frequencies
 
 ## 0.3.3 (2022-01-11)
 
