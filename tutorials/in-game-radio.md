@@ -2,7 +2,7 @@
 title: In-Game Radio Script
 description: These are in the instructions for installing and using the in-game radio script.
 published: true
-date: 2022-01-28T05:28:13.308Z
+date: 2022-03-02T23:07:36.512Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T04:57:05.274Z
@@ -50,8 +50,22 @@ The Sonoran Radio in-game resource will automatically update with the latest fea
 | Command | Description 								|
 | ------- | --------------------------- |
 | `/radio`  | Opens the radio Interface.	|
+| `/radiotalk` | Toggles the radio talk animation |
+| `/radioreset` | Resets the radio connection. |
 | `/spawntower`  | Spawns a radio tower at your location.	|
 | `/savetowers`  | Saves the currently spawned towers.	|
+| `/sradio` | Utility command for sonoran radio administration |
+
+## Ace Permissions
+| Ace Permission | Description |
+| -------------- | ----------- |
+| `command.spawntower` | Gives access to the `/spawntower` command. |
+| `command.savetowers` | Gives access to the `/savetowers` command. |
+| `command.sradio` | Gives access to the `/sradio` commmand. |
+| `sonoranradio.use` | Radio Usage Permission (If Enabled in Config) |
+| `sonoranradio.repair` | Tower Repair Permission (If Enabled in Config) |
+
+See below for more detailed ace permission setup.
 
 # Usage
 When you have the script installed on your server, you can use the `/radio` command to display the radio interface. If you have the TeamSpeak plugin installed and are in an appropriate patrol channel, the radio will display a connected status.
