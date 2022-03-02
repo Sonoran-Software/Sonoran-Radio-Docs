@@ -2,11 +2,23 @@
 title: In-Game Radio Changelog
 description: All version updates for the in-game FiveM radio resource.
 published: true
-date: 2022-02-18T06:50:01.209Z
+date: 2022-03-02T22:57:11.179Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T05:11:41.006Z
 ---
+
+## v1.3.5 (2022-03-02)
+* **Feat: Ability to move while holding the radio**
+* **Feat: Add Command `/radiotalk` to toggle radio talk animation**
+* **Feat: Permission Based Tower Repair (Requires Config Update)**
+* **Feat: Ace Permissions for using the In-Game Radio**
+* **Fix: Tower Antennas Rotating to match Tower**
+* **Fix: "Radio: Off" notifications now display when radio is turned off**
+* **Fix: Radio Clock Digit Padding**
+* **Tweak: Removed some nui spam that was in the console.**
+* **Tweak: Added more items into the verbose debug messages**
+* **Tweak: Slightly increased radio screen size by adjusting interface**
 
 ## v1.3.4 (2022-02-17)
 
