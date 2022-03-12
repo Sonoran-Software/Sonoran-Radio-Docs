@@ -2,7 +2,7 @@
 title: Using the Plugin
 description: Explanations on how to use the plugin features in TeamSpeak
 published: true
-date: 2022-02-18T06:14:39.275Z
+date: 2022-03-12T00:15:31.218Z
 tags: teamspeak, ts, plugin, tutorial
 editor: markdown
 dateCreated: 2021-10-06T04:39:08.853Z
@@ -23,6 +23,10 @@ When connecting to a server that does not enable Sonoran Radio, the plugin will 
 
 ## Example
 ![example.png](https://i.imgur.com/JtzaM3y.png)
+
+# Permissions
+
+Some actions in Sonoran Radio are permissioned. If some features in Sonoran Radio seem disabled for no reason, it is most likely because the server manager or owner has only enabled that action for a select few server groups. Please see [permissions](/permissions#current-permissions) for more information about which permissions Sonoran Radio has.
 
 # Server Information
 
@@ -56,9 +60,18 @@ In patrol channels configured as such, units will be unable to talk over each ot
 
 If you need to make an emergent transmission, you can override this behavior by double-clicking your push-to-talk button and then transmitting.
 
+## Unit Quick Actions
+
+These two features allow you to quickly interact with another units' radio if you need to stop them from transmitting or grab their attention.
+
+![](https://i.imgur.com/fl51bla.png)
+
+* **Radio Lock** will mute the specified client and play a warning tone for them. This can be used if they hotmic or are being excessive with their transmissions.
+* **Radio Attention** will play the same tone as Radio Lock to grab the attention of the unit.
+
 # Dispatch Panel
 
-For authorized servers, you are able to open the Dispatch UI through `Plugins -> SonoranRadio -> Dispatch UI`
+For authorized servers, you are able to open the Dispatch UI through `Plugins -> SonoranRadio -> Dispatch UI` (if permissioned)
 ![open_ui.png](https://i.imgur.com/dX9BJXU.png)
 
 > An error will be displayed in the chat box if your current server is not correct or not authorized.
@@ -79,6 +92,9 @@ When editing scanned frequencies, you are able to add a frequency by changing th
 {.is-info}
 
 ## Channel Clients' Radio Settings
+
+> The server manager must grant explicit permission for this if permissions are enabled for the server.
+{.is-warning}
 
 The second page you will see in the UI is the tab to change the radio settings of clients in your current channel. It will look similar to this:
 
