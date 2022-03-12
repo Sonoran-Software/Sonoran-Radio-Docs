@@ -2,11 +2,27 @@
 title: Plugin Changelog
 description: All version updates for the TeamSpeak plugin
 published: true
-date: 2022-02-18T05:57:44.890Z
+date: 2022-03-12T00:39:29.628Z
 tags: changelog
 editor: markdown
 dateCreated: 2021-10-07T04:39:14.544Z
 ---
+
+## 0.4.0 (2022-03-11)
+
+* **Added** support for [permissions](/tutorials/permissions) of certain features
+* **Added** Radio Lock & Attention [quick actions](/tutorials/plugin-usage#unit-quick-actions)
+* **Added** [canary build](/tutorials/install-plugin#canary-builds) support
+  * If you're looking to support us, switch to this and report issues as they come in!
+* **Added** conflict detection with other scripts
+* **Added** commands for diagnosing issues and debugging
+  * Undocumented, only for Support Staff & Developers
+* **Fixed** Sonoran Radio falsely working on old server versions (`<3.10`)
+* **Fixed** occurances of prints not being switched to new color palette
+* **Fixed** cache being skipped for config issues related to json parsing
+* **Tweaked** plugin update timeouts to be higher
+* **Tweaked** websocket logs treated as trace logs
+* **Tweaked** unversioned builds (dev+canary) now have different name formats
 
 ## 0.3.4 (2022-02-17)
 
