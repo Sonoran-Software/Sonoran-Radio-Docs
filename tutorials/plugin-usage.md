@@ -2,7 +2,7 @@
 title: Using the Plugin
 description: Explanations on how to use the plugin features in TeamSpeak
 published: true
-date: 2022-03-12T00:15:31.218Z
+date: 2022-03-12T00:16:23.968Z
 tags: teamspeak, ts, plugin, tutorial
 editor: markdown
 dateCreated: 2021-10-06T04:39:08.853Z
@@ -26,7 +26,7 @@ When connecting to a server that does not enable Sonoran Radio, the plugin will 
 
 # Permissions
 
-Some actions in Sonoran Radio are permissioned. If some features in Sonoran Radio seem disabled for no reason, it is most likely because the server manager or owner has only enabled that action for a select few server groups. Please see [permissions](/permissions#current-permissions) for more information about which permissions Sonoran Radio has.
+Some actions in Sonoran Radio are permissioned. If some features in Sonoran Radio seem disabled for no reason, it is most likely because the server manager or owner has only enabled that action for a select few server groups. Please see [permissions](/tutorials/permissions#current-permissions) for more information about which permissions Sonoran Radio has.
 
 # Server Information
 
