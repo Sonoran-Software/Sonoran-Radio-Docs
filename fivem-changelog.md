@@ -2,11 +2,16 @@
 title: In-Game Radio Changelog
 description: All version updates for the in-game FiveM radio resource.
 published: true
-date: 2022-03-02T22:57:11.179Z
+date: 2022-03-18T19:19:48.131Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T05:11:41.006Z
 ---
+
+## v1.3.7 (2022-03-18)
+* **Fix: scan list not updating**
+* **Fix: channels/presets not updating**
+* **Tweak: NUI no longer allows in-game input at the same time**
 
 ## v1.3.5 (2022-03-02)
 * **Feat: Ability to move while holding the radio**
