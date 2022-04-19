@@ -2,7 +2,7 @@
 title: Development Build
 description: Learn how to install and use the development build of the TeamSpeak plugin
 published: true
-date: 2021-11-21T07:00:43.685Z
+date: 2022-04-19T21:02:02.599Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-21T07:00:43.685Z
@@ -26,6 +26,7 @@ To install the plugin, you can download the installer from one of these links:
 
 - [SonoranRadio_win64.ts3_plugin *64-bit Development Build*](https://download.sonoransoftware.com/sonoranradio/dev/archive/SonoranRadio_win64.ts3_plugin)
 - [SonoranRadio_win32.ts3_plugin *32-bit Development Build*](https://download.sonoransoftware.com/sonoranradio/dev/archive/SonoranRadio_win32.ts3_plugin)
+- [SonoranRadio_macos.ts3_plugin *MacOS Development Build*](https://download.sonoransoftware.com/sonoranradio/dev/archive/SonoranRadio_macos.ts3_plugin)
 {.links-list}
 
 > Please note that this installer will look identical to the production installer, other than the version that will look similar to `dev-1234abcd`
