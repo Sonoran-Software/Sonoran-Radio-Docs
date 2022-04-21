@@ -2,7 +2,7 @@
 title: Pricing FAQ
 description: Want to get the best deals, or maybe just see how our prices work?
 published: true
-date: 2021-10-23T04:17:55.523Z
+date: 2022-04-21T23:16:08.745Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T04:16:02.007Z
@@ -50,4 +50,4 @@ Currently, some of your settings are permanently deleted if it does not meet the
 
 # Refund and Purchase Policy
 
-For more information on our refund and purchasing policy, click [here](https://info.sonorancad.com/other/policy/refund-and-purchase-policy).
+Our [Refund and Purchase policy](https://sonoransoftware.com/assets/files/internal/purchase_policy.pdf) is available on our company website.
