@@ -2,7 +2,7 @@
 title: Pricing FAQ
 description: Want to get the best deals, or maybe just see how our prices work?
 published: true
-date: 2022-04-21T23:16:08.745Z
+date: 2022-04-27T20:44:10.151Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T04:16:02.007Z
@@ -37,6 +37,10 @@ You are able to manage and cancel your subscription in the Billing Portal
 
 - [Billing Portal *See and Manage your Subscriptions*](https://sonoranradio.com/#/billing)
 {.links-list}
+
+# Migrate a Subscription
+You can migrate a subscription to a different server, or apply an existing Sonoran One subscription, by pressing `Set Server` on the subscription in the billing portal.
+![image.png](/image.png)
 
 # Are subscriptions a one-time payment, or monthly?
 
