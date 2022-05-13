@@ -2,7 +2,7 @@
 title: FiveM Radio Script
 description: How to use the in game radio script
 published: true
-date: 2022-01-08T05:56:20.445Z
+date: 2022-05-13T00:10:01.545Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T14:23:15.408Z
@@ -96,3 +96,7 @@ If enabled, towers are able to be destroyed by anyone in server with weapons. By
 Once a tower is either partially or completely destroyed, anyone is able to locate and repair that tower. To repair, go near the ladder and cable at the bottom of the tower, and a popup will show telling you to press `G` to repair.
 
 ![repair.png](https://i.imgur.com/rqn1Ped.png)
+
+# QB Core Radio Item
+
+If you set the configuration option `Config.enforceRadioItem = true` the radio will only operate if the player has the "Radio" item in their QBCore inventory. When you enable this option, you will need to disable the `qb-radio` script as the two scripts will conflict. When the player has the radio item, they can use the `/radio` command or "Use" the item from the inventory by dragging it to the "Use" button or double clicking on it. When the radio item is in the hotbar of the inventory, you can also use the hotkey to open the radio.
