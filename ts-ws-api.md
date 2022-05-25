@@ -2,7 +2,7 @@
 title: TeamSpeak Websocket API
 description: 
 published: true
-date: 2021-12-03T06:42:22.276Z
+date: 2022-05-25T19:52:02.293Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-13T04:55:08.744Z
@@ -225,6 +225,19 @@ Prints a message to the chat (only local user can see). Supports TeamSpeak forma
 {
   "type": "print_chat_message",
   "message": string
+}
+```
+
+## <var>change_channel</var>
+
+Changes the channel of the current client
+
+**Minimum tier**: `Plus`
+
+```json
+{
+  "type": "change_channel",
+  "channel_uid": string
 }
 ```
 
