@@ -2,11 +2,20 @@
 title: Plugin Changelog
 description: All version updates for the TeamSpeak plugin
 published: true
-date: 2022-03-12T00:39:29.628Z
+date: 2022-05-25T20:04:27.867Z
 tags: changelog
 editor: markdown
 dateCreated: 2021-10-07T04:39:14.544Z
 ---
+
+## 1.0.0 (2022-05-25)
+
+* **Note** update is not major, just for stabilization
+* **Added** support for MacOS systems
+* **Added** support-helper command
+* **Added** websocket endpoint for changing channels
+* Small optimizations
+* Small bug fixes
 
 ## 0.4.0 (2022-03-11)
 
