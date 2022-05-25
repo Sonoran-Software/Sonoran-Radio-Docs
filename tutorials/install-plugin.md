@@ -2,7 +2,7 @@
 title: Installing the TeamSpeak Plugin
 description: Download the TeamSpeak plugin and integrations here!
 published: true
-date: 2022-03-11T23:42:40.995Z
+date: 2022-05-25T20:15:49.293Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-05T05:02:14.308Z
@@ -13,6 +13,7 @@ All community members will need to download the 64 or 32 bit version of the Sono
 
 - [SonoranRadio_win64.ts3_plugin *64-bit version of the plugin*](https://download.sonoransoftware.com/sonoranradio/archive/SonoranRadio_win64.ts3_plugin)
 - [SonoranRadio_win32.ts3_plugin *32-bit version of the plugin*](https://download.sonoransoftware.com/sonoranradio/archive/SonoranRadio_win32.ts3_plugin)
+- [SonoranRadio_macos.ts3_plugin *MacOS version of the plugin*](https://download.sonoransoftware.com/sonoranradio/archive/SonoranRadio_macos.ts3_plugin)
 {.links-list}
 
 **Don't know which one to click?** Download both and try them out, you will see the error below if it's not the correct version:
