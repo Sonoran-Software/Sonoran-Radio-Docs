@@ -2,7 +2,7 @@
 title: Why Choose Sonoran Radio
 description: Sonoran Radio blurs the line between roleplay and real life. See what we have to offer!
 published: true
-date: 2022-02-18T06:21:01.298Z
+date: 2022-05-26T21:53:05.096Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-02T03:28:27.555Z
@@ -59,6 +59,12 @@ The physical in-game towers are able to be destroyed by criminals, which will de
 See our [tower destruction and repairing](/tutorials/script-usage#destroying-a-tower) info!
 
 ![](https://i.imgur.com/5TP9vmS.jpeg =60%x){.align-center}
+
+## 🔌 Power Grid Support
+![power_grid_promo.png](/power_grid_promo.png)
+
+Hack into the integrated power grid to disable Sonoran Radio towers in your area!
+[Learn more about this script](https://www.sonoran.store/package/5120025)!
 
 ## 🔦 TeamSpeak Theme Support
 
