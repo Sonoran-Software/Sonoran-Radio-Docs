@@ -2,7 +2,7 @@
 title: FiveM Radio Script
 description: How to use the in game radio script
 published: true
-date: 2022-05-13T00:10:01.545Z
+date: 2022-05-27T19:34:31.887Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T14:23:15.408Z
@@ -100,3 +100,7 @@ Once a tower is either partially or completely destroyed, anyone is able to loca
 # QB Core Radio Item
 
 If you set the configuration option `Config.enforceRadioItem = true` the radio will only operate if the player has the "Radio" item in their QBCore inventory. When you enable this option, you will need to disable the `qb-radio` script as the two scripts will conflict. When the player has the radio item, they can use the `/radio` command or "Use" the item from the inventory by dragging it to the "Use" button or double clicking on it. When the radio item is in the hotbar of the inventory, you can also use the hotkey to open the radio.
+
+# Sonoran Radio Top Down HUD (experimental)
+
+You can bring up the Sonoran Radio HUD using the command `/radiohud [size]`. Currently supported sizes are `large` and `medium`. You can use the command `/radiohud off` to disable the radio HUD. More sizing and movement of the radio UI will be coming soon, however please feel free to try it out and report any problems that you encounter.
