@@ -2,7 +2,7 @@
 title: In-Game Radio Changelog
 description: All version updates for the in-game FiveM radio resource.
 published: true
-date: 2022-07-22T01:32:08.674Z
+date: 2022-07-22T03:44:28.555Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T05:11:41.006Z
@@ -11,6 +11,16 @@ dateCreated: 2021-10-07T05:11:41.006Z
 ## v1.3.14 (2022-07-21)
  * Feat: Mobile Radio UI
  * Fix: Radio Console Log Bug.
+ 
+> Important Reminder (Keybinds):
+{.is-info}
+
+
+To ensure that the mobile radio does not cause anyone to inadvertently crash while operating it, the buttons on the front of the mobile radio are currently unable to be pressed, therefore it is important that if you would like to change your radio settings while you are in your vehicle, you must use the keybinds. Please see the following document for more information about setting up keybinds to control the radio...
+- [In-Game Script Usage](/tutorials/script-usage#radio-keybinds)
+{.links-list}
+
+**The in-car radio feature is currently experimental and may have unforseen problems. Please report problems that you encounter to our [support team](https://support.sonoransoftware.com).**
 
 ## v1.3.13 (2022-05-27)
  * Feat: Add Support for Sonoran Power Grid
