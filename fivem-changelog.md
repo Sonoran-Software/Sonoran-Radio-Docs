@@ -2,11 +2,33 @@
 title: In-Game Radio Changelog
 description: All version updates for the in-game FiveM radio resource.
 published: true
-date: 2022-03-18T19:19:48.131Z
+date: 2022-07-22T01:31:09.185Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T05:11:41.006Z
 ---
+
+## v1.3.14 (2022-07-21)
+ * Feat: Mobile Radio UI
+ * Fix: Radio Console Log Bug.
+
+## v1.3.13 (2022-05-27)
+ * Feat: Add Support for Sonoran Power Grid
+ * Feat: Top Down Radio UI
+ * Fix: Uncaught type error exception
+
+## v1.3.12 (2022-05-19)
+ * Feat: Tower Blips
+ * Fix: Loop Problem
+
+## v1.3.11 (2022-05-12)
+ * Feat: QBCore Radio Item
+
+## v1.3.10 (2022-04-21)
+ * Fix: CAD Integration
+
+## v1.3.9 (2022-04-16)
+ * Various Build Changes.
 
 ## v1.3.7 (2022-03-18)
 * **Fix: scan list not updating**
