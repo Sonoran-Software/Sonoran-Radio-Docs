@@ -2,7 +2,7 @@
 title: Why Choose Sonoran Radio
 description: Sonoran Radio blurs the line between roleplay and real life. See what we have to offer!
 published: true
-date: 2022-05-26T21:53:05.096Z
+date: 2022-09-22T20:49:44.399Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-02T03:28:27.555Z
@@ -87,6 +87,16 @@ Users can view their unit status and activate their panic toggle right through t
 
 ### CAD: Dispatch Call Information
 Users can also view dispatch call information right from their radio!
+
+## [Mobile Command Center Integration](https://www.sonoran.store/package/5287071)
+![mcc.png](/mcc.png =50%x){.align-center}
+![mcc_radio.png](/mcc_radio.png =50%x){.align-center}
+[Sonoran's mobile command center](https://www.sonoran.store/package/5287071) enables you to take command like never before. This one-of-a-kind utility vehicle brings endless possibilities!
+
+Expand the pop-out sides for a walkable command center interior. Or, **raise the radio antenna** and scan the scene with 360 degree surveillance cameras!
+
+Paired with a standalone script, the mobile command center offers an **integrated Sonoran Radio repeater** and Sonoran CAD ALPR functionality!
+
 
 ## 📋 Frequent Updates
 
