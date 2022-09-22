@@ -2,11 +2,17 @@
 title: In-Game Radio Changelog
 description: All version updates for the in-game FiveM radio resource.
 published: true
-date: 2022-07-22T03:44:28.555Z
+date: 2022-09-22T19:08:46.687Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T05:11:41.006Z
 ---
+
+## v1.4.1 (2022-09-22)
+ * Feat: Add blip support for mobile repeaters.
+
+## v1.4 (2022-09-14)
+ * Feat: Add Tower API for external resources.
 
 ## v1.3.14 (2022-07-21)
  * Feat: Mobile Radio UI
