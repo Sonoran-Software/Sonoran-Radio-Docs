@@ -2,7 +2,7 @@
 title: FiveM Radio Script
 description: How to use the in game radio script
 published: true
-date: 2022-05-27T19:34:31.887Z
+date: 2022-10-22T00:44:37.220Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T14:23:15.408Z
@@ -27,7 +27,7 @@ When you install the script, your users can use and configure the keybinds or co
 
 # Radio Interface
 
-![example.png](https://cdn.discordapp.com/attachments/851253011791609867/913250908622696498/SNAGHTML786d1a.png)
+![example.png](https://i.imgur.com/4ArdN0u.png)
 
 ## Turning on/off your Radio
 
