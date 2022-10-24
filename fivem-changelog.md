@@ -2,11 +2,14 @@
 title: In-Game Radio Changelog
 description: All version updates for the in-game FiveM radio resource.
 published: true
-date: 2022-09-22T19:08:46.687Z
+date: 2022-10-24T22:51:53.080Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T05:11:41.006Z
 ---
+
+## v1.5.0 (2022-10-24)
+ * Feat: [Mouse support for Mobile Radio UI (Vehicle UI)](/tutorials/script-usage#radio-interface).
 
 ## v1.4.1 (2022-09-22)
  * Feat: Add blip support for mobile repeaters.
