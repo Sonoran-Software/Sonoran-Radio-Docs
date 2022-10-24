@@ -2,7 +2,7 @@
 title: FiveM Radio Script
 description: How to use the in game radio script
 published: true
-date: 2022-10-22T00:44:37.220Z
+date: 2022-10-24T23:48:11.112Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T14:23:15.408Z
@@ -23,11 +23,10 @@ dateCreated: 2021-10-23T14:23:15.408Z
 When you install the script, your users can use and configure the keybinds or commands to open your radio interface and interact with the physical buttons on the outside of the radio.
 
 ## Radio Keybinds
-![example.png](https://i.imgur.com/NGuXyo9.png)
+![radio-keybinds.png](/tutorials/script-usage/nguxyo9.png)
 
 # Radio Interface
-
-![example.png](https://i.imgur.com/4ArdN0u.png)
+![radio-interface.png](/tutorials/script-usage/4ardn0u.png)
 
 ## Turning on/off your Radio
 
@@ -79,7 +78,7 @@ Our custom in-game towers allow you to dynamically place repeaters around the ma
 
 # In-game Towers
 
-![tower.png](https://i.imgur.com/PO2E6mz.jpeg)
+![tower.jpeg](/tutorials/script-usage/po2e6mz.jpeg)
 
 ## Locations
 
@@ -89,13 +88,13 @@ Tower locations are controlled by the server owner, and they may not always disc
 
 If enabled, towers are able to be destroyed by anyone in server with weapons. By shooting the four dishes half-way up the tower, you are able to disable them one-by-one. As more dishes get destroyed, the more the tower's performance is impacted.
 
-![shooting.png](https://i.imgur.com/5TP9vmS.jpeg)
+![shooting.jpeg](/tutorials/script-usage/5tp9vms.jpeg)
 
 ## Repairing a Tower
 
 Once a tower is either partially or completely destroyed, anyone is able to locate and repair that tower. To repair, go near the ladder and cable at the bottom of the tower, and a popup will show telling you to press `G` to repair.
 
-![repair.png](https://i.imgur.com/rqn1Ped.png)
+![repair.png](/tutorials/script-usage/rqn1ped.png)
 
 # QB Core Radio Item
 
