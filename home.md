@@ -2,7 +2,7 @@
 title: Sonoran Radio
 description: Experience the Next Level of Radio Communications
 published: true
-date: 2021-10-25T19:02:26.641Z
+date: 2022-10-27T18:59:16.356Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-29T20:50:45.190Z
@@ -13,8 +13,7 @@ Learn more about our advanced communication system, find tutorials, access API d
 > Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](https://info.sonorancad.com/other-products/server-hosting)! {.is-success}
 
 <!--![Sonoran Radio](/logos/radio_logo_dark.png =95%x)-->
-
-![Sonoran Radio Preview](https://cdn.discordapp.com/attachments/851253011791609867/892235305854332949/unknown.png =80%x)
+![landing_radio.png](/landing_radio.png =80%x){.align-center}
 
 ## What is Sonoran Radio?
 
