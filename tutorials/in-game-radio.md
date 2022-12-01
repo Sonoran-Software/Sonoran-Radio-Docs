@@ -2,7 +2,7 @@
 title: In-Game Radio Script
 description: These are in the instructions for installing and using the in-game radio script.
 published: true
-date: 2022-03-02T23:07:36.512Z
+date: 2022-12-01T22:32:21.168Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T04:57:05.274Z
@@ -134,3 +134,13 @@ The config example below shows two radio tower placements.
 
 ## Sonoran CAD Integration
 For use of the panic button, unit status, and call information section, check out our [Sonoran CAD integration](https://info.sonorancad.com/integration-plugins/integration-plugins/available-plugins/sonoran-radio-sonrad).
+
+## 3rd-Party Interaction with Radio
+The following are client events that can be triggered to activate specific actions of the radio. More events are coming soon.
+| Client Event | Description |
+| -------------- | ----------- |
+| `SonoranRadio::API:NextPreset` | Programmatically switch the client's radio to the next preset. |
+| `SonoranRadio::API:PrevPreset` | Programmatically switch the client's radio to the previous preset. |
+| `SonoranRadio::API:PowerToggle` | Programmatically toggle the client's radio power. |
+| `SonoranRadio::API:PanicButton` | Programmatically activate the panic button the client's radio. |
+| `SonoranRadio::API:SetPreset` | Set the preset of the client's radio to the specified preset number. (Only Parameter is Preset as Int.) |
