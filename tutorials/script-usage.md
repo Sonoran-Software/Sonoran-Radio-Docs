@@ -2,7 +2,7 @@
 title: FiveM Radio Script
 description: How to use the in game radio script
 published: true
-date: 2022-10-24T23:48:11.112Z
+date: 2022-12-29T18:52:18.564Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T14:23:15.408Z
@@ -31,6 +31,12 @@ When you install the script, your users can use and configure the keybinds or co
 ## Turning on/off your Radio
 
 You can click on the dial on the top right of the radio to toggle the radio on and off. You will also see this reflected in the teamspeak interface.
+
+## Repositioning the Radio
+
+To move the radio on your screen to a more suitable position, you can click the `Config` button with the radio open, then click `Reposition UI`.
+
+![radio-reposition.png](https://i.imgur.com/3nMYJTV.png)
 
 ## Radio Status Indicator
 The color of the bar next to your current frequency indicates the state of your radio.
