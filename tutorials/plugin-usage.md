@@ -2,7 +2,7 @@
 title: Using the Plugin
 description: Explanations on how to use the plugin features in TeamSpeak
 published: true
-date: 2022-03-12T00:16:23.968Z
+date: 2023-01-05T20:45:26.100Z
 tags: teamspeak, ts, plugin, tutorial
 editor: markdown
 dateCreated: 2021-10-06T04:39:08.853Z
@@ -38,7 +38,7 @@ The virtual server (or topmost item) will display information about global autho
 
 |Virtual Server|Channel|Client/User|
 |-|-|-|
-|![vs_example.png](https://i.imgur.com/6iA7o6x.png)|![chan_example.png](https://i.imgur.com/yDhoPGV.png)|![user_example.png](https://i.imgur.com/4Hri5BM.png)|
+|![vs_example.png](https://i.imgur.com/6iA7o6x.png)|![chan_example.png](https://i.imgur.com/xPU9duM.png)|![user_example.png](https://i.imgur.com/4Hri5BM.png)|
 
 # Patrol Channels
 
