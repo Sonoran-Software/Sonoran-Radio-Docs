@@ -2,7 +2,7 @@
 title: Registering Your Community
 description: Before you begin using Sonoran Radio, you will need to register a community. Sonoran Radio uses your Sonoran Software account.
 published: true
-date: 2022-02-15T19:57:39.958Z
+date: 2023-01-05T21:11:45.543Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T06:06:34.627Z
@@ -40,17 +40,17 @@ Registering your community and setting up Sonoran Radio is fast, easy, and free!
 ![webpanel.png](https://i.imgur.com/sylq41i.png)
 ![plugin.png](https://i.imgur.com/yy0PxZy.png)
 
-7. Retrieve the Unique ID of your patrol channel by following the same method as Step 4, however ensure you select the patrol channel.
+7. Note the Channel ID of your patrol channel by following the same method as Step 4, however ensure you select the patrol channel.
 
-![snag_baf2f31d.png](/snag_baf2f31d.png)
+![snag_baf2f31d.png](https://i.imgur.com/n7nhAsx.png)
 
-8. Click on the `Add Patrol Channel` button under the **Patrol Channels** section of the radio management portal. Insert that channels Unique ID and press `Add Patrol Channel`
+8. Click on the Plus button under the **Patrol Channels** section of the radio management portal. Insert that channels Unique ID and press `Add Patrol Channel`
 
-![UMb4NXq.png](https://i.imgur.com/UMb4NXq.png)
-Note: Checking Allow Talkover Protection disables preventing units from talking over one another.
+![UMb4NXq.png](https://i.imgur.com/F5n2Vz7.png)
+Note: Checking Allow Talkover disables preventing units from talking over one another.
 Note: Customizable Talk-Around Ranges vary from Short Range (600m) to Extra Long Range (1400m) with a 400m difference between each range option. The Customizable Talk-Around Range only applies to talk-around frequencies, transmitted frequencies that don't get repeated over the radio tower network.
 
-9. To create a new profile, click on the `Add Profile` button on the radio management portal.
+9. To create a new profile, click on the Plus button on the radio management portal under the **Profiles** section.
 
 *Basic Profile Creation*
 Basic Profile Creation is meant for a quick and easy way to create profiles without the hassle of organizing frequencies. Receiver Frequency & Transmit Frequency with automatically be generated on creation.
