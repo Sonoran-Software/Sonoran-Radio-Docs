@@ -2,11 +2,28 @@
 title: In-Game Radio Changelog
 description: All version updates for the in-game FiveM radio resource.
 published: true
-date: 2022-10-24T22:51:53.080Z
+date: 2023-02-04T18:34:33.652Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T05:11:41.006Z
 ---
+
+## v1.6.2 (2023-02-01)
+ * Feat: Support added for QUASAR Inventory for qb-core
+   - The radio item has been renamed to `sonoran_radio`
+
+## v1.6.1 (2023-01-05)
+ * Feat: Optionally, radios can disable themselves when you die in-game
+
+## v1.6.0 (2022-12-29)
+ *  Feat: In-game radio components can be moved through a setting in the interface
+
+## v1.5.2 (2022-12-02)
+ * Fix: `previous preset` keybind acting like `next preset`
+
+## v1.5.1 (2022-12-01)
+ * Feat: New experimental resource API for other resources
+   - [Learn More](/tutorials/in-game-radio#h-3rd-party-interaction-with-radio)
 
 ## v1.5.0 (2022-10-24)
  * Feat: [Mouse support for Mobile Radio UI (Vehicle UI)](/tutorials/script-usage#radio-interface).
