@@ -2,7 +2,7 @@
 title: Free in-game Radio Installation - Next Steps
 description: This guide covers the next steps after receiving free Sonoran Radio in-game resource installation with your Sonoran Servers Windows Server or Expert Installation.
 published: true
-date: 2023-03-20T21:52:47.616Z
+date: 2023-03-20T22:03:03.990Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T21:52:47.616Z
@@ -10,24 +10,24 @@ dateCreated: 2023-03-20T21:52:47.616Z
 
 # Free in-game Radio Installation - Next Steps
 
-![Sonoran Servers - Bundle Program](../../../.gitbook/assets/banner\_update-1.png)
+![30% off Sonoran Software Subscriptions with Sonoran Servers](/pricing/serversbundlediscount.png)
 
-If you haven't already, [check out our page for more information on this promotion](../../../pricing/pricing-faq/free-plugin-installation-and-discount-sonoran-servers.md).
+If you haven't already, [check out our page for more information on this promotion](/pricing/discounts-and-offers).
 
-## 1. Locate your Installed Plugins
+## 1. Locate your Installed in-game Radio files
 
-Every CMS addon resource installed will have a separate folder. These are located in the `\resources\[sonorancms]` directory.
+Open the `\resources\[sonoranradio]\sonoranradio` directory.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Sonoran CMS - Resource Folder</p></figcaption></figure>
+![Sonoran Radio Resource Folder Screenshot](/pricing/sonoranradioresourcefolder.png)
 
-## 2. View and Change Configuration Files
+## 2. View and Change Configuration File
 
-For every Sonoran CMS addon installed, there will be a `config.lua` or `config.json` file present.
+For Sonoran Radio's in-game resource, there will be a `config.lua` file present.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Sonoran CMS - Addon Config File</p></figcaption></figure>
+![Sonoran Radio Resource Config Example Screenshot](/pricing/sonoranradioconfigexample.png)
 
-You can open these configuration files with a text editor and change values.
+You can open this configuration file with a text editor and change values.
 
-For more information on a plugin's configuration options, you can view the individual plugin guides on the [Available Resources](../roblox-integrations/available-resources/) page and scroll down to the configuration section.
+For more information on a plugin's configuration options, you can view the [in-game resource's guide](/tutorials/in-game-radio) page and scroll down to the configuration section.
 
 If you modify a configuration file, be sure to save it and restart the server.
