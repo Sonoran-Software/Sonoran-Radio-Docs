@@ -1,14 +1,14 @@
 ---
-title: Free Plugin Installation and Discount - Sonoran Servers
-description: Not only do Sonoran Servers customers receive free Radio installation, but can save 30%-100% on your Sonoran Radio subscription every month when you purchase a Windows Server from Sonoran Servers!
+title: Free in-game Radio Installation and Discount - Sonoran Servers
+description: Not only do Sonoran Servers customers receive free in-game Radio installation, but can save 30%-100% on your Sonoran Radio subscription every month when you purchase a Windows Server from Sonoran Servers!
 published: true
-date: 2023-03-20T22:04:01.206Z
+date: 2023-03-20T22:29:35.565Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T21:45:29.338Z
 ---
 
-# Free Plugin Installation and Discount - Sonoran Servers
+# Free in-game Radio Installation and Discount - Sonoran Servers
 
 ## CAD: 30%-100% off Discount
 
@@ -26,7 +26,7 @@ If you haven't already, [purchase any server plan with Windows as the operating 
 
 ### 2. Contact Support
 
-Reach out on our [customer support site](https://support.sonoransoftware.com) and a team member will help install and configure your Sonoran CAD integration plugins for free!
+Reach out on our [customer support site](https://support.sonoransoftware.com) and a team member will help install and configure your Sonoran Radio in-game integration for free!
 
-### The support agent has installed my plugins, what's next?
+### The support agent has installed my in-game Radio, what's next?
 [View the next steps guide](/pricing/discounts-and-offers/free-install-next-steps)
