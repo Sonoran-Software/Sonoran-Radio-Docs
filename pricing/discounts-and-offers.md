@@ -2,7 +2,7 @@
 title: Free Plugin Installation and Discount - Sonoran Servers
 description: Not only do Sonoran Servers customers receive free Radio installation, but can save 30%-100% on your Sonoran Radio subscription every month when you purchase a Windows Server from Sonoran Servers!
 published: true
-date: 2023-03-20T21:45:29.338Z
+date: 2023-03-20T21:48:12.035Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T21:45:29.338Z
@@ -12,10 +12,9 @@ dateCreated: 2023-03-20T21:45:29.338Z
 
 ## CAD: 30%-100% off Discount
 
-![30% off Sonoran Software Subscriptions with Sonoran Servers](../../.gitbook/assets/banner\_update-1.png)
+![30% off Sonoran Software Subscriptions with Sonoran Servers](/pricing/serversbundlediscount.png)
 
-
-![Sonoran One - Free with a Dedicated Server](<../../.gitbook/assets/Bannerprojectsenoranone (1).png>)
+![Sonoran One - Free with a Dedicated Server](/pricing/sonoranonebundle.png)
 
 [Learn more about this offer!](https://info.sonoranservers.com/pricing/promotions-and-discounts/30-off-software)
 
