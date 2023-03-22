@@ -2,7 +2,7 @@
 title: Purchase a Subscription
 description: Learn to purchase and apply a subscription to your Sonoran Radio Community
 published: true
-date: 2023-03-22T21:15:40.033Z
+date: 2023-03-22T21:28:33.855Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-22T21:11:17.965Z
@@ -12,7 +12,7 @@ dateCreated: 2023-03-22T21:11:17.965Z
 - Registered TeamSpeak 3 Server on Sonoran Radio web panel 
 - or the intention to claim our [Sonoran Servers Promo](/pricing/free-teamspeak-promo)
 
-> If claiming our Sonoran Servers Promo, please register a TeamSpeak Server on the Sonoran Radio web panel with a random value for the "Server UID". This will allow you to purchase a subscription without setting up a TeamSpeak 3 Server elsewhere.
+> If claiming our Sonoran Servers Promo, please [register a TeamSpeak Server on the Sonoran Radio web panel](https://info.sonoranradio.com/en/tutorials/registering-your-community) with a random value for the "Server UID". This will allow you to purchase a subscription without setting up a TeamSpeak 3 Server elsewhere.
 ![Random Server UID Exmaple](/tutorials/how-to-purchase/randomuid.png)
 {.is-info}
 
