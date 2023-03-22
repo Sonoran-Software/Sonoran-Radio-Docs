@@ -2,7 +2,7 @@
 title: Free in-game Radio Installation and Discount - Sonoran Servers
 description: Not only do Sonoran Servers customers receive free in-game Radio installation, but can save 30%-100% on your Sonoran Radio subscription every month when you purchase a Windows Server from Sonoran Servers!
 published: true
-date: 2023-03-21T21:28:27.802Z
+date: 2023-03-22T21:58:48.933Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-20T21:45:29.338Z
@@ -31,8 +31,13 @@ Reach out on our [customer support site](https://support.sonoransoftware.com) an
 ### The support agent has installed my in-game Radio, what's next?
 [View the next steps guide](/pricing/discounts-and-offers/free-install-next-steps)
 
+## Free TeamSpeak 3 Server
+[![Free TeamSpeak 3 Server Promo Banner](/pricing/free-teamspeak-promo/freeteamspeakpromobanner.png)](/pricing/free-teamspeak-promo)
+[Get started today!](/pricing/free-teamspeak-promo)
+
 ## Purchase Expert Installation
-![install2.png](/install2.png)
+Get Sonoran Radio's in-game radio as well as Sonoran CMS and Sonoran CAD GTA:V in-game integrations installed by our experts!
+![Expert Installation Banner](/install2.png)
 
 ### What is expert installation?
 Our [support agents](https://support.sonoransoftware.com) are available 7 days/week to help install and configure all of your Sonoran CAD, CMS, and Radio plugins on your Windows VPS or dedicated server!
