@@ -2,7 +2,7 @@
 title: Purchase a Subscription
 description: Learn to purchase and apply a subscription to your Sonoran Radio Community
 published: true
-date: 2023-03-22T21:11:17.965Z
+date: 2023-03-22T21:15:40.033Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-22T21:11:17.965Z
@@ -25,7 +25,7 @@ Click `UPGRADE` on the Sonoran Radio Community you would like to purchase a subs
 
 # 3. Choose the Subscription Tier
 > You can find the [subscription tier comparison here](https://sonoranradio.com/pricing)
-> NOTE: Sonoran Servers Promo requires `Pro Plan` or `Sonoran ONE`
+> NOTE: Sonoran Servers Promo **requires** `Pro Plan` or `Sonoran ONE`
 {.is-info}
 
 Select the subscription tier you would like:
