@@ -2,7 +2,7 @@
 title: Free TeamSpeak Server Promo
 description: Purchase Sonoran Radio Pro or Sonoran ONE and receive a FREE Sonoran Servers TeamSpeak 3 Server
 published: true
-date: 2023-03-22T21:45:21.019Z
+date: 2023-03-22T21:52:08.778Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-22T21:23:17.012Z
@@ -16,6 +16,7 @@ Purchase either:
 Receive a coupon for a Sonoran Servers TeamSpeak 20-slot server for the life of your Sonoran Radio or Sonoran ONE subscription. You may purchase additional slots at the regular rate but your first 20 slots are free. This will show on your Sonoran Servers invoice as a credit up to $7.
 
 **NOTE: Cancelling your Sonoran Radio or Sonoran ONE subscription, even accidentially, will terminate your Sonoran Servers TeamSpeak 3 server and all data/configuration will be lost.**
+![Free TeamSpeak Server Promo Banner](/pricing/free-teamspeak-promo/freeteamspeakpromobanner.png)
 
 # How to get the discount
 # Prerequistes
