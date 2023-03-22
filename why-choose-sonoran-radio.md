@@ -2,7 +2,7 @@
 title: Why Choose Sonoran Radio
 description: Sonoran Radio blurs the line between roleplay and real life. See what we have to offer!
 published: true
-date: 2022-10-20T18:32:21.606Z
+date: 2023-03-22T22:00:51.249Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-02T03:28:27.555Z
@@ -36,6 +36,10 @@ Hack into the integrated power grid to disable Sonoran Radio towers in your area
 [Learn more about this script](https://www.sonoran.store/package/5120025)!
 
 ![power_grid_promo.png](/power_grid_promo.png =60%x){.align-center}
+
+## 💵 Free TeamSpeak 3 Server
+[![Free TeamSpeak 3 Server Promo Banner](/pricing/free-teamspeak-promo/freeteamspeakpromobanner.png)](/pricing/free-teamspeak-promo)
+[Get started today!](/pricing/free-teamspeak-promo)
 
 ## 🔦 TeamSpeak Theme Support
 
