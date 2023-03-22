@@ -2,7 +2,7 @@
 title: Free TeamSpeak Server Promo
 description: Purchase Sonoran Radio Pro or Sonoran ONE and receive a FREE Sonoran Servers TeamSpeak 3 Server
 published: true
-date: 2023-03-22T21:42:33.501Z
+date: 2023-03-22T21:45:21.019Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-22T21:23:17.012Z
@@ -25,6 +25,9 @@ Please [register a TeamSpeak Server on the Sonoran Radio web panel](https://sono
 ![Random Server UID Exmaple](/tutorials/how-to-purchase/randomuid.png)
 
 # 1. Purchase Sonoran Radio Pro or Sonoran ONE Subscription
+> If you have already purchased `Sonoran Radio Pro` or `Sonoran ONE` then you can [skip to step 2](/pricing/free-teamspeak-promo#h-2-select-upgraded-community).
+{.is-info}
+
 ## a. Select Sonoran Radio Community to Upgrade
 Click `UPGRADE` on the Sonoran Radio Community you would like to purchase a subscription on:
 ![Click Upgrade Example](/tutorials/how-to-purchase/1-clickupgrade.png)
@@ -81,4 +84,4 @@ One of the emails sent after checking out will be similar to the following. Use 
 ![7-receiveemail.png](/pricing/free-teamspeak-promo/7-receiveemail.png)
 
 # What's Next?
-Your next steps should be setting up your TeamSpeak 3 Server with Sonoran Radio. Follow our guide on registering your TeamSpeak[registering-your-community](/tutorials/registering-your-community), skipping steps 1-3. You can edit your "temporary" random TeamSpeak server UID you set earlier with the new Sonoran Servers TeamSpeak 3 server UID.
+Your next steps should be setting up your TeamSpeak 3 Server with Sonoran Radio. Follow our guide on registering your TeamSpeak [registering-your-community](/tutorials/registering-your-community), skipping steps 1-3. You can edit your "temporary" random TeamSpeak server UID you set earlier with the new Sonoran Servers TeamSpeak 3 server UID.
