@@ -2,7 +2,7 @@
 title: Purchase a Subscription
 description: Learn to purchase and apply a subscription to your Sonoran Radio Community
 published: true
-date: 2023-04-01T00:13:57.529Z
+date: 2023-04-01T00:37:55.331Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-22T21:11:17.965Z
@@ -14,7 +14,7 @@ dateCreated: 2023-03-22T21:11:17.965Z
 
 # 1. Select Sonoran Radio Community to Upgrade
 Click `UPGRADE` on the Sonoran Radio Community you would like to purchase a subscription on:
-![Click Upgrade Example](/tutorials/how-to-purchase/1-clickupgrade.png)
+![Click Upgrade Example](/tutorials/how-to-purchase/1-clickbilling.png)
 
 # 2. Click "New Subscription"
 ![Click New Subscription Example](/tutorials/how-to-purchase/2-newsub.png)
