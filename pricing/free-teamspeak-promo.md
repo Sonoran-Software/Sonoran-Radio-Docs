@@ -2,7 +2,7 @@
 title: Free TeamSpeak Server Promo
 description: Purchase Sonoran Radio Pro or Sonoran ONE and receive a FREE Sonoran Servers TeamSpeak 3 Server
 published: true
-date: 2023-03-22T21:52:08.778Z
+date: 2023-04-01T00:52:40.063Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-22T21:23:17.012Z
@@ -19,19 +19,13 @@ Receive a coupon for a Sonoran Servers TeamSpeak 20-slot server for the life of 
 ![Free TeamSpeak Server Promo Banner](/pricing/free-teamspeak-promo/freeteamspeakpromobanner.png)
 
 # How to get the discount
-# Prerequistes
-- Sonoran Radio Commuity Registered on Sonoran Radio web panel
-
-Please [register a TeamSpeak Server on the Sonoran Radio web panel](https://sonoranradio.com/register-server) with a random value for the "Server UID". This will allow you to purchase a subscription without setting up a TeamSpeak 3 Server elsewhere.
-![Random Server UID Exmaple](/tutorials/how-to-purchase/randomuid.png)
-
 # 1. Purchase Sonoran Radio Pro or Sonoran ONE Subscription
+## a. Select Sonoran Radio Community to Upgrade
+Click `Subscriptions & Billing` on the Sonoran Radio Portal or [follow this link](https://sonoranradio.com/billing).
+![Click Upgrade Example](/tutorials/how-to-purchase/1-clickbilling.png)
+
 > If you have already purchased `Sonoran Radio Pro` or `Sonoran ONE` then you can [skip to step 2](/pricing/free-teamspeak-promo#h-2-select-upgraded-community).
 {.is-info}
-
-## a. Select Sonoran Radio Community to Upgrade
-Click `UPGRADE` on the Sonoran Radio Community you would like to purchase a subscription on:
-![Click Upgrade Example](/tutorials/how-to-purchase/1-clickupgrade.png)
 
 ## b. Click "New Subscription"
 ![Click New Subscription Example](/tutorials/how-to-purchase/2-newsub.png)
@@ -44,8 +38,12 @@ Select the subscription tier you would like:
 ![Choose Subscription Tier Example](/tutorials/how-to-purchase/3-choosesublevel.png)
 
 ## d. Confirm the Sonoran Radio Community
-Select the Sonoran Radio community you would like the new subscription to apply to:
-![Confirm Community Selection Example](/tutorials/how-to-purchase/4-choosecommunity.png)
+- Select the Sonoran Radio community you would like the new subscription to apply to 
+
+or 
+- select `No Server` if you have not registered a Sonoran Radio Community yet (we will go over these steps later):
+
+![promo-choosecommunity.png](/pricing/free-teamspeak-promo/promo-choosecommunity.png)
 
 ## e. Complete Purchase
 Fill in the requested billing information and complete your purchase. You will be redirected on successful payment to the Sonoran Radio web panel and should see your new subscription applied to your Sonoran Radio community.
@@ -56,31 +54,27 @@ Fill in the requested billing information and complete your purchase. You will b
 
 ![Checkout Page Example](/tutorials/how-to-purchase/5-paymentinfo.png)
 
-# 2. Select Upgraded Community
-Navigate back to the community selection page and select your upgraded community:
-![Select Community Example](/pricing/free-teamspeak-promo/1-selectcommunity.png)
-
-# 3. Generate Promo Code
-Click on `ADMINISTRATION` at the top and then click `Generate Code` under the Sonoran Servers Promotion section. This will only show if you have successfully applied your Sonoran Radio Pro or Sonoran ONE subscription.
+# 2. Generate Promo Code
+Click on `FREE 20 SLOT TEAMSPEAK` on your new subscription and then click `Generate Code` on the pop-up modal.
 ![Generate Promo Code Example](/pricing/free-teamspeak-promo/2-generatecode.png)
 
-# 4. Copy Code and Open Link
+# 3. Copy Code and Open Link
 Click the Copy icon next to the promo code as shown, then click the Sonoran Servers TeamSpeak 3 Server purchase link as shown on the image below:
 ![Copy Code and Open Link Example](/pricing/free-teamspeak-promo/3-copycode.png)
 
-# 5. Configure TeamSpeak 3 Server Purchase
+# 4. Configure TeamSpeak 3 Server Purchase
 Set the `Slots` to 20 or more if you would like to pay for additional slots above the free 20 you get with this promotion. Then type in a `TeamSpeak Subdomain` to have a subdomain to make it easier to connect to your new TeamSpeak 3 Server.
 ![Configure TeamSpeak Purchase Options Example](/pricing/free-teamspeak-promo/4-configureteamspeak.png)
 
-# 6. Apply your Promo Code
+# 5. Apply your Promo Code
 Paste the promo code you copied in step #4 in the `Promotion` code box, then click `Validate Code` as shown:
 ![Apply Promo Code Example](/pricing/free-teamspeak-promo/5-applypromo.png)
 
-# 7. Complete Checkout
+# 6. Complete Checkout
 Fill in the required billing and account information, then follow the prompts to checkout. You should recieve an email confirming your purchase.
 ![Complete Checkout Example](/pricing/free-teamspeak-promo/6-completecheckout.png)
 
-# 8. Check Email
+# 7. Check Email
 One of the emails sent after checking out will be similar to the following. Use the information in this email to access your TeamSpeak 3 server, claim TeamSpeak admin permissions and continuing registering your new TeamSpeak 3 server with Sonoran Radio.
 ![7-receiveemail.png](/pricing/free-teamspeak-promo/7-receiveemail.png)
 
