@@ -2,11 +2,20 @@
 title: Plugin Changelog
 description: All version updates for the TeamSpeak plugin
 published: true
-date: 2022-05-25T20:04:27.867Z
+date: 2023-06-14T20:17:56.693Z
 tags: changelog
 editor: markdown
 dateCreated: 2021-10-07T04:39:14.544Z
 ---
+
+## 1.1.0 (2023-06-14)
+
+* Update to use TS API version 26
+	* Now supports TeamSpeak Client 3.6.0
+
+## 1.0.1 (2023-01-05)
+
+* Change from using Channel UID to Channel ID
 
 ## 1.0.0 (2022-05-25)
 
