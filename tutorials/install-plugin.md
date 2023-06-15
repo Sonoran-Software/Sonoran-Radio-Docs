@@ -2,7 +2,7 @@
 title: Installing the TeamSpeak Plugin
 description: Download the TeamSpeak plugin and integrations here!
 published: true
-date: 2022-05-25T20:15:49.293Z
+date: 2023-06-15T17:20:47.549Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-05T05:02:14.308Z
@@ -63,3 +63,10 @@ The Sonoran Radio plugin is **not** compatible with the Task Force Arma 3 radio 
 ### San Andreas Police Radio (SAPR)
 
 TeamSpeak servers configured to use both Sonoran Radio and SAPR will cause compatibility issues. SAPR must be disabled or removed for Sonoran Radio to work properly on that server specifically.
+
+### Archived Versions
+
+Looking for older versions of Sonoran Radio?
+
+- [Sonoran Radio Archived Versions](/archive-downloads)
+{.links-list}
