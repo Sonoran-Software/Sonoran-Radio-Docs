@@ -2,7 +2,7 @@
 title: Pricing FAQ
 description: Want to get the best deals, or maybe just see how our prices work?
 published: true
-date: 2022-04-27T20:44:10.151Z
+date: 2023-08-21T22:29:39.878Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T04:16:02.007Z
@@ -51,6 +51,12 @@ Subscriptions are renewed one month after the start date. You will receive an em
 # What happens if my subscription expires? Will I lose my settings?
 
 Currently, some of your settings are permanently deleted if it does not meet the subscription plan. However, it is planned that in the future they will simply be disabled instead of completely removed.
+
+# Military and First Responder Discount
+![bannerbase.png](/bannerbase.png)
+As part of our commitment to serving the community, we deeply value the relentless effort and dedication displayed by our military and first responders, day in and day out. All U.S. military personnel, police officers, firefighters, and paramedics qualify for a 15% monthly discount.
+
+[Click here to learn more!](https://sonoran.link/service)
 
 # Refund and Purchase Policy
 
