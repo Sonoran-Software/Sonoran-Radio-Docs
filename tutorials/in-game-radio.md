@@ -2,7 +2,7 @@
 title: In-Game Radio Script
 description: These are in the instructions for installing and using the in-game radio script.
 published: true
-date: 2022-12-01T22:32:21.168Z
+date: 2023-10-10T19:37:41.699Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T04:57:05.274Z
@@ -52,6 +52,7 @@ The Sonoran Radio in-game resource will automatically update with the latest fea
 | `/radio`  | Opens the radio Interface.	|
 | `/radiotalk` | Toggles the radio talk animation |
 | `/radioreset` | Resets the radio connection. |
+| `/radiohud [size]` | Changes the size of the Radio interface. Options are `small`, `medium`, `large` | 
 | `/spawntower`  | Spawns a radio tower at your location.	|
 | `/savetowers`  | Saves the currently spawned towers.	|
 | `/sradio` | Utility command for sonoran radio administration |
