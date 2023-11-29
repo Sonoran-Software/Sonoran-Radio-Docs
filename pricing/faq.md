@@ -2,7 +2,7 @@
 title: Pricing FAQ
 description: Want to get the best deals, or maybe just see how our prices work?
 published: true
-date: 2023-08-21T22:29:39.878Z
+date: 2023-11-29T21:09:51.539Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T04:16:02.007Z
@@ -44,9 +44,15 @@ You can migrate a subscription to a different server, or apply an existing Sonor
 
 # Are subscriptions a one-time payment, or monthly?
 
-All subscriptions will be charged on a monthy basis, until cancelled.
+With Sonoran Radio, you have the option to choose either a monthly or quarterly subscription. We offer multiple different subscription plans at different price ranges. You can [compare our plans](https://sonoranradio.com/pricing) to see what works best for your community.
 
-Subscriptions are renewed one month after the start date. You will receive an email from Stripe a few days before you are charged again. This way, you aren't charged again without prior notice.
+By choosing a **quarterly subscription**, you are automatically given a **25% discount**. The quarterly plan can be selected in Stripe at checkout by toggling the `Save $XX with 3-month billing` option. 
+
+![sono_quarterlycrop.png](/pricing/sono_quarterlycrop.png)
+
+Monthly subscriptions are renewed one month after the start date, and quarterly subscriptions are renewed three months after the start date. You will receive an email from Stripe a few days before you are charged again. This way, you aren't charged again without prior notice.
+
+Due to ongoing server hosting, development, maintenance, and customer support costs, we are unable to offer a yearly or lifetime subscription at this time.
 
 # What happens if my subscription expires? Will I lose my settings?
 
