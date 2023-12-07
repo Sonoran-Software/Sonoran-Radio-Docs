@@ -2,7 +2,7 @@
 title: In-Game Radio Script
 description: These are in the instructions for installing and using the in-game radio script.
 published: true
-date: 2023-12-07T17:30:06.963Z
+date: 2023-12-07T18:46:03.696Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T04:57:05.274Z
@@ -145,6 +145,8 @@ Config.repeaterVehicleSpawncodes = {
     {model = "police2", label = "Police Vehicle", range = 200},
 }
 ```
+In-game, you can press `G` to toggle the mobile repeater on a configured vehicle.
+
 ## Sonoran CAD Integration
 For use of the panic button, unit status, and call information section, check out our [Sonoran CAD integration](https://info.sonorancad.com/integration-plugins/integration-plugins/available-plugins/sonoran-radio-sonrad).
 
