@@ -2,7 +2,7 @@
 title: In-Game Radio Script
 description: These are in the instructions for installing and using the in-game radio script.
 published: true
-date: 2023-10-10T19:37:41.699Z
+date: 2023-12-07T17:30:06.963Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T04:57:05.274Z
@@ -132,7 +132,19 @@ The config example below shows two radio tower placements.
 > represents 50% radio quality
 {.is-info}
 
+## Customizing Mobile Repeaters <a href="mobile-repeaters" id="mobile-repeaters"></a>
+Vehicles can be configured to act as radio repeaters. In the config, you can set what vehicles are allowed to act as mobile repeaters, and the range of a given vehicle's repeater.
 
+**Example Config Structure:**
+```lua
+-- Enable mobile repeaters
+Config.enableVehicleRepeaters = true
+-- Mobile repeater spawncodes
+Config.repeaterVehicleSpawncodes = {
+    {model = "police", label = "Police Vehicle", range = 200},
+    {model = "police2", label = "Police Vehicle", range = 200},
+}
+```
 ## Sonoran CAD Integration
 For use of the panic button, unit status, and call information section, check out our [Sonoran CAD integration](https://info.sonorancad.com/integration-plugins/integration-plugins/available-plugins/sonoran-radio-sonrad).
 
