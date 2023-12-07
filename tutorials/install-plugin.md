@@ -2,7 +2,7 @@
 title: Installing the TeamSpeak Plugin
 description: Download the TeamSpeak plugin and integrations here!
 published: true
-date: 2023-06-15T17:20:47.549Z
+date: 2023-12-07T20:27:58.631Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-05T05:02:14.308Z
@@ -18,6 +18,8 @@ All community members will need to download the 64 or 32 bit version of the Sono
 
 **Don't know which one to click?** Download both and try them out, you will see the error below if it's not the correct version:
 ![installer_error.png](https://i.imgur.com/Okf4oUS.png)
+
+> Please note that TeamSpeak 5 is **not** compatible with plugins such as this. If you haven't already, make sure to download and install the [TeamSpeak 3 Client](https://teamspeak.com/en/downloads/#ts3client) first. {.is-info}
 
 ## 2. Install the Plugin
 
