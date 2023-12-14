@@ -2,7 +2,7 @@
 title: Using the Plugin
 description: Explanations on how to use the plugin features in TeamSpeak
 published: true
-date: 2023-01-05T20:45:26.100Z
+date: 2023-12-14T21:43:49.586Z
 tags: teamspeak, ts, plugin, tutorial
 editor: markdown
 dateCreated: 2021-10-06T04:39:08.853Z
@@ -84,7 +84,7 @@ The first page you will see after opening the UI is the tab to change your own r
 
 ![self_settings.png](https://i.imgur.com/zEovr1o.png)
 
-You are able to modify your own frequency on this page. If the server has the correct subscription tier, you will also be able to edit your scanned frequencies through this panel.
+You are able to modify your own frequency on this page. If the server has a **Pro-level subscription**, you will also be able to edit your scanned frequencies through this panel.
 
 When editing scanned frequencies, you are able to add a frequency by changing the frequency spinner and pressing `Add`. You can remove frequencies by right-clicking them in the list and pressing `Remove`. Please note that scanner settings only take effect after pressing `Set` on the bottom.
 
