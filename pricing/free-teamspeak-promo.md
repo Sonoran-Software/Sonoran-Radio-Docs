@@ -2,7 +2,7 @@
 title: Free TeamSpeak Server Promo
 description: Purchase Sonoran Radio Pro or Sonoran ONE and receive a FREE Sonoran Servers TeamSpeak 3 Server
 published: true
-date: 2023-04-01T01:26:32.760Z
+date: 2023-12-19T21:11:54.979Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-22T21:23:17.012Z
@@ -54,7 +54,7 @@ Fill in the requested billing information and complete your purchase. You will b
 
 ![Checkout Page Example](/tutorials/how-to-purchase/5-paymentinfo.png)
 
-# 2. Generate Promo Code
+# 2. Generate Promo Code <a href="#generate-promo" id="generate-promo"></a>
 Click on `FREE 20 SLOT TEAMSPEAK` on your new subscription and then click `Generate Code` on the pop-up modal.
 ![Generate Promo Code Example](/pricing/free-teamspeak-promo/2-generatecode.png)
 
