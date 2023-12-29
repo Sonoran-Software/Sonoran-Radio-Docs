@@ -2,7 +2,7 @@
 title: FiveM Radio Script
 description: How to use the in game radio script
 published: true
-date: 2023-12-29T23:32:06.286Z
+date: 2023-12-29T23:42:09.236Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T14:23:15.408Z
@@ -32,9 +32,11 @@ When you install the script, your users can use and configure the keybinds or co
 
 You can click on the dial on the top right of the radio to toggle the radio on and off. You will also see this reflected in the teamspeak interface.
 
-## Repositioning the Radio
+## Repositioning and Resizing the Radio
 
 To move the radio on your screen to a more suitable position, you can click the `Config` button with the radio open, then click `Reposition UI`.
+
+While moving it around, you can drag the screen to resize it.
 
 ![radio-reposition.png](https://i.imgur.com/3nMYJTV.png)
 
@@ -83,7 +85,8 @@ Available frames can be found by their folder names in the `/skins` folder. Defa
  - `voxguard`
  
  ### Radio Frame Commands
- - `adminskinchange` - Used to change the radio skin to any skin, regardless of config. Requies the `Config.frames.adminPermission` [ace permission](https://forum.cfx.re/t/basic-aces-principals-overview-guide/90917) to use. 
+ - `adminskinchange` - Used to change the radio skin to any skin, regardless of config. Requies the `Config.frames.adminPermission` [ace permission](https://forum.cfx.re/t/basic-aces-principals-overview-guide/90917) to use.
+ 
 ## Radio Status Indicator
 The color of the bar next to your current frequency indicates the state of your radio.
 
@@ -148,10 +151,12 @@ Once a tower is either partially or completely destroyed, anyone is able to loca
 
 ![repair.png](/tutorials/script-usage/rqn1ped.png)
 
-# QB Core Radio Item
+# QB Core Inventory Item
 
 If you set the configuration option `Config.enforceRadioItem = true` the radio will only operate if the player has the "Radio" item in their QBCore inventory. When you enable this option, you will need to disable the `qb-radio` script as the two scripts will conflict. When the player has the radio item, they can use the `/radio` command or "Use" the item from the inventory by dragging it to the "Use" button or double clicking on it. When the radio item is in the hotbar of the inventory, you can also use the hotkey to open the radio.
 
-# Sonoran Radio Top Down HUD (experimental)
+# Top Down HUD
 
-You can bring up the Sonoran Radio HUD using the command `/radiohud [size]`. Currently supported sizes are `large` and `medium`. You can use the command `/radiohud off` to disable the radio HUD. More sizing and movement of the radio UI will be coming soon, however please feel free to try it out and report any problems that you encounter.
+You can bring up the Sonoran Radio HUD using the command `/radiohud [size]`. You can use the command `/radiohud off` to disable the radio HUD.
+
+To resize this hud, toggle on the main `/radio` -> select `Config` -> `Reposition UI`. From there, you can drag the HUD larger or smaller.
