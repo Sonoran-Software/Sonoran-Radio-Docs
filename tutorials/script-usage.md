@@ -2,7 +2,7 @@
 title: FiveM Radio Script
 description: How to use the in game radio script
 published: true
-date: 2022-12-29T18:52:18.564Z
+date: 2023-12-29T23:32:06.286Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T14:23:15.408Z
@@ -38,6 +38,52 @@ To move the radio on your screen to a more suitable position, you can click the 
 
 ![radio-reposition.png](https://i.imgur.com/3nMYJTV.png)
 
+## Changing the Radio Frame 
+
+To change your radio frame, you can click on the `Config` button with the radio open and then select radio frame options from the list shown. If your list shows as empty this is due to you not having permissions to access any addiontional frames. 
+
+### Radio Frame Configuration 
+
+Located in your `config.lua` you'll see a section titled `Config.frames`. You can first start with selecting your `permissionMode`, Viable options are "`ace`", "`qbcore`", "`esx"`. Additionally you can configure your `adminPermission`, this is an [ace permission](https://forum.cfx.re/t/basic-aces-principals-overview-guide/90917). The departments array is where you can configure your frames per department, below you can see the guide to this array. 
+
+#### Radio Frame Configuration cont.
+
+```lua
+	departments = {
+		['DEPT_ABBREVIATION'] = {
+			label = 'DEPARTMENT NAME',
+			permissions = {
+				jobs = { -- Jobs that can use this department
+					['police'] = {
+						grades = { -- Job grades that can use this department
+							1,
+							2,
+							3
+						}
+					}
+				},
+				ace = { -- ACE Permissions that can use this department | ONLY EFFECTIVE IN ACE PERMISSION MODE
+					'sonoranradio.sahp'
+				}
+			},
+			-- Radio frames that can be used by this department
+			allowedFrames = {
+				'default',
+				'signalpro',
+				'voxguard',
+        'hi-vis'
+			}
+		}
+	}
+```
+Available frames can be found by their folder names in the `/skins` folder. Default frames are:
+ - `default`
+ - `hi-vis`
+ - `signalpro`
+ - `voxguard`
+ 
+ ### Radio Frame Commands
+ - `adminskinchange` - Used to change the radio skin to any skin, regardless of config. Requies the `Config.frames.adminPermission` [ace permission](https://forum.cfx.re/t/basic-aces-principals-overview-guide/90917) to use. 
 ## Radio Status Indicator
 The color of the bar next to your current frequency indicates the state of your radio.
 
