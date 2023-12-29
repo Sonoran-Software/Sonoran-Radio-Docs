@@ -2,12 +2,16 @@
 title: In-Game Radio Changelog
 description: All version updates for the in-game FiveM radio resource.
 published: true
-date: 2023-02-04T18:34:33.652Z
+date: 2023-12-29T23:48:40.611Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T05:11:41.006Z
 ---
 
+## v1.7.0 (2023-12-29)
+* Feat: Add support for additional radio frames
+* Feat: Add support for real-time UI resizing 
+* Fix: Multiple minor bugs & optimized code
 ## v1.6.2 (2023-02-01)
  * Feat: Support added for QUASAR Inventory for qb-core
    - The radio item has been renamed to `sonoran_radio`
