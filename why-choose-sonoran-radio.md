@@ -2,7 +2,7 @@
 title: Why Choose Sonoran Radio
 description: Sonoran Radio blurs the line between roleplay and real life. See what we have to offer!
 published: true
-date: 2023-03-22T22:00:51.249Z
+date: 2023-12-29T23:17:34.987Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-02T03:28:27.555Z
@@ -21,7 +21,10 @@ Setup is instant! There's no wait times for installation or configuration.
 
 Sonoran Radio offers multiple in-game user interfaces, allowing you to stay connected on-foot, in-vehicle, and more!
 
+Choose from one of our radio style options, or even add your own!
+
 ![radio_overlays-large.png](/radio_overlays-large.png =60%x){.align-center}
+![customize_style.png](/customize_style.png =60%x){.align-center}
 
 ## 💣 GTA RP In-Game Tower Destruction
 
