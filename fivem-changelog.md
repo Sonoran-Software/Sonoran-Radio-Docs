@@ -2,12 +2,14 @@
 title: In-Game Radio Changelog
 description: All version updates for the in-game FiveM radio resource.
 published: true
-date: 2023-12-29T23:48:40.611Z
+date: 2023-12-30T23:16:44.197Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T05:11:41.006Z
 ---
 
+## v1.7.1 (2023-12-30)
+* Feat: Add outdated config file check and error
 ## v1.7.0 (2023-12-29)
 * Feat: Add support for additional radio frames
 * Feat: Add support for real-time UI resizing 
