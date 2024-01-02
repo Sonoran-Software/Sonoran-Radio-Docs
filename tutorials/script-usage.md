@@ -2,7 +2,7 @@
 title: FiveM Radio Script
 description: How to use the in game radio script
 published: true
-date: 2023-12-29T23:42:09.236Z
+date: 2024-01-02T23:07:13.998Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T14:23:15.408Z
@@ -39,6 +39,10 @@ To move the radio on your screen to a more suitable position, you can click the 
 While moving it around, you can drag the screen to resize it.
 
 ![radio-reposition.png](https://i.imgur.com/3nMYJTV.png)
+
+### Resetting Radio UI
+
+To reset your radio UI scale and position to the default you can use the `/radioreset` command.
 
 ## Changing the Radio Frame 
 
