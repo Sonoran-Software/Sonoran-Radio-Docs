@@ -2,14 +2,14 @@
 title: In-Game Radio Changelog
 description: All version updates for the in-game FiveM radio resource.
 published: true
-date: 2024-01-02T23:09:56.387Z
+date: 2024-01-02T23:10:05.323Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-07T05:11:41.006Z
 ---
 
 ## v1.7.2 (2024-01-02)
-* Fix: QBCore metadata not saving from the /adminskinchange command
+* Fix: QBCore metadata not saving from the `/adminskinchange` command
 ## v1.7.1 (2023-12-30)
 * Feat: Add outdated config file check and error
 ## v1.7.0 (2023-12-29)
