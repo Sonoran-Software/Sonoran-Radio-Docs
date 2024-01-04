@@ -138,7 +138,9 @@ The config example below shows two radio tower placements.
 
 **Config Object Properties:** `Swankiness` - Not yet implemented `PropPosition` - X, Y, Z coordinate positioning object `Destruction` - Toggles whether this specific tower can be destroyed `Range` - Tower's range with in-game radios
 
-> **Pro Tip** Enabling `Config.debug` in the `config.lua` file will display a radius around each tower, where the edge represents 50% radio quality {.is-info}
+{% hint style="info" %}
+**Pro Tip:** Enabling`Config.debug` in the `config.lua` file will display a radius around each tower, where the edge represents 50% radio quality
+{% endhint %}
 
 ### Customizing Mobile Repeaters <a href="#mobile-repeaters" id="mobile-repeaters"></a>
 

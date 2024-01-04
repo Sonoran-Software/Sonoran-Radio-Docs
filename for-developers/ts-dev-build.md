@@ -26,9 +26,19 @@ When using the Development Build of the plugin in a patrol channel, every 10 or 
 
 To install the plugin, you can download the installer from one of these links:
 
-* [SonoranRadio\_win64.ts3\_plugin - (_64-bit Development Build)_](https://download.sonoransoftware.com/sonoranradio/dev/archive/SonoranRadio\_win64.ts3\_plugin)
-* [SonoranRadio\_win32.ts3\_plugin - (_32-bit Development Build)_](https://download.sonoransoftware.com/sonoranradio/dev/archive/SonoranRadio\_win32.ts3\_plugin)
-* [SonoranRadio\_macos.ts3\_plugin - (_MacOS Development Build)_](https://download.sonoransoftware.com/sonoranradio/dev/archive/SonoranRadio\_macos.ts3\_plugin)
+{% tabs %}
+{% tab title="Windows (64-bit)" %}
+[Download Windows 64-bit Plugin](https://download.sonoransoftware.com/sonoranradio/dev/archive/SonoranRadio\_win64.ts3\_plugin)
+{% endtab %}
+
+{% tab title="Windows (32-bit)" %}
+[Download Windows 32-bit Plugin](https://download.sonoransoftware.com/sonoranradio/dev/archive/SonoranRadio\_win32.ts3\_plugin)
+{% endtab %}
+
+{% tab title="MacOS" %}
+[Download MacOS Plugin](https://download.sonoransoftware.com/sonoranradio/dev/archive/SonoranRadio\_macos.ts3\_plugin)
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 Please note that this installer will look identical to the production installer, other than the version that will look similar to `dev-1234abcd`
