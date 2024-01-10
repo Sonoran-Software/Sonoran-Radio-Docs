@@ -4,15 +4,15 @@ description: Change the look of your in-game radio with custom frames!
 
 # Customizing Radio Frames
 
-{% hint style="info" %}
-Please be aware that this guide is a work in progress and is actively being written. As such, it may not cover all aspects of customizing radio frames.
-{% endhint %}
-
 ## Frame Permissions
 
-You can restrict radio frames so that you can specify which frames any given department, job, or job grade can use, as well as configure ace permissions for admin commands. This can integrade with ESX or QBCore, or can be used standalone.
+Restrict radio frames by department, job, or job grade, and set admin command permissions. Compatible with ESX, QBCore, or as a standalone.
 
-Here's an example configuration, specifying that a member of the `sahp` department, with the `police` job and a grade of `1`, `2` or `3` is allowed to use the frames `default`, `signalpro`, or `voxguard` only:
+Example: SAHP department members with police job grades 1-3 can use frames:
+
+* &#x20;`default`
+* `signalpro`
+* `voxguard`
 
 <pre class="language-lua"><code class="lang-lua"><strong>Config.frames = {
 </strong>	permissionMode = 'ace', -- ace, qbcore, esx or none
@@ -47,15 +47,12 @@ Here's an example configuration, specifying that a member of the `sahp` departme
 
 ## Customizing Radio Frames
 
-To begin customizing your radio frames, you will first want to navigate to the skins folder at `sonoranradio\skins`. In here are subfolders for every different frame that's been added to the radio.
-
-In each skin folder, there are generally going to be two or three images as well as a `skin.json` file. The images will show the different frames used with that one skin. Generally, there will be a handheld (portable) radio image, a mobile (vehicle) radio image, and sometimes a top-down (HUD) radio image.&#x20;
-
-In skins.json, you can specify the images for each type of radio, as well as where the button positions correlate to on the radio image.
-
-It is recommended that you cope-paste a `skin.json` file from an existing skin, and change the values as needed to ensure formatting stays the same.
-
-At the top of your `skin.json` file, you can specify the name of the radio next to `name`. Below that, you can set up the fames. For each frame, you must specify `type` and configure the `body` settings.
+1. Navigate to the `sonoranradio\skins` directory.
+2. Locate a skin folder, which will contain 2-3 images and a `skin.json` file, displaying different frames.
+3. Observe the images, which include handheld, mobile, and possibly HUD radio types.
+4. In the `skin.json` file, define the images and button positions for each radio type.
+5. Copy and modify an existing `skin.json` file to maintain format consistency.
+6. In the `skin.json` file, specify the radio name and configure the frame types and body settings.
 
 ### Frame Types
 
@@ -67,32 +64,22 @@ The following are valid as values for `type`:
 
 ### Body Settings
 
-In `body` you can specify the `image`, or the file name for the image assocated with the specified `type`. For example, the image for your `portable` radio might be `radio-portable.png`, which is what you'd enter as the image type.
-
-You can also input a value for `width`, or the width of the image as it displays in-game.
+1. In `body`, specify the image filename for each radio type.\
+   For instance, use `radio-portable.png` for a portable radio.
+2. Additionally, set the `width` value to define the image's display width in-game.
 
 ### Controls
 
-For every frame, you can assign different actions button to different positions on the image. For example, if your radio frame has a panic button, you can add a panic button hitbox that roughly matches up with the size and position of the panic button on your radio image. Thus, when the users clicks on that part of the image in-game, it will trigger panic as if the user had actually pressed a button.
-
-{% hint style="info" %}
-**PROTIP:** Enable debug mode in the main config (change Config.debug to `true`) to show where the buttons are on screen. This makes it significantly easier to configure the position and size.
-{% endhint %}
-
-The available action types are as follows:
-
-* `power`
-* `next_preset`
-* `prev_preset`
-* `panic`
-* `home`
-* `hide`
+1. Assign actions to buttons at specific positions on the radio image.
+2. Example: Align a panic button hitbox with the panic button on the image, so clicking it in-game triggers a panic action.
+3. Pro Tip: Turn on debug mode in the main config (set `Config.debug` to `true`) to display button positions on screen for easier configuration.
+4. Available action types: `power`, `next_preset`, `prev_preset`, `panic`, `home`, `hide`.
 
 ### Screen and Mini-Screen
 
-You can also specify the position and width of the screen on your radio frame, so that Sonoran Radio can display its own information as if its a part of that radio. To do this, you must modify the values under `screen` (or `miniScreen` for `hud`-type radio frames).
+Specify the position and width of the radio frame screen in Sonoran Radio to display information. Modify values under `screen` or `miniScreen` for HUD-type frames.
 
-With `hud`-type radio frames, `controls` can also be left blank.
+For `HUD`-type frames, `controls` can be left blank.
 
 ## Example File
 
