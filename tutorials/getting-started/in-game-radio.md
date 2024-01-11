@@ -95,7 +95,9 @@ If you want to add the current receieve frequency to the scan list, click on the
 
 ### Modifying In-Game Towers
 
-!\[tower\_in\_game.jpeg]\(/tower\_in\_game.jpeg =20%x){.align-center} To modify the list of towers, you can either add-on to the existing list by using `/spawntower` and then `/savetowers` while in-game
+<figure><img src="../../.gitbook/assets/tower_in_game.jpeg" alt="" width="124"><figcaption><p>In-Game Radio Tower</p></figcaption></figure>
+
+To modify the list of towers, you can either add-on to the existing list by using `/spawntower` and then `/savetowers` while in-game
 
 **Command ACE Permissions**
 

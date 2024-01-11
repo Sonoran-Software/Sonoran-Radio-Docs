@@ -50,9 +50,14 @@ Example: SAHP department members with police job grades 1-3 can use frames:
 1. Navigate to the `sonoranradio\skins` directory.
 2. Locate a skin folder, which will contain 2-3 images and a `skin.json` file, displaying different frames.
 3. Observe the images, which include handheld, mobile, and possibly HUD radio types.
-4. In the `skin.json` file, define the images and button positions for each radio type.
-5. Copy and modify an existing `skin.json` file to maintain format consistency.
+4. Create a new skin folder and add your own frame images in the format you've observed in Step 3.
+5. Copy over and modify an existing `skin.json` file to maintain format consistency.
 6. In the `skin.json` file, specify the radio name and configure the frame types and body settings.
+7. In the `skin.json` file, define the images and button positions for each radio type.
+
+{% hint style="success" %}
+**Pro Tip:** Turn on debug mode in the main config (set `Config.debug` to `true`) to display button positions on screen for easier position configuration.
+{% endhint %}
 
 ### Frame Types
 
@@ -71,9 +76,8 @@ The following are valid as values for `type`:
 ### Controls
 
 1. Assign actions to buttons at specific positions on the radio image.
-2. Example: Align a panic button hitbox with the panic button on the image, so clicking it in-game triggers a panic action.
-3. Pro Tip: Turn on debug mode in the main config (set `Config.debug` to `true`) to display button positions on screen for easier configuration.
-4. Available action types: `power`, `next_preset`, `prev_preset`, `panic`, `home`, `hide`.
+   * **Example:** Align a panic button hitbox with the panic button on the image, so clicking it in-game triggers a panic action.
+2. Available action types: `power`, `next_preset`, `prev_preset`, `panic`, `home`, `hide`.
 
 ### Screen and Mini-Screen
 

@@ -62,6 +62,6 @@ Scanning a set of frequencies can help dispatchers and units know what's going o
 
 In the United States, the Federal Communications Commission (FCC) designates certain frequency bands to certain uses. There are two separate designations for public service radio: the VHF Low Band and the VHF High Band.
 
-Realistically, the transmissions sent over the VHF High Band can penetrate walls and building much better but have a shorter range, and vice versa for the VHF Low Band. This functionality is not yet simulated in Sonoran Radio, however, it's expected to be changed in the future.
+Realistically, the transmissions sent over the VHF High Band can penetrate walls and building much better but have a shorter range, and vice versa for the VHF Low Band. However, this functionality is not simulated in Sonoran Radio.
 
 ![Frequency Spectrum](../../.gitbook/assets/Radio\_Spectrum-View.png)

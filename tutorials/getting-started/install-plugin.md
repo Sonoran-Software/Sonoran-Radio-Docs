@@ -28,7 +28,7 @@ All community members will need to download the 64 or 32 bit version of the Sono
 {% endtab %}
 {% endtabs %}
 
-**Don't know which one to click?** Download both and try them out, you will see the error below if it's not the correct version:&#x20;
+**Don't know which Windows version to click?** Download both and try them out, you will see the error below if it's not the correct version:&#x20;
 
 <figure><img src="https://i.imgur.com/Okf4oUS.png" alt=""><figcaption><p>Sonoran Radio - Plugin Wrong Version</p></figcaption></figure>
 

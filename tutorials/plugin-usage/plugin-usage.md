@@ -28,7 +28,7 @@ When connecting to a server that does not enable Sonoran Radio, the plugin will 
 
 ## Permissions
 
-Some actions in Sonoran Radio are permissioned. If some features in Sonoran Radio seem disabled for no reason, it is most likely because the server manager or owner has only enabled that action for a select few server groups. Please see [permissions](../permissions/#current-permissions) for more information about which permissions Sonoran Radio has.
+Some actions in Sonoran Radio are permissioned. If some features in Sonoran Radio seem disabled for no reason, it is most likely because the server manager or owner has only enabled that action for a select few server groups. Please see [permissions](../permissions.md#current-permissions) for more information about which permissions Sonoran Radio has.
 
 ## Server Information
 
