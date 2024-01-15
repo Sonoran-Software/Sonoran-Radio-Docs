@@ -138,7 +138,7 @@ If you have configured your Sonoran CAD [sonrad](https://info.sonorancad.com/int
 
 Our custom in-game towers allow you to dynamically place repeaters around the map, customize the signal range, and more!
 
-[Learn more about tower configuration](in-game-radio/#modifying-in-game-towers)!
+[Learn more about tower configuration](getting-started/in-game-radio.md#modifying-in-game-towers)!
 
 ## In-game Towers
 
