@@ -16,7 +16,7 @@ description: >-
 
 ### Installation Video
 
-Our installation tutorial video is coming soon.
+{% embed url="https://youtu.be/N1k8SseN6ug?t=235" %}
 
 ### Installation Guide
 

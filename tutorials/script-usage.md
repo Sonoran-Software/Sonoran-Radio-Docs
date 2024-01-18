@@ -10,6 +10,8 @@ description: How to use the in game radio script
 
 # Using the FiveM Radio Script
 
+{% embed url="https://youtu.be/N1k8SseN6ug?t=450" %}
+
 ## Prerequisites
 
 {% hint style="warning" %}
