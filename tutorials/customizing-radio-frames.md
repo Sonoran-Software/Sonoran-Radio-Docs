@@ -55,9 +55,13 @@ Example: SAHP department members with police job grades 1-3 can use frames:
 6. In the `skin.json` file, specify the radio name and configure the frame types and body settings.
 7. In the `skin.json` file, define the images and button positions for each radio type.
 
-{% hint style="success" %}
-**Pro Tip:** Turn on debug mode in the main config (set `Config.debug` to `true`) to display button positions on screen for easier position configuration.
-{% endhint %}
+### Debug Mode
+
+You can turn on debug mode in the main config to display button positions on screen for easier position configuration.
+
+To enable debug mode, set `Config.debug` to `true` in your `config.lua` file.
+
+<figure><img src="../.gitbook/assets/RadioDebugBoxesVeh.png" alt=""><figcaption><p>Sonoran Radio - Vehicle Radio - Debug Mode Enabled</p></figcaption></figure>
 
 ### Frame Types
 
