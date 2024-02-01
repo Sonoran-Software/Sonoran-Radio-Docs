@@ -164,10 +164,16 @@ Once a tower is either partially or completely destroyed, anyone is able to loca
 
 ## QB Core Inventory Item
 
-If you set the configuration option `Config.enforceRadioItem = true` the radio will only operate if the player has the "Radio" item in their QBCore inventory. When you enable this option, you will need to disable the `qb-radio` script as the two scripts will conflict. When the player has the radio item, they can use the `/radio` command or "Use" the item from the inventory by dragging it to the "Use" button or double clicking on it. When the radio item is in the hotbar of the inventory, you can also use the hotkey to open the radio.
+If you set the configuration option `Config.enforceRadioItem = true` the radio will only operate if the player has the "sonoran\_radio" item in their QBCore inventory. When you enable this option, you will need to disable the `qb-radio` script as the two scripts will conflict. When the player has the radio item, they can use the `/radio` command or "Use" the item from the inventory by dragging it to the "Use" button or double clicking on it. When the radio item is in the hotbar of the inventory, you can also use the hotkey to open the radio.
+
+To use the radio as an item, add the following to your `items.lua`
+
+```
+['sonoran_radio']                = {['name'] = 'sonoran_radio',            ['label'] = 'Radio',                    ['weight'] = 2000,         ['type'] = 'item',         ['image'] = 'radio.png',                 ['unique'] = true,    ['useable'] = true,     ['shouldClose'] = true,       ['combinable'] = nil,   ['description'] = 'You can communicate with this through a signal'},
+```
 
 ## Top Down HUD
 
 You can bring up the Sonoran Radio HUD using the command `/radiohud [size]`. You can use the command `/radiohud off` to disable the radio HUD.
 
-To resize this hud, toggle on the main `/radio` > select `Config` > `Reposition UI`. From there, you can drag the HUD larger or smaller.
+To resize this HUD, toggle on the main `/radio` > select `Config` > `Reposition UI`. From there, you can drag the HUD larger or smaller.
