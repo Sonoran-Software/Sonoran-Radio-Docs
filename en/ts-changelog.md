@@ -10,6 +10,10 @@ description: All version updates for the TeamSpeak plugin
 
 # 📋 Plugin Changelog
 
+## Roadmap
+
+{% embed url="https://roadmap.sonoranradio.com" fullWidth="false" %}
+
 ### 1.1.0 (2023-06-14)
 
 * Update to use TS API version 26
