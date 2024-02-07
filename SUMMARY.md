@@ -42,10 +42,10 @@
   * [Free in-game Radio Installation - Next Steps](pricing/faq/free-install-next-steps.md)
 * [View and Compare Plans](https://sonoranradio.com/pricing)
 
-## Roadmap
+## Roadmap <a href="#en" id="en"></a>
 
-* [📋 In-Game Radio Changelog](roadmap/fivem-changelog.md)
-* [📋 Plugin Changelog](roadmap/ts-changelog.md)
+* [📋 In-Game Radio Changelog](en/fivem-changelog.md)
+* [📋 Plugin Changelog](en/ts-changelog.md)
 
 ## Other
 
