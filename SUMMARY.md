@@ -8,8 +8,8 @@
 
 ## Other Products
 
-* [🖥 Sonoran Servers](other-products/sonoran-servers.md)
-* [⌨ Sonoran CAD](other-products/sonoran-cad.md)
+* [🖥️ Sonoran Servers](other-products/sonoran-servers.md)
+* [⌨️ Sonoran CAD](other-products/sonoran-cad.md)
 * [📝 Sonoran CMS](other-products/sonoran-cms.md)
 
 ## Tutorials
@@ -42,10 +42,11 @@
   * [Free in-game Radio Installation - Next Steps](pricing/faq/free-install-next-steps.md)
 * [View and Compare Plans](https://sonoranradio.com/pricing)
 
-## Roadmap <a href="#en" id="en"></a>
+## Roadmap & Changelog <a href="#roadmap" id="roadmap"></a>
 
-* [📋 In-Game Radio Changelog](en/fivem-changelog.md)
-* [📋 Plugin Changelog](en/ts-changelog.md)
+* [🗺️ Roadmap](https://roadmap.sonoranradio.com/)
+* [📋 In-Game Radio Changelog](roadmap/fivem-changelog.md)
+* [📋 Plugin Changelog](roadmap/ts-changelog.md)
 
 ## Other
 
