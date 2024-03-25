@@ -16,15 +16,15 @@ All community members will need to download the 64 or 32 bit version of the Sono
 
 {% tabs %}
 {% tab title="Windows (64-bit)" %}
-[Download Windows 64-bit Plugin](https://download.sonoransoftware.com/sonoranradio/archive/SonoranRadio\_win64.ts3\_plugin)
+[Download Windows 64-bit Plugin](https://download.sonoransoftware.com/sonoranradio/prod/archive/SonoranRadio\_win64.ts3\_plugin)
 {% endtab %}
 
 {% tab title="Windows (32-bit)" %}
-[Download Windows 32-bit Plugin](https://download.sonoransoftware.com/sonoranradio/archive/SonoranRadio\_win32.ts3\_plugin)
+[Download Windows 32-bit Plugin](https://download.sonoransoftware.com/sonoranradio/prod/archive/SonoranRadio\_win32.ts3\_plugin)
 {% endtab %}
 
 {% tab title="MacOS" %}
-[Download MacOS Plugin](https://download.sonoransoftware.com/sonoranradio/archive/SonoranRadio\_macos.ts3\_plugin)
+[Download MacOS Plugin](https://download.sonoransoftware.com/sonoranradio/prod/archive/SonoranRadio\_macos.ts3\_plugin)
 {% endtab %}
 {% endtabs %}
 

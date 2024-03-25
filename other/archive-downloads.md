@@ -20,14 +20,14 @@ If you wish to keep using an unsupported version, ignore the update prompt when 
 
 {% tabs %}
 {% tab title="Windows (64-bit)" %}
-[Download Windows 64-bit Plugin](https://cdn.discordapp.com/attachments/710389388772638750/1118952644820598974/SonoranRadio\_win64.ts3\_plugin)
+[Download Windows 64-bit Plugin](https://download.sonoransoftware.com/sonoranradio/prod/archive/sr101\_archive\_win64.ts3\_plugin)
 {% endtab %}
 
 {% tab title="Windows (32-bit)" %}
-[Download Windows 32-bit Plugin](https://cdn.discordapp.com/attachments/710389388772638750/1118952644006924308/SonoranRadio\_win32.ts3\_plugin)
+[Download Windows 32-bit Plugin](https://download.sonoransoftware.com/sonoranradio/prod/archive/sr101\_archive\_win32.ts3\_plugin)
 {% endtab %}
 
 {% tab title="MacOS" %}
-[Download MacOS Plugin](https://cdn.discordapp.com/attachments/710389388772638750/1118952645403619499/SonoranRadio\_macos.ts3\_plugin)
+[Download MacOS Plugin](https://download.sonoransoftware.com/sonoranradio/prod/archive/sr101\_archive\_macos.ts3\_plugin)
 {% endtab %}
 {% endtabs %}
