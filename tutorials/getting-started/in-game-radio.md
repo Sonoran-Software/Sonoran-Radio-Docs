@@ -91,7 +91,9 @@ To change frequency using the radio, click on the box that has the name of the c
 
 To add a frequency to your scan list, click on the Scan List button on the radio screen. This will display the frequencies that you are currently scanning.
 
-If you want to add the current receieve frequency to the scan list, click on the `+` button on the top of the Scan List screen. To remove a scanned frequency from the screen, click on the `x` button next to the frequency to remove it from the Scan List.
+If you want to add the current receive frequency to the scan list, click on the `+` button on the top of the Scan List screen. To remove a scanned frequency from the screen, click on the `x` button next to the frequency to remove it from the Scan List.
+
+Please note that a **Pro-level subscription** is required to utilize the scanning feature.
 
 ### Modifying In-Game Towers
 

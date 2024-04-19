@@ -122,6 +122,8 @@ The button that resembles a house is a new button that you can click to automati
 
 To add frequency to scan list, set your radio to that the frequency you would like to add, click on scan list, and press the plus button. Press the x button next to a frequency to remove from the scan list.
 
+Please note that a **Pro-level subscription** is required to utilize the scanning feature.
+
 ## Integrating With Sonoran CAD
 
 Usage of the Sonoran CAD integrations requires the sonrad plugin for the Sonoran CAD. You can download and install that plugin [here](https://github.com/Sonoran-Software/sonoran\_sonrad).
