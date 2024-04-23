@@ -4,11 +4,9 @@ description: >-
   dispatch software!
 ---
 
-# ⌨ Sonoran CAD
+# ⌨️ Sonoran CAD
 
-![](../.gitbook/assets/cad1.png)
-
-![Sonoran CAD - Gaming Dispatch Software](../.gitbook/assets/cad2.gif)
+![](../.gitbook/assets/cad-fina.png)
 
 Sonoran CAD is the most advanced, in-depth, and customizable CAD/MDT software available to gaming communities.
 
