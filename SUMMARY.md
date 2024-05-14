@@ -53,4 +53,5 @@
 * [Archived Sonoran Radio Versions](other/archive-downloads.md)
 * [Contact Us](https://support.sonoransoftware.com/)
 * [Policy](other/policy/README.md)
+  * [Privacy Policy](other/policy/privacy-policy.md)
   * [Refund and Purchase Policy](other/policy/refund-and-purchase-policy.md)
