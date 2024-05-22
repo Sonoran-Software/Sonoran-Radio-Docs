@@ -29,6 +29,11 @@
 * [Permission Setup](tutorials/permissions.md)
 * [Customizing Radio Frames](tutorials/customizing-radio-frames.md)
 
+## Standalone Alpha
+
+* [TeamSpeak -> Standalone Migration](standalone-alpha/migrate-from-ts3.md)
+* [Getting Started](standalone-alpha/getting-started.md)
+
 ## For Developers
 
 * [Development Build](for-developers/ts-dev-build.md)
