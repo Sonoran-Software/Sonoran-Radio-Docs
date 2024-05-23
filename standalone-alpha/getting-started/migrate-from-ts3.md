@@ -1,10 +1,8 @@
 ---
-description: >-
-  Migration guide on switching from Sonoran Radio for TeamSpeak to Standalone
-  Sonoran Radio
+description: Easily migrate your old Sonoran Radio TeamSpeak version to standalone!
 ---
 
-# TeamSpeak -> Standalone Migration
+# Migrate from TeamSpeak
 
 ## Your Community
 
@@ -14,7 +12,7 @@ To switch your community from using TeamSpeak Sonoran Radio to the standalone ve
 2. Navigate to your community
 3. Click "Standalone" to swap to standalone mode
 
-<figure><img src="../.gitbook/assets/chrome_OpISMXxGMU.png" alt=""><figcaption><p>Sonoran Radio Portal - Standalone Mode Toggle</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/chrome_OpISMXxGMU.png" alt=""><figcaption><p>Sonoran Radio Portal - Standalone Mode Toggle</p></figcaption></figure>
 
 And boom, you're now able to use the standalone radio in your browser!
 
@@ -26,7 +24,7 @@ If you also wish to have the in-game resource work with standalone radio, you wi
 2. Replace your old `sonoranradio` resource with this one
 3. In your config, change the `standaloneId` to your community ID
    * Your standalone ID can be found in the URL of your Sonoran Radio community (only the number portion)\
-     ![](../.gitbook/assets/chrome\_rv053WOpms.png)
+     ![](../../.gitbook/assets/chrome\_rv053WOpms.png)
 4. In your config, make sure `allowAutoUpdate` is set to `false`&#x20;
    * Forgetting this step will cause your beta resource to be replaced by the regular version
 
