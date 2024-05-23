@@ -37,6 +37,7 @@
   * [Using the Dispatch Panel](standalone-alpha/getting-started/using-the-dispatch-panel.md)
   * [Installing the In-Game Resource](standalone-alpha/getting-started/installing-the-in-game-resource.md)
   * [Using the In-Game Radio](standalone-alpha/getting-started/using-the-in-game-radio.md)
+  * [Using In-Game Towers](standalone-alpha/getting-started/using-in-game-towers.md)
   * [Migrate from TeamSpeak](standalone-alpha/getting-started/migrate-from-ts3.md)
 
 ## For Developers
