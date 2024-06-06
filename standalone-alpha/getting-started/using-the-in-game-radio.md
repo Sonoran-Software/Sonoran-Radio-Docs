@@ -8,7 +8,14 @@ description: Learn more about the in-game radio resource.
 
 ### Accessing the In-Game Radio
 
-The default keybind to open Sonoran Radio in-game is `~` (right above Tab), or you can additionally use `/radio`
+#### Keybind
+
+* The default keybind to open Sonoran Radio is `~` (right above Tab)
+  * You can also [customize this keybind](using-the-in-game-radio.md#setting-your-push-to-talk-ptt-keybind)
+
+#### Command
+
+* Use the `/radio` command
 
 ### Logging In
 
@@ -32,17 +39,13 @@ Then, once you have your Secret Key, you can paste it into the FiveM resource to
 
 ### Setting your Push-To-Talk (PTT) Keybind
 
-By default, there is no PTT keybind set. You can set one in your GTA Settings -> Key Bindings -> FiveM -> `Radio PTT`
+By default, there is no PTT keybind set. You can set one in your GTA `Settings` -> `Key Bindings` -> `FiveM` -> `Radio PTT`
 
 <figure><img src="../../.gitbook/assets/FiveM_b3095_GTAProcess_WGNNv8eoKV.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-The PTT will only work when FiveM is focused
-{% endhint %}
-
 ### Connecting and Switching Channels
 
-The radio will connect when you turn it on with the power button (unless you need to login first)
+The radio will connect when you turn it on with the power button ([unless you need to login first](using-the-in-game-radio.md#logging-in))
 
 <div data-full-width="false">
 

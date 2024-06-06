@@ -31,6 +31,7 @@
 
 ## Standalone Alpha
 
+* [Download the App](standalone-alpha/download-the-app.md)
 * [Getting Started](standalone-alpha/getting-started/README.md)
   * [Register a Community](standalone-alpha/getting-started/register-a-community.md)
   * [Invite and Manage Users](standalone-alpha/getting-started/invite-and-manage-users.md)
@@ -39,7 +40,9 @@
   * [Using the In-Game Radio](standalone-alpha/getting-started/using-the-in-game-radio.md)
   * [Using In-Game Towers](standalone-alpha/getting-started/using-in-game-towers.md)
   * [Migrate from TeamSpeak](standalone-alpha/getting-started/migrate-from-ts3.md)
-  * [Sonoran CAD Integration](standalone-alpha/getting-started/sonoran-cad-integration.md)
+* [Integrations](standalone-alpha/integrations/README.md)
+  * [Sonoran CAD Integration](standalone-alpha/integrations/sonoran-cad-integration.md)
+  * [Sonoran CMS](standalone-alpha/integrations/sonoran-cms.md)
 * [Changelog](standalone-alpha/changelog/README.md)
   * [In-Game Resource](standalone-alpha/changelog/in-game-resource.md)
   * [Application](standalone-alpha/changelog/application.md)

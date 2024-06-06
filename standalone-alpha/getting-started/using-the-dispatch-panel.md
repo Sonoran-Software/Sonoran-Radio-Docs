@@ -1,6 +1,10 @@
+---
+description: Learn more about using the Sonoran Radio dispatch panel.
+---
+
 # Using the Dispatch Panel
 
-## In the Browser
+## Web and Desktop
 
 When you first open a Sonoran Radio community with standalone enabled, you will see this page:
 
@@ -20,7 +24,13 @@ To transmit over Sonoran Radio, you can press the microphone button on the top-l
 
 ### PTT Keybind
 
-In the browser, you can set a push-to-talk keybind in your radio settings
+{% hint style="warning" %}
+Push-to-talk key binds are only global in the [desktop application](../download-the-app.md).
+
+On web, the browser window must be in focus.
+{% endhint %}
+
+In the browser or desktop, you can set a push-to-talk keybind in your radio settings
 
 <div>
 
@@ -32,25 +42,22 @@ In the browser, you can set a push-to-talk keybind in your radio settings
 
 </div>
 
-{% hint style="warning" %}
-Note that the push-to-talk is not global, and only works when the browser window is focused (i.e. you must click on Sonoran Radio before the keybind works)
-{% endhint %}
-
 ### Switching Channels
 
 To switch to another channel, click the microphone button on the channel card
 
 <figure><img src="../../.gitbook/assets/chrome_RoHvxqifER.png" alt=""><figcaption><p>Sonoran Radio - Switch Channel</p></figcaption></figure>
 
-### Scanning (Listening) multiple channels
+### Scanning (Listen) To Multiple Channels
 
-With Sonoran Radio, you are able to listen to multiple channels at the same time. To enable this for another channel, press the headphones button on the channel card next
+Select the headphone icon on each channel to listen in.\
+You can listen to multiple channels at once.
 
 <figure><img src="../../.gitbook/assets/chrome_9pL06Zodh1.png" alt=""><figcaption><p>Sonoran Radio - Scan Channel</p></figcaption></figure>
 
 ### User Actions
 
-You are able to perform actions on users in the radio, like move their channel or kick them. To perform an action, right click on a user
+Right click in the user to kick the user from the channel, or move them to a different channel.
 
 <figure><img src="../../.gitbook/assets/chrome_3d79imMcxD.png" alt=""><figcaption><p>Sonoran Radio - Radio User Actions</p></figcaption></figure>
 

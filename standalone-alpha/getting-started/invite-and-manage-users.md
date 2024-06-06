@@ -4,11 +4,13 @@ description: Learn how to invite and manage users in your Sonoran Radio communit
 
 # Invite and Manage Users
 
-## Automatic Invite, Kick, Ban, and Permission Sync
+## Automatic Join, Kick, Ban, and Permission Sync
 
 Sonoran CMS allows you to automatically add and manage user permissions with user applications, sync them with Discord roles, and more!
 
-COMING SOON
+{% content-ref url="../integrations/sonoran-cms.md" %}
+[sonoran-cms.md](../integrations/sonoran-cms.md)
+{% endcontent-ref %}
 
 ## Manual User Management
 
@@ -28,7 +30,7 @@ You can find your Community API ID in the administration. With this code, people
 
 ### Approving Members
 
-When a member joins your community with an invite code, they will be pending until approved. The owner or members with the "Approve Pending Members" permission can approve in the "Members" tab
+When a member joins your community with an invite code, they will be pending until approved. The owner or members with the `Approve Pending Members`  permission can approve in the "Members" tab
 
 <figure><img src="../../.gitbook/assets/chrome_q9hd1Yw3VE.png" alt=""><figcaption><p>Sonoran Radio - Approve Members</p></figcaption></figure>
 

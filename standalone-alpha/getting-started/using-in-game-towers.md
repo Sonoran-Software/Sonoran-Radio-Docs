@@ -16,22 +16,22 @@ Stay tuned to our [Discord ](https://discord.sonoransoftware.com)for news and an
 
 ### Modifying Tower Placement
 
-TODO
+Coming Soon!
 
 ### Modifying Tower Range
 
-TODO
+Coming Soon!
 
 ### Viewing Tower Coverage
 
 #### Via In-Game Map
 
-TODO
+Coming Soon!
 
 #### Via Sonoran CAD Live Map
 
-TODO
+Coming Soon!
 
 ## Visualize Signal Strength
 
-TODO
+Coming Soon!

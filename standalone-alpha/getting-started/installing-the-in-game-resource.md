@@ -18,19 +18,21 @@ Extract the .zip file into your resources directory. Place the `sonoranradio` an
 
 ### 3. Configure Sonoran Radio
 
+{% hint style="info" %}
+The `standaloneId` is different from your community ID used to join.
+
+This will be changed in a coming update.
+{% endhint %}
+
 Rename `config.CHANGEME.lua` to `config.lua`, and open it to edit your standalone ID
 
 Set `Config.standaloneId` to your community's ID. This can be found in the URL of your community: `https://sonoranradio/com/YOUR_COMMUNITY_ID`
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../../.gitbook/assets/chrome_yYsUnDSZKa.png" alt=""><figcaption></figcaption></figure>
 
 </div>
-
-{% hint style="warning" %}
-Incorrectly setting the `Config.standaloneId` will cause problems!
-{% endhint %}
 
 ### 4. Update Your Server Config
 
