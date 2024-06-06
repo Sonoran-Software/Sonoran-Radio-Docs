@@ -40,6 +40,9 @@
   * [Using In-Game Towers](standalone-alpha/getting-started/using-in-game-towers.md)
   * [Migrate from TeamSpeak](standalone-alpha/getting-started/migrate-from-ts3.md)
   * [Sonoran CAD Integration](standalone-alpha/getting-started/sonoran-cad-integration.md)
+* [Changelog](standalone-alpha/changelog/README.md)
+  * [In-Game Resource](standalone-alpha/changelog/in-game-resource.md)
+  * [Application](standalone-alpha/changelog/application.md)
 
 ## For Developers
 
