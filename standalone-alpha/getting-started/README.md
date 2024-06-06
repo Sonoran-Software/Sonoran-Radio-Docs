@@ -5,14 +5,17 @@ description: Get started with Sonoran Radio standalone!
 # Getting Started
 
 {% hint style="danger" %}
-**Sonoran Radio Standalone (Alpha) is not yet available to the public.**
+**Sonoran Radio Standalone (Alpha) is available for public preview.**
+
+This _preview_ is **NOT** intended for full community usage, expect bugs and limited functionality.
 
 Stay tuned to our [Discord ](https://discord.sonoransoftware.com)for upcoming news and announcements!
 {% endhint %}
 
 Getting started with Sonoran Radio is fast and free!
 
-Are you migrating from Sonoran Radio TeamSpeak (legacy) to standalone? [View our migration guide here](migrate-from-ts3.md)!
+Are you migrating from Sonoran Radio TeamSpeak (legacy) to standalone?\
+[View our migration guide here](migrate-from-ts3.md)!
 
 ### Register Your Community:
 
