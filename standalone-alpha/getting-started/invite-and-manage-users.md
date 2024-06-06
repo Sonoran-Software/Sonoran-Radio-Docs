@@ -14,11 +14,11 @@ COMING SOON
 
 ### Inviting Members
 
-You can find an invite code in the administration. With the invite code, people from your community can join your Sonoran Radio server in the Sonoran Radio Portal
+You can find your Community API ID in the administration. With this code, people from your community can join your Sonoran Radio server in the Sonoran Radio Portal
 
 <div>
 
-<figure><img src="../../.gitbook/assets/chrome_WPeJZc0Bpd.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/chrome_LB001kbq6J.png" alt=""><figcaption></figcaption></figure>
 
  
 
@@ -26,9 +26,17 @@ You can find an invite code in the administration. With the invite code, people 
 
 </div>
 
+### Approving Members
+
+When a member joins your community with an invite code, they will be pending until approved. The owner or members with the "Approve Pending Members" permission can approve in the "Members" tab
+
+<figure><img src="../../.gitbook/assets/chrome_q9hd1Yw3VE.png" alt=""><figcaption><p>Sonoran Radio - Approve Members</p></figcaption></figure>
+
 ### Manage User Permissions
 
-TODO
+User permissions can be managed in the "Members" tab
+
+<figure><img src="../../.gitbook/assets/chrome_bInOrZU430.png" alt=""><figcaption><p>Sonoran Radio - Edit Memeber Permissions</p></figcaption></figure>
 
 ## Next Steps
 

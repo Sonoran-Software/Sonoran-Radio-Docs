@@ -18,13 +18,11 @@ And boom, you're now able to use the standalone radio in your browser!
 
 ## In-Game FiveM Resource
 
-If you also wish to have the in-game resource work with standalone radio, you will need to update it manually
+To update to FiveM resource to standalone, you'll need to replace the old `sonoranradio` resource with the new standalone version (It **WILL NOT** automatically update)
 
-1. Download this [unreleased beta resource](https://drive.google.com/file/d/1S5rkL-A\_cjJa7HVpXEmqlOU4o71lhU8Q/view?usp=drive\_link)
-2. Replace your old `sonoranradio` resource with this one
-3. In your config, change the `standaloneId` to your community ID
-   * Your standalone ID can be found in the URL of your Sonoran Radio community (only the number portion)\
-     ![](../../.gitbook/assets/chrome\_rv053WOpms.png)
-4. In your config, make sure `allowAutoUpdate` is set to `false`&#x20;
-   * Forgetting this step will cause your beta resource to be replaced by the regular version
+Delete your old resource `[sonoranradio]` folder and then follow this tutorial:
+
+{% content-ref url="installing-the-in-game-resource.md" %}
+[installing-the-in-game-resource.md](installing-the-in-game-resource.md)
+{% endcontent-ref %}
 

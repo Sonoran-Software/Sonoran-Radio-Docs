@@ -4,25 +4,35 @@ description: Learn how to download and install the in-game resource.
 
 # Installing the In-Game Resource
 
-## Installation Video
-
-TODO
-
 ## Resource Installation
 
 ### 1. Download the ZIP
 
-Download the latest Sonoran Radio standalone resource from the panel. This download will already have your community ID pre-configured.
-
-IMAGE TODO
+Download the [latest release](https://download.sonoransoftware.com/sonoranradio/fivem/latest.zip) of the FiveM resource
 
 ### 2. Extract the ZIP File
 
 Extract the .zip file into your resources directory. Place the `sonoranradio` and `sonoranradio_updatehelper` into a folder labeled `[sonoranradio]`
 
-IMAGE TODO
+<figure><img src="../../.gitbook/assets/explorer_tVF7A0zXhJ (1).png" alt=""><figcaption><p>Sonoran Radio Folder Structure</p></figcaption></figure>
 
-### 3. Update Your Server Config
+### 3. Configure Sonoran Radio
+
+Rename `config.CHANGEME.lua` to `config.lua`, and open it to edit your standalone ID
+
+Set `Config.standaloneId` to your community's ID. This can be found in the URL of your community: `https://sonoranradio/com/YOUR_COMMUNITY_ID`
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/chrome_yYsUnDSZKa.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+{% hint style="warning" %}
+Incorrectly setting the `Config.standaloneId` will cause problems!
+{% endhint %}
+
+### 4. Update Your Server Config
 
 In your `server.cfg` file, add the following:
 
