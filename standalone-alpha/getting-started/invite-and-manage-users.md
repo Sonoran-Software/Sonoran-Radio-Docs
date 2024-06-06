@@ -42,8 +42,8 @@ User permissions can be managed in the "Members" tab
 
 ## Next Steps
 
-Learn how to configure and use the dispatch panel!
+Learn how to configure channels in Sonoran Radio!
 
-{% content-ref url="using-the-dispatch-panel.md" %}
-[using-the-dispatch-panel.md](using-the-dispatch-panel.md)
+{% content-ref url="configure-channels.md" %}
+[configure-channels.md](configure-channels.md)
 {% endcontent-ref %}

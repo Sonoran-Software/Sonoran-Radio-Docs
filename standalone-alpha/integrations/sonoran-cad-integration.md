@@ -10,10 +10,14 @@ More integration with Sonoran CAD and the standalone radio is coming soon!
 
 ## Installation:
 
-TODO/Link
+[Download and install](https://info.sonorancad.com/integration-plugins/integration-plugins/available-plugins/sonoran-radio-sonrad) the Sonoran Radio integration plugin for Sonoran CAD.
 
-Features:
+## Features:
 
-## Panic Button
+### Panic Button
 
-TODO
+TODO JACOB
+
+### Dispatch Call Information
+
+Coming Soon!

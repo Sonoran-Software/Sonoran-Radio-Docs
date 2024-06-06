@@ -35,6 +35,7 @@
 * [Getting Started](standalone-alpha/getting-started/README.md)
   * [Register a Community](standalone-alpha/getting-started/register-a-community.md)
   * [Invite and Manage Users](standalone-alpha/getting-started/invite-and-manage-users.md)
+  * [Configure Channels](standalone-alpha/getting-started/configure-channels.md)
   * [Using the Dispatch Panel](standalone-alpha/getting-started/using-the-dispatch-panel.md)
   * [Installing the In-Game Resource](standalone-alpha/getting-started/installing-the-in-game-resource.md)
   * [Using the In-Game Radio](standalone-alpha/getting-started/using-the-in-game-radio.md)
