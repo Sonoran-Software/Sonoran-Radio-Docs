@@ -31,7 +31,7 @@
 
 ## Standalone Alpha
 
-* [Download the App](standalone-alpha/download-the-app.md)
+* [📱 Download the App](standalone-alpha/download-the-app.md)
 * [Getting Started](standalone-alpha/getting-started/README.md)
   * [Register a Community](standalone-alpha/getting-started/register-a-community.md)
   * [Invite and Manage Users](standalone-alpha/getting-started/invite-and-manage-users.md)
