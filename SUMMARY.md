@@ -56,6 +56,7 @@
 ## Pricing
 
 * [Pricing FAQ](pricing/faq/README.md)
+  * [Standalone Pricing](pricing/faq/standalone-pricing.md)
   * [Free TeamSpeak Server Promo](pricing/faq/free-teamspeak-promo.md)
   * [Free in-game Radio Installation and Discount - Sonoran Servers](pricing/faq/discounts-and-offers.md)
   * [Free in-game Radio Installation - Next Steps](pricing/faq/free-install-next-steps.md)
