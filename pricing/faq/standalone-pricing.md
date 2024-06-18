@@ -27,3 +27,13 @@ Depending upon your subscription level, your community is limited to the maximum
 | Free         | 1 Radio Channel          |
 | Plus         | 5 Radio Channels         |
 | Pro          | Unlimited Radio Channels |
+
+## Mic Click Sound Customization
+
+<figure><img src="../../.gitbook/assets/Radio_ProFeats.png" alt="" width="375"><figcaption></figcaption></figure>
+
+| Subscription | Limit                             |
+| ------------ | --------------------------------- |
+| Free         | No Customization                  |
+| Plus         | Community-Wide Customization Only |
+| Pro          | Community-Wide and Per-User       |

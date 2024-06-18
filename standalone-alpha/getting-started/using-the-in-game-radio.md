@@ -19,21 +19,14 @@ description: Learn more about the in-game radio resource.
 
 ### Logging In
 
-When using the in-game resource for the first time, you have to login. To login, you must copy your Secret Key from your account settings
+When you first use the in-game resource, you'll need to log in.\
+A 4-digit code will appear for you to sign in from your browser.
 
-<div>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Sonoran Radio - Login with Link Prompt</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/chrome_UIjCCySLnN.png" alt=""><figcaption></figcaption></figure>
+Open [sonoranradio.com/link](https://sonoranradio.com/link) in a web browser, log in if needed, enter your code, and click "Activate" to log in to the game.
 
- 
-
-<figure><img src="../../.gitbook/assets/chrome_1rWBwOTNl8.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-Then, once you have your Secret Key, you can paste it into the FiveM resource to login
-
-<figure><img src="../../.gitbook/assets/chrome_nt5l8dMXgI.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Sonoran Radio - Activate Link</p></figcaption></figure>
 
 ## Using the In-Game Radio
 
