@@ -8,7 +8,12 @@ description: View the changelog for the in-game resource.
 
 {% tabs %}
 {% tab title="Fixes" %}
+Community ID
+
 * Accept community ID in place of standalone ID
+
+\#22925 - ESC Error
+
 * Fixed ESC with the radio open causing an error, preventing you from leaving the radio
 {% endtab %}
 {% endtabs %}

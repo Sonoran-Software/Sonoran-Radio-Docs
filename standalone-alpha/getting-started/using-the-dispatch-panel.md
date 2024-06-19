@@ -77,13 +77,11 @@ Microphone click customization requires the **Plus** or **Pro** version of Sonor
 See the[ pricing FAQ](../../pricing/faq/standalone-pricing.md) for more information.
 {% endhint %}
 
-### Community-Wide Default
+Users can customize their radio microphone SFX, or communities can set a new default SFX.
 
-TODO
-
-### User-Specific
-
-TODO
+{% content-ref url="../customization/custom-microphone-sfx.md" %}
+[custom-microphone-sfx.md](../customization/custom-microphone-sfx.md)
+{% endcontent-ref %}
 
 ## Next Steps
 

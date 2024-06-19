@@ -8,10 +8,24 @@ description: View the changelog for the Sonoran Radio application.
 
 {% tabs %}
 {% tab title="New" %}
+Login Link
+
 * New login for in-game resource/mobile
+
+Community ID
+
 * Use community IDs in URL instead of numeric IDs
+
+Volume Control
+
 * Added per-user volume controls
+
+Talkover Protection
+
 * Added toggleable talkover protection
+
+Channel Change: Drag-and-drop
+
 * Move users by dragging and dropping
 {% endtab %}
 

@@ -41,6 +41,8 @@
   * [Using the In-Game Radio](standalone-alpha/getting-started/using-the-in-game-radio.md)
   * [Using In-Game Towers](standalone-alpha/getting-started/using-in-game-towers.md)
   * [Migrate from TeamSpeak](standalone-alpha/getting-started/migrate-from-ts3.md)
+* [Customization](standalone-alpha/customization/README.md)
+  * [Custom Microphone SFX](standalone-alpha/customization/custom-microphone-sfx.md)
 * [Integrations](standalone-alpha/integrations/README.md)
   * [Sonoran CAD Integration](standalone-alpha/integrations/sonoran-cad-integration.md)
   * [Sonoran CMS](standalone-alpha/integrations/sonoran-cms.md)

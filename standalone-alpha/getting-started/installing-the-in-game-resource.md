@@ -22,7 +22,7 @@ Rename `config.CHANGEME.lua` to `config.lua`, and open it to edit your community
 
 Set `Config.comId` to your community's ID. This can be found in your communitity's Administration page:
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Sonoran Radio - API Info with Community ID</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Sonoran Radio - API Info with Community ID</p></figcaption></figure>
 
 ### 4. Update Your Server Config
 
