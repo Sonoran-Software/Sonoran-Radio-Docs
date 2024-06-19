@@ -4,7 +4,7 @@ description: View the changelog for the Sonoran Radio application.
 
 # Application
 
-### 0.1.1 (Alpha) - 06/18/2024
+### 2.1.0 (Alpha) - 06/18/2024
 
 {% tabs %}
 {% tab title="New" %}
@@ -34,7 +34,7 @@ Channel Change: Drag-and-drop
 {% endtab %}
 {% endtabs %}
 
-### 0.1.0 (Alpha) - 06/06/2024
+### 2.0.0 (Alpha) - 06/06/2024
 
 {% tabs %}
 {% tab title="New" %}
