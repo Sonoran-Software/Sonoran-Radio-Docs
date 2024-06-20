@@ -28,6 +28,8 @@ For more information, view our [pricing FAQ](../../pricing/faq/standalone-pricin
 
 Customize the default key-up and key-down SFX for the entire community in the `Server Settings` tab.
 
+This requires the `Admin` permission.
+
 Once configured, all users in your community will broadcast these SFX options, unless they have a per-user SFX specified.
 
 ### Per-User SFX
