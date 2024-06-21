@@ -4,6 +4,16 @@ description: View the changelog for the Sonoran Radio application.
 
 # Application
 
+### 2.1.1 (Alpha) - 06/21/2024
+
+{% tabs %}
+{% tab title="New" %}
+Desktop Application - Hotkey Setting
+
+* Improved handling for detecting a wider array of hotkeys in the desktop application, including standard mouse buttons.
+{% endtab %}
+{% endtabs %}
+
 ### 2.1.0 (Alpha) - 06/18/2024
 
 {% tabs %}
