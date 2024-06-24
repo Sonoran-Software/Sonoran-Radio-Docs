@@ -22,11 +22,11 @@ description: Learn more about the in-game radio resource.
 When you first use the in-game resource, you'll need to log in.\
 A 4-digit code will appear for you to sign in from your browser.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Login with Link Prompt</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Login with Link Prompt</p></figcaption></figure>
 
 Open [sonoranradio.com/link](https://sonoranradio.com/link) in a web browser, log in if needed, enter your code, and click "Activate" to log in to the game.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Sonoran Radio - Activate Link</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Sonoran Radio - Activate Link</p></figcaption></figure>
 
 ## Using the In-Game Radio
 

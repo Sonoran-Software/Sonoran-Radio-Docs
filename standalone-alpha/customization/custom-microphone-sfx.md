@@ -24,7 +24,7 @@ For more information, view our [pricing FAQ](../../pricing/faq/standalone-pricin
 
 ### Community-Wide SFX
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Customize the default key-up and key-down SFX for the entire community in the `Server Settings` tab.
 
@@ -40,4 +40,4 @@ Once configured, the user will override any default or community-wide SFX.
 
 _Note: SFX uploads can not be processed using the in-game radio._
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="350"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="350"><figcaption></figcaption></figure>
