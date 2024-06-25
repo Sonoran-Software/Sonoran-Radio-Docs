@@ -4,6 +4,32 @@ description: View the changelog for the Sonoran Radio application.
 
 # Application
 
+### 2.2.0 (Alpha) - Coming Soon
+
+{% tabs %}
+{% tab title="New" %}
+In-Game Tower Signal
+
+* Added variable audio distortion based on how close a user in-game is to a radio repeater model.
+
+User Display Names
+
+* Added the ability to customize user display names and two new permissions to set who can change their, and others', display name.
+
+Link UI Refresh
+
+* Improved the /link portal UI with automatic focusing, forward/back navigation, and submission.
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#23262 - Desktop Hotkey
+
+* Fixed an issue with updating your keybind not setting until an application restart
+{% endtab %}
+{% endtabs %}
+
+
+
 ### 2.1.1 (Alpha) - 06/21/2024
 
 {% tabs %}

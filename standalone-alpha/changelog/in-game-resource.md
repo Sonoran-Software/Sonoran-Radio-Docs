@@ -4,6 +4,20 @@ description: View the changelog for the in-game resource.
 
 # In-Game Resource
 
+### 2.2.0 (Alpha) - Coming Soon
+
+{% tabs %}
+{% tab title="New" %}
+In-Game Towers
+
+* Added three radio repeater models for in-game signal strength.
+
+In-Game Resize and Move
+
+* Added the ability to resize and move the radio UI.
+{% endtab %}
+{% endtabs %}
+
 ### 2.0.1 (Alpha) - 06/18/2024
 
 {% tabs %}
