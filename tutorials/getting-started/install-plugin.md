@@ -10,6 +10,8 @@ description: Download the TeamSpeak plugin and integrations here!
 
 # Installing the TeamSpeak Plugin
 
+## Installation
+
 ### 1. Download the Plugin
 
 All community members will need to download the 64 or 32 bit version of the Sonoran Radio TeamSpeak plugin.
@@ -54,7 +56,25 @@ Please note that TeamSpeak 5 is **not** compatible with plugins such as this. If
 5. Drag all contents of the `plugins` folder in the archive to `%AppData%\TS3Client\plugins`
 6. Open TeamSpeak back up and make sure you have the plugin installed and started a. This can be checked in `Tools` > `Options` > `Addons`
 
-### Important Notes
+## Common Issues
+
+### Plugin failed to load: API version is not compatible
+
+Some users may see an error like this after installing the TeamSpeak plugin:
+
+```
+Plugin failed to load: API version is not compatible: 26 (minimum:23, current: 24)
+```
+
+This error means that their TeamSpeak client is out of date and needs to be updated to version 3.6 or higher.&#x20;
+
+The TeamSpeak 3.6 update introduced major API changes that required us to rework the plugin, and because of this, plugins made for 3.6 are not backwards compatible with older versions of TeamSpeak.&#x20;
+
+**We strongly recommend updating your TeamSpeak client to the latest version.**&#x20;
+
+If for some reason updating is not possible, you can still download an [archived version](../../other/archive-downloads.md) that works on pre-3.6 versions of TeamSpeak. _Please be aware that the archive version is not updated or maintained._
+
+## Important Notes
 
 #### Auto-update
 
