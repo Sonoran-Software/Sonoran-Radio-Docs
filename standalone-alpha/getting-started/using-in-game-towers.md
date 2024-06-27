@@ -180,17 +180,17 @@ add_principal group.admin sonoranradio.towers
 This adds all of the Sonoran Radio permissions (spawning and saving each repeater type) to the `sonoranradio.towers` category that the `admin` ACE group has access to.
 
 ```
-// Add permissions to the ace category "sonoranradio.towers"
+# Add permissions to the ace category "sonoranradio.towers"
 
-// Towers
+# Towers
 add_ace sonoranradio.towers command.spawntower allow
 add_ace sonoranradio.towers command.savetowers allow
 
-// Server Racks
+# Server Racks
 add_ace sonoranradio.towers command.spawnRack allow
 add_ace sonoranradio.towers command.saveServers allow
 
-// Cell Repeaters
+# Cell Repeaters
 add_ace sonoranradio.towers command.spawncellrepeater allow
 add_ace sonoranradio.towers command.saveCellRepeater allow
 ```

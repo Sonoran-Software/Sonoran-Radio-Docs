@@ -29,16 +29,12 @@ Set `Config.comId` to your community's ID. This can be found in your communitity
 In your `server.cfg` file, add the following:
 
 ```
+# Start the sonoranradio resource
 ensure sonoranradio
 
-# permissions for auto-updater (REQUIRED)
+# Permissions for auto-updater (REQUIRED)
 add_ace resource.sonoranradio command allow
 add_ace resource.sonoranradio_updatehelper command allow
-
-# permissions for sonrad tower commands
-add_principal group.admin sonoranradio.towers
-add_ace sonoranradio.towers command.spawntower allow
-add_ace sonoranradio.towers command.savetowers allow
 ```
 
 {% hint style="danger" %}
@@ -48,6 +44,24 @@ It is very important that the `sonoranradio_updatehelper` resource is not starte
 
 Example of what NOT to do: `ensure [sonoranradio]`
 {% endhint %}
+
+### Config Values <a href="#updates" id="updates"></a>
+
+| Parameter                    | Default | Description                                                                                                                          |
+| ---------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| `comId`                      | EMPTY   | The Sonoran Radio Community ID                                                                                                       |
+| `debug`                      | `false` | Display tower ranges on the map and other console prints.                                                                            |
+| `allowUpdateWithPlayers`     | `true`  | Allow the auto-updater to run while players are still in the server.                                                                 |
+| `enableCanary`               | `false` | Allow the auto-updater to pull development branches for early testing.                                                               |
+| `allowAutoUpdate`            | `true`  | Allow the auto-updater to run.                                                                                                       |
+| `noPhysicalTowers`           | `false` | Hide the in-game towers.                                                                                                             |
+| `towerRepairTimer`           | `20`    | Time (in seconds) that it takes a player to repair a destructed tower.                                                               |
+| `acePermsForRadio`           | `false` | <p>Restrict the usage of the radio (<code>/radio</code>) with ACE permissions.<br><br>ACE Command: <strong>TODO</strong></p>         |
+| `acePermsForTowerRepair`     | `false` | <p>Restrict the ability to repair damaged radio repeaters with ACE permissions.</p><p></p><p>ACE Command: <strong>TODO</strong> </p> |
+| `enforceRadioItem`           | `false` | Require the user to have a radio item in their inventory to be able to use the radio (QB & ESX frameworks).                          |
+| `disableRadioOnDeath`        | `true`  | Prevent users from talking on the radio while dead.                                                                                  |
+| `restoreRadioStateWhenAlive` | `true`  | Restore the radio's power state (on/off) when you are revived or respawn.                                                            |
+| `deathDetectionMethod`       | `auto`  | <p>What method to use for death detection.<br><br><code>auto</code>, <code>manual</code>, or <code>qbcore</code></p>                 |
 
 ## Updates <a href="#updates" id="updates"></a>
 
