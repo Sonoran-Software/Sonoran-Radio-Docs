@@ -36,35 +36,116 @@ Cellular antenna style repeaters are found by default on the side of high-rises 
 
 Destroying this antenna will disable it's repeater range.
 
+### Custom Repeaters
+
+Additional integrations like the [mobile command center](using-in-game-towers.md#mobile-command-center-repeater), [power grid hacking](using-in-game-towers.md#hacking-repeaters-power-grid-integration), and [custom vehicle repeaters](using-in-game-towers.md#mobile-vehicle-repeaters) offer further customization.
+
 ## Configuration
 
-### Modifying Tower Placement
+### Tower Placement
 
-Coming Soon!
+To modify the list of towers, you can either add-on to the existing list by using `/spawntower` and then `/savetowers` while in-game
 
-### Modifying Tower Range
+#### **Command ACE Permissions**
 
-Coming Soon!
+```
+add_principal group.admin sonoranradio.towers
+add_ace sonoranradio.towers command.spawntower allow
+add_ace sonoranradio.towers command.savetowers allow
+```
+
+Users will need the `group.admin` permission to access these commands.\
+The example below grants a permission to a specific user's identifier:
+
+```
+add_principal identifier.license:{GTA License} group.admin
+```
+
+#### Manual Configuration
+
+Alternatively, you can edit the file `towers.json` in the `sonoranradio` resource.
+
+The config example below shows two radio tower placements.
+
+```json
+[
+  {
+    "Id": "74d910e5-5705-4b58-baaf-88a8ca82734c",
+    "PropPosition": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "Destruction": false,
+    "Range": 1500.0
+  },
+  {
+    "Id": "7a4cb19d-e158-4afa-9e56-6de0c5446626",
+    "PropPosition": {
+      "x": 100.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "Destruction": false,
+    "Range": 1500.0
+  },
+]
+```
+
+**Config Object Properties**
+
+`PropPosition` - X, Y, Z coordinate positioning object
+
+`Destruction` - Toggles whether this specific tower can be destroyed
+
+`Range` - Tower's range with in-game radios
 
 ### Viewing Tower Coverage
 
 #### Via In-Game Map
 
-Coming Soon!
+Enabling`Config.debug` in the `config.lua` file will display a radius around each tower, where the edge represents 50% radio quality
 
 #### Via Sonoran CAD Live Map
 
+View Sonoran Radio repeater signal strength and health on the integrated CAD live map.\
+Or, view dispatch call information on the in-game radio!
+
+{% content-ref url="../integrations/sonoran-cad-integration.md" %}
+[sonoran-cad-integration.md](../integrations/sonoran-cad-integration.md)
+{% endcontent-ref %}
+
+### Viewing Signal Strength
+
 Coming Soon!
 
-## Visualize Signal Strength
+## Additional Integrations
 
-Coming Soon!
+### Mobile Command Center Repeater
 
+The [Sonoran Mobile Command Center](https://www.sonoran.store/package/5287071) also offers a built-in radio repeater to improve reception on a scene.
 
+Raise the radio antenna by running the `/mccradio` command.
 
-## Mobile (Vehicle) Repeaters
+<div>
 
-To extend coverage range, specific emergency vehicles can be configured to have a built-in radio repeater, similar to the [Mobile Command Center](https://www.sonoran.store/package/5287071).
+<figure><img src="../../.gitbook/assets/mcc.png" alt=""><figcaption><p>Sonoran Mobile Command Center</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/mcc_radio.png" alt=""><figcaption><p>Sonoran Mobile Command Center</p></figcaption></figure>
+
+</div>
+
+### Hacking Repeaters - Power Grid Integration
+
+Communities can add additional [Sonoran Power Grid](https://www.sonoran.store/package/5120025) integration support, enabling users to hack a radio repeater's power source instead of destroying it.
+
+<figure><img src="../../.gitbook/assets/power_grid_promo.png" alt="" width="563"><figcaption><p>Sonoran Power Grid</p></figcaption></figure>
+
+### Mobile (Vehicle) Repeaters
+
+To extend coverage range, communities can also customize what vehicles contain a radio repeater.
 
 In the `config.lua`, you can configure vehucle types and the range of a given vehicle's repeater.
 
