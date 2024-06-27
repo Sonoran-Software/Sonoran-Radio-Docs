@@ -22,13 +22,13 @@ Press `E` on the door to open it.
 
 Each server inside can be individually destroyed and will fall separately out of the rack. There are five servers inside that each account for 20% of the health. As more of these servers are destroyed, the repeater signal will diminish.
 
-### Tower
+### Radio Tower
 
 Tower style repeaters are found by default on hills, mountains, and large rooftops.
 
 Players can climb the ladder to reach the top.
 
-Each dish on the top accounts for a percentage of the tower's health. As more of these dishes are destroyed, the repeater signal will diminish.
+There are four dishes inside that each account for 25% of the health. As more of these dishes are destroyed, the repeater signal will diminish.
 
 ### Cellular Antenna
 
@@ -44,67 +44,186 @@ Additional integrations like the [mobile command center](using-in-game-towers.md
 
 ### Tower Placement
 
-To modify the list of towers, you can either add-on to the existing list by using `/spawntower` and then `/savetowers` while in-game
+#### Via Game Command
 
-#### **Command ACE Permissions**
+To create a new repeater, run one of the following commands:
 
-```
-add_principal group.admin sonoranradio.towers
-add_ace sonoranradio.towers command.spawntower allow
-add_ace sonoranradio.towers command.savetowers allow
-```
+* `/spawntower` - Create a new Tower type repeater
+* `/spawnRack <server number>` - Create a new server rack, with a specified number of servers (maximum of five)
+* `/spawncellrepeater` - Create a new cell antenna type repeater
 
-Users will need the `group.admin` permission to access these commands.\
-The example below grants a permission to a specific user's identifier:
+To save the new repeater, run one of the following commands:
 
-```
-add_principal identifier.license:{GTA License} group.admin
-```
+* `/savetowers`- Save the new Tower type repeater
+* `/saveServers` - Save the new server rack, with a specified number of servers (maximum of five)
+* `/saveCellRepeater` - Save the new cell antenna type repeater
 
 #### Manual Configuration
 
-Alternatively, you can edit the file `towers.json` in the `sonoranradio` resource.
+Alternatively, you can edit the individual JSON files in the `sonoranradio` resource.
 
-The config example below shows two radio tower placements.
+<details>
+
+<summary>towers.json</summary>
 
 ```json
 [
   {
+    // Unique Identifier
     "Id": "74d910e5-5705-4b58-baaf-88a8ca82734c",
+    // XYZ Coordinates
     "PropPosition": {
       "x": 0.0,
       "y": 0.0,
       "z": 0.0
     },
+    // Allow destruction
     "Destruction": false,
-    "Range": 1500.0
-  },
-  {
-    "Id": "7a4cb19d-e158-4afa-9e56-6de0c5446626",
-    "PropPosition": {
-      "x": 100.0,
-      "y": 0.0,
-      "z": 0.0
-    },
-    "Destruction": false,
+    // Signal range in units
     "Range": 1500.0
   },
 ]
 ```
 
-**Config Object Properties**
+</details>
 
-`PropPosition` - X, Y, Z coordinate positioning object
+<details>
 
-`Destruction` - Toggles whether this specific tower can be destroyed
+<summary>servers.json</summary>
 
-`Range` - Tower's range with in-game radios
+```json
+[
+  {
+    // Status of each server in rack: "alive" or "dead"
+    "serverStatus": [
+      "alive",
+      "alive",
+      "alive",
+      "alive",
+      "alive"
+    ],
+    // Is the repeater on or not
+    "Powered": true,
+    // Make the repeater invisible by setting to true
+    "NotPhysical": false,
+    // Unique Identifier
+    "Id": "50a9c40a-e5bb-46b2-9a83-c5164599c64c",
+    // Allow destruction
+    "Destruction": true,
+    // XYZ Coordinates
+    "PropPosition": {
+      "x": 443.3538513183594,
+      "y": -983.1824340820312,
+      "z": 30.6783447265625
+    },
+    // Signal range in units
+    "Range": 1500,
+    // Temporary repeater
+    "DontSaveMe": false,
+    // 360 degree compass heading for angles
+    "heading": 90
+  }
+]
+```
+
+</details>
+
+<details>
+
+<summary>cellRepeaters.json</summary>
+
+```json
+[
+  {
+    // Status of repeater: "alive" or "dead"
+    "AntennaStatus": "alive"
+    // Is the repeater on or not
+    "Powered": true,
+    // Make the repeater invisible by setting to true
+    "NotPhysical": false,
+    // Unique Identifier
+    "Id": "50a9c40a-e5bb-46b2-9a83-c5164599c64c",
+    // Allow destruction
+    "Destruction": true,
+    // XYZ Coordinates
+    "PropPosition": {
+      "x": 443.3538513183594,
+      "y": -983.1824340820312,
+      "z": 30.6783447265625
+    },
+    // Signal range in units
+    "Range": 1500,
+    // Temporary repeater
+    "DontSaveMe": false,
+    // 360 degree compass heading for angles
+    "heading": 90
+  }
+]
+```
+
+</details>
+
+#### **Command ACE Permissions**
+
+ACE permissions allow you to restrict what users have access to certain commands.
+
+1. Create a Permission Group
+
+Here, we'll create an `admin` ACE group that has access to all of the `sonoranradio.towers` categorized permissions.
+
+```
+add_principal group.admin sonoranradio.towers
+```
+
+2. Assign Permissions to the Group
+
+This adds all of the Sonoran Radio permissions (spawning and saving each repeater type) to the `sonoranradio.towers` category that the `admin` ACE group has access to.
+
+```
+// Add permissions to the ace category "sonoranradio.towers"
+
+// Towers
+add_ace sonoranradio.towers command.spawntower allow
+add_ace sonoranradio.towers command.savetowers allow
+
+// Server Racks
+add_ace sonoranradio.towers command.spawnRack allow
+add_ace sonoranradio.towers command.saveServers allow
+
+// Cell Repeaters
+add_ace sonoranradio.towers command.spawncellrepeater allow
+add_ace sonoranradio.towers command.saveCellRepeater allow
+```
+
+3. Add Users to the ACE Group
+
+This grants a user the `admin` ACE permission group, specific to their in-game license ID.
+
+```
+add_principal identifier.license:{GTA License} group.admin
+```
+
+## Using the In-Game Towers
+
+#### Destroying a Tower
+
+When tower destruction is enabled, users can use any form of weapon to damage the repeaters.
+
+Once damaged and destroyed, the tower no longer provides radio coverage within that range.
+
+#### Repairing a Tower
+
+Players can walk up to a destroyed repeater and press `G` to being the repair process.
+
+The repair time can be configured in the `config.lua`'s `towerRepairTimer`.
+
+You can also restrict permissions to repairing a tower with ACE permissions by setting `acePermsForTowerRepair` to `true` in the `config.lua`.
 
 ### Viewing Tower Coverage
 
 #### Via In-Game Map
 
-Enabling`Config.debug` in the `config.lua` file will display a radius around each tower, where the edge represents 50% radio quality
+Enabling`Config.debug` in the `config.lua` file will display a radius around each tower, where the edge represents 50% radio quality.
 
 #### Via Sonoran CAD Live Map
 
