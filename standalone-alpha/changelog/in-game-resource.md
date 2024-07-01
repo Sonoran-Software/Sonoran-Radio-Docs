@@ -15,6 +15,14 @@ In-Game Towers
 In-Game Resize and Move
 
 * Added the ability to resize and move the radio UI.
+
+Custom Animation Support
+
+* Added the ability to disable in-game animations while talking, for custom animation scripts.
+
+Developer Exports - PTT
+
+* Added developer exports when a user activates and deactivates their PTT hotkey.
 {% endtab %}
 {% endtabs %}
 
