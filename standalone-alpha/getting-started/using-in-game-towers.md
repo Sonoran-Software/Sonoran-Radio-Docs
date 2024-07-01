@@ -48,19 +48,15 @@ Additional integrations like the [mobile command center](using-in-game-towers.md
 
 To create a new repeater, run one of the following commands:
 
-* `/spawntower` - Create a new Tower type repeater
-* `/spawnRack <server number>` - Create a new server rack, with a specified number of servers (maximum of five)
-* `/spawncellrepeater` - Create a new cell antenna type repeater
+* `/spawnRadioTower` - Create a new Tower type repeater
+* `/spawnRadioRack <server count>` - Create a new server rack, with a specified number of servers (maximum of five)
+* `/spawnRadioCellRepeater` - Create a new cell antenna type repeater
 
-To save the new repeater, run one of the following commands:
-
-* `/savetowers`- Save the new Tower type repeater
-* `/saveServers` - Save the new server rack, with a specified number of servers (maximum of five)
-* `/saveCellRepeater` - Save the new cell antenna type repeater
+To remove a radio repeater, run `removeRadioTower` to remove the closest repeater.
 
 #### Manual Configuration
 
-Alternatively, you can edit the individual JSON files in the `sonoranradio` resource.
+Alternatively, you can edit the individual `towers.json` file in the `sonoranradio` resource.
 
 <details>
 
@@ -68,32 +64,39 @@ Alternatively, you can edit the individual JSON files in the `sonoranradio` reso
 
 ```json
 [
+  // Radio Tower
   {
     // Unique Identifier
     "Id": "74d910e5-5705-4b58-baaf-88a8ca82734c",
+    // Type of repeater (tower)
+    "type": "radioTower",
     // XYZ Coordinates
     "PropPosition": {
-      "x": 0.0,
-      "y": 0.0,
-      "z": 0.0
+      "x": -577.4769287109375,
+      "y": -138.4747314453125,
+      "z": 51.9765625
     },
-    // Allow destruction
-    "Destruction": false,
     // Signal range in units
-    "Range": 1500.0
+    "Range": 1500,
+    // Allow destruction
+    "Destruction": true
   },
-]
-```
-
-</details>
-
-<details>
-
-<summary>servers.json</summary>
-
-```json
-[
+  // Server Rack
   {
+    // Unique Identifier
+    "Id": "50a9c40a-e5bb-46b2-9a83-c5164599c64c",
+    // Type of repeater (Server Rack)
+    "type": "serverRack",
+    // XYZ Coordinates
+    "PropPosition": {
+      "x": 443.3538513183594,
+      "y": -983.1824340820312,
+      "z": 30.6783447265625
+    },
+    // 360 degree compass heading for angles
+    "heading": 90,
+    // Signal range in units
+    "Range": 1500,
     // Status of each server in rack: "alive" or "dead"
     "serverStatus": [
       "alive",
@@ -106,59 +109,40 @@ Alternatively, you can edit the individual JSON files in the `sonoranradio` reso
     "Powered": true,
     // Make the repeater invisible by setting to true
     "NotPhysical": false,
-    // Unique Identifier
-    "Id": "50a9c40a-e5bb-46b2-9a83-c5164599c64c",
-    // Allow destruction
-    "Destruction": true,
-    // XYZ Coordinates
-    "PropPosition": {
-      "x": 443.3538513183594,
-      "y": -983.1824340820312,
-      "z": 30.6783447265625
-    },
-    // Signal range in units
-    "Range": 1500,
     // Temporary repeater
     "DontSaveMe": false,
-    // 360 degree compass heading for angles
-    "heading": 90
-  }
-]
-```
-
-</details>
-
-<details>
-
-<summary>cellRepeaters.json</summary>
-
-```json
-[
+    // Allow destruction
+    "Destruction": true
+  },
+  // Cell Repeater
   {
-    // Status of repeater: "alive" or "dead"
-    "AntennaStatus": "alive"
+    // Unique Identifier
+    "Id": "1f68f034-500b-4b29-9356-8c8bf63fda04",
+    // Type of repeater (cell repeater)
+    "type": "cellRepeater",
+    // XYZ Coordinates
+    "PropPosition": {
+      "x": 152.5,
+      "y": -775.9000244140625,
+      "z": 264.29998779296877
+    },
+    // 360 degree compass heading for angles
+    "heading": 340.0,
+    // Signal range in units
+    "Range": 1500.0,
     // Is the repeater on or not
     "Powered": true,
     // Make the repeater invisible by setting to true
     "NotPhysical": false,
-    // Unique Identifier
-    "Id": "50a9c40a-e5bb-46b2-9a83-c5164599c64c",
-    // Allow destruction
-    "Destruction": true,
-    // XYZ Coordinates
-    "PropPosition": {
-      "x": 443.3538513183594,
-      "y": -983.1824340820312,
-      "z": 30.6783447265625
-    },
-    // Signal range in units
-    "Range": 1500,
     // Temporary repeater
     "DontSaveMe": false,
-    // 360 degree compass heading for angles
-    "heading": 90
+    // Status of the antenna: "alive" or "dead"
+    "AntennaStatus": "alive",
+    // Allow destruction
+    "Destruction": true
   }
 ]
+
 ```
 
 </details>
@@ -183,16 +167,16 @@ This adds all of the Sonoran Radio permissions (spawning and saving each repeate
 # Add permissions to the ace category "sonoranradio.towers"
 
 # Towers
-add_ace sonoranradio.towers command.spawntower allow
-add_ace sonoranradio.towers command.savetowers allow
+add_ace sonoranradio.towers command.spawnRadioTower allow
 
 # Server Racks
-add_ace sonoranradio.towers command.spawnRack allow
-add_ace sonoranradio.towers command.saveServers allow
+add_ace sonoranradio.towers command.spawnRadioRack allow
 
 # Cell Repeaters
-add_ace sonoranradio.towers command.spawncellrepeater allow
-add_ace sonoranradio.towers command.saveCellRepeater allow
+add_ace sonoranradio.towers command.spawnRadioCellRepeater allow
+
+# Tower Removal
+add_ace sonoranradio.towers command.removeRadioTower allow
 ```
 
 3. Add Users to the ACE Group
@@ -205,13 +189,13 @@ add_principal identifier.license:{GTA License} group.admin
 
 ## Using the In-Game Towers
 
-#### Destroying a Tower
+### Destroying a Tower
 
 When tower destruction is enabled, users can use any form of weapon to damage the repeaters.
 
 Once damaged and destroyed, the tower no longer provides radio coverage within that range.
 
-#### Repairing a Tower
+### Repairing a Tower
 
 Players can walk up to a destroyed repeater and press `G` to being the repair process.
 
