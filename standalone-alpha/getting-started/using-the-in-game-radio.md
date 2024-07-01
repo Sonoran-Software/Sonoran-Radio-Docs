@@ -17,6 +17,44 @@ description: Learn more about the in-game radio resource.
 
 * Use the `/radio` command
 
+<details>
+
+<summary>Restrict Radio Access (Permissions)</summary>
+
+If the `acePermsForRadio` option is set to `true` in the [configuration file](installing-the-in-game-resource.md#updates), users will need access to the `sonoranradio.use` ACE permission.
+
+1. Create a Permission Group
+
+Here, we'll create a `police` ACE group that has access to all of the `sonoranradio.general` categorized permissions.
+
+<pre><code><strong># ACE Group = "police"
+</strong><strong># Category of permissions = "sonoranradio.general"
+</strong><strong>add_principal group.police sonoranradio.general
+</strong></code></pre>
+
+2. Assign Permissions to the Group
+
+This adds all of the Sonoran Radio permissions (spawning and saving each repeater type) to the `sonoranradio.towers` category that the `admin` ACE group has access to.
+
+```
+# Radio Access (Optional: If `acePermsForRadio` is `true` in config.lua)
+# Add the radio usage permission to the "sonoranradio.general" category
+add_ace sonoranradio.general sonoranradio.use allow
+```
+
+3. Add Users to the ACE Group
+
+This grants a user the `admin` ACE permission group, specific to their in-game license ID.
+
+```
+# Add the "police" group
+# which contains all of the "sonoranradio.general" category permissions
+# to a specific user (via GTA license #)
+add_principal identifier.license:{GTA License} group.police
+```
+
+</details>
+
 ### Logging In
 
 When you first use the in-game resource, you'll need to log in.\

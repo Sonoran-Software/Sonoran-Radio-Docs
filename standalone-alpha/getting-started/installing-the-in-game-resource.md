@@ -63,6 +63,18 @@ Example of what NOT to do: `ensure [sonoranradio]`
 | `restoreRadioStateWhenAlive` | `true`  | Restore the radio's power state (on/off) when you are revived or respawn.                                                            |
 | `deathDetectionMethod`       | `auto`  | <p>What method to use for death detection.<br><br><code>auto</code>, <code>manual</code>, or <code>qbcore</code></p>                 |
 
+## ACE Permissions (Command Restrictions) <a href="#updates" id="updates"></a>
+
+ACE permissions allow communities to restrict access to actions like using the radio, adding and removing towers, repairing towers, and more.
+
+### Towers (Add, Remove & Repair)
+
+Learn more about [restricting tower additions, removal, and repair](using-in-game-towers.md#command-ace-permissions) access.
+
+### Radio
+
+Learn more about restricting access to the radio in-game.
+
 ## Updates <a href="#updates" id="updates"></a>
 
 The Sonoran Radio in-game resource will automatically update with the latest features, fixes, and changes upon server restart!

@@ -177,6 +177,12 @@ add_ace sonoranradio.towers command.spawnRadioCellRepeater allow
 
 # Tower Removal
 add_ace sonoranradio.towers command.removeRadioTower allow
+
+# Tower Repair (Optional: If `acePermsForTowerRepair` is `true` in config.lua)
+add_ace sonoranradio.towers sonoranradio.repair allow
+
+# Radio Access (Optional: If `acePermsForRadio` is `true` in config.lua)
+add_ace sonoranradio.towers sonoranradio.use allow
 ```
 
 3. Add Users to the ACE Group
