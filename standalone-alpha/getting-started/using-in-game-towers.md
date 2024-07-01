@@ -6,12 +6,6 @@ description: >-
 
 # Using In-Game Towers
 
-{% hint style="danger" %}
-This feature is not yet accessible in the early-access Alpha.
-
-Stay tuned to our [Discord ](https://discord.sonoransoftware.com)for news and announcements!
-{% endhint %}
-
 ## Available Repeater Types
 
 ### Server Rack
@@ -20,7 +14,21 @@ Server rack style repeaters are found by default inside of police stations and h
 
 Press `E` on the door to open it.
 
-Each server inside can be individually destroyed and will fall separately out of the rack. There are five servers inside that each account for 20% of the health. As more of these servers are destroyed, the repeater signal will diminish.
+Each server inside can be individually destroyed and will fall separately out of the rack. These can be configured with 1-5 servers in each. As more of these servers are destroyed, the repeater signal will diminish.
+
+<div>
+
+<figure><img src="../../.gitbook/assets/server.png" alt=""><figcaption><p>Server Rack</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/server_opened (1).png" alt=""><figcaption><p>Server Rack - Opened</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/server_destroyed (1).png" alt=""><figcaption><p>Server Rack - Destroyed</p></figcaption></figure>
+
+</div>
 
 ### Radio Tower
 
@@ -30,11 +38,31 @@ Players can climb the ladder to reach the top.
 
 There are four dishes inside that each account for 25% of the health. As more of these dishes are destroyed, the repeater signal will diminish.
 
+<div>
+
+<figure><img src="../../.gitbook/assets/tower (1).png" alt=""><figcaption><p>Radio Tower</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/tower_broken.png" alt=""><figcaption><p>Radio Tower - Destroyed</p></figcaption></figure>
+
+</div>
+
 ### Cellular Antenna
 
 Cellular antenna style repeaters are found by default on the side of high-rises and other buildings.
 
 Destroying this antenna will disable it's repeater range.
+
+<div>
+
+<figure><img src="../../.gitbook/assets/cell.png" alt=""><figcaption><p>Cellular Antenna</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/cell_destroyed.png" alt=""><figcaption><p>Cellular Antenna - Destroyed</p></figcaption></figure>
+
+</div>
 
 ### Custom Repeaters
 
@@ -46,13 +74,13 @@ Additional integrations like the [mobile command center](using-in-game-towers.md
 
 #### Via Game Command
 
-To create a new repeater, run one of the following commands:
+To <mark style="color:green;">**add**</mark> a new repeater, run one of the following commands:
 
 * `/spawnRadioTower` - Create a new Tower type repeater
-* `/spawnRadioRack <server count>` - Create a new server rack, with a specified number of servers (maximum of five)
+* `/spawnRadioRack <server count>` - Create a new server rack, with a specified number of servers (between `1` and `5`)
 * `/spawnRadioCellRepeater` - Create a new cell antenna type repeater
 
-To remove a radio repeater, run `removeRadioTower` to remove the closest repeater.
+To <mark style="color:red;">**remove**</mark> a radio repeater, run `removeRadioTower` to remove the closest repeater.
 
 #### Manual Configuration
 
