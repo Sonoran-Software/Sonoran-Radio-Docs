@@ -73,7 +73,7 @@ Learn more about [restricting tower additions, removal, and repair](using-in-gam
 
 ### Radio
 
-Learn more about restricting access to the radio in-game.
+Learn more about [restricting access to the radio in-game](using-the-in-game-radio.md#restrict-radio-access-permissions).
 
 ## Updates <a href="#updates" id="updates"></a>
 
