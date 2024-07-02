@@ -27,7 +27,7 @@ Version 2.2.0 adds a new API key configuration for upcoming features.
 
 `Config.apiKey = 'YOUR API KEY'`
 
-2. Replace `YOUR API KEY` with the [community API key](../getting-started/installing-the-in-game-resource.md#id-3.-configure-sonoran-radio) from the `Administration` panel.
+2. Replace `YOUR API KEY` with the [community API key](../getting-started/installing-the-in-game-resource.md#id-3.-configure-community-information) from the `Administration` panel.
 
 </details>
 
