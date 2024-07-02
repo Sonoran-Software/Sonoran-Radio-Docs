@@ -18,9 +18,11 @@ Extract the .zip file into your resources directory. Place the `sonoranradio` an
 
 ### 3. Configure Sonoran Radio
 
-Rename `config.CHANGEME.lua` to `config.lua`, and open it to edit your community ID
+1. Rename the `config.CHANGEME.lua` file to `config.lua`
+2. In the `config.lua` file set `comId` to your community's ID
+3. in the `config.lua` file set `apiKey` to your community's API key
 
-Set `Config.comId` to your community's ID. This can be found in your communitity's Administration page:
+The community ID and API key can be found in the `Administration` tab.
 
 <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Sonoran Radio - API Info with Community ID</p></figcaption></figure>
 
@@ -45,23 +47,31 @@ It is very important that the `sonoranradio_updatehelper` resource is not starte
 Example of what NOT to do: `ensure [sonoranradio]`
 {% endhint %}
 
-### Config Values <a href="#updates" id="updates"></a>
+### Config.lua Values <a href="#updates" id="updates"></a>
 
-| Parameter                    | Default | Description                                                                                                                          |
-| ---------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| `comId`                      | EMPTY   | The Sonoran Radio Community ID                                                                                                       |
-| `debug`                      | `false` | Display tower ranges on the map and other console prints.                                                                            |
-| `allowUpdateWithPlayers`     | `true`  | Allow the auto-updater to run while players are still in the server.                                                                 |
-| `enableCanary`               | `false` | Allow the auto-updater to pull development branches for early testing.                                                               |
-| `allowAutoUpdate`            | `true`  | Allow the auto-updater to run.                                                                                                       |
-| `noPhysicalTowers`           | `false` | Hide the in-game towers.                                                                                                             |
-| `towerRepairTimer`           | `20`    | Time (in seconds) that it takes a player to repair a destructed tower.                                                               |
-| `acePermsForRadio`           | `false` | <p>Restrict the usage of the radio (<code>/radio</code>) with ACE permissions.<br><br>ACE Command: <strong>TODO</strong></p>         |
-| `acePermsForTowerRepair`     | `false` | <p>Restrict the ability to repair damaged radio repeaters with ACE permissions.</p><p></p><p>ACE Command: <strong>TODO</strong> </p> |
-| `enforceRadioItem`           | `false` | Require the user to have a radio item in their inventory to be able to use the radio (QB & ESX frameworks).                          |
-| `disableRadioOnDeath`        | `true`  | Prevent users from talking on the radio while dead.                                                                                  |
-| `restoreRadioStateWhenAlive` | `true`  | Restore the radio's power state (on/off) when you are revived or respawn.                                                            |
-| `deathDetectionMethod`       | `auto`  | <p>What method to use for death detection.<br><br><code>auto</code>, <code>manual</code>, or <code>qbcore</code></p>                 |
+| Parameter                    | Default | Description                                                                                                                                    |
+| ---------------------------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| `comId`                      | EMPTY   | The Sonoran Radio Community ID                                                                                                                 |
+| `apiKey`                     | EMPTY   | The Sonoran Radio Community API Key                                                                                                            |
+| `debug`                      | `false` | Display tower ranges on the map and other console prints.                                                                                      |
+| `allowUpdateWithPlayers`     | `true`  | Allow the auto-updater to run while players are still in the server.                                                                           |
+| `enableCanary`               | `false` | Allow the auto-updater to pull development branches for early testing.                                                                         |
+| `allowAutoUpdate`            | `true`  | Allow the auto-updater to run.                                                                                                                 |
+| `towerRepairTimer`           | `20`    | Time (in seconds) that it takes a player to repair a destructed tower.                                                                         |
+| `rackRepairTimer`            | `15`    | Time (in seconds) that it takes a player to repair a destructed server rack.                                                                   |
+| `antennaRepairTimer`         | `15`    | Time (in seconds) that it takes a player to repair a destructed cellular antenna.                                                              |
+| `acePermsForServerRepair`    | `false` | <p>Restrict the ability to repair damaged radio repeaters with ACE permissions.</p><p></p><p>ACE Command: <code>sonoranradio.repair</code></p> |
+| `acePermsForTowerRepair`     | `false` | <p>Restrict the ability to repair damaged radio repeaters with ACE permissions.</p><p></p><p>ACE Command: <code>sonoranradio.repair</code></p> |
+| `acePermsForAntennaRepair`   | \`false | <p>Restrict the ability to repair damaged radio repeaters with ACE permissions.</p><p></p><p>ACE Command: <code>sonoranradio.repair</code></p> |
+| `acePermsForRadio`           | `false` | <p>Restrict the usage of the radio (<code>/radio</code>) with ACE permissions.<br><br>ACE Command: <code>sonoranradio.use</code></p>           |
+| `enforceRadioItem`           | `false` | Require the user to have a radio item in their inventory to be able to use the radio (QB & ESX frameworks).                                    |
+| `disableRadioOnDeath`        | `true`  | Prevent users from talking on the radio while dead.                                                                                            |
+| `restoreRadioStateWhenAlive` | `true`  | Restore the radio's power state (on/off) when you are revived or respawn.                                                                      |
+| `deathDetectionMethod`       | `auto`  | <p>What method to use for death detection.<br><br><code>auto</code>, <code>manual</code>, or <code>qbcore</code></p>                           |
+| `disableAnimation`           | `false` | Disable the radio talking animation for custom animation scripts.                                                                              |
+| `noPhysicalCellRepeaters`    | `false` | Hide the in-game cellular antenna repeaters                                                                                                    |
+| `noPhysicalRacks`            | `false` | Hide the in-game server rack repeaters                                                                                                         |
+| `noPhysicalTowers`           | `false` | Hide the in-game tower repeaters                                                                                                               |
 
 ## ACE Permissions (Command Restrictions) <a href="#updates" id="updates"></a>
 

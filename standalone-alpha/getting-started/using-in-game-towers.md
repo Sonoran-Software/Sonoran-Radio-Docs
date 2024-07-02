@@ -199,16 +199,16 @@ This adds all of the Sonoran Radio permissions (spawning and saving each repeate
 # Add permissions to the ace category "sonoranradio.towers"
 
 # Towers
-add_ace sonoranradio.towers command.spawnRadioTower allow
+add_ace sonoranradio.towers command.spawnradiotower allow
 
 # Server Racks
-add_ace sonoranradio.towers command.spawnRadioRack allow
+add_ace sonoranradio.towers command.spawnradiorack allow
 
 # Cell Repeaters
-add_ace sonoranradio.towers command.spawnRadioCellRepeater allow
+add_ace sonoranradio.towers command.spawnradiocellrepeater allow
 
 # Tower Removal
-add_ace sonoranradio.towers command.removeRadioTower allow
+add_ace sonoranradio.towers command.removeradiorepeater allow
 
 # Tower Repair (Optional: If `acePermsForTowerRepair` is `true` in config.lua)
 add_ace sonoranradio.towers sonoranradio.repair allow

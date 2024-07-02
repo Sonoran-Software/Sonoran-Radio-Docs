@@ -52,6 +52,7 @@
 * [Changelog](standalone-alpha/changelog/README.md)
   * [In-Game Resource](standalone-alpha/changelog/in-game-resource.md)
   * [Application](standalone-alpha/changelog/application.md)
+  * [Migration Guides](standalone-alpha/changelog/migration-guides.md)
 
 ## For Developers
 
