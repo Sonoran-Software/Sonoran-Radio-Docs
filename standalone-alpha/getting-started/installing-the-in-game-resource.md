@@ -47,7 +47,7 @@ It is very important that the `sonoranradio_updatehelper` resource is not starte
 Example of what NOT to do: `ensure [sonoranradio]`
 {% endhint %}
 
-### Config.lua Values <a href="#updates" id="updates"></a>
+## Configuration Values <a href="#updates" id="updates"></a>
 
 | Parameter                    | Default | Description                                                                                                                                    |
 | ---------------------------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -62,7 +62,7 @@ Example of what NOT to do: `ensure [sonoranradio]`
 | `antennaRepairTimer`         | `15`    | Time (in seconds) that it takes a player to repair a destructed cellular antenna.                                                              |
 | `acePermsForServerRepair`    | `false` | <p>Restrict the ability to repair damaged radio repeaters with ACE permissions.</p><p></p><p>ACE Command: <code>sonoranradio.repair</code></p> |
 | `acePermsForTowerRepair`     | `false` | <p>Restrict the ability to repair damaged radio repeaters with ACE permissions.</p><p></p><p>ACE Command: <code>sonoranradio.repair</code></p> |
-| `acePermsForAntennaRepair`   | \`false | <p>Restrict the ability to repair damaged radio repeaters with ACE permissions.</p><p></p><p>ACE Command: <code>sonoranradio.repair</code></p> |
+| `acePermsForAntennaRepair`   | `false` | <p>Restrict the ability to repair damaged radio repeaters with ACE permissions.</p><p></p><p>ACE Command: <code>sonoranradio.repair</code></p> |
 | `acePermsForRadio`           | `false` | <p>Restrict the usage of the radio (<code>/radio</code>) with ACE permissions.<br><br>ACE Command: <code>sonoranradio.use</code></p>           |
 | `enforceRadioItem`           | `false` | Require the user to have a radio item in their inventory to be able to use the radio (QB & ESX frameworks).                                    |
 | `disableRadioOnDeath`        | `true`  | Prevent users from talking on the radio while dead.                                                                                            |
