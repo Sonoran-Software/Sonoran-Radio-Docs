@@ -87,3 +87,23 @@ The radio will connect when you turn it on with the power button ([unless you ne
 You can scroll through the radio channels with the channel select dial on top, or choose a channel using the UI
 
 <figure><img src="../../.gitbook/assets/FiveM_b3095_GTAProcess_8EDvlAfgKq.png" alt=""><figcaption></figcaption></figure>
+
+### Move and Resize the Radio
+
+On the radio screen, open the `Settings` modal by pressing the gear icon.
+
+Select `Move/Resize`
+
+* Click and drag the radio to change it's position on your screen.
+* Hold `ctrl` and drag to resize the radio.
+* Press `esc` to save the new size and position.
+
+<div>
+
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+
+</div>

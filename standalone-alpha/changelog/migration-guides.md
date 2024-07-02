@@ -15,9 +15,7 @@ description: >-
 Version 2.2.0 introduces multiple new in-game tower options. This includes a new `towers.DEFAULT.json` file that is required.
 
 1. Delete the existing `towers.json` file in your `sonoranradio` resource.
-2. Leave the new `towers.DEFAULT.json` file in your `sonoranradio` resource.
-
-_The resource will automatically rename `towers.DEFAULT.json` to `towers.json`._
+2. Rename the new `towers.DEFAULT.json` file to `towers.json` in your `sonoranradio` resource and save.
 
 ## Configuration File
 
