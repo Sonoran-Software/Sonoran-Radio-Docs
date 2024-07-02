@@ -72,6 +72,10 @@ Additional integrations like the [mobile command center](using-in-game-towers.md
 
 ### Tower Placement
 
+#### Default Positions
+
+<figure><img src="../../.gitbook/assets/Default Placement.png" alt="" width="303"><figcaption><p>Sonoran Radio - Default Tower Positions</p></figcaption></figure>
+
 #### Via Game Command
 
 To <mark style="color:green;">**add**</mark> a new repeater, run one of the following commands:
