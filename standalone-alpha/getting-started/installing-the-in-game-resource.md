@@ -16,7 +16,7 @@ Extract the .zip file into your resources directory. Place the `sonoranradio` an
 
 <figure><img src="../../.gitbook/assets/explorer_tVF7A0zXhJ (1).png" alt=""><figcaption><p>Sonoran Radio Folder Structure</p></figcaption></figure>
 
-### 3. Configure Sonoran Radio
+### 3. Configure Community Information
 
 1. Rename the `config.CHANGEME.lua` file to `config.lua`
 2. In the `config.lua` file set `comId` to your community's ID

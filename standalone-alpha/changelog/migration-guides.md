@@ -23,7 +23,11 @@ _The resource will automatically rename `towers.DEFAULT.json` to `towers.json`._
 
 Version 2.2.0 adds a new API key configuration for upcoming features.
 
-1. TODO
+1. Add the following to line to your `config.lua` file, below the `Config.comId` line:
+
+`Config.apiKey = 'YOUR API KEY'`
+
+2. Replace `YOUR API KEY` with the [community API key](../getting-started/installing-the-in-game-resource.md#id-3.-configure-sonoran-radio) from the `Administration` panel.
 
 </details>
 
