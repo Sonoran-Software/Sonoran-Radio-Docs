@@ -4,7 +4,7 @@ description: View the changelog for the Sonoran Radio application.
 
 # Application
 
-### 2.2.0 (Alpha) - Coming Soon
+### 2.2.0 (Alpha) - 07/02/2024
 
 {% tabs %}
 {% tab title="New" %}

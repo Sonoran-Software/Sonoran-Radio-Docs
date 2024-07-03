@@ -4,7 +4,17 @@ description: View the changelog for the in-game resource.
 
 # In-Game Resource
 
-### 2.2.0 (Alpha) - Coming Soon
+### 2.2.1 (Alpha) - 07/03/2024
+
+{% tabs %}
+{% tab title="Fixed" %}
+Tower Distance
+
+* Fixed an issue causing tower distortion levels to "freeze" in certain cases.
+{% endtab %}
+{% endtabs %}
+
+### 2.2.0 (Alpha) - 07/02/2024
 
 {% tabs %}
 {% tab title="New" %}
