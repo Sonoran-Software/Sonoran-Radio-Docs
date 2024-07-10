@@ -49,10 +49,9 @@
   * [Developer Documentation](standalone-alpha/integrations/developer-documentation/README.md)
     * [Resource Events](standalone-alpha/integrations/developer-documentation/resource-events.md)
     * [API Endpoints](standalone-alpha/integrations/developer-documentation/api-endpoints.md)
-* [Changelog](standalone-alpha/changelog/README.md)
-  * [In-Game Resource](standalone-alpha/changelog/in-game-resource.md)
-  * [Application](standalone-alpha/changelog/application.md)
-  * [Migration Guides](standalone-alpha/changelog/migration-guides.md)
+* [Updates](standalone-alpha/updates/README.md)
+  * [Changelog](standalone-alpha/updates/changelog.md)
+  * [Migration Guides](standalone-alpha/updates/migration-guides.md)
 
 ## For Developers
 
