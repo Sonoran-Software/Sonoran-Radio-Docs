@@ -90,7 +90,7 @@ Access to this command requires the `sonoranradio.towers` [ACE permission](confi
 
  
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption><p>Move/Edit Repeater</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption><p>Move/Edit Repeater</p></figcaption></figure>
 
  
 
@@ -207,7 +207,7 @@ Players can walk up to a destroyed repeater and press `G` to being the repair pr
 
 The repair time can be configured in the `config.lua`'s `towerRepairTimer`.
 
-You can also restrict permissions to repairing a tower with ACE permissions by setting `acePermsForTowerRepair` to `true` in the `config.lua`.
+You can also restrict permissions to repairing a tower with [ACE permissions](configuring-ace-permissions.md) by setting `acePermsForTowerRepair` to `true` in the `config.lua`.
 
 ### Viewing Tower Coverage
 
