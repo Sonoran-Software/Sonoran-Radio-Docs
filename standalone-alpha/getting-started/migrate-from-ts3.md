@@ -14,7 +14,7 @@ To switch your community from using TeamSpeak Sonoran Radio to the standalone ve
 
 <figure><img src="../../.gitbook/assets/chrome_OpISMXxGMU.png" alt=""><figcaption><p>Sonoran Radio Portal - Standalone Mode Toggle</p></figcaption></figure>
 
-And boom, you're now able to use the standalone radio in your browser!
+You're now able to use the standalone radio in your browser!
 
 ## In-Game FiveM Resource
 

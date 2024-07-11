@@ -28,6 +28,8 @@ If you want to customize your channel further, you can specify the `XMIT` and `R
 To learn more about channel frequencies and valid ranges, check out the [Core Concepts](../../tutorials/getting-started/core-concepts.md)
 {% endhint %}
 
+***
+
 ## Editing a Channel
 
 You can either edit a channel in the **Server Settings** panel
@@ -38,6 +40,8 @@ or you can edit a channel in the **Dispatch Panel**
 
 <figure><img src="../../.gitbook/assets/image (8) (1).png" alt="" width="563"><figcaption><p>Sonoran Radio - Dispatch Panel Channels</p></figcaption></figure>
 
+***
+
 ## Reordering Channels
 
 You can change the order of channels in the **Server Settings** Panel
@@ -47,6 +51,8 @@ You can change the order of channels in the **Server Settings** Panel
 When reordering is enabled, just drag and drop the channels around to reorder. When you're done, press the green thumbs-up button to save
 
 <figure><img src="../../.gitbook/assets/image (12).png" alt="" width="531"><figcaption><p>Sonoran Radio - Channel Reordering</p></figcaption></figure>
+
+***
 
 ## Next Steps
 

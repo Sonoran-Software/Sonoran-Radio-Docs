@@ -39,6 +39,8 @@ It is very important that the `sonoranradio_updatehelper` resource is not starte
 Example of what NOT to do: `ensure [sonoranradio]`
 {% endhint %}
 
+***
+
 ## Resource Installation (Manual)
 
 ### 1. Download the ZIP
@@ -82,6 +84,8 @@ It is very important that the `sonoranradio_updatehelper` resource is not starte
 Example of what NOT to do: `ensure [sonoranradio]`
 {% endhint %}
 
+***
+
 ## Configuration Values <a href="#updates" id="updates"></a>
 
 | Parameter                    | Default | Description                                                                                                                                    |
@@ -108,6 +112,8 @@ Example of what NOT to do: `ensure [sonoranradio]`
 | `noPhysicalRacks`            | `false` | Hide the in-game server rack repeaters                                                                                                         |
 | `noPhysicalTowers`           | `false` | Hide the in-game tower repeaters                                                                                                               |
 
+***
+
 ## ACE Permissions (Command Restrictions) <a href="#updates" id="updates"></a>
 
 ACE permissions allow communities to restrict access to actions like using the radio, adding and removing towers, repairing towers, and more.
@@ -116,9 +122,13 @@ ACE permissions allow communities to restrict access to actions like using the r
 [configuring-ace-permissions.md](configuring-ace-permissions.md)
 {% endcontent-ref %}
 
+***
+
 ## Updates <a href="#updates" id="updates"></a>
 
 The Sonoran Radio in-game resource will automatically update with the latest features, fixes, and changes upon server restart!
+
+***
 
 ## Next Steps
 

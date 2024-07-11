@@ -47,6 +47,8 @@ You can logout/un-link your in-game radio via the settings menu (gear icon).
 
 </div>
 
+***
+
 ## Using the In-Game Radio
 
 ### Setting your Push-To-Talk (PTT) Keybind

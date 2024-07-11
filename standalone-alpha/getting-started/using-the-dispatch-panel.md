@@ -81,6 +81,8 @@ This requires the `Manage Display Names` permission.
 
 <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Sonoran Radio - Manage Display Names</p></figcaption></figure>
 
+***
+
 ## Custom Mic Click SFX
 
 {% hint style="danger" %}

@@ -14,6 +14,8 @@ description: Create your own FREE community on Sonoran Radio!
 
 <figure><img src="../../.gitbook/assets/chrome_syzHJ0YAL4.png" alt=""><figcaption><p>Sonoran Radio - Create a New Community</p></figcaption></figure>
 
+***
+
 ## Next Steps
 
 Now it's time to invite your community members!

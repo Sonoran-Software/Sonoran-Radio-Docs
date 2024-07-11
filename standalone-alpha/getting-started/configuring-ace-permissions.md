@@ -42,6 +42,8 @@ This grants a user the `admin` ACE permission group, specific to their in-game l
 add_principal identifier.license:{GTA License} group.admin
 ```
 
+***
+
 ## ACE Permission Tools
 
 You can also use external services like [Sonoran CMS](https://info.sonorancms.com/integration-capabilities/qb-core-game-panel/using-the-game-panel/aces-and-principals) to easily manage ACE permissions via ranks and Discord roles.

@@ -12,6 +12,8 @@ Sonoran CMS allows you to automatically add and manage user permissions with use
 [sonoran-cms.md](../integrations/sonoran-cms.md)
 {% endcontent-ref %}
 
+***
+
 ## Manual User Management
 
 ### Inviting Members
@@ -39,6 +41,8 @@ When a member joins your community with an invite code, they will be pending unt
 User permissions can be managed in the "Members" tab
 
 <figure><img src="../../.gitbook/assets/chrome_bInOrZU430.png" alt=""><figcaption><p>Sonoran Radio - Edit Memeber Permissions</p></figcaption></figure>
+
+***
 
 ## Next Steps
 
