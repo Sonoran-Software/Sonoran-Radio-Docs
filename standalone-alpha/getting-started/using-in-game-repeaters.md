@@ -84,6 +84,20 @@ To add, edit, or remove a repeater, open the configuration menu by typing `/radi
 
 Access to this command requires the `sonoranradio.towers` [ACE permission](configuring-ace-permissions.md).
 
+<div>
+
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Spawn Repeater</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption><p>Move/Edit Repeater</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption><p>Delete Repeater</p></figcaption></figure>
+
+</div>
+
 #### Manual Configuration
 
 Alternatively, you can edit the individual `towers.json` file in the `sonoranradio` resource.

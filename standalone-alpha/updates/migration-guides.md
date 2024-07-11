@@ -8,6 +8,27 @@ description: >-
 
 <details>
 
+<summary>2.3.0 Release (In-Game Configuration Menu)</summary>
+
+## ACE Permissions
+
+Version 2.3.0 introduces a new in-game repeater configuration menu. This allows an easier way to add, edit, or remove in-game repeaters.
+
+Communities will need to grant the new `command.radiomenu` permission.
+
+Communities can remove the old spawn and remove command permissions:
+
+* `command.spawnradiotower`
+* `command.spawnradiorack`
+* `command.spawnradiocellrepeater`
+* `command.removeradiorepeater`
+
+[See a complete example of our updated ACE permission structure.](../getting-started/configuring-ace-permissions.md)
+
+</details>
+
+<details>
+
 <summary>2.2.0 Release (In-Game Towers)</summary>
 
 ## Towers File
