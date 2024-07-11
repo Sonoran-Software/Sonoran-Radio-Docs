@@ -4,7 +4,42 @@ description: Learn how to download and install the in-game resource.
 
 # Installing the In-Game Resource
 
-## Resource Installation
+## Pre-Configured Resource Installation (Recommended)
+
+### 1. Download the ZIP
+
+Download a pre-configured version of the in-game resource from the panel. This download will already have your community ID and API key in the `config.lua` file.
+
+Navigate to `Server Settings` > `In-Game Resource` > `Download Resource`
+
+### 2. Extract the ZIP File
+
+Extract the .zip file into your resources directory. Place the `sonoranradio` and `sonoranradio_updatehelper` into a folder labeled `[sonoranradio]`
+
+<figure><img src="../../.gitbook/assets/explorer_tVF7A0zXhJ (1).png" alt=""><figcaption><p>Sonoran Radio - Folder Structure</p></figcaption></figure>
+
+### 3. Update Your Server Config
+
+In your `server.cfg` file, add the following:
+
+```
+# Start the sonoranradio resource
+ensure sonoranradio
+
+# Permissions for auto-updater (REQUIRED)
+add_ace resource.sonoranradio command allow
+add_ace resource.sonoranradio_updatehelper command allow
+```
+
+{% hint style="danger" %}
+It is very important that the `sonoranradio_updatehelper` resource is not started manually. Doing so may cause a server crash if updates are available due to a race condition.
+
+**DO NOT** start the whole \[sonoranradio] folder as that will also start the sonoranradio\_updatehelper which might cause crashing if started manually.
+
+Example of what NOT to do: `ensure [sonoranradio]`
+{% endhint %}
+
+## Resource Installation (Manual)
 
 ### 1. Download the ZIP
 
@@ -24,7 +59,7 @@ Extract the .zip file into your resources directory. Place the `sonoranradio` an
 
 The community ID and API key can be found in the `Administration` tab.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Sonoran Radio - Community ID &#x26; API Key</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Sonoran Radio - Community ID &#x26; API Key</p></figcaption></figure>
 
 ### 4. Update Your Server Config
 
@@ -77,13 +112,9 @@ Example of what NOT to do: `ensure [sonoranradio]`
 
 ACE permissions allow communities to restrict access to actions like using the radio, adding and removing towers, repairing towers, and more.
 
-### Towers (Add, Remove & Repair)
-
-Learn more about [restricting tower additions, removal, and repair](using-in-game-towers.md#command-ace-permissions) access.
-
-### Radio
-
-Learn more about [restricting access to the radio in-game](using-the-in-game-radio.md#restrict-radio-access-permissions).
+{% content-ref url="configuring-ace-permissions.md" %}
+[configuring-ace-permissions.md](configuring-ace-permissions.md)
+{% endcontent-ref %}
 
 ## Updates <a href="#updates" id="updates"></a>
 

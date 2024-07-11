@@ -4,7 +4,7 @@ description: >-
   performance.
 ---
 
-# Using In-Game Towers
+# Using In-Game Repeaters
 
 ## Available Repeater Types
 
@@ -66,7 +66,9 @@ Destroying this antenna will disable it's repeater range.
 
 ### Custom Repeaters
 
-Additional integrations like the [mobile command center](using-in-game-towers.md#mobile-command-center-repeater), [power grid hacking](using-in-game-towers.md#hacking-repeaters-power-grid-integration), and [custom vehicle repeaters](using-in-game-towers.md#mobile-vehicle-repeaters) offer further customization.
+Additional integrations like the [mobile command center](using-in-game-repeaters.md#mobile-command-center-repeater), [power grid hacking](using-in-game-repeaters.md#hacking-repeaters-power-grid-integration), and [custom vehicle repeaters](using-in-game-repeaters.md#mobile-vehicle-repeaters) offer further customization.
+
+***
 
 ## Configuration
 
@@ -76,15 +78,11 @@ Additional integrations like the [mobile command center](using-in-game-towers.md
 
 <figure><img src="../../.gitbook/assets/Default Placement.png" alt="" width="303"><figcaption><p>Sonoran Radio - Default Tower Positions</p></figcaption></figure>
 
-#### Via Game Command
+#### Game Menu Configuration
 
-To <mark style="color:green;">**add**</mark> a new repeater, run one of the following commands:
+To add, edit, or remove a repeater, open the configuration menu by typing `/radioMenu`
 
-* `/spawnRadioTower` - Create a new Tower type repeater
-* `/spawnRadioRack <server count>` - Create a new server rack, with a specified number of servers (between `1` and `5`)
-* `/spawnRadioCellRepeater` - Create a new cell antenna type repeater
-
-To <mark style="color:red;">**remove**</mark> a radio repeater, run `removeRadioTower` to remove the closest repeater.
+Access to this command requires the `sonoranradio.towers` [ACE permission](configuring-ace-permissions.md).
 
 #### Manual Configuration
 
@@ -179,51 +177,7 @@ Alternatively, you can edit the individual `towers.json` file in the `sonoranrad
 
 </details>
 
-#### **Command ACE Permissions**
-
-ACE permissions allow you to restrict what users have access to certain commands.
-
-1. Create a Permission Group
-
-Here, we'll create an `admin` ACE group that has access to all of the `sonoranradio.towers` categorized permissions.
-
-```
-add_principal group.admin sonoranradio.towers
-```
-
-2. Assign Permissions to the Group
-
-This adds all of the Sonoran Radio permissions (spawning and saving each repeater type) to the `sonoranradio.towers` category that the `admin` ACE group has access to.
-
-```
-# Add permissions to the ace category "sonoranradio.towers"
-
-# Towers
-add_ace sonoranradio.towers command.spawnradiotower allow
-
-# Server Racks
-add_ace sonoranradio.towers command.spawnradiorack allow
-
-# Cell Repeaters
-add_ace sonoranradio.towers command.spawnradiocellrepeater allow
-
-# Tower Removal
-add_ace sonoranradio.towers command.removeradiorepeater allow
-
-# Tower Repair (Optional: If `acePermsForTowerRepair` is `true` in config.lua)
-add_ace sonoranradio.towers sonoranradio.repair allow
-
-# Radio Access (Optional: If `acePermsForRadio` is `true` in config.lua)
-add_ace sonoranradio.towers sonoranradio.use allow
-```
-
-3. Add Users to the ACE Group
-
-This grants a user the `admin` ACE permission group, specific to their in-game license ID.
-
-```
-add_principal identifier.license:{GTA License} group.admin
-```
+***
 
 ## Using the In-Game Towers
 
@@ -259,6 +213,8 @@ Or, view dispatch call information on the in-game radio!
 ### Viewing Signal Strength
 
 Coming Soon!
+
+***
 
 ## Additional Integrations
 

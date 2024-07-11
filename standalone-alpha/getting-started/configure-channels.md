@@ -8,21 +8,21 @@ description: Learn more about creating and managing radio channels!
 
 You can either create a channel in the **Server Settings** panel
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="563"><figcaption><p>Sonoran Radio - Server Settings Channels</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt="" width="563"><figcaption><p>Sonoran Radio - Server Settings Channels</p></figcaption></figure>
 
 or you can create a channel in the **Dispatch Panel**
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="563"><figcaption><p>Sonoran Radio - Dispatch Panel Channels</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt="" width="563"><figcaption><p>Sonoran Radio - Dispatch Panel Channels</p></figcaption></figure>
 
 When creating a channel, you only need to provide a name. Optionally, you can enable preventing talkover if you only want one person talking at a time in the channel
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="563"><figcaption><p>Sonoran Radio - Add Channel</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt="" width="563"><figcaption><p>Sonoran Radio - Add Channel</p></figcaption></figure>
 
 ### Advanced Mode
 
 If you want to customize your channel further, you can specify the `XMIT` and `RECV` frequencies in **Advanced Mode** (toggleable in the bottom left of the dialog)
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt="" width="563"><figcaption><p>Sonoran Radio - Add Channel Advanced Mode</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt="" width="563"><figcaption><p>Sonoran Radio - Add Channel Advanced Mode</p></figcaption></figure>
 
 {% hint style="info" %}
 To learn more about channel frequencies and valid ranges, check out the [Core Concepts](../../tutorials/getting-started/core-concepts.md)
@@ -36,7 +36,7 @@ You can either edit a channel in the **Server Settings** panel
 
 or you can edit a channel in the **Dispatch Panel**
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="563"><figcaption><p>Sonoran Radio - Dispatch Panel Channels</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt="" width="563"><figcaption><p>Sonoran Radio - Dispatch Panel Channels</p></figcaption></figure>
 
 ## Reordering Channels
 
