@@ -17,7 +17,7 @@ Version 2.3.0 introduces a new configuration value.
 1. Open your existing `config.lua`
 2. Ensure the following lines are set:
    1. `Config.radioUrl = 'https://sonoranradio.com'`
-   2. `Config.apiUrl = 'https://sonoranradio.com'`
+   2. `Config.apiUrl = 'https://api.sonoranradio.com/'`
 
 Your `config.lua` file should now look like the following:
 
