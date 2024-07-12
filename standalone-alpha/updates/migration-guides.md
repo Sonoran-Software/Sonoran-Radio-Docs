@@ -8,7 +8,7 @@ description: >-
 
 <details>
 
-<summary>2.3.0 Release (In-Game Configuration Menu)</summary>
+<summary>2.3.0-1 Release (In-Game Configuration Menu)</summary>
 
 ## Configuration File
 
