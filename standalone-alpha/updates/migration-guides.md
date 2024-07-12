@@ -10,6 +10,17 @@ description: >-
 
 <summary>2.3.0 Release (In-Game Configuration Menu)</summary>
 
+## Configuration File
+
+Version 2.3.0 introduces a new configuration value.
+
+1. Open your existing `config.lua`
+2. Add a new line `Config.apiUrl = 'https://sonoranradio.com'`
+
+Your `config.lua` file should look like the following:
+
+<img src="../../.gitbook/assets/image (22).png" alt="" data-size="original">
+
 ## ACE Permissions
 
 Version 2.3.0 introduces a new in-game repeater configuration menu. This allows an easier way to add, edit, or remove in-game repeaters.
