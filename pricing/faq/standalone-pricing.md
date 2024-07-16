@@ -37,3 +37,11 @@ Depending upon your subscription level, your community is limited to the maximum
 | Free         | No Customization                  |
 | Plus         | Community-Wide Customization Only |
 | Pro          | Community-Wide and Per-User       |
+
+## Talkover Prevent/Error Sound Customization
+
+| Subscription | Limit            |
+| ------------ | ---------------- |
+| Free         | No Customization |
+| Plus         | No Customization |
+| Pro          | Community-Wide   |
