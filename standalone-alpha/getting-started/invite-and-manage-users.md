@@ -4,6 +4,8 @@ description: Learn how to invite and manage users in your Sonoran Radio communit
 
 # Invite and Manage Users
 
+{% embed url="https://youtu.be/X8Ylo2wwo3A?t=22" %}
+
 ## Automatic Join, Kick, Ban, and Permission Sync
 
 Sonoran CMS allows you to automatically add and manage user permissions with user applications, sync them with Discord roles, and more!

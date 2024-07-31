@@ -4,6 +4,8 @@ description: Learn more about creating and managing radio channels!
 
 # Configure Channels
 
+{% embed url="https://www.youtube.com/watch?v=FXXtxdSnvBE" %}
+
 ## Creating a Channel
 
 You can either create a channel in the **Server Settings** panel

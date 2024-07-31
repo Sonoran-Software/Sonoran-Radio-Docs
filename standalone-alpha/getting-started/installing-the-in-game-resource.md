@@ -4,6 +4,8 @@ description: Learn how to download and install the in-game resource.
 
 # Installing the In-Game Resource
 
+{% embed url="https://youtu.be/X8Ylo2wwo3A?t=53" %}
+
 ## Pre-Configured Resource Installation (Recommended)
 
 ### 1. Download the ZIP

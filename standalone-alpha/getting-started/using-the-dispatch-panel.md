@@ -4,6 +4,8 @@ description: Learn more about using the Sonoran Radio dispatch panel.
 
 # Using the Dispatch Panel
 
+{% embed url="https://youtu.be/FXXtxdSnvBE?t=47" %}
+
 ## Dispatch Portal
 
 When you first open a Sonoran Radio community with standalone enabled, you will see this page:

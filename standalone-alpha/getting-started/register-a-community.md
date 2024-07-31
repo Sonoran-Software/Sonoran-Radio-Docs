@@ -4,6 +4,8 @@ description: Create your own FREE community on Sonoran Radio!
 
 # Register a Community
 
+{% embed url="https://www.youtube.com/watch?v=X8Ylo2wwo3A" %}
+
 ## Creating a Community
 
 1. Navigate to [SonoranRadio.com](https://sonoranradio.com) and login

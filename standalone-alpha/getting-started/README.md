@@ -17,6 +17,8 @@ Getting started with Sonoran Radio is fast and free!
 Are you migrating from Sonoran Radio TeamSpeak (legacy) to standalone?\
 [View our migration guide here](migrate-from-ts3.md)!
 
+You can [view our 4-part tutorial series covering installation, configuration, and usage here](https://www.youtube.com/playlist?list=PLM88KLbdei-1grsVVxrIY1fXdDV8fsdGo)!
+
 ### Register Your Community:
 
 {% content-ref url="register-a-community.md" %}

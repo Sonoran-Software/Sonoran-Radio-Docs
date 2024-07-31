@@ -6,6 +6,8 @@ description: >-
 
 # Using In-Game Repeaters
 
+{% embed url="https://www.youtube.com/watch?v=sHAgi1Z_Er8" %}
+
 ## Available Repeater Types
 
 ### Server Rack
