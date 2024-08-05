@@ -18,11 +18,21 @@ Big Daddy's radio animation script enhances your Sonoran Radio experience by add
 
 ## Download and Installation
 
-### 1. Download the Script and License Key
+### 1. Download the Script and Product Key
 
 Create an account and [download the latest script resource](https://sonoran.link/bigdaddy) from Big Daddy Scripts.
 
-In the account portal, select your recent order and copy the license key.
+In the account portal, select your recent order and copy the product key.
+
+<div>
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Big Daddy - Account Panel</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Big Daddy - License Key</p></figcaption></figure>
+
+</div>
 
 ### 2. Install The Script
 
@@ -33,6 +43,8 @@ Extract the script to your server's `resources` folder.
 #### B. License Key
 
 In the `settings.ini` file, paste your license key.
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption><p>Big Daddy - Product Key</p></figcaption></figure>
 
 #### C. Ensure the Resource
 
