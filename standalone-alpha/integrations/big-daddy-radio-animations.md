@@ -14,7 +14,7 @@ description: >-
 This script requires the pro version of Sonoran Radio standalone.
 {% endhint %}
 
-Big Daddy's radio animation script enhances your Sonoran Radio experience by adding five new in-game animations. As one of the most popular scripts of its kind, it offers versatile options based on where your radio is positioned—whether on your chest, shoulders, or handheld. This provides a more immersive and personalized interaction.
+Big Daddy's radio animation script enhances your Sonoran Radio experience by adding new in-game animations. As one of the most popular scripts of its kind, it offers versatile options based on where your radio is positioned—whether on your chest, shoulders, or handheld. This provides a more immersive and personalized interaction.
 
 ## Download and Installation
 
