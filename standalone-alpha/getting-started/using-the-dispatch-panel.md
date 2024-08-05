@@ -69,19 +69,19 @@ Right click in the user to:
 * Move the user to a different channel ([Requires Permission](invite-and-manage-users.md#manage-user-permissions))
 * Adjust the user's volume ([Requires Permission](invite-and-manage-users.md#manage-user-permissions))
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Radio User Actions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Radio User Actions</p></figcaption></figure>
 
 ### Display Name
 
 Users can customize their display name in their account settings tab.\
 This requires the `Change Display Name` permission.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Display Name</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Display Name</p></figcaption></figure>
 
 Users can customize others' display names in the members tab.\
 This requires the `Manage Display Names` permission.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Sonoran Radio - Manage Display Names</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Manage Display Names</p></figcaption></figure>
 
 ***
 
@@ -95,8 +95,8 @@ See the[ pricing FAQ](../../pricing/faq/standalone-pricing.md) for more informat
 
 Users can customize their radio microphone SFX, or communities can set a new default SFX.
 
-{% content-ref url="../customization/custom-microphone-sfx.md" %}
-[custom-microphone-sfx.md](../customization/custom-microphone-sfx.md)
+{% content-ref url="../customization/custom-sfx.md" %}
+[custom-sfx.md](../customization/custom-sfx.md)
 {% endcontent-ref %}
 
 ## Next Steps

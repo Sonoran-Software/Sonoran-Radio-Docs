@@ -16,9 +16,17 @@ Custom Talkover Tone
 
 * Added the ability to customize a community-wide talkover error SFX
 
+Signal Bars
+
+* Added visual signal bars in-game to view your tower connectivity
+
 SFX Volume
 
 * Added the ability to customize the sound effect volume in the settings menu
+
+Auto-Join on Link
+
+* Users now automatically join the Sonoran Radio community after linking in-game
 
 In-Game Enhanced Error Handling
 
