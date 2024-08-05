@@ -4,6 +4,60 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # Changelog
 
+### 2.4.0 (Alpha) - 05/05/2024
+
+{% tabs %}
+{% tab title="New" %}
+Channel Groups & Organization
+
+* Added the ability to create channel groups and easily organize via drag-and-drop
+
+Custom Talkover Tone
+
+* Added the ability to customize a community-wide talkover error SFX
+
+SFX Volume
+
+* Added the ability to customize the sound effect volume in the settings menu
+
+In-Game Enhanced Error Handling
+
+* Improved errors and ensured the resource fails to start without a proper community ID and API key
+
+Mobile UI improvements
+
+* Added multiple improvements for mobile users, including a dedicated UI for the radio panel
+
+Mobile PTT Button
+
+* Added a push to talk button to the mobile version (web, apps coming soon) to utilize the rado on mobile devices
+{% endtab %}
+
+{% tab title="Fixed" %}
+Fix: Desktop Updater
+
+* Fixed an issue causing the desktop application auto-updater from working
+
+PTT In-Game & Radio
+
+* Fixed an issue preventing scripts from making the player talk in-game at the same time as they're talking on the radio
+
+\#23608 - Server Members
+
+* Fixed an issue limiting the number of users visible in the server members tab
+
+\#23542 - Tower Components
+
+* Fixed an issue causing pieces of a radio tower to be left after removal
+
+\#23758 Discord and Apple Login Window
+
+* Fixed an issue on the desktop app opening the radio in a second window after login via Discord or Apple
+{% endtab %}
+{% endtabs %}
+
+
+
 ### 2.3.0 (Alpha) - 7/11/2024
 
 {% tabs %}
