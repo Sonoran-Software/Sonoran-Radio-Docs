@@ -4,7 +4,7 @@ description: Learn more about creating and managing radio channels!
 
 # Configure Channels
 
-{% embed url="https://www.youtube.com/watch?v=FXXtxdSnvBE" %}
+{% embed url="https://www.youtube.com/watch?v=aAKsxZrI3vU" %}
 
 ## Creating Channel Groups
 
