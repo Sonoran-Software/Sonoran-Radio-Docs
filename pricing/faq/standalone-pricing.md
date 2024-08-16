@@ -45,3 +45,13 @@ Depending upon your subscription level, your community is limited to the maximum
 | Free         | No Customization |
 | Plus         | No Customization |
 | Pro          | Community-Wide   |
+
+## Tone Board Customization
+
+<figure><img src="../../.gitbook/assets/Customizable Tone Board Promo.png" alt="" width="375"><figcaption></figcaption></figure>
+
+| Subscription | Limit     |
+| ------------ | --------- |
+| Free         | 1         |
+| Standard     | 3         |
+| Pro          | Unlimited |
