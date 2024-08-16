@@ -26,7 +26,7 @@ For more information, view our [pricing FAQ](../../../pricing/faq/standalone-pri
 
 <figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption><p>Sonoran Radio - SFX Customization</p></figcaption></figure>
 
-Customize the default key-up, key-down, and talkover error SFX for the entire community in the `Server Settings` tab.
+Customize the default key-up, key-down, and talkover error SFX for the entire community in the `Customization` > `SFX Customization` tab.
 
 This requires the `Admin` permission.
 

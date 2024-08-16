@@ -12,7 +12,7 @@ description: Learn more about creating and managing radio channels!
 
 Channel groups allow communities to organize channels in separated categories.
 
-Channel groups are configured in the `Server Settings` tab.
+Channel groups are configured in the `Customization` > `Channels & Groups` tab.
 
 ### Add a Group
 
@@ -34,7 +34,7 @@ Re-order the channel groups via drag-and-drop.
 
 Channels are inside of groups and are what users connect to in order to communicate.
 
-You can create a channel in the `Server Settings` tab, or right inside of the `Dispatch` panel.
+You can create a channel in the `Customization` > `Channels & Groups` tab, or right inside of the `Dispatch` panel.
 
 
 

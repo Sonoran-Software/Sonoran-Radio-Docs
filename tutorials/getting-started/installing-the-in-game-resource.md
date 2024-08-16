@@ -12,7 +12,7 @@ description: Learn how to download and install the in-game resource.
 
 Download a pre-configured version of the in-game resource from the panel. This download will already have your community ID and API key in the `config.lua` file.
 
-Navigate to `Server Settings` > `In-Game Resource` > `Download Resource`
+Navigate to `Customization` > `FiveM Integration` > `Download Resource`
 
 ### 2. Extract the ZIP File
 
