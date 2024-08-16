@@ -10,6 +10,101 @@ Production: `https://api.sonoranradio.com`
 
 Development: `https://radioapi.dev.sonoransoftware.com`
 
+## Get Community Channels
+
+<mark style="color:green;">`POST`</mark> `/radio/get-community-channels/:id/:key`
+
+This endpoint gets all connected users in a community.
+
+**Headers**
+
+| Name         | Value              |
+| ------------ | ------------------ |
+| Content-Type | `application/json` |
+
+**Body**
+
+| Name  | Type   | Description       |
+| ----- | ------ | ----------------- |
+| `id`  | string | Community ID      |
+| `key` | string | Community API Key |
+
+**Response**
+
+{% tabs %}
+{% tab title="200" %}
+```json
+{
+    "result": "ok",
+    "groups": [
+        {
+            "id": 0,
+            "name": "Default",
+            "orderIndex": 0
+        },
+        {
+            "id": 1,
+            "name": "test",
+            "orderIndex": 1
+        }
+    ],
+    "channels": [
+        {
+            "id": 123,
+            "groupId": 0,
+            "displayName": "Patrol Ops",
+            "recvFreqMajor": 40,
+            "recvFreqMinor": 120,
+            "xmitFreqMajor": 36,
+            "xmitFreqMinor": 275,
+            "repeatsXmit": true,
+            "status": true,
+            "orderIndex": 0,
+            "talkoverProtection": false
+        }
+    ]
+}
+```
+{% endtab %}
+{% endtabs %}
+
+## Get Connected Users
+
+<mark style="color:green;">`POST`</mark> `/radio/get-connected-users/:id/:key`
+
+This endpoint gets all connected users in a community.
+
+**Headers**
+
+| Name         | Value              |
+| ------------ | ------------------ |
+| Content-Type | `application/json` |
+
+**Body**
+
+| Name  | Type   | Description       |
+| ----- | ------ | ----------------- |
+| `id`  | string | Community ID      |
+| `key` | string | Community API Key |
+
+**Response**
+
+{% tabs %}
+{% tab title="200" %}
+```json
+{
+    "result": "ok",
+    "connectedUsers": [
+        {
+            "identity": "91de0ce8-c571-11e9-9714-5600023b2434",
+            "metadata": "{\"sonrad\":true,\"state\":{\"freqRecv\":[40,120],\"freqXmit\":[36,275],\"freqScan\":[],\"sfxKeyUp\":null,\"sfxKeyDown\":null,\"spec\":1}}"
+        }
+    ]
+}
+```
+{% endtab %}
+{% endtabs %}
+
 ## Set Server IP
 
 <mark style="color:green;">`POST`</mark> `/radio/set-server-ip`
