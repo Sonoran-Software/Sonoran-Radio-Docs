@@ -5,17 +5,19 @@ description: Get started with Sonoran Radio standalone!
 # Getting Started
 
 {% hint style="danger" %}
-**Sonoran Radio Standalone (Alpha) is available for public preview.**
+**Sonoran Radio Standalone (Beta) is available for public preview.**
 
-This _preview_ is **NOT** intended for full community usage, expect bugs and limited functionality.
+This preview is considered stable and available for community usage.
 
-Stay tuned to our [Discord ](https://discord.sonoransoftware.com)for upcoming news and announcements!
+During the Beta, please report any bugs or issues via our [support site](https://support.sonoransoftware.com) or [Discord](https://discord.sonoransoftware.com).
 {% endhint %}
 
 Getting started with Sonoran Radio is fast and free!
 
 Are you migrating from Sonoran Radio TeamSpeak (legacy) to standalone?\
 [View our migration guide here](../../ts3-legacy/migrate-from-ts3.md)!
+
+_TeamSpeak (legacy) is not expected to recieve any further updates._
 
 You can [view our 4-part tutorial series covering installation, configuration, and usage here](https://www.youtube.com/playlist?list=PLM88KLbdei-1grsVVxrIY1fXdDV8fsdGo)!
 
@@ -31,20 +33,14 @@ You can [view our 4-part tutorial series covering installation, configuration, a
 [invite-and-manage-users.md](invite-and-manage-users.md)
 {% endcontent-ref %}
 
-### Use the Dispatch Panel
-
-{% content-ref url="../usage/dispatch-panel/using-the-dispatch-panel.md" %}
-[using-the-dispatch-panel.md](../usage/dispatch-panel/using-the-dispatch-panel.md)
-{% endcontent-ref %}
-
 ### Installing the In-Game Resource
 
 {% content-ref url="installing-the-in-game-resource.md" %}
 [installing-the-in-game-resource.md](installing-the-in-game-resource.md)
 {% endcontent-ref %}
 
-### Using the In-Game Radio
+### Using the Radio
 
-{% content-ref url="../usage/in-game-radio/using-the-in-game-radio.md" %}
-[using-the-in-game-radio.md](../usage/in-game-radio/using-the-in-game-radio.md)
+{% content-ref url="../usage/" %}
+[usage](../usage/)
 {% endcontent-ref %}
