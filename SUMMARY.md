@@ -42,7 +42,6 @@
   * [Free TeamSpeak Server Promo](pricing/faq/free-teamspeak-promo.md)
   * [Free in-game Radio Installation and Discount - Sonoran Servers](pricing/faq/discounts-and-offers.md)
   * [Free in-game Radio Installation - Next Steps](pricing/faq/free-install-next-steps.md)
-* [View and Compare Plans](https://sonoranradio.com/pricing)
 
 ## Roadmap & Changelog <a href="#roadmap" id="roadmap"></a>
 
