@@ -1,11 +1,50 @@
 ---
-description: >-
-  Looking to use Sonoran Radio with your community? Check out our getting
-  started guides below!
+description: Get started with Sonoran Radio standalone!
 ---
 
 # Getting Started
 
-{% embed url="https://www.youtube.com/watch?v=N1k8SseN6ug" %}
+{% hint style="danger" %}
+**Sonoran Radio Standalone (Alpha) is available for public preview.**
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h3>Core Concepts</h3></td><td>Need help understanding the basics of what everything does? Look no further.</td><td></td><td></td></tr><tr><td><h3>Install the TeamSpeak Plugin</h3></td><td>Every user who's using the radio system will need to have the plugin. Installing is quick and painless, just see how fast with our guide.</td><td></td><td></td></tr><tr><td><h3>Register Your Community</h3></td><td>Registering and configuring  your community to integrate Sonoran Radio is free and easy! Check the guide here.</td><td></td><td><a href="registering-your-community.md">registering-your-community.md</a></td></tr><tr><td><h3>Install the FiveM Radio Script</h3></td><td>You can use the following guide to install the FiveM radio resource that will allow you to change frequencies and manipulate your scan list from in game.</td><td></td><td><a href="in-game-radio.md">in-game-radio.md</a></td></tr><tr><td><h3>Purchase a Subscription</h3></td><td>Learn to purchase and apply a subscription to your Sonoran Radio Community!</td><td></td><td><a href="how-to-purchase.md">how-to-purchase.md</a></td></tr><tr><td><h3>Import your SAPR Config</h3></td><td>For those switching from San Andreas Police Radio, you can import your SAPR configuration into Sonoran Radio!</td><td></td><td><a href="import-sapr-config.md">import-sapr-config.md</a></td></tr></tbody></table>
+This _preview_ is **NOT** intended for full community usage, expect bugs and limited functionality.
+
+Stay tuned to our [Discord ](https://discord.sonoransoftware.com)for upcoming news and announcements!
+{% endhint %}
+
+Getting started with Sonoran Radio is fast and free!
+
+Are you migrating from Sonoran Radio TeamSpeak (legacy) to standalone?\
+[View our migration guide here](../../ts3-legacy/migrate-from-ts3.md)!
+
+You can [view our 4-part tutorial series covering installation, configuration, and usage here](https://www.youtube.com/playlist?list=PLM88KLbdei-1grsVVxrIY1fXdDV8fsdGo)!
+
+### Register Your Community:
+
+{% content-ref url="register-a-community.md" %}
+[register-a-community.md](register-a-community.md)
+{% endcontent-ref %}
+
+### Invite and Manage Users
+
+{% content-ref url="invite-and-manage-users.md" %}
+[invite-and-manage-users.md](invite-and-manage-users.md)
+{% endcontent-ref %}
+
+### Use the Dispatch Panel
+
+{% content-ref url="../usage/dispatch-panel/using-the-dispatch-panel.md" %}
+[using-the-dispatch-panel.md](../usage/dispatch-panel/using-the-dispatch-panel.md)
+{% endcontent-ref %}
+
+### Installing the In-Game Resource
+
+{% content-ref url="installing-the-in-game-resource.md" %}
+[installing-the-in-game-resource.md](installing-the-in-game-resource.md)
+{% endcontent-ref %}
+
+### Using the In-Game Radio
+
+{% content-ref url="../usage/in-game-radio/using-the-in-game-radio.md" %}
+[using-the-in-game-radio.md](../usage/in-game-radio/using-the-in-game-radio.md)
+{% endcontent-ref %}

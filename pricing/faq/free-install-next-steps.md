@@ -31,6 +31,6 @@ For Sonoran Radio's in-game resource, there will be a `config.lua` file present.
 
 You can open this configuration file with a text editor and change values.
 
-For more information on the configuration options, you can view the [in-game resource's guide](../../tutorials/getting-started/in-game-radio.md) page and scroll down to the configuration section.
+For more information on the configuration options, you can view the [in-game resource's guide](../../ts3-legacy/tutorials/getting-started/in-game-radio.md) page and scroll down to the configuration section.
 
 If you modify a configuration file, be sure to save it and restart the server.

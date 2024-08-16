@@ -1,25 +1,113 @@
 ---
-title: Sonoran Radio
-published: true
-date: 2022-10-27T18:59:16.356Z
-tags: null
-editor: markdown
-dateCreated: 2021-09-29T20:50:45.190Z
-description: Experience the Next Level of Radio Communications!
+description: Learn more about Sonoran Radio for your community.
 ---
 
-# Sonoran Radio
+# 🏆 Why Choose Sonoran Radio
 
-Learn more about our advanced communication system, find tutorials, access API documentation, and more!
+## 💸 Free!
 
-{% hint style="success" %}
-Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](other-products/sonoran-servers.md)!
+Sonoran Radio offers a fully-featured free version accessible to anyone!
+
+With instant setup, you can chat with community members in just minutes!
+
+## 💣 [In-Game Tower Destruction](tutorials/usage/in-game-radio/using-in-game-repeaters.md)
+
+The physical in-game towers are able to be destroyed by criminals, which will devastate quality of radios around it.
+
+With three different in-game model types, Sonoran Radio takes immersion to the next level!
+
+See our [tower destruction and repairing](ts3-legacy/tutorials/script-usage.md#in-game-towers) info!
+
+<div>
+
+<figure><img src=".gitbook/assets/cell.png" alt=""><figcaption><p>Cellular Antenna</p></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/tower_broken.png" alt=""><figcaption><p>Radio Tower</p></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/server_opened (1).png" alt=""><figcaption><p>Server Rack</p></figcaption></figure>
+
+</div>
+
+<figure><img src=".gitbook/assets/destroy_towers_b.png" alt=""><figcaption><p>Sonoran Radio - Destructible Towers - Promotional Image</p></figcaption></figure>
+
+## 📢 [Custom Tone Board](tutorials/usage/dispatch-panel/custom-tone-board.md)
+
+Upload and customize dispatch tones for your community!
+
+Sonoran Radio's dispatch UI allows you to specify specific channels and groups, repeat tones, and more!
+
+<figure><img src=".gitbook/assets/Customizable Tone Board Promo.png" alt=""><figcaption><p>Sonoran Radio - Tone Board</p></figcaption></figure>
+
+## 🔊 [Custom SFX](tutorials/usage/dispatch-panel/custom-sfx.md)
+
+Easily customize mic clicks, talkover protection tones, and more!
+
+<figure><img src=".gitbook/assets/customclicks_final.png" alt=""><figcaption></figcaption></figure>
+
+## ☁️ [Cloud Configurations](tutorials/usage/dispatch-panel/configure-channels.md)
+
+Customizing your radio has never been easier, with live updates from our easy-to-use configuration panel.
+
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Sonoran Radio - Customize Panel</p></figcaption></figure>
+
+## 🎧 [Dispatch Panel](tutorials/usage/dispatch-panel/using-the-dispatch-panel.md)
+
+Easily visualize, manage users, play tones, and more!
+
+Sonoran Radio's dispatch UI is available everywhere on the [web](sonoran-radio/download-the-app.md) and [desktop](sonoran-radio/download-the-app.md) for Windows and OSX.
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Sonoran Radio - Dispatch Portal</p></figcaption></figure>
+
+## 📡 [Multiple Radio Options](tutorials/usage/in-game-radio/using-the-in-game-radio.md)
+
+Sonoran Radio offers multiple in-game user interfaces, allowing you to stay connected on-foot, in-vehicle, and more!
+
+Choose from one of our radio style options, or even add your own!
+
+{% hint style="info" %}
+_On-foot and custom frames are pending a future update._
 {% endhint %}
 
-<figure><img src=".gitbook/assets/landing_radio.png" alt=""><figcaption><p>Sonoran Radio - Promotional Image</p></figcaption></figure>
+<figure><img src=".gitbook/assets/radio_overlays-large.png" alt=""><figcaption><p>Sonoran Radio - Multiple Overlays - Promotional Image</p></figcaption></figure>
 
-### What is Sonoran Radio?
+## 🔌 [Power Grid Support](https://www.sonoran.store/package/5120025)
 
-Sonoran Radio is the all-in-one package for realistic radio simulation. It strives to bring real-life radio habits into the digital world. Provided with a TeamSpeak 3 plugin and FiveM resource out of the box, community owners and managers are able to customize the radio to their liking through our online dashboard!
+Hack into the integrated power grid to disable Sonoran Radio towers in your area! [Learn more about this script](https://www.sonoran.store/package/5120025)!
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h3>Why Choose Sonoran Radio?</h3></td><td>Sonoran Radio's first priority for any community is customizability, reliability, and realism all at a fair price</td><td></td><td><a href="why-choose-sonoran-radio/why-choose-sonoran-radio.md">why-choose-sonoran-radio.md</a></td></tr><tr><td><h3>Where to get Sonoran Radio?</h3></td><td>Try it for free, purchase or manage subscriptions from the main website linked here</td><td></td><td><a href="https://sonoranradio.com">https://sonoranradio.com</a></td></tr><tr><td><h3>How do I get started?</h3></td><td>Using Sonoran Radio with your community is free, fast, and easy! We've compiled a list of tutorials to help you get started and get the most out of our advanced system</td><td></td><td><a href="tutorials/getting-started/">getting-started</a></td></tr></tbody></table>
+<figure><img src=".gitbook/assets/power_grid_promo.png" alt=""><figcaption><p>Sonoran Radio x Sonoran Power Grid - Promotional Image</p></figcaption></figure>
+
+## 🏆 [Sonoran CAD Integration](tutorials/integrations/sonoran-cad-integration.md)
+
+Sonoran Radio provides an optional integration to SonoranCAD through the FiveM resource. Turning this on takes the system to a whole new level.
+
+Visually see in-game towers, health, and signal range on the CAD live map!
+
+{% hint style="info" %}
+_CAD status, call information, and more will be released in a coming update._
+{% endhint %}
+
+## 📁[Sonoran CMS Integration](tutorials/integrations/sonoran-cms.md)
+
+Sonoran CMS allows you to automatically manage your community's Sonoran Radio permissions based on their CMS ranks and Discord roles!
+
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Sonoran CMS x Sonoran Radio</p></figcaption></figure>
+
+## [🚐](https://emojiterra.com/minibus/) [Mobile Command Center Integration](https://www.sonoran.store/package/5287071)
+
+<figure><img src=".gitbook/assets/mcc.png" alt=""><figcaption><p>Sonoran Radio x Sonoran MCC - Promotional Image</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/mcc_radio.png" alt=""><figcaption><p>Sonoran Radio x Sonoran MCC - Integrated Repeater - Promotional Image</p></figcaption></figure>
+
+[Sonoran's mobile command center](https://www.sonoran.store/package/5287071) enables you to take command like never before. This one-of-a-kind utility vehicle brings endless possibilities!
+
+Expand the pop-out sides for a walkable command center interior. Or, **raise the radio antenna** and scan the scene with 360 degree surveillance cameras!
+
+Paired with a standalone script, the mobile command center offers an **integrated Sonoran Radio repeater** and Sonoran CAD ALPR functionality!
+
+## 📋 [Frequent Updates](roadmap/changelog.md)
+
+Sonoran Radio is always providing updates to help improve the experience, customizability, and realism of the product. We're always looking for new ideas and suggestions!

@@ -7,7 +7,7 @@ description: Learn more about Sonoran Radio's refund and purchase policy.
 {% hint style="success" %}
 We highly recommend all communities register and try out Sonoran Radio for **free**, before opting to purchase an upgraded subscription.\
 \
-Sonoran Radio allows your community to register and try out the Radio for an unlimited amount of time before purchasing. For more information, check out our [getting started guides](../../tutorials/getting-started/).
+Sonoran Radio allows your community to register and try out the Radio for an unlimited amount of time before purchasing. For more information, check out our [getting started guides](../../ts3-legacy/tutorials/getting-started/).
 
 
 

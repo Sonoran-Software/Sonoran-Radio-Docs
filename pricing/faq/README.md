@@ -20,8 +20,8 @@ description: Want to get the best deals, or maybe just see how our prices work?
 
 You must first register your TeamSpeak server with our platform.
 
-{% content-ref url="../../tutorials/getting-started/registering-your-community.md" %}
-[registering-your-community.md](../../tutorials/getting-started/registering-your-community.md)
+{% content-ref url="../../ts3-legacy/tutorials/getting-started/registering-your-community.md" %}
+[registering-your-community.md](../../ts3-legacy/tutorials/getting-started/registering-your-community.md)
 {% endcontent-ref %}
 
 ### Step 2

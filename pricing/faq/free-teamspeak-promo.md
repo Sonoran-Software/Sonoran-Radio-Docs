@@ -122,7 +122,7 @@ d. Connect to your TeamSpeak server and retrieve the Unique ID of your TeamSpeak
 <figure><img src="../../.gitbook/assets/snag_baed5a6f.png" alt=""><figcaption><p>Sonoran Radio - Copy Unique ID</p></figcaption></figure>
 
 {% hint style="warning" %}
-You must have the [TS3 Plugin installed](../../tutorials/getting-started/install-plugin.md) on your TeamSpeak client before this information will appear
+You must have the [TS3 Plugin installed](../../ts3-legacy/tutorials/getting-started/install-plugin.md) on your TeamSpeak client before this information will appear
 {% endhint %}
 
 e. Paste the Server UID into the new server form and press `Register Server`&#x20;
@@ -186,7 +186,7 @@ Advanced Profile Creation is meant for a more customizable and in-depth way to c
 * Set the Receive Frequency. In Simplex, this should be set to the same as the Transmit Frequency. In Duplex, this is the frequency of the transmissions from the repeater.
 * Set the Transmit Frequency. In Simplex, this should be set to the same as the Receive Frequency. In Duplex, this is the frequency that the repeater is listening for transmissions on.
 * Check the Repeats Transmit Frequency to enable the duplex repeater functionality.
-* [Learn More About Simplex & Duplex Mode](../../tutorials/getting-started/core-concepts.md)
+* [Learn More About Simplex & Duplex Mode](../../ts3-legacy/tutorials/getting-started/core-concepts.md)
 
 b. To reorder the position of profiles, click on the `Reorder Profiles` button on the radio management portal.
 

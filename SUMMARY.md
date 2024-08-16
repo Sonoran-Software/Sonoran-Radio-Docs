@@ -1,10 +1,9 @@
 # Table of contents
 
-* [Sonoran Radio](README.md)
+## Sonoran Radio
 
-## Why Choose Sonoran Radio?
-
-* [🏆 Why Choose Sonoran Radio](why-choose-sonoran-radio/why-choose-sonoran-radio.md)
+* [🏆 Why Choose Sonoran Radio](README.md)
+* [📱 Download the App](sonoran-radio/download-the-app.md)
 
 ## Other Products
 
@@ -15,50 +14,26 @@
 ## Tutorials
 
 * [Getting Started](tutorials/getting-started/README.md)
-  * [Core Concepts](tutorials/getting-started/core-concepts.md)
-  * [Installing the TeamSpeak Plugin](tutorials/getting-started/install-plugin.md)
-  * [Registering Your Community](tutorials/getting-started/registering-your-community.md)
-  * [Installing the FiveM Radio Script](tutorials/getting-started/in-game-radio.md)
-  * [Purchase a Subscription](tutorials/getting-started/how-to-purchase.md)
-  * [Switching from SAPR](tutorials/getting-started/import-sapr-config.md)
-* [Plugin Usage](tutorials/plugin-usage/README.md)
-  * [Using the TeamSpeak Plugin](tutorials/plugin-usage/plugin-usage.md)
-  * [TeamSpeak Spam Protection](tutorials/plugin-usage/anti-anti-flood.md)
-  * [Changing Mic Clicks](tutorials/plugin-usage/mic-clicks.md)
-* [Using the FiveM Radio Script](tutorials/script-usage.md)
-* [Permission Setup](tutorials/permissions.md)
-* [Customizing Radio Frames](tutorials/customizing-radio-frames.md)
-
-## Standalone Alpha
-
-* [📱 Download the App](standalone-alpha/download-the-app.md)
-* [Getting Started](standalone-alpha/getting-started/README.md)
-  * [Register a Community](standalone-alpha/getting-started/register-a-community.md)
-  * [Invite and Manage Users](standalone-alpha/getting-started/invite-and-manage-users.md)
-  * [Configure Channels](standalone-alpha/getting-started/configure-channels.md)
-  * [Using the Dispatch Panel](standalone-alpha/getting-started/using-the-dispatch-panel.md)
-  * [Installing the In-Game Resource](standalone-alpha/getting-started/installing-the-in-game-resource.md)
-  * [Using the In-Game Radio](standalone-alpha/getting-started/using-the-in-game-radio.md)
-  * [Using In-Game Repeaters](standalone-alpha/getting-started/using-in-game-repeaters.md)
-  * [Configuring ACE Permissions](standalone-alpha/getting-started/configuring-ace-permissions.md)
-  * [Migrate from TeamSpeak](standalone-alpha/getting-started/migrate-from-ts3.md)
-* [Customization](standalone-alpha/customization/README.md)
-  * [Custom SFX](standalone-alpha/customization/custom-sfx.md)
-* [Integrations](standalone-alpha/integrations/README.md)
-  * [Sonoran CAD Integration](standalone-alpha/integrations/sonoran-cad-integration.md)
-  * [Sonoran CMS](standalone-alpha/integrations/sonoran-cms.md)
-  * [Big Daddy Radio Animations](standalone-alpha/integrations/big-daddy-radio-animations.md)
-  * [Developer Documentation](standalone-alpha/integrations/developer-documentation/README.md)
-    * [Resource Events](standalone-alpha/integrations/developer-documentation/resource-events.md)
-    * [API Endpoints](standalone-alpha/integrations/developer-documentation/api-endpoints.md)
-* [Updates](standalone-alpha/updates/README.md)
-  * [Changelog](standalone-alpha/updates/changelog.md)
-  * [Migration Guides](standalone-alpha/updates/migration-guides.md)
-
-## For Developers
-
-* [Development Build](for-developers/ts-dev-build.md)
-* [TeamSpeak Websocket API](for-developers/ts-ws-api.md)
+  * [Register a Community](tutorials/getting-started/register-a-community.md)
+  * [Invite and Manage Users](tutorials/getting-started/invite-and-manage-users.md)
+  * [Installing the In-Game Resource](tutorials/getting-started/installing-the-in-game-resource.md)
+* [Usage](tutorials/usage/README.md)
+  * [Dispatch Panel](tutorials/usage/dispatch-panel/README.md)
+    * [Configure Channels](tutorials/usage/dispatch-panel/configure-channels.md)
+    * [Custom SFX](tutorials/usage/dispatch-panel/custom-sfx.md)
+    * [Custom Tone Board](tutorials/usage/dispatch-panel/custom-tone-board.md)
+    * [Using the Dispatch Panel](tutorials/usage/dispatch-panel/using-the-dispatch-panel.md)
+  * [In-Game Radio](tutorials/usage/in-game-radio/README.md)
+    * [Using the In-Game Radio](tutorials/usage/in-game-radio/using-the-in-game-radio.md)
+    * [Using In-Game Repeaters](tutorials/usage/in-game-radio/using-in-game-repeaters.md)
+    * [Configuring ACE Permissions](tutorials/usage/in-game-radio/configuring-ace-permissions.md)
+* [Integrations](tutorials/integrations/README.md)
+  * [Sonoran CMS](tutorials/integrations/sonoran-cms.md)
+  * [Sonoran CAD Integration](tutorials/integrations/sonoran-cad-integration.md)
+  * [Big Daddy Radio Animations](tutorials/integrations/big-daddy-radio-animations.md)
+  * [Developer Documentation](tutorials/integrations/developer-documentation/README.md)
+    * [Resource Events](tutorials/integrations/developer-documentation/resource-events.md)
+    * [API Endpoints](tutorials/integrations/developer-documentation/api-endpoints.md)
 
 ## Pricing
 
@@ -72,12 +47,39 @@
 ## Roadmap & Changelog <a href="#roadmap" id="roadmap"></a>
 
 * [🗺️ Roadmap](https://roadmap.sonoranradio.com/)
-* [📋 In-Game Radio Changelog](roadmap/fivem-changelog.md)
-* [📋 Plugin Changelog](roadmap/ts-changelog.md)
+* [Changelog](roadmap/changelog.md)
+* [Migration Guides](roadmap/migration-guides.md)
+
+***
+
+* [TS3 Legacy](ts3-legacy/README.md)
+  * [🏆 Why Choose Sonoran Radio](ts3-legacy/why-choose-sonoran-radio.md)
+  * [Tutorials](ts3-legacy/tutorials/README.md)
+    * [Getting Started](ts3-legacy/tutorials/getting-started/README.md)
+      * [Core Concepts](ts3-legacy/tutorials/getting-started/core-concepts.md)
+      * [Installing the TeamSpeak Plugin](ts3-legacy/tutorials/getting-started/install-plugin.md)
+      * [Registering Your Community](ts3-legacy/tutorials/getting-started/registering-your-community.md)
+      * [Installing the FiveM Radio Script](ts3-legacy/tutorials/getting-started/in-game-radio.md)
+      * [Purchase a Subscription](ts3-legacy/tutorials/getting-started/how-to-purchase.md)
+      * [Switching from SAPR](ts3-legacy/tutorials/getting-started/import-sapr-config.md)
+    * [Plugin Usage](ts3-legacy/tutorials/plugin-usage/README.md)
+      * [Using the TeamSpeak Plugin](ts3-legacy/tutorials/plugin-usage/plugin-usage.md)
+      * [TeamSpeak Spam Protection](ts3-legacy/tutorials/plugin-usage/anti-anti-flood.md)
+      * [Changing Mic Clicks](ts3-legacy/tutorials/plugin-usage/mic-clicks.md)
+    * [Using the FiveM Radio Script](ts3-legacy/tutorials/script-usage.md)
+    * [Permission Setup](ts3-legacy/tutorials/permissions.md)
+    * [Customizing Radio Frames](ts3-legacy/tutorials/customizing-radio-frames.md)
+  * [Developers](ts3-legacy/developers/README.md)
+    * [Development Build](ts3-legacy/developers/ts-dev-build.md)
+    * [TeamSpeak Websocket API](ts3-legacy/developers/ts-ws-api.md)
+  * [Archived Sonoran Radio Versions](ts3-legacy/archive-downloads.md)
+  * [Changelog](ts3-legacy/changelog/README.md)
+    * [📋 In-Game Radio Changelog](ts3-legacy/changelog/fivem-changelog.md)
+    * [📋 Plugin Changelog](ts3-legacy/changelog/ts-changelog.md)
+  * [Migrate from TeamSpeak](ts3-legacy/migrate-from-ts3.md)
 
 ## Other
 
-* [Archived Sonoran Radio Versions](other/archive-downloads.md)
 * [Contact Us](https://support.sonoransoftware.com/)
 * [Policy](other/policy/README.md)
   * [Privacy Policy](other/policy/privacy-policy.md)
