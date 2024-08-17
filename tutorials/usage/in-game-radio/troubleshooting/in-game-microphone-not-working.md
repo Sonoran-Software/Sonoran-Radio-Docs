@@ -1,5 +1,5 @@
 ---
-description: Fix a common issue causing the in-game microphone to not work
+description: Fix a common issue causing the in-game microphone to not work.
 ---
 
 # In-Game Microphone Not Working
@@ -22,7 +22,7 @@ Select `Manage Audio Devices`
 
 <figure><img src="../../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
-### 2. Set Microphone as Default
+### 3. Set Microphone as Default
 
 * Select the `Recording` tab
 * Select your microphone
