@@ -70,4 +70,6 @@ Once in-game, you can use the `/radioanim` command to open up the customization 
 
 This script will automatically detect when you are talking on your Sonoran Radio.
 
+This script also makes **users talk on their in-game microphone when they talk on the radio**.
+
 [See the documentation for more information about configuration options and commands.](https://wiki.bigdaddyscripts.com/en/documentation/Radio-Animation)
