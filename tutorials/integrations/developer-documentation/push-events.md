@@ -12,6 +12,7 @@ The `play_tone` push event is sent to the game server when a dispatcher is sendi
 {
     "id": "", // Community ID
     "key": "", // Community API Key (Use to authenticate)
+    "type": "play_tone",
     "payload": {
         "src": "https://s3.sonoransoftware.com/radio/system/tones/signal_100.mp3",
         "ids": [
