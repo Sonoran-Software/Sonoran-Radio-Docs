@@ -28,6 +28,7 @@
     * [Using In-Game Repeaters](tutorials/usage/in-game-radio/using-in-game-repeaters.md)
     * [Configuring ACE Permissions](tutorials/usage/in-game-radio/configuring-ace-permissions.md)
     * [Troubleshooting](tutorials/usage/in-game-radio/troubleshooting/README.md)
+      * [Error Codes](tutorials/usage/in-game-radio/troubleshooting/error-codes.md)
       * [In-Game Microphone Not Working](tutorials/usage/in-game-radio/troubleshooting/in-game-microphone-not-working.md)
 * [Integrations](tutorials/integrations/README.md)
   * [Sonoran CMS](tutorials/integrations/sonoran-cms.md)
