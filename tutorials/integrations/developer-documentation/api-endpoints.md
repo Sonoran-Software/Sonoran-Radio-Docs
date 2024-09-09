@@ -205,11 +205,11 @@ Sends a list of in-game speaker locations that the tone board can select.
 [
   {
     "label": "Fire Station 123" // STRING: Label for in-game location
-    "gameId": "ABC123XYZ" // STRING: Unique ID for in-game location
+    "gameId": "STATION_123" // STRING: Unique ID for in-game location
   },
   {
     "label": "Police Station ABC" // STRING: Label for in-game location
-    "gameId": "XYZ098ABC" // STRING: Unique ID for in-game location
+    "gameId": "STATION_456" // STRING: Unique ID for in-game location
   }
 ]
 ```
