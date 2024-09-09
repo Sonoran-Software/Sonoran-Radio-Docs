@@ -179,9 +179,9 @@ This endpoint gets the subscription enumeration value of a Sonoran Radio communi
 {% endtab %}
 {% endtabs %}
 
-## Set In-Game Tone Locations
+## Set In-Game Speaker Locations
 
-<mark style="color:green;">`POST`</mark> `/radio/set-server-speaker-locations`
+<mark style="color:green;">`POST`</mark> `/radio/set-server-speakers`
 
 Sends a list of in-game speaker locations that the tone board can select.
 
