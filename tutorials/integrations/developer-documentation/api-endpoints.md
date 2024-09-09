@@ -119,10 +119,11 @@ This endpoint sets the IP address of a Sonoran Radio community, used for resourc
 
 **Body**
 
-| Name  | Type   | Description       |
-| ----- | ------ | ----------------- |
-| `id`  | string | Community ID      |
-| `key` | string | Community API Key |
+| Name      | Type   | Description       |
+| --------- | ------ | ----------------- |
+| `id`      | string | Community ID      |
+| `key`     | string | Community API Key |
+| `pushUrl` | string | Push Event URL    |
 
 **Response**
 
@@ -165,6 +166,61 @@ This endpoint gets the subscription enumeration value of a Sonoran Radio communi
 {
   "result": "ok",
   "subscription": 0 // 0 = Free, 1 = Plus, 2 = Pro
+}
+```
+{% endtab %}
+
+{% tab title="400" %}
+```json
+{
+  "error": "Invalid request"
+}
+```
+{% endtab %}
+{% endtabs %}
+
+## Set In-Game Tone Locations
+
+<mark style="color:green;">`POST`</mark> `/radio/set-server-speaker-locations`
+
+Sends a list of in-game speaker locations that the tone board can select.
+
+**Headers**
+
+| Name          | Value              |
+| ------------- | ------------------ |
+| Content-Type  | `application/json` |
+| Authorization | `Bearer <token>`   |
+
+**Body**
+
+| Name        | Type                       | Description            |
+| ----------- | -------------------------- | ---------------------- |
+| `id`        | string                     | Community ID           |
+| `key`       | string                     | Community API Key      |
+| `locations` | array of `Location`objects | In-Game Tone Locations |
+
+```json
+// Location Object Array Structure
+[
+  {
+    "label": "Fire Station 123" // STRING: Label for in-game location
+    "gameId": "ABC123XYZ" // STRING: Unique ID for in-game location
+  },
+  {
+    "label": "Police Station ABC" // STRING: Label for in-game location
+    "gameId": "XYZ098ABC" // STRING: Unique ID for in-game location
+  }
+]
+```
+
+**Response**
+
+{% tabs %}
+{% tab title="200" %}
+```json
+{
+  "result": "ok"
 }
 ```
 {% endtab %}
