@@ -185,6 +185,8 @@ This endpoint gets the subscription enumeration value of a Sonoran Radio communi
 
 Sends a list of in-game speaker locations that the tone board can select.
 
+When played, the [play\_tone ](push-events.md#play-tone)push event will be sent to your server's [pushUrl](api-endpoints.md#set-server-ip).
+
 **Headers**
 
 | Name          | Value              |
