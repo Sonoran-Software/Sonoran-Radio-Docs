@@ -4,6 +4,46 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # Changelog
 
+### 2.6.0 (Beta) - Coming Soon
+
+{% tabs %}
+{% tab title="New" %}
+Hear Chatter In-Game
+
+* Civilians can now hear live radio chatter when there is a nearby radio. This requires the pro version.
+
+Top-Down HUD
+
+* Added the top-down radio HUD UI in-game
+
+Multi-Frame
+
+* Added four radio frame options in-game to choose from, customizable by the community
+
+In-Game Connected List
+
+* Added an in-game connected users list
+
+Cache Busting
+
+* Added improved cache busting to ensure in-game radio updates are recieved faster by users
+
+Mic Clicks - For Local Only
+
+* Per-user custom mic clicks are now only heard by that user, instead of everyone on the radio
+{% endtab %}
+
+{% tab title="Fixed" %}
+Vehicle Radio Blue Screen
+
+* Fixed an issue causing switching from the handheld to vehicle radio causing a blue radio screen for some users until turned off and back on
+
+In-Game Talkover
+
+* Fixed an issue allowing some users to talkover others while talkover protection was enabled
+{% endtab %}
+{% endtabs %}
+
 ### 2.5.0 (Beta) - 08/16/2024
 
 {% tabs %}
