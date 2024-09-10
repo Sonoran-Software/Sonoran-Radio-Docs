@@ -4,7 +4,7 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # Changelog
 
-### 2.6.0 (Beta) - Coming Soon
+### 2.6.0 (Beta) - 09/11/2024
 
 {% tabs %}
 {% tab title="New" %}
