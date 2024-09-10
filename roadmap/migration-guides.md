@@ -17,6 +17,12 @@ Version 2.6.0 introduces new configuration values.
    1. `Config.chatter = true`
    2. `Config.acePermsForRadioUsers = false`
 
+Your `config.lua` should now look like the following:
+
+![](<../.gitbook/assets/image (40).png>)
+
+
+
 </details>
 
 <details>
