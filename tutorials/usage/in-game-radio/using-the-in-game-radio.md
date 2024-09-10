@@ -29,11 +29,11 @@ Restrict access to the radio with [ACE permissions](configuring-ace-permissions.
 When you first use the in-game resource, you'll need to log in.\
 A 4-digit code will appear for you to sign in from your browser.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="345"><figcaption><p>Sonoran Radio - Login with Link Prompt</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="345"><figcaption><p>Sonoran Radio - Login with Link Prompt</p></figcaption></figure>
 
 Open [sonoranradio.com/link](https://sonoranradio.com/link) in a web browser, log in if needed, enter your code, and click "Activate" to log in to the game.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Activate Link</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Activate Link</p></figcaption></figure>
 
 ### Logging Out
 
@@ -116,6 +116,18 @@ Select `Move/Resize`
 </div>
 
 <figure><img src="../../../.gitbook/assets/image (17).png" alt="" width="375"><figcaption><p>In-Game Radio - Adjustment</p></figcaption></figure>
+
+### Change Radio Frames
+
+The settings menu also allows you to customize your radio frame:
+
+<figure><img src="../../../.gitbook/assets/image (32).png" alt="" width="165"><figcaption><p>Sonoran Radio - Custom Frames</p></figcaption></figure>
+
+Learn more about customizable radio frames:
+
+{% content-ref url="customizing-radio-frames.md" %}
+[customizing-radio-frames.md](customizing-radio-frames.md)
+{% endcontent-ref %}
 
 ## Custom Animations
 

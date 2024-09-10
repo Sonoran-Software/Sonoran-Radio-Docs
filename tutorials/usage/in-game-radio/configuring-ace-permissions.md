@@ -32,6 +32,9 @@ add_ace sonoranradio.towers sonoranradio.use allow
 
 # Tower Repair (Optional: If `acePermsForTowerRepair` is `true` in config.lua)
 add_ace sonoranradio.towers sonoranradio.repair allow
+
+# Connected Users List (Optional: If `acePermsForRadioUsers` is `true` in config.lua)
+add_ace sonoranradio.towers sonoranradio.radiousers allow
 ```
 
 ### **3. Add Users to the ACE Group**

@@ -8,7 +8,7 @@ description: Learn more about creating and managing radio channels!
 
 ## Creating Channel Groups
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Channel groups allow communities to organize channels in separated categories.
 

@@ -60,7 +60,7 @@ Easily visualize, manage users, play tones, and more!
 
 Sonoran Radio's dispatch UI is available everywhere on the [web](sonoran-radio/download-the-app.md) and [desktop](sonoran-radio/download-the-app.md) for Windows and OSX.
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Sonoran Radio - Dispatch Portal</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Dispatch Portal</p></figcaption></figure>
 
 ## 📡 [Multiple Radio Options](tutorials/usage/in-game-radio/using-the-in-game-radio.md)
 
@@ -68,11 +68,15 @@ Sonoran Radio offers multiple in-game user interfaces, allowing you to stay conn
 
 Choose from one of our radio style options, or even add your own!
 
-{% hint style="info" %}
-_On-foot and custom frames are pending a future update._
-{% endhint %}
-
 <figure><img src=".gitbook/assets/radio_overlays-large.png" alt=""><figcaption><p>Sonoran Radio - Multiple Overlays - Promotional Image</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (36).png" alt=""><figcaption><p>Sonoran Radio - Custom Frames</p></figcaption></figure>
+
+## 🗣 [Hear Nearby Radio Chatter In-Game](tutorials/usage/in-game-radio/hear-nearby-radio-chatter.md)
+
+Pulled over in a traffic stop? You'll hear the real radio chatter when an officer has an active radio nearby!
+
+<figure><img src=".gitbook/assets/image (37).png" alt=""><figcaption><p>Sonoran Radio - Nearby Radio Chatter</p></figcaption></figure>
 
 ## 🔌 [Power Grid Support](https://www.sonoran.store/package/5120025)
 
