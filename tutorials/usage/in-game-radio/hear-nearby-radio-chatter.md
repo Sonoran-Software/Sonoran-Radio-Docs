@@ -37,6 +37,6 @@ IMAGE TODO
 
 ### Technical Information
 
-When an active radio is on within 15 game units of a player, they will hear the live radio chatter emitting  from the closest radio. If there are additional radios within range connected to additional channels, the player will hear those additional channels emitting from the closest radio source.
+When a player is within 15 game units of an active radio, they will hear the live chatter from the nearest radio. If multiple radios within range are tuned to different channels, the player will hear all those channels blended, but the sound will primarily emit from the closest radio source.
 
-_This feature is experimental and subject to change and improvements._
+_This feature is experimental and subject to both change and improvements._
