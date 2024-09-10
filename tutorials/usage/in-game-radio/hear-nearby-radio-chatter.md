@@ -18,7 +18,7 @@ Due to bandwidth usage, this feature is automatically enabled with the Pro versi
 
 ## Video Example
 
-Coming soon!
+{% embed url="https://youtu.be/R9-xBm0sGBA" %}
 
 ## Usage
 
