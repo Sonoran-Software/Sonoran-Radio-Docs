@@ -8,6 +8,19 @@ description: >-
 
 <details>
 
+<summary>2.6.0 Release (In-Game Nearby Audio &#x26; Connected Users List)</summary>
+
+Version 2.6.0 introduces new configuration values.
+
+1. Open your existing `config.lua`
+2. Ensure the following lines are set:
+   1. `Config.chatter = true`
+   2. `Config.acePermsForRadioUsers = false`
+
+</details>
+
+<details>
+
 <summary>2.3.0-1 Release (In-Game Configuration Menu)</summary>
 
 ## Configuration File
