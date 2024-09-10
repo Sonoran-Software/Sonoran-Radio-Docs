@@ -24,10 +24,11 @@ Coming soon!
 
 ### Audio Permissions
 
-When users join the server, they will be prompted to interact (click) on SOMETHING TODO.\
-This grants Sonoran Radio the permission to play audio when there is a radio nearby.
+Due to browser restrictions, audio playback on a user's device requires user interaction. When users join the server, they will be prompted to press any key to activate Sonoran Radio.
 
-IMAGE TODO
+Afterwards, they will be able to hear nearby radio chatter.
+
+<figure><img src="../../../.gitbook/assets/image (38).png" alt=""><figcaption><p>Sonoran Radio - Nearby Chatter Permission Interaction</p></figcaption></figure>
 
 ### Adjust Volume
 
