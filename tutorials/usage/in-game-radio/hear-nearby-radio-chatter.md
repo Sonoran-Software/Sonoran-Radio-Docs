@@ -32,9 +32,9 @@ Afterwards, they will be able to hear nearby radio chatter.
 
 ### Adjust Volume
 
-Players can adjust the nearby radio volume in-game if it's too loud by SOMETHING TODO.
+Players can adjust the nearby radio volume in-game using the `/radiovolume` command.
 
-IMAGE TODO
+Ex: `/radiovolume 75` sets the nearby radio to 75% volume.
 
 ### Technical Information
 
