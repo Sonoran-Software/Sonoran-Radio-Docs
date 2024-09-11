@@ -70,6 +70,12 @@ Once in-game, you can use the `/radioanim` command to open up the customization 
 
 This script will automatically detect when you are talking on your Sonoran Radio.
 
+{% hint style="info" %}
+This script also makes **users talk on their in-game microphone when they talk on the radio**.
+
+To disable this, ensure the `Config.talkSync` is disabled in the Sonoran Radio `config.lua` and the `TalkSync` is set to `false` in Big Daddy's Animation `settings.ini` file.
+{% endhint %}
+
 This script also makes **users talk on their in-game microphone when they talk on the radio**.
 
 [See the documentation for more information about configuration options and commands.](https://wiki.bigdaddyscripts.com/en/documentation/Radio-Animation)
