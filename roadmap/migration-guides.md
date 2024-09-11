@@ -16,6 +16,7 @@ Version 2.6.0 introduces new configuration values.
 2. Ensure the following lines are set:
    1. `Config.chatter = true`
    2. `Config.acePermsForRadioUsers = false`
+   3. `Config.talkSync = true`
 
 Your `config.lua` should now look like the following:
 

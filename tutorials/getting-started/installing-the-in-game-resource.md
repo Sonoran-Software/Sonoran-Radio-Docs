@@ -99,6 +99,7 @@ Example of what NOT to do: `ensure [sonoranradio]`
 | `enableCanary`               | `false` | Allow the auto-updater to pull development branches for early testing.                                                                           |
 | `allowAutoUpdate`            | `true`  | Allow the auto-updater to run.                                                                                                                   |
 | `chatter`                    | `true`  | Allow civilians to hear radio chatter when one is nearby                                                                                         |
+| `talkSync`                   | `true`  | Talk in-game whenever you talk in the radio                                                                                                      |
 | `towerRepairTimer`           | `20`    | Time (in seconds) that it takes a player to repair a destructed tower.                                                                           |
 | `rackRepairTimer`            | `15`    | Time (in seconds) that it takes a player to repair a destructed server rack.                                                                     |
 | `antennaRepairTimer`         | `15`    | Time (in seconds) that it takes a player to repair a destructed cellular antenna.                                                                |
