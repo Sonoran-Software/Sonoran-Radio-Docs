@@ -20,9 +20,7 @@ Version 2.6.0 introduces new configuration values.
 
 Your `config.lua` should now look like the following:
 
-![](<../.gitbook/assets/image (40).png>)
-
-
+![](<../.gitbook/assets/image (41).png>)
 
 </details>
 
