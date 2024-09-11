@@ -31,6 +31,10 @@ Cache Busting
 Mic Clicks - For Local Only
 
 * Per-user custom mic clicks are now only heard by that user, instead of everyone on the radio
+
+In-Game Talk Sync
+
+* Talk in-game at the same time you talk in the radio
 {% endtab %}
 
 {% tab title="Fixed" %}
