@@ -13,6 +13,7 @@ In-Game Connected Users
 * When talking, user names will display as green
 * Added proper CSS ellipsis to display names
 * Added tooltip to user display names
+* Alphabetically sorted display names
 {% endtab %}
 
 {% tab title="Fixed" %}
