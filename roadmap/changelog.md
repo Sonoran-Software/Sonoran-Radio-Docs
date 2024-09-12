@@ -4,6 +4,24 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # Changelog
 
+### 2.6.1 (Beta) - 09/11/2024
+
+{% tabs %}
+{% tab title="New" %}
+In-Game Connected Users
+
+* When talking, user names will display as green
+* Added proper CSS ellipsis to display names
+* Added tooltip to user display names
+{% endtab %}
+
+{% tab title="Fixed" %}
+Radio and Connected User Hide
+
+* Fixed an issue causing the radio and connected user menu to not hide when pressing ESC if no hotkey was set
+{% endtab %}
+{% endtabs %}
+
 ### 2.6.0 (Beta) - 09/11/2024
 
 {% tabs %}
