@@ -105,6 +105,8 @@ Select `Move/Resize`
 * Hold `ctrl` and drag to resize the radio.
 * Press `esc` to save the new size and position.
 
+You can also use `/radioreset ui` to reset the size and position.
+
 <div>
 
 <figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Settings</p></figcaption></figure>
