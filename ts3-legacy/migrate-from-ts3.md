@@ -8,6 +8,10 @@ description: Easily migrate your old Sonoran Radio TeamSpeak version to standalo
 
 To switch your community from using TeamSpeak Sonoran Radio to the standalone version, all you need to do is switch to standalone mode in your portal.
 
+{% hint style="warning" %}
+You **must be the community owner to switch** from TS3 to Standalone.
+{% endhint %}
+
 1. Open your [Sonoran Radio Portal](https://sonoranradio.com)
 2. Navigate to your community
 3. Click "Standalone" to swap to standalone mode
