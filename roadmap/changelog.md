@@ -4,7 +4,17 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # Changelog
 
-### 2.6.1 (Beta) - 09/11/2024
+### 2.6.2 (Beta) - 09/13/2024 (In-Game Only)
+
+{% tabs %}
+{% tab title="Fixed" %}
+In-Game Connected Users
+
+* Fixed an issue with the connected users list causing some names to not change to green while the user was talking
+{% endtab %}
+{% endtabs %}
+
+### 2.6.1 (Beta) - 09/11/2024 (In-Game Only)
 
 {% tabs %}
 {% tab title="New" %}
@@ -213,7 +223,7 @@ In-Game Permission Re-Request
 {% endtab %}
 {% endtabs %}
 
-### 2.2.1 (Alpha) - 07/03/2024
+### 2.2.1 (Alpha) - 07/03/2024 (In-Game Only)
 
 {% tabs %}
 {% tab title="Fixed" %}
