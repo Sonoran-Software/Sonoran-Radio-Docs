@@ -76,7 +76,7 @@ Right click in the user to:
 Users can customize their display name in their account settings tab.\
 This requires the `Change Display Name` permission.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Display Name</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Display Name</p></figcaption></figure>
 
 Users can customize others' display names in the members tab.\
 This requires the `Manage Display Names` permission.

@@ -4,7 +4,7 @@ description: >-
   performance.
 ---
 
-# Using In-Game Repeaters
+# In-Game Repeaters
 
 {% embed url="https://www.youtube.com/watch?v=sHAgi1Z_Er8" %}
 
@@ -68,7 +68,7 @@ Destroying this antenna will disable it's repeater range.
 
 ### Custom Repeaters
 
-Additional integrations like the [mobile command center](using-in-game-repeaters.md#mobile-command-center-repeater), [power grid hacking](using-in-game-repeaters.md#hacking-repeaters-power-grid-integration), and [custom vehicle repeaters](using-in-game-repeaters.md#mobile-vehicle-repeaters) offer further customization.
+Additional integrations like the [mobile command center](in-game-repeaters.md#mobile-command-center-repeater), [power grid hacking](in-game-repeaters.md#hacking-repeaters-power-grid-integration), and [custom vehicle repeaters](in-game-repeaters.md#mobile-vehicle-repeaters) offer further customization.
 
 ***
 
@@ -229,6 +229,16 @@ Or, view dispatch call information on the in-game radio!
 ### Viewing Signal Strength
 
 Coming Soon!
+
+***
+
+## Degrade Signals in Tunnels
+
+Sonoran Radio also allows you to configure tunnels and other areas where signal will be degraded!
+
+{% content-ref url="tunnels-and-degrade-zones.md" %}
+[tunnels-and-degrade-zones.md](tunnels-and-degrade-zones.md)
+{% endcontent-ref %}
 
 ***
 

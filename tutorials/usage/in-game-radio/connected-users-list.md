@@ -6,7 +6,7 @@ description: >-
 
 # Connected Users List
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Sonoran Radio - Connected Users</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Sonoran Radio - Connected Users</p></figcaption></figure>
 
 
 

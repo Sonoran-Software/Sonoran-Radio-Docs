@@ -10,7 +10,7 @@ Sonoran Radio offers a fully-featured free version accessible to anyone!
 
 With instant setup, you can chat with community members in just minutes!
 
-## 💣 [In-Game Tower Destruction](tutorials/usage/in-game-radio/using-in-game-repeaters.md)
+## 💣 [In-Game Tower Destruction](tutorials/usage/in-game-radio/in-game-repeaters.md)
 
 The physical in-game towers are able to be destroyed by criminals, which will devastate quality of radios around it.
 
@@ -34,13 +34,37 @@ See our [tower destruction and repairing](ts3-legacy/tutorials/script-usage.md#i
 
 <figure><img src=".gitbook/assets/destroy_towers_b.png" alt=""><figcaption><p>Sonoran Radio - Destructible Towers - Promotional Image</p></figcaption></figure>
 
+## 📶[Tunnel Signal Loss](tutorials/usage/in-game-radio/tunnels-and-degrade-zones.md)
+
+{% hint style="warning" %}
+This feature is coming soon!
+{% endhint %}
+
+Configure signal loss in tunnels, underground locations, and more!
+
+<figure><img src=".gitbook/assets/image (43).png" alt=""><figcaption><p>Sonoran Radio - Tunnel Detection</p></figcaption></figure>
+
 ## 📢 [Custom Tone Board](tutorials/usage/dispatch-panel/custom-tone-board.md)
 
 Upload and customize dispatch tones for your community!
 
-Sonoran Radio's dispatch UI allows you to specify specific channels and groups, repeat tones, and more!
+Sonoran Radio's dispatch UI allows you to specify specific channels and groups, repeat tones, and more! You can even [play tones on in-game speakers](tutorials/usage/in-game-radio/in-game-speakers.md)!
 
 <figure><img src=".gitbook/assets/Customizable Tone Board Promo.png" alt=""><figcaption><p>Sonoran Radio - Tone Board</p></figcaption></figure>
+
+{% hint style="warning" %}
+This feature is coming soon!
+{% endhint %}
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Sonoran Radio - In-Game Speakers</p></figcaption></figure>
+
+## 🎙️[Custom Voice Effects](tutorials/usage/dispatch-panel/custom-voice-effects.md)
+
+{% hint style="warning" %}
+This feature is coming soon!
+{% endhint %}
+
+Customize digital and analog style voice effects for your community!
 
 ## 🔊 [Custom SFX](tutorials/usage/dispatch-panel/custom-sfx.md)
 
@@ -60,7 +84,7 @@ Easily visualize, manage users, play tones, and more!
 
 Sonoran Radio's dispatch UI is available everywhere on the [web](sonoran-radio/download-the-app.md) and [desktop](sonoran-radio/download-the-app.md) for Windows and OSX.
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Dispatch Portal</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Dispatch Portal</p></figcaption></figure>
 
 ## 📡 [Multiple Radio Options](tutorials/usage/in-game-radio/using-the-in-game-radio.md)
 

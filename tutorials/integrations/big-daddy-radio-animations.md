@@ -26,7 +26,7 @@ In the account portal, select your recent order and copy the product key.
 
 <div>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Big Daddy - Account Panel</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Big Daddy - Account Panel</p></figcaption></figure>
 
  
 
