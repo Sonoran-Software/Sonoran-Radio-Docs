@@ -50,16 +50,74 @@ Select the gear icon > trash icon to delete the channel.
 
 When creating a channel, you only need to provide a name.
 
-Optionally, you can enable preventing talkover if you only want one person talking at a time in the channel.
+## Channel Options
 
-<figure><img src="../../../.gitbook/assets/image (24).png" alt="" width="288"><figcaption><p>Sonoran Radio - Add Channel</p></figcaption></figure>
+<details>
 
-### Advanced Mode
+<summary>Preview the AI Text-To-Speech</summary>
 
-If you want to customize your channel further, you can specify the `XMIT` and `RECV` frequencies in **Advanced Mode**
+In the admin `Customize` tab, hovering over green the channel audio icon will play the text-to-speech audio stating the channel name.
 
-<figure><img src="../../../.gitbook/assets/image (25).png" alt="" width="286"><figcaption><p>Sonoran Radio - Advanced Mode Channel</p></figcaption></figure>
+A red icon indicates that the AI text-to-speech failed to generate. Simply re-save the channel to regenerate the audio file.
 
-{% hint style="info" %}
-To learn more about channel frequencies and valid ranges, check out the [Core Concepts](../../../ts3-legacy/tutorials/getting-started/core-concepts.md)
-{% endhint %}
+Users can enable or disable the channel text-to-speech playing when switching channels in their settings menu.
+
+![](<../../../.gitbook/assets/image (48).png>)![](<../../../.gitbook/assets/image (53).png>)
+
+</details>
+
+<details>
+
+<summary>Customize the AI Pronunciation</summary>
+
+By toggling on the `Advanced` mode, you can manually adjust how the AI pronounces the channel name, which can be helpful for abbreviations and other non-common words.'
+
+![](<../../../.gitbook/assets/image (47).png>)
+
+
+
+</details>
+
+<details>
+
+<summary>Setting the Voice Effect</summary>
+
+Use the `Voice Effect` dropdown to set the [custom voice effect style](custom-voice-effects.md) for the channel.
+
+![](<../../../.gitbook/assets/image (49).png>)
+
+</details>
+
+<details>
+
+<summary>Toggle Talkover Protection</summary>
+
+Toggle the `Talkover` prevention button to allow or prevent multiple users from talking at once.
+
+With talkover prevented, the [talkover error sound](custom-sfx.md) will play and prevent the user from activating their mic.
+
+![](<../../../.gitbook/assets/image (50).png>)
+
+</details>
+
+<details>
+
+<summary>Restrict Channel Visibility</summary>
+
+Switch the channel's visibility to `Public` (everyone can see and connect) or `Private` to restrict which users can connect and transmit.
+
+Private channels will appear in the [community member permissions tab](../../getting-started/invite-and-manage-users.md), or be [automatically managed with Sonoran CMS](../../integrations/sonoran-cms.md).
+
+![](<../../../.gitbook/assets/image (51).png>)
+
+</details>
+
+<details>
+
+<summary>Customize Channel Frequency</summary>
+
+With `Advanced` mode toggled, you can also customize the recieve and transmit frequency numbers for more realism.
+
+![](<../../../.gitbook/assets/image (52).png>)
+
+</details>

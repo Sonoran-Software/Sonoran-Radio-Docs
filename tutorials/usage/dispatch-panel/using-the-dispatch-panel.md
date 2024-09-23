@@ -68,17 +68,23 @@ Right click in the user to:
 * Kick the user from the channel ([Requires Permission](../../getting-started/invite-and-manage-users.md#manage-user-permissions))
 * Move the user to a different channel ([Requires Permission](../../getting-started/invite-and-manage-users.md#manage-user-permissions))
 * Adjust the user's volume ([Requires Permission](../../getting-started/invite-and-manage-users.md#manage-user-permissions))
+* Change the user's display name ([Requires Permission](../../getting-started/invite-and-manage-users.md#manage-user-permissions))
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Radio User Actions</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (55).png" alt="" width="351"><figcaption><p>Sonoran Radio - User Actions</p></figcaption></figure>
 
-### Display Name
+### Display Names
 
-Users can customize their display name in their account settings tab.\
-This requires the `Change Display Name` permission.
+To change your display name, users will need the `Change Display Name` permission. To manage others, users will need the `Manage Display Names` permission.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Display Name</p></figcaption></figure>
+#### Via Radio Interface
 
-Users can customize others' display names in the members tab.\
-This requires the `Manage Display Names` permission.
+Right click a user in the radio interface and select `Display Name`
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Manage Display Names</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (56).png" alt=""><figcaption><p>Sonoran Radio - Change Display Name</p></figcaption></figure>
+
+#### Via Members Tab
+
+In the admin panel's `Members` tab, select the drop-down and `Set Display Name` button to edit a user's display name.
+
+<figure><img src="../../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+

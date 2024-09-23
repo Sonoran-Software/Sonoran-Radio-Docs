@@ -41,3 +41,27 @@ Ex: `/radiovolume 75` sets the nearby radio to 75% volume.
 When a player is within 15 game units of an active radio, they will hear the live chatter from the nearest radio. If multiple radios within range are tuned to different channels, the player will hear all those channels blended, but the sound will primarily emit from the closest radio source.
 
 _This feature is experimental and subject to both change and improvements._
+
+## In-Game Earpiece
+
+{% hint style="warning" %}
+This feature is coming soon!
+{% endhint %}
+
+Some communities may offer custom EUP (clothing and accessories) that players can use to personalize their characters. For radio users, an option to wear an earpiece (headphones) could be useful, allowing them to listen to radio chatter privately without others nearby overhearing.
+
+The `config.lua` file's `Config.chatterExclusions` list defines earpiece items (custom EUP prop IDs) that block radio chatter from being heard nearby.
+
+{% hint style="info" %}
+This feature only works only with "prop" variations
+{% endhint %}
+
+<div>
+
+<figure><img src="../../../.gitbook/assets/image (46).png" alt="" width="147"><figcaption><p>Sonoran Radio - In-Game Radio Earpiece</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../../.gitbook/assets/image (45).png" alt=""><figcaption><p>Sonoran Radio - Earpiece Configuration</p></figcaption></figure>
+
+</div>

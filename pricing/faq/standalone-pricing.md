@@ -83,3 +83,11 @@ Pulled over in a traffic stop? You'll hear the real radio chatter when an office
 | Free         | 1         |
 | Standard     | 3         |
 | Pro          | Unlimited |
+
+Voice Effect Customization
+
+| Subscription | Effect Styles Limit |
+| ------------ | ------------------- |
+| Free         | 1                   |
+| Standard     | 1                   |
+| Pro          | Unlimited           |
