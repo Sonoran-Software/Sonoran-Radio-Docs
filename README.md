@@ -34,11 +34,7 @@ See our [tower destruction and repairing](ts3-legacy/tutorials/script-usage.md#i
 
 <figure><img src=".gitbook/assets/destroy_towers_b.png" alt=""><figcaption><p>Sonoran Radio - Destructible Towers - Promotional Image</p></figcaption></figure>
 
-## 📶[Tunnel Signal Loss](tutorials/usage/in-game-radio/tunnels-and-degrade-zones.md)
-
-{% hint style="warning" %}
-This feature is coming soon!
-{% endhint %}
+## 📶 [Tunnel Signal Loss](tutorials/usage/in-game-radio/tunnels-and-degrade-zones.md)
 
 Configure signal loss in tunnels, underground locations, and more!
 
@@ -52,17 +48,9 @@ Sonoran Radio's dispatch UI allows you to specify specific channels and groups, 
 
 <figure><img src=".gitbook/assets/Customizable Tone Board Promo.png" alt=""><figcaption><p>Sonoran Radio - Tone Board</p></figcaption></figure>
 
-{% hint style="warning" %}
-This feature is coming soon!
-{% endhint %}
-
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Sonoran Radio - In-Game Speakers</p></figcaption></figure>
 
 ## 🎙️[Custom Voice Effects](tutorials/usage/dispatch-panel/custom-voice-effects.md)
-
-{% hint style="warning" %}
-This feature is coming soon!
-{% endhint %}
 
 Customize digital and analog style voice effects for your community!
 

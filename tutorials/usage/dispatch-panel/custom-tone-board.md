@@ -38,6 +38,14 @@ After opening the tone board via hotkey or the music note icon, you will see the
 
 <figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Sonoran Radio - Tone Board</p></figcaption></figure>
 
+#### Tone Broadcast To Options
+
+Tones can be played to a channel, channel group, or an [in-game speaker](../in-game-radio/in-game-speakers.md).
+
+<figure><img src="../../../.gitbook/assets/image (59).png" alt="" width="219"><figcaption><p>Sonoran Radio - Tone Board Broadcast Options</p></figcaption></figure>
+
+#### Repeating Tones
+
 For repeated tones, you can hover over the active tone to see what channels and groups it's playing to.
 
 Additionally, the UI will reflect the remaining play count and show a progress bar for the delay until the next play.
