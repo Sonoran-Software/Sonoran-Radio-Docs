@@ -88,3 +88,10 @@ In the admin panel's `Members` tab, select the drop-down and `Set Display Name` 
 
 <figure><img src="../../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 
+#### Via Sonoran CMS
+
+Sonoran CMS can also automatically set and manage your Radio display names and sync them with Discord.
+
+{% content-ref url="../../integrations/sonoran-cms.md" %}
+[sonoran-cms.md](../../integrations/sonoran-cms.md)
+{% endcontent-ref %}
