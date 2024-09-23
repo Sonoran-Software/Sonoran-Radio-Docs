@@ -8,6 +8,8 @@ description: Customize digital and analog style voice effects for your community
 This feature is coming soon!
 {% endhint %}
 
+<figure><img src="../../../.gitbook/assets/image (62).png" alt=""><figcaption><p>Sonoran Radio - Custom Voice Effects</p></figcaption></figure>
+
 {% hint style="warning" %}
 Unless on the Pro version, communities are limited to one voice effect style.
 

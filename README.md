@@ -54,6 +54,8 @@ Sonoran Radio's dispatch UI allows you to specify specific channels and groups, 
 
 Customize digital and analog style voice effects for your community!
 
+<figure><img src=".gitbook/assets/image (62).png" alt=""><figcaption><p>Sonoran Radio - Custom Voice Effects</p></figcaption></figure>
+
 ## 🔊 [Custom SFX](tutorials/usage/dispatch-panel/custom-sfx.md)
 
 Easily customize mic clicks, talkover protection tones, and more!
