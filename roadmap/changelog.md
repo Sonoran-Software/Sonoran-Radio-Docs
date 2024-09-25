@@ -42,7 +42,7 @@ CMS x Radio - Name Sync
 
 Nearby Radio Chatter - Earpiece
 
-* Added the ability to confiure in-game earpiece EUP that will prevent people nearby from hearing your radio.
+* Added the ability to configure in-game earpiece EUP that will prevent people nearby from hearing your radio.
 
 Game Resource Optimization
 

@@ -92,6 +92,12 @@ Pulled over in a traffic stop? You'll hear the real radio chatter when an office
 
 <figure><img src=".gitbook/assets/image (37).png" alt=""><figcaption><p>Sonoran Radio - Nearby Radio Chatter</p></figcaption></figure>
 
+## 🏃 [Free Animations Script](tutorials/integrations/big-daddy-radio-animations.md)
+
+Get the most popular in-game radio animation script for [FREE](tutorials/integrations/big-daddy-radio-animations.md)!
+
+<figure><img src=".gitbook/assets/SONORAN X BIGPAPA2.png" alt=""><figcaption><p>Sonoran Radio x Big Daddy Scripts</p></figcaption></figure>
+
 ## 🔌 [Power Grid Support](https://www.sonoran.store/package/5120025)
 
 Hack into the integrated power grid to disable Sonoran Radio towers in your area! [Learn more about this script](https://www.sonoran.store/package/5120025)!
