@@ -4,6 +4,74 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # Changelog
 
+### 2.7.0 (Beta) - 09/25/2024
+
+{% tabs %}
+{% tab title="New" %}
+Voice Effect Customization
+
+* Added the ability to create multiple custom voice effect filters and apply them per-channel.
+
+Tone Board - Play to In-Game Speakers
+
+* Added the ability configure in-game speakers and play radio tones to them.
+
+Tunnel Signal Degrade
+
+* Added the ability to configure in-game tunnels and other 3D areas that reduce radio signal quality.
+
+AI Channel Text-To-Speech
+
+* Added automatic AI generated channel name TTS that will play when connecting and switching channels.
+
+Context Menu Name Change
+
+* Added the ability to right-click on a connected user to quickly modify their display name.
+
+Private Channel Permissions
+
+* Added the ability to toggle channel visibility to private, requiring a user permission to connect.
+
+CMS x Radio - Private Channel Permissions
+
+* Added the ability to automatically manage private radio channel permissions via Sonoran CMS.
+
+CMS x Radio - Name Sync
+
+* Added the ability to automatically manage radio display names via Sonoran CMS.
+
+Nearby Radio Chatter - Earpiece
+
+* Added the ability to confiure in-game earpiece EUP that will prevent people nearby from hearing your radio.
+
+Game Resource Optimization
+
+* Added multiple new in-game optimizations to improve resource performance.
+
+Connected Users List - Save Position
+
+* Added size and position persistence to the in-game connected users list.
+
+Proxy URL - Retry
+
+* Added retry logic and UI errors in the event that the in-game resource can not get the proxy URL.
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#24819 - Talkover on Scan
+
+* Fixed an issue causing talkover protection to prevent someone listening to a channel with someone transmitting from transmitting in their own, clear channel.
+
+Tone Configuration Fixes
+
+* Fixed multiple issues with tone files and tone cosmetic customizations not being persisted or removed.
+
+CAD Livemap Repeater Types
+
+* Fixed an issue causing only the radio tower type repeaters to show on the CAD livemap.
+{% endtab %}
+{% endtabs %}
+
 ### 2.6.2 (Beta) - 09/13/2024 (In-Game Only)
 
 {% tabs %}
