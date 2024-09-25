@@ -86,6 +86,8 @@ Pulled over in a traffic stop? You'll hear the real radio chatter when an office
 
 Voice Effect Customization
 
+<figure><img src="../../.gitbook/assets/image (62).png" alt="" width="375"><figcaption></figcaption></figure>
+
 | Subscription | Effect Styles Limit |
 | ------------ | ------------------- |
 | Free         | 1                   |
