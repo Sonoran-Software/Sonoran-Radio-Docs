@@ -4,10 +4,6 @@ description: Customize digital and analog style voice effects for your community
 
 # Custom Voice Effects
 
-{% hint style="warning" %}
-This feature is coming soon!
-{% endhint %}
-
 <figure><img src="../../../.gitbook/assets/image (62).png" alt=""><figcaption><p>Sonoran Radio - Custom Voice Effects</p></figcaption></figure>
 
 {% hint style="warning" %}

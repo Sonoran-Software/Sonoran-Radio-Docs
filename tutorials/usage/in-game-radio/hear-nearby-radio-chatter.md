@@ -44,10 +44,6 @@ _This feature is experimental and subject to both change and improvements._
 
 ## In-Game Earpiece
 
-{% hint style="warning" %}
-This feature is coming soon!
-{% endhint %}
-
 Some communities may offer custom EUP (clothing and accessories) that players can use to personalize their characters. For radio users, an option to wear an earpiece (headphones) could be useful, allowing them to listen to radio chatter privately without others nearby overhearing.
 
 The `config.lua` file's `Config.chatterExclusions` list defines earpiece items (custom EUP prop IDs) that block radio chatter from being heard nearby.
