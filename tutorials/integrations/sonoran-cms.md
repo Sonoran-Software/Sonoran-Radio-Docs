@@ -4,7 +4,7 @@ description: Automate Sonoran Radio permissions with Sonoran CMS!
 
 # Sonoran CMS
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Sonoran CMS x Sonoran Radio</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS x Sonoran Radio</p></figcaption></figure>
 
 Sonoran CMS makes managing your community's radio easy and automatic!
 

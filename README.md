@@ -48,7 +48,7 @@ Sonoran Radio's dispatch UI allows you to specify specific channels and groups, 
 
 <figure><img src=".gitbook/assets/Customizable Tone Board Promo.png" alt=""><figcaption><p>Sonoran Radio - Tone Board</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Sonoran Radio - In-Game Speakers</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Sonoran Radio - In-Game Speakers</p></figcaption></figure>
 
 ## 🎙️[Custom Voice Effects](tutorials/usage/dispatch-panel/custom-voice-effects.md)
 
@@ -66,7 +66,7 @@ Easily customize mic clicks, talkover protection tones, and more!
 
 Customizing your radio has never been easier, with live updates from our easy-to-use configuration panel.
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Sonoran Radio - Customize Panel</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Sonoran Radio - Customize Panel</p></figcaption></figure>
 
 ## 🎧 [Dispatch Panel](tutorials/usage/dispatch-panel/using-the-dispatch-panel.md)
 
@@ -74,7 +74,7 @@ Easily visualize, manage users, play tones, and more!
 
 Sonoran Radio's dispatch UI is available everywhere on the [web](sonoran-radio/download-the-app.md) and [desktop](sonoran-radio/download-the-app.md) for Windows and OSX.
 
-<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Dispatch Portal</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Dispatch Portal</p></figcaption></figure>
 
 ## 📡 [Multiple Radio Options](tutorials/usage/in-game-radio/using-the-in-game-radio.md)
 
@@ -112,7 +112,7 @@ _CAD status, call information, and more will be released in a coming update._
 
 Sonoran CMS allows you to automatically manage your community's Sonoran Radio permissions based on their CMS ranks and Discord roles!
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Sonoran CMS x Sonoran Radio</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Sonoran CMS x Sonoran Radio</p></figcaption></figure>
 
 ## [🚐](https://emojiterra.com/minibus/) [Mobile Command Center Integration](https://www.sonoran.store/package/5287071)
 

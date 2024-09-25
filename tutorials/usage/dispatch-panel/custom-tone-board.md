@@ -18,7 +18,7 @@ Here, you can customize the name, icon, and color of existing tones or use the t
 
 Or, use the bottom section to upload and configure a new tone.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Using the Tone Board
 
