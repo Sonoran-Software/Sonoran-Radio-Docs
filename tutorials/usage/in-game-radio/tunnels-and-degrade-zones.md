@@ -63,3 +63,7 @@ When creating a zone you can visualize via the drawn polygon and manipulate and 
 \- Cancels the 3D zone editor and closes the menu
 
 </details>
+
+## View Configured Zones
+
+Setting `debug` to `true` in the resource's `config.lua` file will allow you to view all 3D degradation zones around the map.
