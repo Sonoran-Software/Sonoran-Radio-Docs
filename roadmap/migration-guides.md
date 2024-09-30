@@ -8,6 +8,48 @@ description: >-
 
 <details>
 
+<summary>2.7.0 (Speakers, Tunnels, Voice Effects, and Earpiece EUP)</summary>
+
+Version 2.7.0 introduces a new configuration value for EUP earpiece detection (to prevent people from hearing nearby chatter).
+
+1. Open your existing `config.lua`
+2. Paste in the new default config option:\
+   This is also available from the auto-updater's `config.CHANGEME.lua`
+
+```lua
+-- Radio Chatter Exclusion Settings --
+Config.chatterExclusions = {
+	{
+		componentId = 2, -- Ears
+		drawableId = 1, -- Number in vMenu MP Ped Component list
+		texture = 0 -- Texture ID in vMenu MP Ped Component list
+	},
+	{
+		componentId = 2, -- Ears
+		drawableId = 2, -- Number in vMenu MP Ped Component list
+		texture = 0 -- Texture ID in vMenu MP Ped Component list
+	},
+	{
+		componentId = 2, -- Ears
+		drawableId = 2, -- Number in vMenu MP Ped Component list
+		texture = 0 -- Texture ID in vMenu MP Ped Component list
+	},
+	{
+		componentId = 2, -- Ears
+		drawableId = 42, -- Number in vMenu MP Ped Component list
+		texture = 0 -- Texture ID in vMenu MP Ped Component list
+	},
+}
+```
+
+3.  Your `config.lua` should now appear like the following after adding in the `Config.chatterExclusions` property:
+
+    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+<details>
+
 <summary>2.6.0 Release (In-Game Nearby Audio &#x26; Connected Users List)</summary>
 
 Version 2.6.0 introduces new configuration values.
@@ -80,4 +122,3 @@ Version 2.2.0 adds a new API key configuration for upcoming features.
 2. Replace `YOUR API KEY` with the [community API key](../tutorials/getting-started/installing-the-in-game-resource.md#id-3.-configure-community-information) from the `Administration` panel.
 
 </details>
-

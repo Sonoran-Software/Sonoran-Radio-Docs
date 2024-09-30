@@ -12,31 +12,29 @@ description: Want to get the best deals, or maybe just see how our prices work?
 
 ## Compare Plans
 
-* [Pricing Plans: See our plans and what they include](https://sonoranradio.com/#/pricing)
+{% content-ref url="standalone-pricing.md" %}
+[standalone-pricing.md](standalone-pricing.md)
+{% endcontent-ref %}
 
 ## Purchase a Plan
 
-### Step 1
+### 1. Register your Community
 
-You must first register your TeamSpeak server with our platform.
+Create a free Sonoran Radio community:
 
-{% content-ref url="../../ts3-legacy/tutorials/getting-started/registering-your-community.md" %}
-[registering-your-community.md](../../ts3-legacy/tutorials/getting-started/registering-your-community.md)
+{% content-ref url="../../tutorials/getting-started/register-a-community.md" %}
+[register-a-community.md](../../tutorials/getting-started/register-a-community.md)
 {% endcontent-ref %}
 
-### Step 2
+### 2. Purchase and Set the Community's Plan
 
-Purchase your desired subscription on our billing portal. You will be able to select the TeamSpeak server you want it for there.
+On [sonoranradio.com/billing](http://sonoranradio.com/billing), select a new subscription plan and the community you wish to apply it to.
 
 ![Sonoran Radio - Choose Subscription](https://i.imgur.com/rFH4iP8.png)
 
-* [Billing Portal: See and Manage your Subscriptions](https://sonoranradio.com/#/billing)
-
 ## Managing / Cancelling a Plan
 
-You are able to manage and cancel your subscription in the Billing Portal
-
-* [Billing Portal: See and Manage your Subscriptions](https://sonoranradio.com/#/billing)
+You are able to manage and cancel your subscription in the [Sonoran Radio billing portal](https://sonoranradio.com/billing).
 
 ## Migrate a Subscription
 

@@ -4,6 +4,20 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # Changelog
 
+### 2.7.2 (Beta) - 09/27/2024
+
+{% tabs %}
+{% tab title="Fixed" %}
+Voice Degradation
+
+* Fixed an issue causing some users to experience gradual voice degradation that was only fixed after refreshing/power toggling the radio
+
+Digital Voice Effect
+
+* Smoothed and reduced the initial digital voice filter effect
+{% endtab %}
+{% endtabs %}
+
 ### 2.7.0 (Beta) - 09/25/2024
 
 {% tabs %}
