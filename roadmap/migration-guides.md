@@ -44,7 +44,7 @@ Config.chatterExclusions = {
 
 3.  Your `config.lua` should now appear like the following after adding in the `Config.chatterExclusions` property:
 
-    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 

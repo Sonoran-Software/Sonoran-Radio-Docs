@@ -4,21 +4,35 @@ description: Integrate the Radio with your Sonoran CAD!
 
 # Sonoran CAD Integration
 
-## CAD Panic
+## Sonoran Radio CAD Plugin
 
-{% hint style="info" %}
-Coming soon!
-{% endhint %}
+You need to install `sonrad` CAD integration plugin to use the CAD Panic and CAD Call Information features. Follow [this guide ](https://info.sonorancad.com/integration-plugins/integration-plugins/available-plugins/sonoran-radio-sonrad)for more details.
 
-## CAD Call Information
+## Integration Features
 
-{% hint style="info" %}
-Coming soon!
-{% endhint %}
+### CAD Panic
 
-## CAD Live Map Blips
+To activate your panic toggle in Sonoran CAD, press the yellow button at the top of the radio.
 
-Sonoran Radio towers will be displayed on the CAD livemap.
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="257"><figcaption><p>Sonoran Radio Handheld - Panic Button</p></figcaption></figure>
+
+### CAD Call Information
+
+When attached to a Sonoran CAD dispatch call, the radio will display a red call info box and set the top status bar to red. Click the call title to expand and collapse the information.
+
+<div data-full-width="false">
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="259"><figcaption><p>Sonoran Radio x CAD Call Information</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/FiveM_b3095_GTAProcess_hDcNs1gDMg.png" alt="" width="209"><figcaption><p>Call Information - Expanded</p></figcaption></figure>
+
+</div>
+
+### CAD Live Map Blips
+
+Sonoran Radio towers will be displayed on the CAD live map.
 
 Select one of the blips to view it's repeater type and health.
 

@@ -18,7 +18,7 @@ Degradation zones are areas like tunnels, underground areas, or mountain valleys
 
 Open the menu with the in-game `/radiomenu` command and select `Degradation Zones`
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt="" width="222"><figcaption><p>Sonoran Radio - </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (2).png" alt="" width="222"><figcaption><p>Sonoran Radio - </p></figcaption></figure>
 
 ### Zone Configuration Options
 
