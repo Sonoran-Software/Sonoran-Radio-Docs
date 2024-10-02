@@ -8,6 +8,10 @@ description: Integrate the Radio with your Sonoran CAD!
 
 You need to install `sonrad` CAD integration plugin to use the CAD Panic and CAD Call Information features. Follow [this guide ](https://info.sonorancad.com/integration-plugins/integration-plugins/available-plugins/sonoran-radio-sonrad)for more details.
 
+{% hint style="warning" %}
+CAD panic and call information is coming soon with the next major release!
+{% endhint %}
+
 ## Integration Features
 
 ### CAD Panic
