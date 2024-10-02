@@ -59,10 +59,10 @@ add_ace resource.sonoranradio_updatehelper command allow
 
 # ----------------NEW----------------
 # Big Daddy Radio Animation Script
-ensure BigDaddy-RadioAnmimation
+ensure BigDaddy-RadioAnimation
 </code></pre>
 
-_Sonoran Radio will automatically detect the script named `BigDaddy-RadioAnmimation`, and disable the default Sonoran Radio animation (`disableAnimation` from the `config.lua`)_
+_Sonoran Radio will automatically detect the script named `BigDaddy-RadioAnimation`, and disable the default Sonoran Radio animation (`disableAnimation` from the `config.lua`)_
 
 ### 3. Enjoy!
 
