@@ -6,6 +6,8 @@ description: Configure in-game speakers that dispatchers can send tones to!
 
 <figure><img src="../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 
+{% embed url="https://www.youtube.com/watch?v=q-8u20usxvg" %}
+
 ## Configuring In-Game Speakers
 
 ### 1. Access the Menu
