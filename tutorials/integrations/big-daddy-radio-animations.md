@@ -11,7 +11,9 @@ description: >-
 ## What is this offer?
 
 {% hint style="warning" %}
-This script requires the pro version of Sonoran Radio standalone.
+This script requires the **pro** version of Sonoran Radio **standalone**.
+
+[Click to learn more about Sonoran Radio standalone!](../../)
 {% endhint %}
 
 Big Daddy's radio animation script enhances your Sonoran Radio experience by adding new in-game animations. As one of the most popular scripts of its kind, it offers versatile options based on where your radio is positioned—whether on your chest, shoulders, or handheld. This provides a more immersive and personalized interaction.
@@ -75,7 +77,5 @@ This script also makes **users talk on their in-game microphone when they talk o
 
 To disable this, ensure the `Config.talkSync` is disabled in the Sonoran Radio `config.lua` and the `TalkSync` is set to `false` in Big Daddy's Animation `settings.ini` file.
 {% endhint %}
-
-This script also makes **users talk on their in-game microphone when they talk on the radio**.
 
 [See the documentation for more information about configuration options and commands.](https://wiki.bigdaddyscripts.com/en/documentation/Radio-Animation)
