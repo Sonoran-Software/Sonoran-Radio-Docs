@@ -66,7 +66,7 @@ Easily customize mic clicks, talkover protection tones, and more!
 
 Customizing your radio has never been easier, with live updates from our easy-to-use configuration panel.
 
-<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Sonoran Radio - Customize Panel</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (76).png" alt=""><figcaption><p>Sonoran Radio - Customization Panel</p></figcaption></figure>
 
 ## 🎧 [Dispatch Panel](tutorials/usage/dispatch-panel/using-the-dispatch-panel.md)
 
@@ -74,7 +74,7 @@ Easily visualize, manage users, play tones, and more!
 
 Sonoran Radio's dispatch UI is available everywhere on the [web](sonoran-radio/download-the-app.md) and [desktop](sonoran-radio/download-the-app.md) for Windows and OSX.
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Dispatch Portal</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (75).png" alt=""><figcaption><p>Sonoran Radio - Dispatch Panel</p></figcaption></figure>
 
 ## 📡 [Multiple Radio Options](tutorials/usage/in-game-radio/using-the-in-game-radio.md)
 
@@ -108,17 +108,15 @@ Hack into the integrated power grid to disable Sonoran Radio towers in your area
 
 Sonoran Radio provides an optional integration to SonoranCAD through the FiveM resource. Turning this on takes the system to a whole new level.
 
-Visually see in-game towers, health, and signal range on the CAD live map!
+View dispatch call information on your in-game Sonoran Radio. CAD users can also see in-game towers, health, and signal range on the CAD live map!
 
-{% hint style="info" %}
-_CAD status, call information, and more will be released in a coming update._
-{% endhint %}
+<figure><img src=".gitbook/assets/image (77).png" alt=""><figcaption><p>Sonoran CAD x Sonoran Radio</p></figcaption></figure>
 
 ## 📁[Sonoran CMS Integration](tutorials/integrations/sonoran-cms.md)
 
 Sonoran CMS allows you to automatically manage your community's Sonoran Radio permissions based on their CMS ranks and Discord roles!
 
-<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Sonoran CMS x Sonoran Radio</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (78).png" alt=""><figcaption><p>Sonoran CMS x Sonoran Radio</p></figcaption></figure>
 
 ## [🚐](https://emojiterra.com/minibus/) [Mobile Command Center Integration](https://www.sonoran.store/package/5287071)
 
