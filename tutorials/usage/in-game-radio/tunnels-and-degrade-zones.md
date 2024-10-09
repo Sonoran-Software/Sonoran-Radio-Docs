@@ -6,7 +6,11 @@ description: >-
 
 # Tunnels and Degrade Zones
 
+
+
 <figure><img src="../../../.gitbook/assets/image (43).png" alt=""><figcaption><p>Sonoran Radio - Tunnel Detection System</p></figcaption></figure>
+
+{% embed url="https://youtu.be/IHNPs6aATQU" %}
 
 ## What are Degrade Zones?
 
