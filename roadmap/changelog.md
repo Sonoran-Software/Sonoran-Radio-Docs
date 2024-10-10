@@ -14,7 +14,7 @@ CAD Integration
 
 Top-Down HUD Improvements
 
-* TODO
+* Improved the top-down radio HUD to display the channel name, frequencies, and color changes when a user is transmitting
 
 Talkover Override
 

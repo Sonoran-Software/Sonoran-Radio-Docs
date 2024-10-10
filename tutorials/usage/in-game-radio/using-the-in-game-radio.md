@@ -119,6 +119,17 @@ You can also use `/radioreset ui` to reset the size and position.
 
 <figure><img src="../../../.gitbook/assets/image (17).png" alt="" width="375"><figcaption><p>In-Game Radio - Adjustment</p></figcaption></figure>
 
+### Radio Types
+
+Sonoran Radio offers three radio platforms: handheld, top-down HUD, and vehicle.\
+All three radio platforms can have [customizable frame styles](using-the-in-game-radio.md#change-radio-frames).
+
+<figure><img src="../../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+
+When opening the radio via `/radio` the handheld radio will display on-screen.\
+The vehicle UI will display when opening the radio inside of a vehicle.\
+The top-down HUD style can be viewed with the `/radiohud` command.
+
 ### Change Radio Frames
 
 The settings menu also allows you to customize your radio frame:
