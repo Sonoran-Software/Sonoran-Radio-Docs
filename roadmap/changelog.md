@@ -4,6 +4,90 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # Changelog
 
+### 2.8.0 (Beta) - 10/10/2024
+
+{% tabs %}
+{% tab title="New" %}
+CAD Integration
+
+* Added `sonrad` integration to display Sonoran CAD call information on the in-game radio, along with panic functionality
+
+Top-Down HUD Improvements
+
+* TODO
+
+Talkover Override
+
+* Added a new permission granting users the ability to double-press their PTT button to override the talkover protection and silence the other transmitter
+
+CMS Sync - Talkover Override Permission
+
+* Added the ability to manage talkover override permission via Sonoran CMS
+
+Talkover Override Success Tone
+
+* Added a new, community-customizable talkover override success sound effect
+
+Homepage Revamp
+
+* Completely revamped the homepage for feature highlights
+
+UI Cleanup/Component Optimization
+
+* General internal cleanup and optimizations, making way for new future UI possibilities
+
+Community Kick - Disconnect from Radio
+
+* When a player is kicked from the community (via Radio members tab or CMS) they will now be automatically disconnected from the radio, preventing them from transmitting any further
+
+Home Button - Auto-Reconnect
+
+* Pressing the home button on the in-game radio (to hard refresh) will now automatically re-connect the user
+
+Optimized Signal Quality Reports
+
+* Optimized in-game tower signal reporting to spam fewer updates across the websockets, only reporting when there is a significant enough change
+{% endtab %}
+
+{% tab title="Fixed" %}
+Permission Checks
+
+* Fixed multiple backend permission checks preventing users without the `Admin` permission from accessing functionality
+
+Key Input on Power Toggle
+
+* Fixed an issue causing the in-game "press any key" popup to display every time you turned off/on the radio, instead of just once at the initial game join
+
+\#25095 - TTS Fast
+
+* AI channel name TTS will now stop playing if you quickly switch to another channel before the audio has finished
+
+Radio Frame - Persist Selection
+
+* Fixed an issue where selecting a different radio frame in the settings would not save/persist after closing the radio
+
+Mobile repeaters won't toggle on
+
+* Fixed an issue causing the `G` button in vehicles configured to act as a mobile repeater to not work
+
+Admin Panels - No Perm Redirect
+
+* Added local permission checks to prevent users from loading UI panels by changing the browser URL, even though the backend properly prevented data manipulation
+
+Unable to Leave Pending Community
+
+* Fixed an unauthorized error from happening when trying to leave a community you were pending in.
+
+New User - Unknown Display Name
+
+* Fixed an issue where a user newly joining the community and connecting to the radio would display as "Unknown User" to people already connected
+
+QB Reference Error
+
+* Fixed an error causing the in-game resource to fail under certain QB Core modes
+{% endtab %}
+{% endtabs %}
+
 ### 2.7.2 (Beta) - 09/27/2024
 
 {% tabs %}
