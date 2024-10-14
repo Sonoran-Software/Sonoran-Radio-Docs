@@ -8,6 +8,33 @@ description: >-
 
 <details>
 
+<summary>2.8.1 Release (Mobile Repeater Default Key)</summary>
+
+Version 2.8.1 introduces a new configuration value to customize the default user keybind to toggle mobile repeaters.
+
+Note: _This new default key mapping will only apply to new users who have not joined the server and had their keybind set yet._
+
+1. Open your existing `config.lua`
+2. Paste in the new default config option (`Config.mobileRepeaterKeybind`)\
+   This is also available from the auto-updater's `config.CHANGEME.lua`
+
+```
+-- Mobile repeater keybinds
+Config.mobileRepeaterKeybind = {
+	mapperType = 'keyboard', -- See: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/
+	map = 'g', -- See: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/
+	label = 'Toggle Radio Repeater'
+}
+```
+
+Your `config.lua` show now look like the following:
+
+<img src="../.gitbook/assets/image (80).png" alt="" data-size="original">
+
+</details>
+
+<details>
+
 <summary>2.7.0 (Speakers, Tunnels, Voice Effects, and Earpiece EUP)</summary>
 
 Version 2.7.0 introduces a new configuration value for EUP earpiece detection (to prevent people from hearing nearby chatter).
