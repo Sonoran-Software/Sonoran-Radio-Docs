@@ -32,7 +32,7 @@ When creating a zone you can visualize via the drawn polygon and manipulate and 
 
 <div>
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt="" width="221"><figcaption><p>Sonoran Radio - Degradation Zone Options</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (2).png" alt="" width="221"><figcaption><p>Sonoran Radio - Degradation Zone Options</p></figcaption></figure>
 
  
 

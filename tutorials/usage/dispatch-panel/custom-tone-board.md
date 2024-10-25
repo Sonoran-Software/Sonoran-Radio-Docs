@@ -18,7 +18,7 @@ Here, you can customize the name, icon, and color of existing tones or use the t
 
 Or, use the bottom section to upload and configure a new tone.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Using the Tone Board
 
@@ -26,7 +26,7 @@ Or, use the bottom section to upload and configure a new tone.
 
 To quickly toggle the tone board, you may configure a custom hotkey in the settings menu.
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt="" width="375"><figcaption><p>Sonoran Radio - Tone Board Hotkey</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Tone Board Hotkey</p></figcaption></figure>
 
 ### Playing a Tone
 
@@ -36,7 +36,7 @@ After opening the tone board via hotkey or the music note icon, you will see the
 * Broadcast To: Ty\[e-to-filter and multi-select the desired channels or channel groups
 * Repeat: Optionally toggle on a tone repeat with a total play number and a delay between plays
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Sonoran Radio - Tone Board</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Sonoran Radio - Tone Board</p></figcaption></figure>
 
 #### Tone Broadcast To Options
 
