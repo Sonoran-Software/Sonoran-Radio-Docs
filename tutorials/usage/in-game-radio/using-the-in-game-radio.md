@@ -142,6 +142,16 @@ Learn more about customizable radio frames:
 [customizing-radio-frames.md](customizing-radio-frames.md)
 {% endcontent-ref %}
 
+## Civilian Usage
+
+### Placing an Emergency (911) Call
+
+Civilians can place an emergency call to speak directly with dispatchers:
+
+{% content-ref url="../dispatch-panel/emergency-calls.md" %}
+[emergency-calls.md](../dispatch-panel/emergency-calls.md)
+{% endcontent-ref %}
+
 ## Custom Animations
 
 Unlock multiple more custom radio animations, FREE with Sonoran Radio pro!

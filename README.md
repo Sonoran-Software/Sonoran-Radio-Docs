@@ -62,6 +62,12 @@ Easily customize mic clicks, talkover protection tones, and more!
 
 <figure><img src=".gitbook/assets/customclicks_final.png" alt=""><figcaption></figcaption></figure>
 
+## 🚨[In-Game Emergency Calls](tutorials/usage/dispatch-panel/emergency-calls.md)
+
+Players in-game can call and speak directly with dispatchers for live emergencies!
+
+<figure><img src=".gitbook/assets/Customizable Tone Board Promo (1).png" alt=""><figcaption><p>Sonoran Radio: In-Game Emergency Calls</p></figcaption></figure>
+
 ## ☁️ [Cloud Configurations](tutorials/usage/dispatch-panel/configure-channels.md)
 
 Customizing your radio has never been easier, with live updates from our easy-to-use configuration panel.

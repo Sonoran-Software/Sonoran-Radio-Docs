@@ -4,9 +4,11 @@ description: In-game players can call 911 and talk to you through Sonoran Radio!
 
 # Emergency Calls
 
-## Calling 911
+<figure><img src="../../../.gitbook/assets/Customizable Tone Board Promo (1).png" alt=""><figcaption><p>Sonoran Radio - Emergency Calls</p></figcaption></figure>
 
-Players are able to call 911 in FiveM with `/radio 911`. This will place them in a call on the Dispatch Panel waiting for a dispatcher
+## Calling 911 In-Game
+
+Players are able to call 911 in FiveM with `/radio 911`. This will place them in a call on the Dispatch Panel waiting for a dispatcher.
 
 <div>
 
@@ -18,7 +20,7 @@ Players are able to call 911 in FiveM with `/radio 911`. This will place them in
 
 </div>
 
-## Answering the 911 call
+## Answering the 911 Call
 
 You can join and listen to a 911 call using the microphone and headphone buttons, just like any other channel in Sonoran Radio. The buttons will highlight green and red respectively when enabled
 
@@ -32,8 +34,17 @@ Mic clicks are disabled in emergency channels
 
 </div>
 
-## Ending the 911 call
+## Ending the 911 Call
 
-Dispatchers can end a 911 call with the red "End Call" button, and FiveM players can end it by using `/radio 911` again
+Dispatchers can end a 911 call with the red "End Call" button, and in-game players can end it by using `/radio 911` again.
 
 <figure><img src="../../../.gitbook/assets/image (84).png" alt=""><figcaption><p>Sonoran Radio - End 911 Call</p></figcaption></figure>
+
+## Developer Documentation
+
+Third-party scripts, such as a phone system, can also programmatically start and end emergency calls.
+
+{% content-ref url="../../integrations/developer-documentation/resource-events.md" %}
+[resource-events.md](../../integrations/developer-documentation/resource-events.md)
+{% endcontent-ref %}
+
