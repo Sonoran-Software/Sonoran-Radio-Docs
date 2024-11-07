@@ -4,6 +4,106 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # Changelog
 
+### 2.9.0 (Beta) - 11/07/2024
+
+{% tabs %}
+{% tab title="New" %}
+In-Game Emergency Calls
+
+* Added a way for players in-game to place an emergency (911) call to dispatchers
+
+Developer Export - Radio Signal
+
+* Added an export to get a user's radio signal quality
+
+Developer Export - Panic
+
+* Added an export to listen for a radio panic press
+
+\#24896 Radio Item - Customize ID and Name
+
+* Added customization options for the in-game radio item's ID and name
+
+Auto-Join User on URL Load
+
+* Users automatically join the community if they load a community's specific URL
+
+Disable PTT SFX For Myself and/or Others
+
+* Added a settings option to disable hearing mic-clicks for yourself and/or other users
+
+Mute Scanned When Transmitting
+
+* Added a settings option to mute scanned channels while transmitting
+
+Debug Mode Toggle Command
+
+* Added a toggle command for debug mode
+
+Sonoran Account Avatar
+
+* Added the user's Sonoran account avatar in the panel
+
+Core Security Update
+
+* Improved credential storage security
+
+Browser Hotkey Notice - Not Global
+
+* Added a notice in the settings page, if using the web version, that hotkeys are not "global" and the page must be in focus
+{% endtab %}
+
+{% tab title="Fixed" %}
+Apple Silicon Hotkey Fix
+
+* Fixed an issue causing global desktop hotkeys to be unavailable on Apple silicon based computers
+
+In-Game Channel Selector - Private Channels
+
+* Fixed an issue allowing users without permissions to access a private channel if they used the channel selector in-game
+
+Toggle repeater mapping spamming chat
+
+* Removed debug logs on repeater toggle
+
+\#24958 QB Item Check Function
+
+* Updated a depreciated QB item check method
+
+HF: #25273 - PTT/Audio Flicker
+
+* Fixed an issue causing vMenu Proxychat and Mumble Chat to flicker and stick with TalkSync enabled
+
+HF: QB Metadata Tower Break
+
+* Fixed an issue in QB Core mode causing tower signals to always be perfiect if the player had no metadata property.
+
+HF: Member Tab
+
+* Fixed an issue causing the members tab to not display if the user had a permission to kick, rename, or approve members but not the admin permission.
+
+HF: Channel Permissions Owner Bypass
+
+* Fixed an issue causing private channels to be hidden for the server owner.
+
+HF: Move User 500
+
+* Fixed an issue where moving your channel via context menu would throw a 500 error.
+
+HF: Channel Add in Group via Dispatch
+
+* Fixed an issue where adding a new channel via dispatch panel would put it in the first channel group, not the group that it was added from.
+
+HF: TTS Replay On Reconnect
+
+* Fixed an issue where connecting to a non-default channel, disconnecting by switching radio panel tabs, and re-connecting would start playing the TTS of the old channel name before correcting.
+
+HF: AI TTS Generation on Create Channel
+
+* Fixed an issue causing AI TTS generation to fail when creating a new channel.
+{% endtab %}
+{% endtabs %}
+
 ### 2.8.0 (Beta) - 10/10/2024
 
 {% tabs %}
