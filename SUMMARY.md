@@ -23,6 +23,7 @@
     * [Custom Voice Effects](tutorials/usage/dispatch-panel/custom-voice-effects.md)
     * [Custom SFX](tutorials/usage/dispatch-panel/custom-sfx.md)
     * [Custom Tone Board](tutorials/usage/dispatch-panel/custom-tone-board.md)
+    * [Emergency Calls](tutorials/usage/dispatch-panel/emergency-calls.md)
     * [Using the Dispatch Panel](tutorials/usage/dispatch-panel/using-the-dispatch-panel.md)
   * [In-Game Radio](tutorials/usage/in-game-radio/README.md)
     * [Using the In-Game Radio](tutorials/usage/in-game-radio/using-the-in-game-radio.md)
@@ -42,7 +43,7 @@
   * [Sonoran CAD Integration](tutorials/integrations/sonoran-cad-integration.md)
   * [Big Daddy Radio Animations](tutorials/integrations/big-daddy-radio-animations.md)
   * [Developer Documentation](tutorials/integrations/developer-documentation/README.md)
-    * [Resource Events](tutorials/integrations/developer-documentation/resource-events.md)
+    * [Resource API](tutorials/integrations/developer-documentation/resource-events.md)
     * [API Endpoints](tutorials/integrations/developer-documentation/api-endpoints.md)
     * [Push Events](tutorials/integrations/developer-documentation/push-events.md)
 
