@@ -105,7 +105,11 @@ Select `Move/Resize`
 * Hold `ctrl` and drag to resize the radio.
 * Press `esc` to save the new size and position.
 
-You can also use `/radioreset ui` to reset the size and position.
+{% hint style="info" %}
+If you move your radio too far off of your screen:
+
+Use `/radioreset ui` to reset the size and position.
+{% endhint %}
 
 <div>
 
