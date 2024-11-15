@@ -106,7 +106,7 @@ Select `Move/Resize`
 * Press `esc` to save the new size and position.
 
 {% hint style="info" %}
-If you move your radio too far off of your screen:
+**If you move your radio too far off of your screen:**
 
 Use `/radioreset ui` to reset the size and position.
 {% endhint %}
