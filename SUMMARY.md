@@ -64,6 +64,7 @@
 ***
 
 * [TS3 Legacy](ts3-legacy/README.md)
+  * [End Of Support 12/31/24](ts3-legacy/end-of-support-12-31-24.md)
   * [🏆 Why Choose Sonoran Radio](ts3-legacy/why-choose-sonoran-radio.md)
   * [Tutorials](ts3-legacy/tutorials/README.md)
     * [Getting Started](ts3-legacy/tutorials/getting-started/README.md)
