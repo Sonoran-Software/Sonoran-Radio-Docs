@@ -40,16 +40,19 @@ Some communities may offer custom EUP (clothing and accessories) that players ca
 
 The `config.lua` file's `Config.chatterExclusions` list defines earpiece items (custom EUP prop IDs) that block radio chatter from being heard nearby.
 
-{% hint style="info" %}
-This feature only works only with "prop" variations
-{% endhint %}
+<div><figure><img src="../../../.gitbook/assets/image (46).png" alt="" width="147"><figcaption><p>Sonoran Radio - In-Game Radio Earpiece</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/Code_Y3KUeS1LI2.png" alt=""><figcaption><p>Sonoran Radio - Earpiece Configuration</p></figcaption></figure></div>
 
-<div>
+### Component IDs
 
-<figure><img src="../../../.gitbook/assets/image (46).png" alt="" width="147"><figcaption><p>Sonoran Radio - In-Game Radio Earpiece</p></figcaption></figure>
+Look [here](https://docs.fivem.net/natives/?_0x829F2E2) for the component IDs for props (hats, glasses, earpieces, etc.). To find component IDs for drawables (shirts, pants, backpacks, etc.), look [here ](https://docs.fivem.net/natives/?_0x262B14F48D29DE80)and add 14 to the number.
 
- 
+For example, to exclude a clothing item under ACCESSORIES, it might look like this:
 
-<figure><img src="../../../.gitbook/assets/image (45).png" alt=""><figcaption><p>Sonoran Radio - Earpiece Configuration</p></figcaption></figure>
+```lua
+{
+  componentId = 22, -- accessories (8) + offset (14) is 22
+  drawableId = 78,  -- Number in vMenu
+  texture = 0,      -- Number in vMenu (or 0 for all textures)
+}
+```
 
-</div>

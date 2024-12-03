@@ -6,39 +6,31 @@ description: In-game players can call 911 and talk to you through Sonoran Radio!
 
 <figure><img src="../../../.gitbook/assets/Customizable Tone Board Promo (1).png" alt=""><figcaption><p>Sonoran Radio - Emergency Calls</p></figcaption></figure>
 
-## Calling 911 In-Game
+## Emergency Calling In-Game
 
-Players are able to call 911 in FiveM with `/radio 911`. This will place them in a call on the Dispatch Panel waiting for a dispatcher.
+Players are able to make an emergency call in FiveM with `/radio 911`. This will place them in a call on the Dispatch Panel waiting for a dispatcher.
 
-<div>
+<div><figure><img src="../../../.gitbook/assets/image (81).png" alt=""><figcaption><p>Sonoran Radio FiveM - Emergency Call</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (82).png" alt=""><figcaption><p>Sonoran Radio - Dispatch Panel</p></figcaption></figure></div>
 
-<figure><img src="../../../.gitbook/assets/image (81).png" alt=""><figcaption><p>Sonoran Radio FiveM - Emergency Call</p></figcaption></figure>
+## Answering the Emergency Call
 
- 
-
-<figure><img src="../../../.gitbook/assets/image (82).png" alt=""><figcaption><p>Sonoran Radio - Dispatch Panel</p></figcaption></figure>
-
-</div>
-
-## Answering the 911 Call
-
-You can join and listen to a 911 call using the microphone and headphone buttons, just like any other channel in Sonoran Radio. The buttons will highlight green and red respectively when enabled
+You can join and listen to an emergency call using the microphone and headphone buttons, just like any other channel in Sonoran Radio. The buttons will highlight green and red respectively when enabled
 
 {% hint style="info" %}
 Mic clicks are disabled in emergency channels
 {% endhint %}
 
-<div align="center" data-full-width="false">
+<div align="center" data-full-width="false"><figure><img src="../../../.gitbook/assets/image (83).png" alt=""><figcaption><p>Sonoran Radio - Speaking in 911 Call</p></figcaption></figure></div>
 
-<figure><img src="../../../.gitbook/assets/image (83).png" alt=""><figcaption><p>Sonoran Radio - Speaking in 911 Call</p></figcaption></figure>
+## Ending the Emergency Call
 
-</div>
-
-## Ending the 911 Call
-
-Dispatchers can end a 911 call with the red "End Call" button, and in-game players can end it by using `/radio 911` again.
+Dispatchers can end an emergency call with the red "End Call" button, and in-game players can end it by using `/radio 911` again.
 
 <figure><img src="../../../.gitbook/assets/image (84).png" alt=""><figcaption><p>Sonoran Radio - End 911 Call</p></figcaption></figure>
+
+## Customize The Emergency Number
+
+You can customize `911` to any other number or word by [editing the config file](../../getting-started/installing-the-in-game-resource.md#updates)'s `emergencyCommand` property.
 
 ## Developer Documentation
 
