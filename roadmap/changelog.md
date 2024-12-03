@@ -4,6 +4,66 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # Changelog
 
+### 2.10.0 (Beta) - 12/03/2024
+
+{% tabs %}
+{% tab title="New" %}
+\#25437 Radio In-Game Display
+
+* The in-game radio will now persist on the user's screen, until they use `/radio hide`. Per-user customization will be released in a coming update.
+
+\#25917 - EUP Chatter
+
+* Added support for drawable items (in addition to the existing prop support) for EUP chatter exclusion.
+
+Permission Reactivity
+
+* When connected to the radio, user permissions will now update in real time.
+
+Customize 911 Command
+
+* Added a new config `emergencyCallCommand` property to customize the /radio 911 to other numbers or words based on locality.
+
+Configure Default Keybinds
+
+* Added new configuration values to customize the default radio keybinds for new in-game users.
+
+In-Game Unlink via Pending Screen
+
+* Added an account un-link for the in-game pending community approval screen.
+
+Community Cards - Leave Community
+
+* Added a leave community button in the portal.
+
+In-Game Audio Subprocess Info
+
+* Added a short URL guide in the in-game volume slider to help users who may be having a hard time hearing people.
+
+Homepage - Emergency Call Promo
+
+* Added a promotional tab on the front page for the in-game emergency call feature.
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#25858 Radio Frames
+
+* Fixed an issue causing some communities to have no frame options available in settings based on their config values.
+
+HUD Disconnect
+
+* Fixed an issue causing the HUD view to show as disconnected.
+
+\#25846 - Connected Users API
+
+* Fixed an API 500 error when requesting the active users, but none are connected.
+
+\#25741 - Radio Inventory
+
+* Fixed an issue where using enforceRadioItem would throw an error that the radio item is not in your inventory.
+{% endtab %}
+{% endtabs %}
+
 ### 2.9.0 (Beta) - 11/07/2024
 
 {% tabs %}

@@ -6,6 +6,40 @@ description: >-
 
 # Migration Guides
 
+
+
+<details>
+
+<summary>2.10.0 Release (Config Values)</summary>
+
+Version 2.10.0 introduces new configuration values to customize the default user keybinds and the emergency call prefix.
+
+Note: _This new default key mapping will only apply to new users who have not joined the server and had their keybind set yet._
+
+1. Open your existing `config.lua`
+2. Paste in the two, new default config options:
+
+```lua
+Config.emergencyCallCommand = '999' -- Command suffix to start or stop an emergency call (i.e. '911' == /radio 911)
+```
+
+```lua
+-- Default radio keybinds (these can be changed in GTA settings) --
+Config.keybinds = {
+	['toggle'] = '',
+	['ptt'] = '\\',
+	['power'] = '',
+	['panic'] = '',
+	['nextChannel'] = '',
+	['prevChannel'] = '',
+	['talkAnim'] = ''
+}
+```
+
+This is is also available from the auto-updater's `config.CHANGEME.lua`
+
+</details>
+
 <details>
 
 <summary>2.8.1 Release (Mobile Repeater Default Key)</summary>
