@@ -6,7 +6,7 @@ description: Sonoran Radio's TS3 version will no longer be supported 12/31/24
 
 ## Sonoran Radio: TeamSpeak 3 End-Of-Support
 
-**As of 12/31/2023 Sonoran Radio's TeamSpeak 3 (Legacy) version will no longer receive any support for users, customers, community owners, etc.**
+**As of 12/31/2024 Sonoran Radio's TeamSpeak 3 (Legacy) version will no longer receive any support for users, customers, community owners, etc.**
 
 Additionally, new community registrations will be restricted to the standalone version only. **No new TS3 based community registrations will be available beyond this date.**
 
