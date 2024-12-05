@@ -8,21 +8,28 @@ description: Learn more about the in-game radio resource.
 
 ## Initial Setup
 
-### Accessing the In-Game Radio
+### Displaying the In-Game Radio
 
-#### Keybind
+By default, the radio display remains visible on-screen at all times. Users can toggle focus on the radio, enabling interaction when needed and un-focusing when done.
 
-The default keybind to open Sonoran Radio is `~` (right above Tab)
+1. Use the default or [customizable keybind](using-the-in-game-radio.md#setting-your-push-to-talk-ptt-keybind) (Default is `~` right above tab)
+2. Use the `/radio` command
 
-You can also [customize this keybind](using-the-in-game-radio.md#setting-your-push-to-talk-ptt-keybind)
+Access to the radio can be restricted with [ACE permissions](configuring-ace-permissions.md).
 
-#### Command
+### Hiding the In-Game Radio
 
-Use the `/radio` command
+#### A. Via Button
 
-#### Permissions
+Use the purple button or icon on the radio frames:
 
-Restrict access to the radio with [ACE permissions](configuring-ace-permissions.md).
+<div><figure><img src="../../../.gitbook/assets/image (85).png" alt="" width="375"><figcaption><p>Vehicle Radio: Hide Button</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/Screenshot 2024-12-05 124319.png" alt="" width="208"><figcaption><p>Handheld Radio: Hide Button</p></figcaption></figure></div>
+
+
+
+#### B. Via Command
+
+Use the `/radio hide` command in-game to hide the radio.
 
 ### Logging In
 
