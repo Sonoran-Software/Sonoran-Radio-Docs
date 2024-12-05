@@ -12,7 +12,7 @@ description: Learn more about the in-game radio resource.
 
 By default, the radio display remains visible on-screen at all times. Users can toggle focus on the radio, enabling interaction when needed and un-focusing when done.
 
-1. Use the default or [customizable keybind](using-the-in-game-radio.md#setting-your-push-to-talk-ptt-keybind) (Default is `~` right above tab)
+1. Use the [customizable keybind](using-the-in-game-radio.md#setting-your-push-to-talk-ptt-keybind) (Default is `~` right above tab)
 2. Use the `/radio` command
 
 Access to the radio can be restricted with [ACE permissions](configuring-ace-permissions.md).
@@ -24,8 +24,6 @@ Access to the radio can be restricted with [ACE permissions](configuring-ace-per
 Use the purple button or icon on the radio frames:
 
 <div><figure><img src="../../../.gitbook/assets/image (85).png" alt="" width="375"><figcaption><p>Vehicle Radio: Hide Button</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/Screenshot 2024-12-05 124319.png" alt="" width="208"><figcaption><p>Handheld Radio: Hide Button</p></figcaption></figure></div>
-
-
 
 #### B. Via Command
 
