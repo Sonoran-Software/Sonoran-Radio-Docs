@@ -52,7 +52,9 @@ You can logout/un-link your in-game radio via the settings menu (gear icon).
 
 ### Setting your Push-To-Talk (PTT) Keybind
 
-By default, there is no PTT keybind set. You can set one in your GTA `Settings` -> `Key Bindings` -> `FiveM` -> `Radio PTT`
+You can customize your PTT button in your GTA `Settings` -> `Key Bindings` -> `FiveM` -> `Radio PTT`
+
+Communities can also customize the default keybind for new users in the [configuration's](../../getting-started/installing-the-in-game-resource.md#updates) `keybind` property.
 
 <figure><img src="../../../.gitbook/assets/FiveM_b3095_GTAProcess_WGNNv8eoKV.png" alt="" width="563"><figcaption></figcaption></figure>
 
