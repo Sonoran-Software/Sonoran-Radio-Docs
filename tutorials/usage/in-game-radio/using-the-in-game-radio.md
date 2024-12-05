@@ -95,7 +95,7 @@ Select `Move/Resize`
 {% hint style="info" %}
 **If you move your radio too far off of your screen:**
 
-Use `/radioreset ui` to reset the size and position.
+Use `/radio reset` to reset the size and position.
 {% endhint %}
 
 <div><figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Settings</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Move/Resize</p></figcaption></figure></div>
