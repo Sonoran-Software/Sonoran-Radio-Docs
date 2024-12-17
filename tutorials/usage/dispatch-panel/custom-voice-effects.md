@@ -16,7 +16,7 @@ Unless on the Pro version, communities are limited to one voice effect style.
 
 Sonoran Radio allows you to create custom voice effect styles for users talking in the radio.
 
-Expand the `Digital`, `Analog` and `Equalizer` boxes for specific customizations.
+Expand the `Vocoder`, `Digital`, `Analog` and `Equalizer` boxes for specific customizations.
 
 By clicking the microphone icon and using the signal strength slider, you can hear how the effect will sound when users are talking.
 
@@ -25,3 +25,16 @@ By clicking the microphone icon and using the signal strength slider, you can he
 ## Applying the Voice Effect
 
 In the [channel editor, you can select the desired voice effect](configure-channels.md#setting-the-voice-effect). This voice effect will apply to anyone talking in that channel.
+
+## External Vocoder
+
+{% hint style="danger" %}
+This feature is currently undergoing private community testing before being released publicly.
+
+\
+Stay tuned to [our Discord server](https://discord.sonoransoftware.com) for the latest news!
+{% endhint %}
+
+The Vocoder voice effect simulates a modern "P25 style" radio compression, ideal for communities seeking realistic conditions and authentic downsides.
+
+When enabled, audio is routed through an external vocoder for encoding and decoding before broadcast, causing a slight transmission delay. To achieve the best results, users must speak clearly and directly into the microphone.
