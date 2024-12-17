@@ -29,12 +29,12 @@ In the [channel editor, you can select the desired voice effect](configure-chann
 ## External Vocoder
 
 {% hint style="danger" %}
-This feature is currently undergoing private community testing before being released publicly.
-
-\
+This feature is currently undergoing private community testing.\
 Stay tuned to [our Discord server](https://discord.sonoransoftware.com) for the latest news!
 {% endhint %}
 
-The Vocoder voice effect simulates a modern "P25 style" radio compression, ideal for communities seeking realistic conditions and authentic downsides.
+The Vocoder voice effect simulates a modern P25-style radio compression using an AMBE-like encoding approach, commonly heard in proprietary digital radio systems. It’s ideal for communities seeking realistic conditions and authentic downsides.
 
 When enabled, audio is routed through an external vocoder for encoding and decoding before broadcast, causing a slight transmission delay. To achieve the best results, users must speak clearly and directly into the microphone.
+
+The vocoder provides a consistent, unvaried effect. Communities may add additional `analog` or `digital` filters to have in-game signal strength impact audio quality.
