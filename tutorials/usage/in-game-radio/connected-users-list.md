@@ -12,7 +12,7 @@ description: >-
 
 ## Accessing the Connected Users List
 
-In-game, users can utilize the `/radiousers` command to open the connected users window.
+In-game, users can utilize the `/radiousers` command or a customizable FiveM keybind (`F11` by default) to open the connected users window.
 
 This window displays all active users connected to the radio, and the channel they are in.
 
