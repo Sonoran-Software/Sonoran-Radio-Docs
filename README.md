@@ -18,19 +18,7 @@ With three different in-game model types, Sonoran Radio takes immersion to the n
 
 See our [tower destruction and repairing](ts3-legacy/tutorials/script-usage.md#in-game-towers) info!
 
-<div>
-
-<figure><img src=".gitbook/assets/cell.png" alt=""><figcaption><p>Cellular Antenna</p></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/tower_broken.png" alt=""><figcaption><p>Radio Tower</p></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/server_opened (1).png" alt=""><figcaption><p>Server Rack</p></figcaption></figure>
-
-</div>
+<div><figure><img src=".gitbook/assets/cell.png" alt=""><figcaption><p>Cellular Antenna</p></figcaption></figure> <figure><img src=".gitbook/assets/tower_broken.png" alt=""><figcaption><p>Radio Tower</p></figcaption></figure> <figure><img src=".gitbook/assets/server_opened (1).png" alt=""><figcaption><p>Server Rack</p></figcaption></figure></div>
 
 <figure><img src=".gitbook/assets/destroy_towers_b.png" alt=""><figcaption><p>Sonoran Radio - Destructible Towers - Promotional Image</p></figcaption></figure>
 
@@ -82,7 +70,7 @@ Sonoran Radio's dispatch UI is available everywhere on the [web](sonoran-radio/d
 
 <figure><img src=".gitbook/assets/image (75).png" alt=""><figcaption><p>Sonoran Radio - Dispatch Panel</p></figcaption></figure>
 
-## 📡 [Multiple Radio Options](tutorials/usage/in-game-radio/using-the-in-game-radio.md)
+## 📡 [Multiple Radio Options](tutorials/usage/in-game-radio/using-the-in-game-radio/)
 
 Sonoran Radio offers multiple in-game user interfaces, allowing you to stay connected on-foot, in-vehicle, and more!
 
