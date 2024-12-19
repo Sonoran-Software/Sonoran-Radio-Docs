@@ -6,7 +6,19 @@ description: >-
 
 # Migration Guides
 
+<details>
 
+<summary>2.11.0 Release (Earpieces JSON)</summary>
+
+Version 2.11.0 Migrates the earpiece configuration from the `config.lua`to `earpieces.json`. Therefore, this property is no longer needed in your `config.lua` file.
+
+1. Open the new `earpieces.json` file to confirm your configuration has been migrated (after resource start).
+2. Open your existing `config.lua`
+3. Remove the `Config.chatterExclusions` property.
+
+![](../.gitbook/assets/image.png)
+
+</details>
 
 <details>
 

@@ -14,13 +14,13 @@ Sonoran Radio runs in FiveM's Chromium browser in-game. While FiveM is running, 
 
 Open the `Volume Mixer` via Windows search or right-clicking the sound icon in your taskbar.
 
-<div><figure><img src="../../../.gitbook/assets/image.png" alt="" width="352"><figcaption><p>Windows Search: Volume Mixer</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/Screenshot 2024-12-03 125229.png" alt=""><figcaption><p>Taskbar: Volume Mixer</p></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="352"><figcaption><p>Windows Search: Volume Mixer</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/Screenshot 2024-12-03 125229.png" alt=""><figcaption><p>Taskbar: Volume Mixer</p></figcaption></figure></div>
 
 ### 2. Adjust the FiveM Chromium Subprocess
 
 In the `Volume Mixer` adjust the volume of the `FiveM Chromium Subprocess`.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption><p>FiveM Chromium Subprocess Volume</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (3).png" alt="" width="375"><figcaption><p>FiveM Chromium Subprocess Volume</p></figcaption></figure>
 
 ## Manually Increase Radio Volume
 
