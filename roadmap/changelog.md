@@ -4,6 +4,38 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # Changelog
 
+### 2.11.0 (Beta) - 12/19/2024
+
+{% tabs %}
+{% tab title="New" %}
+Text Style Display
+
+* Added a new screen display style with a "text-based" UI for older radio styles
+
+Settings UI: Tabs
+
+* Overhauled the settings modal with tabs for each section
+
+Hide Radio ESC User Config
+
+* Added three radio display options for ESC behavior (stay on screen, hide, show only while transmitting)
+
+Expired Community Removal
+
+* Added automatic community deletion, if on the free version, after 30 days with a 21 day notice
+{% endtab %}
+
+{% tab title="Fixed" %}
+Emergency Call: Fix Hear Radio Chatter Nearby
+
+* Fixed an issue where users could not hear nearby radio chatter while on a 911 call
+
+Hide/Close Radio when QB Item Gone
+
+* Fixed an issue where removing the QB/ESX radio item would not turn off and remove the radio from the user's screen
+{% endtab %}
+{% endtabs %}
+
 ### 2.10.0 (Beta) - 12/03/2024
 
 {% tabs %}

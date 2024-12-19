@@ -113,6 +113,16 @@ Specify the position and width of the radio frame screen in Sonoran Radio to dis
 
 For `HUD`-type frames, `controls` can be left blank.
 
+#### Screen Styles
+
+If you would like to use a text-style display instead of the normal radio screen, you can set the `style`to `text` . For example:
+
+```json
+{
+    "style": "text",
+    
+```
+
 ## Example File
 
 Below is an example of a `skin.json` file:
