@@ -16,7 +16,7 @@ Version 2.11.0 Migrates the earpiece configuration from the `config.lua`to `earp
 2. Open your existing `config.lua`
 3. Remove the `Config.chatterExclusions` property.
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (87).png>)
 
 </details>
 

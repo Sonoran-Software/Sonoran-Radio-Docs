@@ -128,7 +128,7 @@ If you would like to use a text-style display instead of the normal radio screen
 }
 ```
 
-<div data-full-width="false"><figure><img src="../../../.gitbook/assets/image (87).png" alt="" width="179"><figcaption><p>Sonoran Radio Screen - Default</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/FiveM_b3095_GTAProcess_irgR5p1mnW.png" alt="" width="178"><figcaption><p>Sonoran Radio Screen - Text</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../../../.gitbook/assets/image (87) (1).png" alt="" width="179"><figcaption><p>Sonoran Radio Screen - Default</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/FiveM_b3095_GTAProcess_irgR5p1mnW.png" alt="" width="178"><figcaption><p>Sonoran Radio Screen - Text</p></figcaption></figure></div>
 
 ## Example File
 

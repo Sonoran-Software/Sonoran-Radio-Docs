@@ -63,7 +63,7 @@ Extract the .zip file into your resources directory. Place the `sonoranradio` an
 
 The community ID and API key can be found in the `Administration` tab.
 
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Sonoran Radio - Community ID &#x26; API Key</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Community ID &#x26; API Key</p></figcaption></figure>
 
 ### 4. Update Your Server Config
 

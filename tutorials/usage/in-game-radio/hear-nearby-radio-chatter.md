@@ -38,11 +38,41 @@ _This feature is experimental and subject to both change and improvements._
 
 Some communities may offer custom EUP (clothing and accessories) that players can use to personalize their characters. For radio users, an option to wear an earpiece (headphones) could be useful, allowing them to listen to radio chatter privately without others nearby overhearing.
 
-The `config.lua` file's `Config.chatterExclusions` list defines earpiece items (custom EUP prop IDs) that block radio chatter from being heard nearby.
+Communities can easily select which clothing items will be treated as a radio earpiece.
 
-<div><figure><img src="../../../.gitbook/assets/image (46).png" alt="" width="147"><figcaption><p>Sonoran Radio - In-Game Radio Earpiece</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/Code_Y3KUeS1LI2.png" alt=""><figcaption><p>Sonoran Radio - Earpiece Configuration</p></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (46).png" alt="" width="147"><figcaption><p>Sonoran Radio: In-Game Radio Earpiece</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Sonoran Radio: Configure Earpieces</p></figcaption></figure></div>
 
-### Component IDs
+### 1. Open the Earpiece Menu
+
+Open the earpiece configuration menu via  `/radiomenu` > `Configure Earpiece Chatter`
+
+<figure><img src="../../../.gitbook/assets/image.png" alt="" width="223"><figcaption><p>Sonoran Radio Menu</p></figcaption></figure>
+
+### 2. Toggle Earpiece Items
+
+To add a chatter exclusion click "Add Earpiece Item" and select the component you'd like to add. Additionally, select any specific textures that will be considered an earpiece.
+
+Once selected, anyone wearing this earpiece will not emit radio chatter to nearby users.
+
+<figure><img src="../../../.gitbook/assets/image (2).png" alt="" width="222"><figcaption><p>Add or Remove Earpiece</p></figcaption></figure>
+
+<div><figure><img src="../../../.gitbook/assets/image (7).png" alt="" width="375"><figcaption><p>Earpiece Item Selection</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (8).png" alt="" width="375"><figcaption><p>Earpiece Texture Selection</p></figcaption></figure></div>
+
+### 3. Removing Earpieces
+
+To remove an earpiece option, navigate to the `Remove Earpiece Item` Menu option > Select the specific earpiece item > and  `Confirm Removal`
+
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+### Manual Earpiece IDs (Advanced)
+
+<details>
+
+<summary>Manually Configure Earpiece IDs</summary>
+
+The `earpieces.json`  file defines earpiece items (custom EUP prop IDs) that block radio chatter from being heard nearby.
+
+Component IDs
 
 Look [here](https://docs.fivem.net/natives/?_0x829F2E2) for the component IDs for props (hats, glasses, earpieces, etc.). To find component IDs for drawables (shirts, pants, backpacks, etc.), look [here ](https://docs.fivem.net/natives/?_0x262B14F48D29DE80)and add 14 to the number.
 
@@ -56,3 +86,4 @@ For example, to exclude a clothing item under ACCESSORIES, it might look like th
 }
 ```
 
+</details>

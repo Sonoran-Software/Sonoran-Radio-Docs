@@ -18,7 +18,7 @@ CAD panic and call information is coming soon with the next major release!
 
 To activate your panic toggle in Sonoran CAD, press the yellow button at the top of the radio.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt="" width="257"><figcaption><p>Sonoran Radio Handheld - Panic Button</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt="" width="257"><figcaption><p>Sonoran Radio Handheld - Panic Button</p></figcaption></figure>
 
 ### CAD Call Information
 
