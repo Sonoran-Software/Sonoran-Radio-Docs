@@ -4,6 +4,42 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # Changelog
 
+### 2.11.0 (Full Release) - 12/31/2024
+
+{% tabs %}
+{% tab title="New" %}
+Radio Chatter: Vehicle Detection
+
+* Added vehicle detection to lower and muffle nearby radio chatter if the user enters a vehicle. Chatter volume resumes if the window is down/broken or the door opens.
+
+Emergency Call: Nearby Chatter
+
+* When a user is making an emergency call on the phone, nearby users can now faintly hear the dispatcher talking on the other side of the phone.
+
+Voice Effect: Clipping
+
+* Added a new "clipping" voice effect to cut audio in and out when the radio signal is poor. This effect is designed to pair particularly well with the vocoder.
+
+Transfer Community
+
+* Added an option in the administration panel to transfer community ownership to another user.
+
+Emergency Call: SFX
+
+* Added a community customizable incoming emergency call sound effect for dispatchers.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Backend Error API Clearnup
+
+* Cleaned up general backend errors from the API
+
+In-Game Debug
+
+* Removed leftover in-game debug prints
+{% endtab %}
+{% endtabs %}
+
 ### 2.11.0 (Beta) - 12/19/2024
 
 {% tabs %}

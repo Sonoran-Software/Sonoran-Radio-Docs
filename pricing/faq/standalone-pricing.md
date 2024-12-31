@@ -66,13 +66,17 @@ Pulled over in a traffic stop? You'll hear the real radio chatter when an office
 | Plus         | Community-Wide Customization Only |
 | Pro          | Community-Wide and Per-User       |
 
-### [Talkover Prevent/Error Sound Customization](../../tutorials/usage/dispatch-panel/custom-sfx.md)
+### [Community-Wide Sound Effect Customization](../../tutorials/usage/dispatch-panel/custom-sfx.md)
 
-| Subscription | Limit            |
-| ------------ | ---------------- |
-| Free         | No Customization |
-| Plus         | No Customization |
-| Pro          | Community-Wide   |
+* Key Up/Down SFX
+* Talkover Deny/Override SFX
+* Incoming Emergency Call SFX
+
+| Subscription | Limit |
+| ------------ | ----- |
+| Free         | 🚫    |
+| Plus         | 🚫    |
+| Pro          | ✅     |
 
 ### [Tone Board Customization](../../tutorials/usage/dispatch-panel/custom-tone-board.md)
 
@@ -88,8 +92,8 @@ Pulled over in a traffic stop? You'll hear the real radio chatter when an office
 
 <figure><img src="../../.gitbook/assets/image (62).png" alt="" width="375"><figcaption></figcaption></figure>
 
-| Subscription | Effect Styles Limit |
-| ------------ | ------------------- |
-| Free         | 1                   |
-| Standard     | 1                   |
-| Pro          | Unlimited           |
+| Subscription | Effect Styles Limit | Vocoder Access |
+| ------------ | ------------------- | -------------- |
+| Free         | 1                   | 🚫             |
+| Standard     | 1                   | 🚫             |
+| Pro          | Unlimited           | ✅              |
