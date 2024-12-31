@@ -17,6 +17,7 @@
   * [Register a Community](tutorials/getting-started/register-a-community.md)
   * [Invite and Manage Users](tutorials/getting-started/invite-and-manage-users.md)
   * [Installing the In-Game Resource](tutorials/getting-started/installing-the-in-game-resource.md)
+  * [Transfer or Delete a Community](tutorials/getting-started/transfer-or-delete-a-community.md)
 * [Usage](tutorials/usage/README.md)
   * [Dispatch Panel](tutorials/usage/dispatch-panel/README.md)
     * [Configure Channels](tutorials/usage/dispatch-panel/configure-channels.md)

@@ -20,6 +20,26 @@ Due to bandwidth usage, this feature is automatically enabled with the Pro versi
 
 {% embed url="https://youtu.be/R9-xBm0sGBA" %}
 
+## Audio Examples
+
+### Nearby Radio
+
+If someone nearby has a radio, you'll hear the radio traffic they’re listening to coming from their device. The closer they are the louder the radio traffic will be. However, if they're [using an earpiece](hear-nearby-radio-chatter.md#in-game-earpiece), the audio won’t be audible to others.
+
+### Radio in Vehicle
+
+When someone with a [nearby radio](hear-nearby-radio-chatter.md#nearby-radio) enters a vehicle, the radio audio will become muffled. However, if a door is open, or a window is down or broken, the audio will become clearer and louder again.
+
+### Nearby Emergency Phone Call
+
+When someone is [making an emergency call to a dispatcher](../dispatch-panel/emergency-calls.md), nearby users will faintly hear the dispatcher's voice coming from the caller's phone.
+
+### Nearby Radio Scanner
+
+{% hint style="info" %}
+This feature is coming soon!
+{% endhint %}
+
 ## Usage
 
 ### Adjust Volume
@@ -28,11 +48,15 @@ Players can adjust the nearby radio volume in-game using the `/radiovolume` comm
 
 Ex: `/radiovolume 75` sets the nearby radio to 75% volume.
 
-### Technical Information
+<details>
+
+<summary>Technical Information</summary>
 
 When a player is within 15 game units of an active radio, they will hear the live chatter from the nearest radio. If multiple radios within range are tuned to different channels, the player will hear all those channels blended, but the sound will primarily emit from the closest radio source.
 
 _This feature is experimental and subject to both change and improvements._
+
+</details>
 
 ## In-Game Earpiece
 
