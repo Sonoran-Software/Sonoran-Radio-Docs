@@ -4,40 +4,54 @@ description: Learn how to customize your microphone SFX!
 
 # Custom SFX
 
-## Custom Microphone Clicks
+<figure><img src="../../../.gitbook/assets/Radio_ProFeats.png" alt=""><figcaption><p>Sonoran Radio: Customizable Sound Effects</p></figcaption></figure>
 
-When a user presses down their push-to-talk key, a "key-down" sound effect is played.
+## Community-Wide SFX
 
-When a user releases their push-to-talk key, a "key-up" sound effect is played.
+Community-wide sound effects can be customized in the `Customize` > `SFX Customization` menu.
 
-Sonoran Radio allows these sound effects to be customized!
-
-<figure><img src="../../../.gitbook/assets/Radio_ProFeats.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Sonoran Radio: Community Sound Effect Customization</p></figcaption></figure>
 
 {% hint style="danger" %}
-Community SFX customization requires the **Plus** version or higher.
-
-Per-User SFX customization requires the **Pro** version.
+Community SFX customization requires the **plus** version or higher.
 
 For more information, view our [pricing FAQ](../../../pricing/faq/standalone-pricing.md).
 {% endhint %}
 
-### Community-Wide SFX
+### Key Up/Down
 
-<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption><p>Sonoran Radio - SFX Customization</p></figcaption></figure>
+When a user presses or releases their push-to-talk key, the `Key Up SFX` and `Key Down SFX` audio will play.
 
-Customize the default key-up, key-down, and talkover error SFX for the entire community in the `Customization` > `SFX Customization` tab.
+Individual users can also customize in their settings menu whether or not to hear their own key up/down SFX and other user's key up/down SFX.
 
-This requires the `Admin` permission.
+Users can also [customize the key up/down SFX that they hear locally](custom-sfx.md#key-up-down-1).
 
-Once configured, all users in your community will broadcast these SFX options, unless they have a per-user SFX specified.
+### Talkover Error and Override
 
-### Per-User SFX
+When a channel has [talkover protection enabled](configure-channels.md#toggle-talkover-protection) and a user is already transmitting, a second user attempting to talk at the same time will hear the `Talkover SFX` audio.
+
+If a user has talkover override permissions, double-pressing the push-to-talk key and holding will play the `Talkover Override Success SFX` once they are able to transmit.
+
+### Emergency Call
+
+When a [user places an emergency call](emergency-calls.md), dispatchers will hear the `Emergency Call SFX` audio to alert them of an incoming call.
+
+***
+
+## Per-User SFX
+
+{% hint style="danger" %}
+Per-User SFX customization requires the **pro** version or higher.
+
+For more information, view our [pricing FAQ](../../../pricing/faq/standalone-pricing.md).
+{% endhint %}
+
+### Key Up/Down
 
 Individual users can customize their key-up and key-down SFX in their user settings dialog in their radio or dispatch portal.
 
 Once configured, the user will override any default or community-wide SFX.
 
-_Note: SFX uploads can not be processed using the in-game radio._
+_Note: SFX uploads are only available on the web, desktop, or mobile apps and can not be done from in-game._
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="350"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="350"><figcaption></figcaption></figure>

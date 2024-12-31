@@ -56,21 +56,23 @@ Pulled over in a traffic stop? You'll hear the real radio chatter when an office
 | Plus         | 🚫    |
 | Pro          | ✅     |
 
-### [Mic Click Sound Customization](../../tutorials/usage/dispatch-panel/custom-sfx.md)
-
 <figure><img src="../../.gitbook/assets/Radio_ProFeats.png" alt="" width="375"><figcaption></figcaption></figure>
 
-| Subscription | Limit                             |
-| ------------ | --------------------------------- |
-| Free         | No Customization                  |
-| Plus         | Community-Wide Customization Only |
-| Pro          | Community-Wide and Per-User       |
-
-### [Community-Wide Sound Effect Customization](../../tutorials/usage/dispatch-panel/custom-sfx.md)
+### [Community-Wide Sound Effect Customization](../../tutorials/usage/dispatch-panel/custom-sfx.md#community-wide-sfx)
 
 * Key Up/Down SFX
 * Talkover Deny/Override SFX
 * Incoming Emergency Call SFX
+
+| Subscription | Limit |
+| ------------ | ----- |
+| Free         | 🚫    |
+| Plus         | ✅     |
+| Pro          | ✅     |
+
+### [Per-User Sound Effect Customization](../../tutorials/usage/dispatch-panel/custom-sfx.md#per-user-sfx)
+
+* Key Up/Down SFX
 
 | Subscription | Limit |
 | ------------ | ----- |

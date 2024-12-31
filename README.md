@@ -48,7 +48,9 @@ Customize digital and analog style voice effects for your community!
 
 Easily customize mic clicks, talkover protection tones, and more!
 
-<figure><img src=".gitbook/assets/customclicks_final.png" alt=""><figcaption></figcaption></figure>
+
+
+<figure><img src=".gitbook/assets/Radio_ProFeats.png" alt=""><figcaption><p>Sonoran Radio: Custom Sound Effects</p></figcaption></figure>
 
 ## 🚨[In-Game Emergency Calls](tutorials/usage/dispatch-panel/emergency-calls.md)
 
