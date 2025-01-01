@@ -26,11 +26,14 @@ By clicking the microphone icon and using the signal strength slider, you can he
 This feature is currently in early-access, available only on the **pro** subscription.
 {% endhint %}
 
+{% hint style="info" %}
+The **vocoder** effect remains consistent and does not fluctuate based on [in-game signal strength](../in-game-radio/in-game-repeaters.md)
+{% endhint %}
+
 The Vocoder voice effect simulates a modern P25-style radio compression using an AMBE-like encoding approach, commonly heard in proprietary digital radio systems. It’s ideal for communities seeking realistic conditions and authentic downsides.
 
 When enabled, audio is routed through an external vocoder for encoding and decoding before broadcast, causing a slight transmission delay. To achieve the best results, users must speak clearly and directly into the microphone.
 
-The vocoder provides a consistent, unvaried effect.\
 **It is recommended to use the** [**clipping voice effect**](custom-voice-effects.md#clipping) **in addition to the vocoder to have in-game signal strength impact the transmission quality.**
 
 ### Clipping
@@ -47,9 +50,13 @@ The analog voice effect adds static and scratchiness to the audio, making it sou
 
 ### Equalizer (EQ)
 
-The equalizer effect applies a consistent, unvaried adjustment to the audio, allowing you to boost or reduce frequencies in the high, mid, and low ranges.
+{% hint style="info" %}
+This **EQ** effect remains consistent and does not fluctuate based on [in-game signal strength](../in-game-radio/in-game-repeaters.md)
+{% endhint %}
 
-_**Tip:** For a "tin can" effect, increase the high frequencies while reducing the mid and low ranges._
+The equalizer effect allows you to boost or reduce frequencies in the high, mid, and low ranges.
+
+_**Tip:** For a "tin can" effect, increase the mid frequencies while reducing the low and high ranges._
 
 ## Applying the Voice Effect
 
