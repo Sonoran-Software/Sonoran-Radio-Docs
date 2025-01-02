@@ -34,17 +34,17 @@ Use the `/radio hide` command in-game to hide the radio.
 When you first use the in-game resource, you'll need to log in.\
 A 4-digit code will appear for you to sign in from your browser.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="345"><figcaption><p>Sonoran Radio - Login with Link Prompt</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="345"><figcaption><p>Sonoran Radio - Login with Link Prompt</p></figcaption></figure>
 
 Open [sonoranradio.com/link](https://sonoranradio.com/link) in a web browser, log in if needed, enter your code, and click "Activate" to log in to the game.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Activate Link</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Activate Link</p></figcaption></figure>
 
 ### Logging Out
 
 You can logout/un-link your in-game radio via the settings menu (gear icon).
 
-<div><figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Settings</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Unlink</p></figcaption></figure></div>
+<div><figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Settings</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Unlink</p></figcaption></figure></div>
 
 ***
 
@@ -70,13 +70,13 @@ You can scroll through the radio channels with the channel select dial on top, o
 
 In the settings menu (gear icon) you can adjust the radio's total volume output.
 
-<div><figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Settings</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption><p>In-Game Radio - System Volume</p></figcaption></figure></div>
+<div><figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Settings</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption><p>In-Game Radio - System Volume</p></figcaption></figure></div>
 
 #### Per-User Volume
 
 You can also right-click on any user to adjust their volume specifically.
 
-<figure><img src="../../../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Per-User Volume</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Per-User Volume</p></figcaption></figure>
 
 ### Move and Resize the Radio
 
@@ -94,7 +94,7 @@ Select `Move/Resize`
 Use `/radio reset` to reset the size and position.
 {% endhint %}
 
-<div><figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Settings</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Move/Resize</p></figcaption></figure></div>
+<div><figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Settings</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Move/Resize</p></figcaption></figure></div>
 
 <figure><img src="../../../../.gitbook/assets/image (17).png" alt="" width="375"><figcaption><p>In-Game Radio - Adjustment</p></figcaption></figure>
 

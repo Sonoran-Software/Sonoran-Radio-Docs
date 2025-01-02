@@ -18,13 +18,13 @@ CAD panic and call information is coming soon with the next major release!
 
 To activate your panic toggle in Sonoran CAD, press the yellow button at the top of the radio.
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt="" width="257"><figcaption><p>Sonoran Radio Handheld - Panic Button</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt="" width="257"><figcaption><p>Sonoran Radio Handheld - Panic Button</p></figcaption></figure>
 
 ### CAD Call Information
 
 When attached to a Sonoran CAD dispatch call, the radio will display a red call info box and set the top status bar to red. Click the call title to expand and collapse the information.
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="259"><figcaption><p>Sonoran Radio x CAD Call Information</p></figcaption></figure> <figure><img src="../../.gitbook/assets/FiveM_b3095_GTAProcess_hDcNs1gDMg.png" alt="" width="209"><figcaption><p>Call Information - Expanded</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="259"><figcaption><p>Sonoran Radio x CAD Call Information</p></figcaption></figure> <figure><img src="../../.gitbook/assets/FiveM_b3095_GTAProcess_hDcNs1gDMg.png" alt="" width="209"><figcaption><p>Call Information - Expanded</p></figcaption></figure></div>
 
 ### CAD Live Map Blips
 

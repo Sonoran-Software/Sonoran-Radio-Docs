@@ -10,7 +10,7 @@ description: Learn how to customize your microphone SFX!
 
 Community-wide sound effects can be customized in the `Customize` > `SFX Customization` menu.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Sonoran Radio: Community Sound Effect Customization</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Sonoran Radio: Community Sound Effect Customization</p></figcaption></figure>
 
 {% hint style="danger" %}
 Community SFX customization requires the **plus** version or higher.
@@ -54,4 +54,4 @@ Once configured, the user will override any default or community-wide SFX.
 
 _Note: SFX uploads are only available on the web, desktop, or mobile apps and can not be done from in-game._
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="350"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="350"><figcaption></figcaption></figure>

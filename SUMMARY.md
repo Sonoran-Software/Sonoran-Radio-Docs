@@ -42,6 +42,7 @@
     * [In-Game Volume Too Low](tutorials/usage/troubleshooting/in-game-volume-too-low.md)
     * [Mac Keybinds](tutorials/usage/troubleshooting/mac-keybinds.md)
 * [Integrations](tutorials/integrations/README.md)
+  * [AI](tutorials/integrations/ai.md)
   * [Sonoran CMS](tutorials/integrations/sonoran-cms.md)
   * [Sonoran CAD Integration](tutorials/integrations/sonoran-cad-integration.md)
   * [Big Daddy Radio Animations](tutorials/integrations/big-daddy-radio-animations.md)
