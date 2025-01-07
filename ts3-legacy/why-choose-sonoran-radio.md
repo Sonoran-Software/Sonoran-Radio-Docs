@@ -48,7 +48,11 @@ Hack into the integrated power grid to disable Sonoran Radio towers in your area
 
 ### 💵 Free TeamSpeak 3 Server
 
-&#x20;[Get started today!](../pricing/faq/free-teamspeak-promo.md)
+&#x20;[Get started today!](broken-reference)
+
+{% hint style="info" %}
+This promotion is no longer available.
+{% endhint %}
 
 <figure><img src="../pricing/free-teamspeak-promo/freeteamspeakpromobanner.png" alt=""><figcaption><p>Sonoran Radio x Sonoran Servers - Promotional Image</p></figcaption></figure>
 

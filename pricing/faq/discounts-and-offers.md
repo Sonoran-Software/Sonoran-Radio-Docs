@@ -35,12 +35,6 @@ Reach out on our [customer support site](https://support.sonoransoftware.com) an
 
 [View the next steps guide](free-install-next-steps.md)
 
-## Free TeamSpeak 3 Server
-
-[ Get started today!](free-teamspeak-promo.md)
-
-<figure><img src="../free-teamspeak-promo/freeteamspeakpromobanner.png" alt=""><figcaption><p>Sonoran Radio x Sonoran Servers - Promotional Image</p></figcaption></figure>
-
 ## Purchase Expert Installation
 
 Get Sonoran Radio's in-game radio as well as Sonoran CMS and Sonoran CAD's FiveM in-game integrations installed by our experts!&#x20;
