@@ -32,7 +32,7 @@ The **vocoder** effect remains consistent and does not fluctuate based on [in-ga
 
 The Vocoder voice effect simulates a modern P25-style radio compression using an AMBE-like encoding approach, commonly heard in proprietary digital radio systems. It’s ideal for communities seeking realistic conditions and authentic downsides.
 
-When enabled, audio is routed through an external vocoder for encoding and decoding before broadcast, causing a slight transmission delay. To achieve the best results, users must speak clearly and directly into the microphone.
+When enabled, audio is routed through a vocoder for encoding and decoding before broadcast, causing a slight transmission delay.
 
 **It is recommended to use the** [**clipping voice effect**](custom-voice-effects.md#clipping) **in addition to the vocoder to have in-game signal strength impact the transmission quality.**
 
