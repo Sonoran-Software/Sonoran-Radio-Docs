@@ -20,7 +20,10 @@ These in-game speaker IDs are set from the [set-server-speakers](api-endpoints.m
     "key": "", // Community API Key (Use to authenticate)
     "type": "play_tone",
     "payload": {
-        "src": "https://s3.sonoransoftware.com/radio/system/tones/signal_100.mp3",
+        // Tone audio file URLs in the order of "stack"
+        "src": [
+            "https://s3.sonoransoftware.com/radio/system/tones/signal_100.mp3",
+        ],
         "ids": [
             "STATION_123",
             "STATION_456"
