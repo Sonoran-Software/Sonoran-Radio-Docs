@@ -18,7 +18,7 @@ Community transmission logs are only available on the pro version.
 
 ## Accessing Transmission Logs
 
-The transmission log viewer can be accessed on the dispatch panel by clicking the list icon.
+The transmission log viewer can be accessed on the dispatch panel by clicking the list icon. Users will be able to view all logs within the last 24 hours transmitted on [channels that they have access to](configure-channels.md#restrict-channel-visibility).
 
 Transmission logs have the following properties:
 
