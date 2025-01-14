@@ -26,6 +26,7 @@
     * [Custom Tone Board](tutorials/usage/dispatch-panel/custom-tone-board.md)
     * [Emergency Calls](tutorials/usage/dispatch-panel/emergency-calls.md)
     * [Using the Dispatch Panel](tutorials/usage/dispatch-panel/using-the-dispatch-panel.md)
+    * [Transmission Logs](tutorials/usage/dispatch-panel/transmission-logs.md)
   * [In-Game Radio](tutorials/usage/in-game-radio/README.md)
     * [Using the In-Game Radio](tutorials/usage/in-game-radio/using-the-in-game-radio/README.md)
       * [FiveM Keybinds](tutorials/usage/in-game-radio/using-the-in-game-radio/fivem-keybinds.md)

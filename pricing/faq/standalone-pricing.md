@@ -99,3 +99,14 @@ Pulled over in a traffic stop? You'll hear the real radio chatter when an office
 | Free         | 1                   | 🚫             |
 | Standard     | 1                   | 🚫             |
 | Pro          | Unlimited           | ✅              |
+
+### [Transmission Logs](../../tutorials/usage/dispatch-panel/transmission-logs.md)
+
+<figure><img src="../../.gitbook/assets/Transmission.png" alt="" width="375"><figcaption></figcaption></figure>
+
+| Subscription | Limit |
+| ------------ | ----- |
+| Free         | 🚫    |
+| Standard     | 🚫    |
+| Pro          | ✅     |
+
