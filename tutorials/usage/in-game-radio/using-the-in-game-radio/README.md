@@ -34,17 +34,17 @@ Use the `/radio hide` command in-game to hide the radio.
 When you first use the in-game resource, you'll need to log in.\
 A 4-digit code will appear for you to sign in from your browser.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="345"><figcaption><p>Sonoran Radio - Login with Link Prompt</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="345"><figcaption><p>Sonoran Radio - Login with Link Prompt</p></figcaption></figure>
 
 Open [sonoranradio.com/link](https://sonoranradio.com/link) in a web browser, log in if needed, enter your code, and click "Activate" to log in to the game.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Activate Link</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Activate Link</p></figcaption></figure>
 
 ### Logging Out
 
 You can logout/un-link your in-game radio via the settings menu (gear icon).
 
-<div><figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Settings</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Unlink</p></figcaption></figure></div>
+<div><figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Settings</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Unlink</p></figcaption></figure></div>
 
 ***
 
@@ -58,27 +58,81 @@ You can logout/un-link your in-game radio via the settings menu (gear icon).
 
 The radio will connect when you turn it on with the power button ([unless you need to login first](./#logging-in))
 
-<div data-full-width="false"><figure><img src="../../../../.gitbook/assets/FiveM_b3095_GTAProcess_y5BTRN8idW.png" alt="" width="195"><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../../../../.gitbook/assets/FiveM_b3095_GTAProcess_y5BTRN8idW.png" alt="" width="195"><figcaption><p>Sonoran Radio: Power Button</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/FiveM_b3095_GTAProcess_8EDvlAfgKq.png" alt="" width="176"><figcaption><p>Sonoran Radio: Channel List</p></figcaption></figure></div>
 
-You can scroll through the radio channels with the channel select dial on top, or choose a channel using the UI
+### Channel Scanning/Listening
 
-<figure><img src="../../../../.gitbook/assets/FiveM_b3095_GTAProcess_8EDvlAfgKq.png" alt="" width="176"><figcaption></figcaption></figure>
+<details>
+
+<summary>Scanning Radio Channels</summary>
+
+Scanning a radio channel allows users to hear all transmissions, even if they are not actively transmitting on that channel. However, transmissions on the primary channel (the one you are actively talking on) will take priority, muting transmissions from scanned channels whenever someone speaks on the primary channel.
+
+#### Selecting Scanned Channels ([Modern or Text Display](../customizing-radio-frames.md#screen-styles))
+
+1. Select the Channel Scan Icon
+2. Select the channel group to view the contained channels
+3. Click on a channel to toggle on/off scanning
+
+![](<../../../../.gitbook/assets/image (3).png>)![](<../../../../.gitbook/assets/image (5).png>)
+
+
+
+Users can also [create a scan list](./#scan-lists) to swap between multiple scanned channels at once.
+
+</details>
+
+### Custom Scan Lists
+
+<details>
+
+<summary>Scan Lists</summary>
+
+Users can scan one or more channels to listen without transmitting. For monitoring multiple channels, "Scan Lists" let users group channels and easily switch between them.
+
+#### Creating a Scan List ([Modern or Text Display](../customizing-radio-frames.md#screen-styles))
+
+1. Toggle scanning on one or more channels.
+2. Select the `+` icon next to `Scan Lists` to create a new scan list with the current selection.
+3. Scan lists can be reordered via drag-and-drop.
+4. Select the adjust button to rename or remove the scan list.
+5. Click on the scan list to scan all of the channels inside of it.
+
+![](<../../../../.gitbook/assets/image (1).png>)![](<../../../../.gitbook/assets/image (2).png>)
+
+</details>
 
 ### Adjust Volume
+
+<details>
+
+<summary>Radio Volume</summary>
 
 #### System-Wide Volume
 
 In the settings menu (gear icon) you can adjust the radio's total volume output.
 
-<div><figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Settings</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption><p>In-Game Radio - System Volume</p></figcaption></figure></div>
+<img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt="In-Game Radio - Settings" data-size="original"><img src="../../../../.gitbook/assets/image (8) (1) (1).png" alt="In-Game Radio - System Volume" data-size="original">
 
 #### Per-User Volume
 
 You can also right-click on any user to adjust their volume specifically.
 
-<figure><img src="../../../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Per-User Volume</p></figcaption></figure>
+<img src="../../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt="In-Game Radio - Per-User Volume" data-size="original">
+
+</details>
 
 ### Move and Resize the Radio
+
+{% hint style="info" %}
+**If you move your radio too far off of your screen:**
+
+Use `/radio reset` to reset the size and position.
+{% endhint %}
+
+<details>
+
+<summary>Radio Move and Resize</summary>
 
 On the radio screen, open the `Settings` modal by pressing the gear icon.
 
@@ -88,15 +142,11 @@ Select `Move/Resize`
 * Hold `ctrl` and drag to resize the radio.
 * Press `esc` to save the new size and position.
 
-{% hint style="info" %}
-**If you move your radio too far off of your screen:**
+<img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt="In-Game Radio - Settings" data-size="original"><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt="In-Game Radio - Move/Resize" data-size="original">
 
-Use `/radio reset` to reset the size and position.
-{% endhint %}
+<img src="../../../../.gitbook/assets/image (17).png" alt="In-Game Radio - Adjustment" data-size="original">
 
-<div><figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Settings</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Move/Resize</p></figcaption></figure></div>
-
-<figure><img src="../../../../.gitbook/assets/image (17).png" alt="" width="375"><figcaption><p>In-Game Radio - Adjustment</p></figcaption></figure>
+</details>
 
 ### Radio Types
 
