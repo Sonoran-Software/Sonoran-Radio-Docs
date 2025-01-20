@@ -22,10 +22,6 @@ By clicking the microphone icon and using the signal strength slider, you can he
 
 ### Vocoder
 
-{% hint style="danger" %}
-This feature is currently in early-access, available only on the **pro** subscription.
-{% endhint %}
-
 {% hint style="info" %}
 The **vocoder** effect remains consistent and does not fluctuate based on [in-game signal strength](../in-game-radio/in-game-repeaters.md)
 {% endhint %}
@@ -33,6 +29,8 @@ The **vocoder** effect remains consistent and does not fluctuate based on [in-ga
 The Vocoder voice effect simulates a modern P25-style radio compression using an AMBE-like encoding approach, commonly heard in proprietary digital radio systems. It’s ideal for communities seeking realistic conditions and authentic downsides.
 
 When enabled, audio is routed through a vocoder for encoding and decoding before broadcast, causing a slight transmission delay.
+
+The vocoder has optional bitrates of `3200`, `2400`, `1600`, `1400`, `1300`, `1200`, `700` and `450` bit/s. While the suggested bitrate is `2400`, the bitrate can be increased for "less effect" or increased for "more effect".
 
 **It is recommended to use the** [**clipping voice effect**](custom-voice-effects.md#clipping) **in addition to the vocoder to have in-game signal strength impact the transmission quality.**
 
