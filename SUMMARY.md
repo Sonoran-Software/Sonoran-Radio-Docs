@@ -32,6 +32,7 @@
       * [FiveM Keybinds](tutorials/usage/in-game-radio/using-the-in-game-radio/fivem-keybinds.md)
     * [Customizing Radio Frames](tutorials/usage/in-game-radio/customizing-radio-frames.md)
     * [Hear Nearby Radio Chatter](tutorials/usage/in-game-radio/hear-nearby-radio-chatter.md)
+    * [Radio Scanners](tutorials/usage/in-game-radio/radio-scanners.md)
     * [In-Game Repeaters](tutorials/usage/in-game-radio/in-game-repeaters.md)
     * [Tunnels and Degrade Zones](tutorials/usage/in-game-radio/tunnels-and-degrade-zones.md)
     * [In-Game Speakers](tutorials/usage/in-game-radio/in-game-speakers.md)

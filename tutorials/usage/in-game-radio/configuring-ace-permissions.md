@@ -35,6 +35,9 @@ add_ace sonoranradio.towers sonoranradio.repair allow
 
 # Connected Users List (Optional: If `acePermsForRadioUsers` is `true` in config.lua)
 add_ace sonoranradio.towers sonoranradio.radiousers allow
+
+# Radio Scanner Menu (Optional: If `chatter` is `true` in config.lua)
+add_ace sonoranradio.towers sonoranradio.scanner allow
 ```
 
 ### **3. Add Users to the ACE Group**

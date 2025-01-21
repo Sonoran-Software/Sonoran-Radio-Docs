@@ -36,9 +36,7 @@ When someone is [making an emergency call to a dispatcher](../dispatch-panel/eme
 
 ### Nearby Radio Scanner
 
-{% hint style="info" %}
-This feature is coming soon!
-{% endhint %}
+When someone is carrying (or has placed down) [a radio scanner](radio-scanners.md), nearby users will hear the channel that the scanner is set to.
 
 ## Usage
 
@@ -111,3 +109,11 @@ For example, to exclude a clothing item under ACCESSORIES, it might look like th
 ```
 
 </details>
+
+## Radio Scanners
+
+Learn more about in-game radio scanners:
+
+{% content-ref url="radio-scanners.md" %}
+[radio-scanners.md](radio-scanners.md)
+{% endcontent-ref %}
