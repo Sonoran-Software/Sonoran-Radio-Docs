@@ -34,17 +34,17 @@ Use the `/radio hide` command in-game to hide the radio.
 When you first use the in-game resource, you'll need to log in.\
 A 4-digit code will appear for you to sign in from your browser.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="345"><figcaption><p>Sonoran Radio - Login with Link Prompt</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="345"><figcaption><p>Sonoran Radio - Login with Link Prompt</p></figcaption></figure>
 
 Open [sonoranradio.com/link](https://sonoranradio.com/link) in a web browser, log in if needed, enter your code, and click "Activate" to log in to the game.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Activate Link</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Activate Link</p></figcaption></figure>
 
 ### Logging Out
 
 You can logout/un-link your in-game radio via the settings menu (gear icon).
 
-<div><figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Settings</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Unlink</p></figcaption></figure></div>
+<div><figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Settings</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Unlink</p></figcaption></figure></div>
 
 ***
 
@@ -74,7 +74,7 @@ Scanning a radio channel allows users to hear all transmissions, even if they ar
 2. Select the channel group to view the contained channels
 3. Click on a channel to toggle on/off scanning
 
-![](<../../../../.gitbook/assets/image (3).png>)![](<../../../../.gitbook/assets/image (5).png>)
+![](<../../../../.gitbook/assets/image (3) (1).png>)![](<../../../../.gitbook/assets/image (5) (1).png>)
 
 
 
@@ -98,7 +98,7 @@ Users can scan one or more channels to listen without transmitting. For monitori
 4. Select the adjust button to rename or remove the scan list.
 5. Click on the scan list to scan all of the channels inside of it.
 
-![](<../../../../.gitbook/assets/image (1).png>)![](<../../../../.gitbook/assets/image (2).png>)
+![](<../../../../.gitbook/assets/image (1) (1).png>)![](<../../../../.gitbook/assets/image (2) (1).png>)
 
 </details>
 
@@ -112,13 +112,13 @@ Users can scan one or more channels to listen without transmitting. For monitori
 
 In the settings menu (gear icon) you can adjust the radio's total volume output.
 
-<img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt="In-Game Radio - Settings" data-size="original"><img src="../../../../.gitbook/assets/image (8) (1) (1).png" alt="In-Game Radio - System Volume" data-size="original">
+<img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="In-Game Radio - Settings" data-size="original"><img src="../../../../.gitbook/assets/image (8) (1) (1) (1).png" alt="In-Game Radio - System Volume" data-size="original">
 
 #### Per-User Volume
 
 You can also right-click on any user to adjust their volume specifically.
 
-<img src="../../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt="In-Game Radio - Per-User Volume" data-size="original">
+<img src="../../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt="In-Game Radio - Per-User Volume" data-size="original">
 
 </details>
 
@@ -142,7 +142,7 @@ Select `Move/Resize`
 * Hold `ctrl` and drag to resize the radio.
 * Press `esc` to save the new size and position.
 
-<img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt="In-Game Radio - Settings" data-size="original"><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt="In-Game Radio - Move/Resize" data-size="original">
+<img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="In-Game Radio - Settings" data-size="original"><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt="In-Game Radio - Move/Resize" data-size="original">
 
 <img src="../../../../.gitbook/assets/image (17).png" alt="In-Game Radio - Adjustment" data-size="original">
 
