@@ -44,13 +44,21 @@ In Sonoran Radio, navigate to `Customize` > `AI` > toggle on and paste in your n
 
 ## AI Options
 
-### Transmission Log STT (Speech-To-Text)
+### [Transmission Log STT](../usage/dispatch-panel/transmission-logs.md) (Speech-To-Text)
 
 Transmission logs enable dispatchers to review and replay previous transmissions. With AI integration, these logs are enhanced with text transcripts, making it easier to search, reference, and analyze past communications efficiently.
 
 #### Model Requirements:
 
 OpenAI `whisper-1` model
+
+### [Tone Board TTS](../usage/dispatch-panel/custom-tone-board.md#ai-text-to-speech) (Text-To-Speech)
+
+Tone board text-to-speech allows the generation of spoken text tones.
+
+#### Model Requirements:
+
+OpenAI `tts-1-hd` model
 
 
 
