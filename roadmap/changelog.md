@@ -4,7 +4,63 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # Changelog
 
-### 2.11.0 (Full Release) - 12/31/2024
+### 2.13.0 - 01/21/2025
+
+{% tabs %}
+{% tab title="New" %}
+In-Game Physical Scanners
+
+* Added in-game physical scanner items for civilians to hear radio transmissions
+
+Transmission Logs
+
+* Added transmission logs in the dispatch panel with optional AI transcriptions
+
+\#26361 Transmit to In-Game Speakers
+
+* Added the ability to locally record microphone audio to play over the tone board to radios and in-game speakers
+
+AI: Tone Text to Speech
+
+* Added the ability to generate AI text to speech tones
+
+\#26385 Stacked Tones
+
+* Added the ability to "stack" and play multiple tones in a row
+
+\#26534 In-Game/Mobile Radio Scan Lists
+
+* Added configurable scan lists to quickly swap between multiple scanned channel groups
+
+\#26414 Persist scanned channels
+
+* Scanned channels now save locally to be restored when turning the radio back on
+
+Free Vocoder
+
+* Made the new vocoder available to the free version of Sonoran Radio
+
+In-Game Text Radio SONORAN Branding
+
+* Added small branding to the text based display in-game when large enough (vehicle display)
+
+Vocoder PTT Timing
+
+* Overhauled and improved vocoder PTT handling to ensure local UIs update much faster without a long delay before and after the transmissions
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#26458 Connect: Permission Denied Mic General Error
+
+* Added improved notice and handling in the browser version if microphone permissions are not granted
+
+Hotkey: Prevent Left Mouse
+
+* Blacklisted the left mouse button from being used as a hotkey
+{% endtab %}
+{% endtabs %}
+
+### 2.12.0 (Full Release) - 12/31/2024
 
 {% tabs %}
 {% tab title="New" %}
