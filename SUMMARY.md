@@ -41,6 +41,7 @@
   * [Troubleshooting](tutorials/usage/troubleshooting/README.md)
     * [Error Codes](tutorials/usage/troubleshooting/error-codes.md)
     * [In-Game Microphone Not Working](tutorials/usage/troubleshooting/in-game-microphone-not-working.md)
+    * [Browser Microphone Permissions](tutorials/usage/troubleshooting/browser-microphone-permissions.md)
     * [In-Game Volume Too Low](tutorials/usage/troubleshooting/in-game-volume-too-low.md)
     * [Mac Keybinds](tutorials/usage/troubleshooting/mac-keybinds.md)
 * [Integrations](tutorials/integrations/README.md)

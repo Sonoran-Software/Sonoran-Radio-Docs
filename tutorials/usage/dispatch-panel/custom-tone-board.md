@@ -24,7 +24,7 @@ Or, use the bottom section to upload and configure a new tone.
 
 Select the upload icon to attach an audio file.
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Sonoran Radio: Tone Upload</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (3).png" alt=""><figcaption><p>Sonoran Radio: Tone Upload</p></figcaption></figure>
 
 ### AI Text-To-Speech
 
@@ -38,7 +38,7 @@ Enable the `Tone Board TTS` option in the [AI configuration panel](../../integra
 
 On the right of the new tone configurator, toggle the icon to change the new tone from audio uploader to AI.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Sonoran Radio: Tone AI</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (4).png" alt=""><figcaption><p>Sonoran Radio: Tone AI</p></figcaption></figure>
 
 #### 3. Customize And Generate via AI
 
@@ -54,7 +54,7 @@ The play icon will allow you to preview the AI voice.
 
 Select the music icon on the left to customize the icon, background color, and text color.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption><p>Sonoran Radio: Tone Visual Options</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (4).png" alt="" width="375"><figcaption><p>Sonoran Radio: Tone Visual Options</p></figcaption></figure>
 
 ## Using the Tone Board
 
