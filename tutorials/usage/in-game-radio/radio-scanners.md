@@ -41,7 +41,9 @@ If the scanner is powered, transmissions will be heard by nearby users.
 
 ### Radio Scanner Menu
 
-Using the radio scanner is easy! Just open the scanner menu, power on the scanner, then select "next channel" or "previous channel" until you have selected the correct channel!
+`Power On` the radio and then select `Next Channel` or `Previous Channel` until you have selected the correct channel.
+
+By default, only public radio channels will be available. For [private channels](../dispatch-panel/configure-channels.md#restrict-channel-visibility), you can [configure ACE permissions to access them](radio-scanners.md#ace-permissions).
 
 <figure><img src="../../../.gitbook/assets/image (95).png" alt="" width="345"><figcaption><p>Sonoran Radio FiveM Radio Scanner Controls</p></figcaption></figure>
 
@@ -52,10 +54,11 @@ Using the radio scanner is easy! Just open the scanner menu, power on the scanne
 If you have enabled `Config.acePermsForScanners`, you must add permissions in your `server.cfg`for the scanner to work. Example:
 
 ```bash
-# give the group access to /radio scanner
+# Give the group access to /radio scanner
 add_ace group.admin sonoranradio.scanner allow
 
-# grant access to "Tac 1" and "Fire Dept" private channels
+# Only public (non-private) channels are accessible
+# Grant access to "Tac 1" and "Fire Dept" private channels
 # Channel names are CASE SENSITIVE and must be EXACT
 add_ace group.admin "sonoranradio.channel.Tac 1" allow
 add_ace group.admin "sonoranradio.channel.Fire Dept" allow
