@@ -4,6 +4,24 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # Changelog
 
+### 2.13.2 - 01/22/2025
+
+{% tabs %}
+{% tab title="Fixed" %}
+AI Tone TTS: Removed Character Limit
+
+* Removed the 50 character limit for community integrated AI text-to-speech tones.
+
+Transmission Logs: Vocoder Cutoff
+
+* Fixed an issue causing transmission logs to be cutoff when using the vocoder effect due to other optimizations.
+
+Transmission Logs: Download
+
+* Fixed an issue causing downloaded transmission logs to be corrupt and not playable.
+{% endtab %}
+{% endtabs %}
+
 ### 2.13.0 - 01/21/2025
 
 {% tabs %}
