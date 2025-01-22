@@ -4,6 +4,8 @@ description: Discretely listen to your community's radio
 
 # Radio Scanners
 
+<figure><img src="../../../.gitbook/assets/scanner.png" alt=""><figcaption><p>Sonoran Radio - In-Game Scanner</p></figcaption></figure>
+
 {% hint style="warning" %}
 Due to bandwidth usage, this feature is automatically enabled with the Pro version only!
 

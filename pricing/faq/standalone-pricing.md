@@ -44,9 +44,9 @@ Depending upon your subscription level, your community is limited to the maximum
 | Plus         | 5 Radio Channels         |
 | Pro          | Unlimited Radio Channels |
 
-### [Hear Nearby Radio Chatter](../../tutorials/usage/in-game-radio/hear-nearby-radio-chatter.md)
+### [Hear Nearby Radio Chatter](../../tutorials/usage/in-game-radio/hear-nearby-radio-chatter.md) and [Scanners](../../tutorials/usage/in-game-radio/radio-scanners.md)
 
-<figure><img src="../../.gitbook/assets/image (37).png" alt="" width="375"><figcaption><p>Sonoran Radio - Hear Nearby Chatter</p></figcaption></figure>
+<div><figure><img src="../../.gitbook/assets/image (37).png" alt="" width="375"><figcaption><p>Sonoran Radio - Hear Nearby Chatter</p></figcaption></figure> <figure><img src="../../.gitbook/assets/scanner.png" alt="" width="375"><figcaption><p>Sonoran Radio - Scanners</p></figcaption></figure></div>
 
 Pulled over in a traffic stop? You'll hear the real radio chatter when an officer has an active radio nearby!
 

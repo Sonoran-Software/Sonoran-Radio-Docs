@@ -88,6 +88,12 @@ Pulled over in a traffic stop? You'll hear the real radio chatter when an office
 
 <figure><img src=".gitbook/assets/image (37).png" alt=""><figcaption><p>Sonoran Radio - Nearby Radio Chatter</p></figcaption></figure>
 
+## 📻[In-Game Scanners](tutorials/usage/in-game-radio/radio-scanners.md)
+
+In-game scanners allow you and others nearby to listen in on radio traffic!
+
+<figure><img src=".gitbook/assets/scanner.png" alt=""><figcaption><p>Sonoran Radio - In-Game Scanner</p></figcaption></figure>
+
 ## 🏃 [Free Animations Script](tutorials/integrations/big-daddy-radio-animations.md)
 
 Get the most popular in-game radio animation script for [FREE](tutorials/integrations/big-daddy-radio-animations.md)!
