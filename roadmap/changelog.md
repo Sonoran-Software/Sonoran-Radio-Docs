@@ -36,6 +36,10 @@ AI: Tone Text to Speech
 
 * Scanned channels now save locally to be restored when turning the radio back on
 
+Vocoder Bitrates
+
+* Added adjustable bitrates to the vocoder voice effect
+
 Free Vocoder
 
 * Made the new vocoder available to the free version of Sonoran Radio
