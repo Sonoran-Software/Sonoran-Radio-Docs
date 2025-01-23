@@ -53,8 +53,21 @@
   * [Big Daddy Radio Animations](tutorials/integrations/big-daddy-radio-animations.md)
   * [Developer Documentation](tutorials/integrations/developer-documentation/README.md)
     * [Resource API](tutorials/integrations/developer-documentation/resource-events.md)
-    * [API Endpoints](tutorials/integrations/developer-documentation/api-endpoints.md)
-    * [Push Events](tutorials/integrations/developer-documentation/push-events.md)
+    * [API Endpoints](tutorials/integrations/developer-documentation/api-endpoints/README.md)
+      * [Data Structures](tutorials/integrations/developer-documentation/api-endpoints/data-structures.md)
+      * [Users](tutorials/integrations/developer-documentation/api-endpoints/users/README.md)
+        * [Get Connected Users](tutorials/integrations/developer-documentation/api-endpoints/users/get-connected-users.md)
+        * [Get Connected User](tutorials/integrations/developer-documentation/api-endpoints/users/get-connected-user.md)
+        * [Set User Channels](tutorials/integrations/developer-documentation/api-endpoints/users/set-user-channels.md)
+      * [Channels](tutorials/integrations/developer-documentation/api-endpoints/channels/README.md)
+        * [Get Community Channels](tutorials/integrations/developer-documentation/api-endpoints/channels/get-community-channels.md)
+      * [Community Server](tutorials/integrations/developer-documentation/api-endpoints/community-server/README.md)
+        * [Set Server IP](tutorials/integrations/developer-documentation/api-endpoints/community-server/set-server-ip.md)
+        * [Get Server Subscription from IP](tutorials/integrations/developer-documentation/api-endpoints/community-server/get-server-subscription-from-ip.md)
+        * [Set In-Game Speaker Locations](tutorials/integrations/developer-documentation/api-endpoints/community-server/set-in-game-speaker-locations.md)
+    * [Push Events](tutorials/integrations/developer-documentation/push-events/README.md)
+      * [Play Tone](tutorials/integrations/developer-documentation/push-events/play-tone.md)
+      * [User Connected](tutorials/integrations/developer-documentation/push-events/user-connected.md)
 
 ## Pricing
 
