@@ -86,12 +86,14 @@ Config.permissionMode = "ace" -- Available Options: ace, framework, custom
 -- Ace Permissions Section --
 Config.acePerms = {
     aceObjectUseMenu = "sonoran.incarradio", -- Select the ace for placing new In-Car radios
+    aceObjectAdminUseMenu = "sonoran.incarradio.admin", -- Select the ace for placing new In-Car radios into all vehicles of the same model
 }
 
 -- Framework Related Settings --
 Config.framework = {
     frameworkType = "qb-core", -- This setting controls which framework is in use options are esx or qb-core
     civilianJobNames = {"unemployed"}, -- An array of job names that should be allowed to use the radio menu
+    adminJobNames = {"admin"}, -- An array of job names that should be allowed to use the radio menu as an admin
     useCivilianJobListAsBlacklist = false, -- This will treat the civilian job list as a blacklist rather than a whitelist
 }
 
@@ -111,20 +113,16 @@ Config.general = {
 }
 
 Config.allowlistedCars = {
-        "FIRETRUK",
-        "LGUARD",
-        "PBUS",
-        "POLMAV",
-        "POLICET",
-        "PRANGER",
-        "PREDATOR",
-        "RIOT",
-        "RIOT2",
-        "AMBULAN",
-        "POLICE",
-        "POLICE2",
-        "POLICE3"
+    "POLICE",
+    "POLICE2",
+    "POLICE3",
+    "POLICE4",
+    "FBI",
+    "FBI2",
+    "SHERIFF",
+    "SHERIFF2",
 }
+
 ```
 
 </details>
