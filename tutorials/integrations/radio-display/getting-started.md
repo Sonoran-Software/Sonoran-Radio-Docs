@@ -77,21 +77,20 @@ Config.lang = {
 }
 
 Config.commands = {
-    carRadioMenu = 'carradiomenu',
-    restricted = false -- should the detector menu be restricted?
+    carRadioMenu = 'radiodisplay',
+    restricted = false -- should the radio display menu be restricted?
 }
 
 Config.permissionMode = "ace" -- Available Options: ace, framework, custom
 
 -- Ace Permissions Section --
 Config.acePerms = {
-    aceObjectUseMenu = "sonoran.incarradio", -- Select the ace for placing new ATM's and using admin repair
+    aceObjectUseMenu = "sonoran.incarradio", -- Select the ace for placing new In-Car radios
 }
 
 -- Framework Related Settings --
 Config.framework = {
     frameworkType = "qb-core", -- This setting controls which framework is in use options are esx or qb-core
-    inventoryType = "normal", -- Which inventory you would like to use normal, quasar, ox_inventory (OX Will only work for ESX Legacy as of now)
     civilianJobNames = {"unemployed"}, -- An array of job names that should be allowed to use the radio menu
     useCivilianJobListAsBlacklist = false, -- This will treat the civilian job list as a blacklist rather than a whitelist
 }
@@ -126,7 +125,6 @@ Config.allowlistedCars = {
         "POLICE2",
         "POLICE3"
 }
-
 ```
 
 </details>
