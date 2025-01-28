@@ -31,7 +31,7 @@ You can start, end, and toggle an emergency call with a client resource export:
 exports['sonoranradio']:setEmergencyCall('toggle')
 ```
 
-Along with a way to start/end emergency calls, there is also a client event for the status of 911 calls
+The following client events reflect the emergency call status:
 
 ```lua
 -- Event sent from Sonoran Radio
@@ -40,6 +40,18 @@ TriggerEvent('SonoranRadio::API:EmergencyCall', enabled)
 -- Event listener in a custom script
 AddEventHandler('SonoranRadio::API:EmergencyCall', function(enabled)
     print(enabled) -- Boolean (is the call starting (true) or ending (false))
+end)
+```
+
+```lua
+-- Event sent from Sonoran Radio
+TriggerEvent('SonoranRadio::API:EmergencyCallDispatcher', available)
+
+-- Event listener in a custom script
+AddEventHandler('SonoranRadio::API:EmergencyCallDispatcher', function(available)
+    print(available) -- Boolean (is a dispatcher attached to the call)
+    -- NOTE: does not receive `false` if emergency call is ended
+    -- (above event will receive that)
 end)
 ```
 
@@ -61,7 +73,8 @@ You can listen to or active the panic button with an API event
 TriggerEvent('SonoranRadio::API:PanicButton')
 
 -- Listen to the panic button
-AddEventHandler('SonoranRadio::API:PanicButton', function()
+AddEventHandler('SonoranRadio::API:PanicButton', function(status)
+    print(status) -- Boolean (whether the panic button is active or not)
     -- your code here
 end)
 ```
