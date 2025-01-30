@@ -28,7 +28,17 @@ On web, the browser window must be in focus.
 
 <summary>Dispatch Hotkeys</summary>
 
+Hotkeys allow for faster actions at the press of a button. These can be configured by clicking the gear icon to open the settings menu.
 
+![](../../../.gitbook/assets/image.png)
+
+![](<../../../.gitbook/assets/image (1).png>)
+
+* [Push to Talk](using-the-dispatch-panel.md#transmitting-push-to-talk)
+* [Tone Board](custom-tone-board.md)
+* [Change Group Tab](using-the-dispatch-panel.md#switching-transmit-and-scanned-channels-1)
+* [Change Channel](using-the-dispatch-panel.md#switching-transmit-and-scanned-channels)
+* [Volume Change](using-the-dispatch-panel.md#volume-sliders)
 
 </details>
 
@@ -84,11 +94,12 @@ Change a user's channel ([requires permission](../../getting-started/invite-and-
 Right click in the user to:
 
 * Kick the user from the channel ([Requires Permission](../../getting-started/invite-and-manage-users.md#manage-user-permissions))
+* Clear the [user's panic status](using-the-dispatch-panel.md#unit-panic)
 * Move the user to a different channel ([Requires Permission](../../getting-started/invite-and-manage-users.md#manage-user-permissions))
 * Adjust the user's volume ([Requires Permission](../../getting-started/invite-and-manage-users.md#manage-user-permissions))
 * Change the user's display name ([Requires Permission](../../getting-started/invite-and-manage-users.md#manage-user-permissions))
 
-<img src="../../../.gitbook/assets/image (55).png" alt="Sonoran Radio - User Actions" data-size="original">
+![](<../../../.gitbook/assets/image (5).png>)
 
 </details>
 
@@ -100,7 +111,9 @@ Right click in the user to:
 
 When a [unit toggles their panic status in-game](../in-game-radio/using-the-in-game-radio/#panic), the dispatch portal will reflect this with a red banner and a red highlight on the panicked unit.
 
-![](<../../../.gitbook/assets/image (4).png>)
+Dispatchers can [right-click the user to clear the panic](using-the-dispatch-panel.md#user-actions-right-click) for them.
+
+![](<../../../.gitbook/assets/image (4) (1).png>)
 
 </details>
 
@@ -145,3 +158,19 @@ In the admin panel's `Members` tab, select the drop-down and `Set Display Name` 
 {% content-ref url="../../integrations/sonoran-cms.md" %}
 [sonoran-cms.md](../../integrations/sonoran-cms.md)
 {% endcontent-ref %}
+
+### Volume Changes
+
+<details>
+
+<summary>Volume Sliders</summary>
+
+Adjust the overall voice and sound effect volume by [opening the settings menu](using-the-dispatch-panel.md#dispatch-hotkeys) and selecting the `Audio` tab.
+
+In addition to the manual sliders, you can customize how much the [volume hotkeys](using-the-dispatch-panel.md#dispatch-hotkeys) adjust the volume.
+
+You can also [adjust volume for a specific user](using-the-dispatch-panel.md#user-actions-right-click).
+
+![](<../../../.gitbook/assets/image (2).png>)
+
+</details>

@@ -8,7 +8,7 @@ description: >-
 
 <details>
 
-<summary>2.13.0 Release (LVC Resource Name)</summary>
+<summary>2.14.0 Release (LVC Resource Name)</summary>
 
 Version 2.13.0 adds a new feature to increase radio volume when in-game sirens are on.
 
@@ -130,7 +130,7 @@ Config.chatterExclusions = {
 
 3.  Your `config.lua` should now appear like the following after adding in the `Config.chatterExclusions` property:
 
-    <figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 

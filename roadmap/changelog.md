@@ -4,6 +4,74 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # Changelog
 
+### 2.14.0 - 01/30/2025
+
+{% tabs %}
+{% tab title="New" %}
+Panic: Radio & Dispatch Display
+
+* Expanded radio panic functionality to reflect in the in-game and dispatch UI with a customizable sound.
+
+Volume Hotkeys
+
+* Added in-game and in-app hotkeys to quickly adjust the radio volume by a configurable amount.
+
+Channel Hotkeys
+
+* Added in-game and in-app hotkeys to quickly page through channels in your group.
+
+Group Hotkeys
+
+* Added in-game and in-app hotkeys to quickly page through channel groups.
+
+Sirens On Volume Increase
+
+* Added automatic, configurable volume adjustment when sirens are toggled on in-game.
+
+In-Game Channel Transmit Command
+
+* Added a new in-game command to toggle transmitting on a specific channel.
+
+In-Game Scan List Command
+
+* Added a new in-game command to toggle a scan list.
+
+In-Game Scan Channel Command
+
+* Added a new in-game command to toggle a channel scan.
+
+In-Game Stream Deck Integration
+
+* Documented Stream Deck integration with the new FiveM commands.
+
+Frame Selection Persist
+
+* In-game frame selection now persists/saves for the next time you join.
+
+Emergency Call Export: Answered + Ended
+
+* Added additional integration values for in-game emergency calls to determine when the call is answered by a dispatcher or ended by a dispatcher.
+
+Emergency Call Resource Export: Name Parameter
+
+* Added an additional parameter to customize the caller's name for in-game emergency calls.
+
+Scan List: Drag-and-Drop Reorder
+
+* Scan lists can now be reordered via drag-and-drop
+
+Modern UI: Group Name Display
+
+* The modern in-game radio style display now also lists the channel group.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Speaker Menu: Live Updates + JSON Corrupted
+
+* Fixed issues causing the in-game speaker location menu to not live update in the dispatch tone board and cause the JSON config to become malformed.
+{% endtab %}
+{% endtabs %}
+
 ### 2.13.2 - 01/22/2025
 
 {% tabs %}

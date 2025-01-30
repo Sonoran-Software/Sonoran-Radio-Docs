@@ -12,7 +12,7 @@ To customize these, navigate to your GTA `Settings` -> `Key Bindings` -> `FiveM`
 
 Communities can also customize the default keybinds for new users in the [configuration's](../../../getting-started/installing-the-in-game-resource.md#updates) `keybind` property.
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption><p>FiveM Keybinds: Sonoran Radio</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>FiveM Keybinds: Sonoran Radio</p></figcaption></figure>
 
 ### Radio Power
 
@@ -36,7 +36,7 @@ This keybind will toggle your panic status in the radio, and in [Sonoran CAD](..
 
 ### Volume Up/Down
 
-This keybind will quickly adjust your volume up/down, based on the percentage set in your settings menu.
+This keybind will quickly adjust your volume up/down, [based on the percentage set in your settings menu](./#radio-volume).
 
 ### Toggle Radio Repeater
 
@@ -52,6 +52,12 @@ This keybind will toggle on/off the talking animation.
 
 ***
 
+## Stream Deck Integration
+
+Stream Deck plugins like [FXCommands](https://marketplace.elgato.com/product/fxcommands-fivem-a6cdf538-76ac-4fc7-b8b8-130ea2b8bcbb) can be used to trigger any of the [FiveM client commands](fivem-keybinds-and-commands.md#fivem-client-commands) below.
+
+***
+
 ## FiveM Client Commands
 
 ### Copying Channel and Scan List IDs
@@ -60,25 +66,21 @@ FiveM commands require channel and scan list IDs. These IDs can be made visible 
 
 <div><figure><img src="../../../../.gitbook/assets/image (103).png" alt="" width="180"><figcaption><p>Modern UI: Channel and Scan IDs</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (104).png" alt="" width="198"><figcaption><p>Modern UI: Channel IDs</p></figcaption></figure></div>
 
-### Stream Deck Integration
-
-Stream Deck plugins like [FXCommands](https://marketplace.elgato.com/product/fxcommands-fivem-a6cdf538-76ac-4fc7-b8b8-130ea2b8bcbb) can be used to trigger any of the commands below.
-
 ### Toggle Channel Transmit
 
-To toggle transmitting on a specific channel use the command
+To toggle [transmitting on a specific channel](./#connecting-and-switching-channels) use the command
 
 `/radio channel ID`
 
 ### Toggle Scan List
 
-To toggle on/off a specific scan list use the command
+To toggle on/off a specific [scan list](./#custom-scan-lists) use the command
 
 `/radio scanlist ID`
 
 ### Toggle Channel Scan
 
-To toggle on/off scanning a specific channel use the command
+To toggle on/off [scanning a specific channel](./#channel-scanning-listening) use the command
 
 `/radio scan ID`
 

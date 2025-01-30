@@ -105,5 +105,5 @@ The microphone icon allows you to record local microphone audio to be played as 
 
 Click the microphone to start and stop recording. After the recording is completed, a small recording tone button will appear next to it. Click to add it to a stack or play as a single tone.
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Tone Board - Microphone Recording</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (2).png" alt=""><figcaption><p>Tone Board - Microphone Recording</p></figcaption></figure>
 
