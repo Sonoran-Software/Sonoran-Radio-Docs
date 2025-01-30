@@ -29,6 +29,7 @@ You can start, end, and toggle an emergency call with a client resource export:
 -- false    = End
 -- 'toggle' = Toggle
 exports['sonoranradio']:setEmergencyCall('toggle')
+exports['sonoranradio']:setEmergencyCall('toggle', 'My Custom Name')
 ```
 
 The following client events reflect the emergency call status:
