@@ -8,6 +8,19 @@ description: >-
 
 <details>
 
+<summary>2.13.0 Release (LVC Resource Name)</summary>
+
+Version 2.13.0 adds a new feature to increase radio volume when in-game sirens are on.
+
+1. Open your existing `config.lua`
+2. Add the new `Config.luxartResourceName = 'lvc'` property.
+
+![](<../.gitbook/assets/image (105).png>)
+
+</details>
+
+<details>
+
 <summary>2.11.0 Release (Earpieces JSON)</summary>
 
 Version 2.11.0 Migrates the earpiece configuration from the `config.lua`to `earpieces.json`. Therefore, this property is no longer needed in your `config.lua` file.

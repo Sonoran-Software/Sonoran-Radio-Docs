@@ -30,6 +30,7 @@
   * [In-Game Radio](tutorials/usage/in-game-radio/README.md)
     * [Using the In-Game Radio](tutorials/usage/in-game-radio/using-the-in-game-radio/README.md)
       * [FiveM Keybinds](tutorials/usage/in-game-radio/using-the-in-game-radio/fivem-keybinds.md)
+      * [FiveM Commands & Settings](tutorials/usage/in-game-radio/using-the-in-game-radio/fivem-commands-and-settings.md)
     * [Customizing Radio Frames](tutorials/usage/in-game-radio/customizing-radio-frames.md)
     * [Hear Nearby Radio Chatter](tutorials/usage/in-game-radio/hear-nearby-radio-chatter.md)
     * [Radio Scanners](tutorials/usage/in-game-radio/radio-scanners.md)

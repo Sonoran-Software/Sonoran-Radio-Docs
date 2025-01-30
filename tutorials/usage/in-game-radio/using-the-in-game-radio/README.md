@@ -74,6 +74,8 @@ Scanning a radio channel allows users to hear all transmissions, even if they ar
 2. Select the channel group to view the contained channels
 3. Click on a channel to toggle on/off scanning
 
+Learn [how to toggle a scan list via command or S](fivem-commands-and-settings.md#toggle-channel-scan)tream Deck!
+
 ![](<../../../../.gitbook/assets/image (3) (1).png>)![](<../../../../.gitbook/assets/image (5) (1).png>)
 
 
@@ -97,6 +99,9 @@ Users can scan one or more channels to listen without transmitting. For monitori
 3. Scan lists can be reordered via drag-and-drop.
 4. Select the adjust button to rename or remove the scan list.
 5. Click on the scan list to scan all of the channels inside of it.
+6. Scan lists can be reordered via drag-and-drop
+
+[Learn how to toggle a scan list via command or Stream Deck!](fivem-commands-and-settings.md#toggle-scan-list)
 
 ![](<../../../../.gitbook/assets/image (1) (1).png>)![](<../../../../.gitbook/assets/image (2) (1).png>)
 
