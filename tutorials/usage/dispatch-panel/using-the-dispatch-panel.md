@@ -113,6 +113,8 @@ When a [unit toggles their panic status in-game](../in-game-radio/using-the-in-g
 
 Dispatchers can [right-click the user to clear the panic](using-the-dispatch-panel.md#user-actions-right-click) for them.
 
+The [customizable panic sound effect](custom-sfx.md) will also alert dispatchers to an active unit panic.
+
 ![](<../../../.gitbook/assets/image (4) (1).png>)
 
 </details>

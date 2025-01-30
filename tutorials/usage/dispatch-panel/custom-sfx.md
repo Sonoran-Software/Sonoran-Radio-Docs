@@ -36,6 +36,10 @@ If a user has talkover override permissions, double-pressing the push-to-talk ke
 
 When a [user places an emergency call](emergency-calls.md), dispatchers will hear the `Emergency Call SFX` audio to alert them of an incoming call.
 
+### Panic Button
+
+When a [user toggles their panic state](../in-game-radio/using-the-in-game-radio/#panic), dispatchers will hear the `Panic Button SFX` audio.
+
 ***
 
 ## Per-User SFX
