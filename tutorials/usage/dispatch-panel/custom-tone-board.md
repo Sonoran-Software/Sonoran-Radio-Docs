@@ -24,7 +24,7 @@ Or, use the bottom section to upload and configure a new tone.
 
 Select the upload icon to attach an audio file.
 
-<figure><img src="../../../.gitbook/assets/image (3) (3).png" alt=""><figcaption><p>Sonoran Radio: Tone Upload</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (3) (1).png" alt=""><figcaption><p>Sonoran Radio: Tone Upload</p></figcaption></figure>
 
 ### AI Text-To-Speech
 
@@ -73,7 +73,7 @@ After opening the tone board via hotkey or the music note icon, you will see the
 * [Stack](custom-tone-board.md#stacked-tones): Optionally toggle tone stacking to play multiple tones in order
 * [Repeat](custom-tone-board.md#repeating-tones): Optionally toggle on a tone repeat with a total play number and a delay between plays
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Tone Board</p></figcaption></figure>
 
@@ -97,7 +97,7 @@ Stacked tones allow you to align multiple tones together and play them in order.
 
 Toggle on the `Stack` icon and click on tones in order. You can also drag-and-drop the stack at the bottom left to reorder tones prior to pressing `Play`.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Tone Board - Stacked Tones</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (2).png" alt=""><figcaption><p>Tone Board - Stacked Tones</p></figcaption></figure>
 
 #### Recording Tones
 

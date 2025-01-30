@@ -8,7 +8,7 @@ description: Learn more about creating and managing radio channels!
 
 ## Creating Channel Groups
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Channel groups allow communities to organize channels in separated categories.
 
@@ -20,7 +20,7 @@ To add a new channel group, select the green `+` icon to the right of the group 
 
 Enter in a new group name, and select `Ok`.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Add Channel Group</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Add Channel Group</p></figcaption></figure>
 
 ### Edit or Delete a Group
 

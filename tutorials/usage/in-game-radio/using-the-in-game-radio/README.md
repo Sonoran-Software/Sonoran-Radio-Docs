@@ -34,11 +34,11 @@ Use the `/radio hide` command in-game to hide the radio.
 When you first use the in-game resource, you'll need to log in.\
 A 4-digit code will appear for you to sign in from your browser.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="345"><figcaption><p>Sonoran Radio - Login with Link Prompt</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="345"><figcaption><p>Sonoran Radio - Login with Link Prompt</p></figcaption></figure>
 
 Open [sonoranradio.com/link](https://sonoranradio.com/link) in a web browser, log in if needed, enter your code, and click "Activate" to log in to the game.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Activate Link</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Activate Link</p></figcaption></figure>
 
 ### Logging Out
 
@@ -52,7 +52,7 @@ You can logout/un-link your in-game radio via the settings menu (gear icon).
 
 ### Setting your Push-To-Talk (PTT) Keybind
 
-[You can customize your PTT button in your GTA Settings.](fivem-keybinds.md)
+[You can customize your PTT button in your GTA Settings.](fivem-keybinds-and-commands.md)
 
 ### Connecting and Switching Channels
 
@@ -74,7 +74,7 @@ Scanning a radio channel allows users to hear all transmissions, even if they ar
 2. Select the channel group to view the contained channels
 3. Click on a channel to toggle on/off scanning
 
-Learn [how to toggle a scan list via command or S](fivem-commands-and-settings.md#toggle-channel-scan)tream Deck!
+[Learn how to toggle a channel scan via command or Stream Deck!](fivem-keybinds-and-commands.md#toggle-channel-scan)
 
 ![](<../../../../.gitbook/assets/image (3) (1).png>)![](<../../../../.gitbook/assets/image (5) (1).png>)
 
@@ -101,9 +101,9 @@ Users can scan one or more channels to listen without transmitting. For monitori
 5. Click on the scan list to scan all of the channels inside of it.
 6. Scan lists can be reordered via drag-and-drop
 
-[Learn how to toggle a scan list via command or Stream Deck!](fivem-commands-and-settings.md#toggle-scan-list)
+[Learn how to toggle a scan list via command or Stream Deck](fivem-keybinds-and-commands.md#toggle-scan-list)!
 
-![](<../../../../.gitbook/assets/image (1) (1).png>)![](<../../../../.gitbook/assets/image (2) (1).png>)
+![](<../../../../.gitbook/assets/image (1) (1) (1).png>)![](<../../../../.gitbook/assets/image (2) (1) (1).png>)
 
 </details>
 
@@ -117,6 +117,8 @@ Users can scan one or more channels to listen without transmitting. For monitori
 
 In the settings menu (gear icon) you can adjust the radio's total volume output.
 
+[You can also use the in-game keybind to quickly adjust volume.](fivem-keybinds-and-commands.md#volume-up-down)
+
 <img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="In-Game Radio - Settings" data-size="original"><img src="../../../../.gitbook/assets/image (8) (1) (1) (1).png" alt="In-Game Radio - System Volume" data-size="original">
 
 #### Per-User Volume
@@ -124,6 +126,23 @@ In the settings menu (gear icon) you can adjust the radio's total volume output.
 You can also right-click on any user to adjust their volume specifically.
 
 <img src="../../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt="In-Game Radio - Per-User Volume" data-size="original">
+
+</details>
+
+### Adjust Volume With Sirens
+
+<details>
+
+<summary>Automatic Volume Increase w/Sirens</summary>
+
+When in-game, turning on your sirens will increase your overall radio volume by the configured amount. Turning your sirens back off will lower the volume back down.
+
+This feature is automatically integrated with [Luxart Vehicle Control](https://github.com/TrevorBarns/luxart-vehicle-control).\
+If the resource is not named `LVC`, the [`config.luxartResourceName` value must be updated](../../../getting-started/installing-the-in-game-resource.md#updates).
+
+For communities not using LVC, the functionality will fall back to a FiveM native that will trigger the functionality if either lights or sirens are activated.
+
+![](<../../../../.gitbook/assets/image (1).png>)
 
 </details>
 
@@ -150,6 +169,46 @@ Select `Move/Resize`
 <img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="In-Game Radio - Settings" data-size="original"><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt="In-Game Radio - Move/Resize" data-size="original">
 
 <img src="../../../../.gitbook/assets/image (17).png" alt="In-Game Radio - Adjustment" data-size="original">
+
+</details>
+
+### Escape Mode
+
+<details>
+
+<summary>ESC Radio Display Behavior</summary>
+
+The Escape Mode selector changes the in-game radio display behavior after pressing `ESC`.
+
+`Keep Radio Visible`
+
+* The radio stays visible on `ESC`
+
+`Hide Radio`
+
+* The radio closes on `ESC`
+
+`XMITT (PTT)`
+
+* The radio closes on `ESC`, but is visible while transmitting
+
+![](<../../../../.gitbook/assets/image (2).png>)
+
+</details>
+
+### Panic
+
+<details>
+
+<summary>In-Game Panic</summary>
+
+Pressing the orange panic button on the in-game radio toggles your panic status.
+
+This can also toggle your panic status in [Sonoran CAD](../../../integrations/sonoran-cad-integration.md#cad-panic).
+
+Dispatchers will also be able to see your panic status.
+
+![](<../../../../.gitbook/assets/image (3).png>)
 
 </details>
 

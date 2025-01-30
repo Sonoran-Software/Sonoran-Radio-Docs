@@ -1,0 +1,103 @@
+---
+description: Learn more about customizing your in-game FiveM keybinds.
+---
+
+# FiveM Keybinds & Commands
+
+## FiveM Keybinds
+
+Sonoran Radio allows you to customize keybinds for in-game actions on the radio.
+
+To customize these, navigate to your GTA `Settings` -> `Key Bindings` -> `FiveM` -> `(sonoranradio)`
+
+Communities can also customize the default keybinds for new users in the [configuration's](../../../getting-started/installing-the-in-game-resource.md#updates) `keybind` property.
+
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption><p>FiveM Keybinds: Sonoran Radio</p></figcaption></figure>
+
+### Radio Power
+
+This keybind will turn your radio on/off.
+
+### Prev/Next Channel (In Group)
+
+These keybinds will move you to the previous or next channel within the current channel group.
+
+### Prev/Next Group
+
+These keybinds will move you to the previous or next channel group.
+
+### Radio PTT
+
+This keybind will transmit your voice on the radio while being held down.
+
+### Panic
+
+This keybind will toggle your panic status in the radio, and in [Sonoran CAD](../../../integrations/sonoran-cad-integration.md#cad-panic).
+
+### Volume Up/Down
+
+This keybind will quickly adjust your volume up/down, based on the percentage set in your settings menu.
+
+### Toggle Radio Repeater
+
+This keybind will toggle your [vehicle's mobile signal repeater](../in-game-repeaters.md#mobile-vehicle-repeaters).
+
+### Toggle Radio Users
+
+This keybind will display the [current radio connected user list](../connected-users-list.md).
+
+### Toggle Radio Talk Animation
+
+This keybind will toggle on/off the talking animation.
+
+***
+
+## FiveM Client Commands
+
+### Copying Channel and Scan List IDs
+
+FiveM commands require channel and scan list IDs. These IDs can be made visible by toggling the `#` icon in the channel or scan list menus.
+
+<div><figure><img src="../../../../.gitbook/assets/image (103).png" alt="" width="180"><figcaption><p>Modern UI: Channel and Scan IDs</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (104).png" alt="" width="198"><figcaption><p>Modern UI: Channel IDs</p></figcaption></figure></div>
+
+### Stream Deck Integration
+
+Stream Deck plugins like [FXCommands](https://marketplace.elgato.com/product/fxcommands-fivem-a6cdf538-76ac-4fc7-b8b8-130ea2b8bcbb) can be used to trigger any of the commands below.
+
+### Toggle Channel Transmit
+
+To toggle transmitting on a specific channel use the command
+
+`/radio channel ID`
+
+### Toggle Scan List
+
+To toggle on/off a specific scan list use the command
+
+`/radio scanlist ID`
+
+### Toggle Channel Scan
+
+To toggle on/off scanning a specific channel use the command
+
+`/radio scan ID`
+
+***
+
+## FiveM Server Commands
+
+Commands for the server console.
+
+### Debug Mode
+
+Toggle the [`config.debug` mode](../../../getting-started/installing-the-in-game-resource.md#updates) with the command
+
+`/sonoranradio debugmode`
+
+Note: This mode does not persist through server restarts.
+
+### Update
+
+Run the automatic update with the command
+
+`/sonoranradio update`

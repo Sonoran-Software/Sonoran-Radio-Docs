@@ -6,13 +6,13 @@ description: >-
 
 # Connected Users List
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Connected Users</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Connected Users</p></figcaption></figure>
 
 
 
 ## Accessing the Connected Users List
 
-In-game, users can utilize the `/radiousers` command or a [customizable FiveM keybind](using-the-in-game-radio/fivem-keybinds.md) (`F11` by default) to open the connected users window.
+In-game, users can utilize the `/radiousers` command or a [customizable FiveM keybind](using-the-in-game-radio/fivem-keybinds-and-commands.md) (`F11` by default) to open the connected users window.
 
 This window displays all active users connected to the radio, and the channel they are in.
 

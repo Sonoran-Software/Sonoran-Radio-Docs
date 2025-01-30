@@ -16,13 +16,7 @@ To join the radio, press **Connect.** After connecting, you will be greeted with
 
 <figure><img src="../../../.gitbook/assets/chrome_QijQa7OJc1.png" alt="" width="375"><figcaption><p>Sonoran Radio - Radio Hub</p></figcaption></figure>
 
-### Transmitting (Push to Talk)
-
-To transmit over Sonoran Radio, you can press the microphone button on the top-left
-
-<figure><img src="../../../.gitbook/assets/chrome_GFH0uLrq05.png" alt="" width="240"><figcaption><p>Sonoran Radio - Transmit Button</p></figcaption></figure>
-
-### PTT Keybind
+### Hotkeys (Keybinds)
 
 {% hint style="warning" %}
 Push-to-talk key binds are only global in the [desktop application](../../../sonoran-radio/download-the-app.md).
@@ -30,38 +24,62 @@ Push-to-talk key binds are only global in the [desktop application](../../../son
 On web, the browser window must be in focus.
 {% endhint %}
 
-In the browser or desktop, you can set a push-to-talk keybind in your radio settings
+<details>
 
-<div>
+<summary>Dispatch Hotkeys</summary>
 
-<figure><img src="../../../.gitbook/assets/chrome_H6XhvHs9Wx.png" alt="" width="246"><figcaption></figcaption></figure>
 
- 
 
-<figure><img src="../../../.gitbook/assets/chrome_9hIPEf2wQu.png" alt="" width="118"><figcaption></figcaption></figure>
+</details>
 
-</div>
+### Transmitting (Push to Talk)
 
-### Switching Channels
+<details>
+
+<summary>Dispatch Push To Talk</summary>
+
+To transmit over Sonoran Radio, you can press the microphone button on the top-left
+
+<img src="../../../.gitbook/assets/chrome_GFH0uLrq05.png" alt="Sonoran Radio - Transmit Button" data-size="original">
+
+</details>
+
+### Switching Transmit and Scanned Channels
+
+<details>
+
+<summary>Switching Transmit and Scanned Channels</summary>
 
 To switch to another channel, click the microphone button on the channel card
 
-<figure><img src="../../../.gitbook/assets/chrome_RoHvxqifER.png" alt="" width="224"><figcaption><p>Sonoran Radio - Switch Channel</p></figcaption></figure>
+<img src="../../../.gitbook/assets/chrome_RoHvxqifER.png" alt="Sonoran Radio - Switch Channel" data-size="original">
 
 ### Scanning (Listen) To Multiple Channels
 
 Select the headphone icon on each channel to listen in.\
 You can listen to multiple channels at once.
 
-<figure><img src="../../../.gitbook/assets/chrome_9pL06Zodh1.png" alt="" width="250"><figcaption><p>Sonoran Radio - Scan Channel</p></figcaption></figure>
+<img src="../../../.gitbook/assets/chrome_9pL06Zodh1.png" alt="Sonoran Radio - Scan Channel" data-size="original">
+
+</details>
 
 ### Drag and Drop Users
 
+<details>
+
+<summary>User Drag-And-Drop</summary>
+
 Change a user's channel ([requires permission](../../getting-started/invite-and-manage-users.md#manage-user-permissions)) by dragging and dropping their name into the channel header.
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt="" width="375"><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/image (13).png" alt="" data-size="original">
+
+</details>
 
 ### User Actions
+
+<details>
+
+<summary>User Actions (Right Click)</summary>
 
 Right click in the user to:
 
@@ -70,9 +88,27 @@ Right click in the user to:
 * Adjust the user's volume ([Requires Permission](../../getting-started/invite-and-manage-users.md#manage-user-permissions))
 * Change the user's display name ([Requires Permission](../../getting-started/invite-and-manage-users.md#manage-user-permissions))
 
-<figure><img src="../../../.gitbook/assets/image (55).png" alt="" width="351"><figcaption><p>Sonoran Radio - User Actions</p></figcaption></figure>
+<img src="../../../.gitbook/assets/image (55).png" alt="Sonoran Radio - User Actions" data-size="original">
+
+</details>
+
+### Unit Panic
+
+<details>
+
+<summary>Unit Panic Status</summary>
+
+When a [unit toggles their panic status in-game](../in-game-radio/using-the-in-game-radio/#panic), the dispatch portal will reflect this with a red banner and a red highlight on the panicked unit.
+
+![](<../../../.gitbook/assets/image (4).png>)
+
+</details>
 
 ### Display Names
+
+<details>
+
+<summary>Via Dispatch Portal</summary>
 
 To change your display name, users will need the `Change Display Name` permission. To manage others, users will need the `Manage Display Names` permission.
 
@@ -80,17 +116,31 @@ To change your display name, users will need the `Change Display Name` permissio
 
 Right click a user in the radio interface and select `Display Name`
 
-<figure><img src="../../../.gitbook/assets/image (56).png" alt=""><figcaption><p>Sonoran Radio - Change Display Name</p></figcaption></figure>
+<img src="../../../.gitbook/assets/image (56).png" alt="Sonoran Radio - Change Display Name" data-size="original">
+
+</details>
+
+<details>
+
+<summary>Via Members Tab</summary>
 
 #### Via Members Tab
 
 In the admin panel's `Members` tab, select the drop-down and `Set Display Name` button to edit a user's display name.
 
-<figure><img src="../../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/image (58).png" alt="" data-size="original">
+
+</details>
+
+<details>
+
+<summary>Via Sonoran CMS</summary>
 
 #### Via Sonoran CMS
 
-Sonoran CMS can also automatically set and manage your Radio display names and sync them with Discord.
+[Sonoran CMS can also automatically set and manage your Radio display names and sync them with Discord.](../../integrations/sonoran-cms.md)
+
+</details>
 
 {% content-ref url="../../integrations/sonoran-cms.md" %}
 [sonoran-cms.md](../../integrations/sonoran-cms.md)
