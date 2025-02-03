@@ -1,39 +1,59 @@
 ---
-description: >-
-  This page will walk you through getting and installing the Radio Display
-  script.
+description: View Sonoran Radio on a working, in-vehicle 3D display!
 ---
 
-# Getting Started
+# Vehicle Radio Display
 
-## Acquire the Script <a href="#acquire-the-script" id="acquire-the-script"></a>
+## Vehicle Radio Display (Video Tutorial)
 
-After "purchasing" (free) the script through the Sonoran store you may [download the script through the keymaster account](https://docs.sonoran.store/general/tebex-assets) that purchased the script. Upon downloading extract the file to a safe place.
+{% embed url="https://youtu.be/xbV3KpBOFi4" %}
+Sonoran Radio: Vehicle Display Script
+{% endembed %}
 
-## Install Prerequisite
-
-{% hint style="warning" %}
-You must have [SonoranRadio](../../getting-started/installing-the-in-game-resource.md) in order to use
+{% hint style="info" %}
+The vehicle radio display is a **free** Tebex script fully compatible with the **free** version of Sonoran Radio.
 {% endhint %}
 
-## Install the script
+## Installation (Written) <a href="#acquire-the-script" id="acquire-the-script"></a>
 
-1. Inside the script package you just extracted will be two folders. Copy both to a folder in your server's resources folder called `[sonoranradio]` note the `[]` in the name, without them it will not work.
+## 1. Download the Script <a href="#acquire-the-script" id="acquire-the-script"></a>
 
-<figure><img src="../../../.gitbook/assets/image (98).png" alt=""><figcaption><p>SonoranRadio - Radio Display - Folders</p></figcaption></figure>
+"Purchase" the **free** vehicle radio display from the Sonoran Store.
 
-2. In the `sonoran-radiodisplay`folder there will be a file called `config.CHANGEME.lua` you should rename that to be `config.lua` and configure the settings inside as you would like them to be configured based on the configuration documentation below. In that same folder will also be a file called `radios.CHANGEME.json` which you should rename to `radios.json` and use to manually place in-car radios based on the existing template, note you can also use the menu placement system in game.
-3. Finally, in your `server.cfg` add the following:
+[Download the script from your Keymaster account.](https://docs.sonoran.store/general/tebex-assets)
+
+## 2. Install the script
+
+#### A. Extract Folders
+
+Extract the script's two folders (`sonoran-radiodisplay` and `sonoran-radiodisplay_helper`) to a folder in your server's resources folder called `[sonoranradio]`.
+
+<figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption><p>Radio Display - Folders</p></figcaption></figure>
+
+#### B. Rename Config Files
+
+Inside of the `sonoran-radiodisplay` folder:
+
+* Rename `config.changeme.lua` to `config.lua`&#x20;
+  * See more about the [configuration options](vehicle-radio-display.md#configuration) here.
+* Rename `radios.changeme.json` to `radios.json`&#x20;
+
+#### C. Start the Resource
+
+To start the display resource and give the auto-updater permissions to run, paste the following into your `server.cfg`&#x20;
 
 ```
+# Start the Radio Display Resource
 ensure sonoran-radiodisplay
 
+# Grant permissions to the auto-updater
 add_ace resource.sonoran-radiodisplay command allow
 add_ace resource.sonoran-radiodisplay_helper command allow
-
 ```
 
-## Configuring the Script
+## Configuration
+
+The `config.lua` file allows you to customize the labels, ACE permissions, and more!
 
 <details>
 
@@ -127,14 +147,17 @@ Config.allowlistedCars = {
 
 </details>
 
-## Radio Location Config
+## Spawning the Radio Display
 
-You have two options for placing new radars:
+Use the `/radiodisplay` command while in a vehicle to spawn a new display.
 
-1. You can use the command `/radiodisplay` while in a LEO vehicle to initiate spawning a new radio and generate the relevant config data
-   * After running this command you will be prompted by a menu that will take you through the spawning process.
-   * You may need to modify some of the rotation values manually to get that perfect placement you are looking for.
-2. You can manually copy and paste an existing config and then modify the values to meet your needs for the new radio
+* Use the keys displayed at the bottom of your screen to move and rotate the display into position.
+* Select `Attach` to attach the display to your vehicle.
+  * See the [config.lua](vehicle-radio-display.md#configuration) `Config.acePerms.aceObjectUseMenu` for permission restrictions.
+* Select `Apply to all of this vehicle model` to have the radio display automatically added whenever the vehicle type is spawned.
+  * See the [config.lua](vehicle-radio-display.md#configuration) `Config.acePerms.aceObjectAdminUseMenu` for permission restrictions.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### `radios.json` Property Explanation <a href="#radars.json-property-explanation" id="radars.json-property-explanation"></a>
 
@@ -146,23 +169,18 @@ You have two options for placing new radars:
 | `Vehicle`     | `POLICE` | This is the vehicles spawn code                                     |
 | `Bone`        | `-1`     | This is the index of the bone you would like to attach the radar to |
 
-## Commands
+### Commands
 
 | Command Name    | Command Description                                                 | Required Permissions |
 | --------------- | ------------------------------------------------------------------- | -------------------- |
 | `/radiodisplay` | This command will initiate the radar spawning and attaching process | As configured        |
 
-## Default Vehicles
+### Default Vehicles
 
-| Vehicle Spawncode | Adds Radio by Default |
-| ----------------- | --------------------- |
-| `FBI`             | `yes`                 |
-| `FBI2`            | `yes`                 |
-| `POLICE`          | `yes`                 |
-| `POLICE2`         | `yes`                 |
-| `POLICE3`         | `yes`                 |
-| `POLICE4`         | `yes`                 |
-| `POLICEOLD1`      | `no`                  |
-| `POLICEOLD2`      | `no`                  |
-| `SHERIFF`         | `yes`                 |
-| `SHERIFF2`        | `yes`                 |
+<table><thead><tr><th width="254">Vehicle Spawncode</th><th>Adds Radio by Default</th></tr></thead><tbody><tr><td><code>FBI</code></td><td><code>yes</code></td></tr><tr><td><code>FBI2</code></td><td><code>yes</code></td></tr><tr><td><code>POLICE</code></td><td><code>yes</code></td></tr><tr><td><code>POLICE2</code></td><td><code>yes</code></td></tr><tr><td><code>POLICE3</code></td><td><code>yes</code></td></tr><tr><td><code>POLICE4</code></td><td><code>yes</code></td></tr><tr><td><code>POLICEOLD1</code></td><td><code>no</code></td></tr><tr><td><code>POLICEOLD2</code></td><td><code>no</code></td></tr><tr><td><code>SHERIFF</code></td><td><code>yes</code></td></tr><tr><td><code>SHERIFF2</code></td><td><code>yes</code></td></tr></tbody></table>
+
+### Changelog
+
+### v1.0.0
+
+* `Initial Release`
