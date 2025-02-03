@@ -22,6 +22,12 @@ See our [tower destruction and repairing](ts3-legacy/tutorials/script-usage.md#i
 
 <figure><img src=".gitbook/assets/destroy_towers_b.png" alt=""><figcaption><p>Sonoran Radio - Destructible Towers - Promotional Image</p></figcaption></figure>
 
+## 💻[3D Vehicle Display](tutorials/integrations/vehicle-radio-display.md)
+
+Our [3D vehicle radio display](tutorials/integrations/vehicle-radio-display.md) reflects your channel information, transmitting user, and panic status in real time bringing new levels of immersion!
+
+<figure><img src=".gitbook/assets/display_promo.png" alt=""><figcaption><p>Sonoran Radio - Vehicle Display</p></figcaption></figure>
+
 ## 📶 [Tunnel Signal Loss](tutorials/usage/in-game-radio/tunnels-and-degrade-zones.md)
 
 Configure signal loss in tunnels, underground locations, and more!

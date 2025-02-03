@@ -14,6 +14,8 @@ Sonoran Radio: Vehicle Display Script
 The vehicle radio display is a **free** Tebex script fully compatible with the **free** version of Sonoran Radio.
 {% endhint %}
 
+<figure><img src="../../.gitbook/assets/display_promo.png" alt=""><figcaption><p>Sonoran Radio - Vehicle Display</p></figcaption></figure>
+
 ## Installation (Written) <a href="#acquire-the-script" id="acquire-the-script"></a>
 
 ## 1. Download the Script <a href="#acquire-the-script" id="acquire-the-script"></a>
