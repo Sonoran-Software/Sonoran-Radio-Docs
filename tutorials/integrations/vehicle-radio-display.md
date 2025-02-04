@@ -20,9 +20,9 @@ The vehicle radio display is a **free** Tebex script fully compatible with the *
 
 ## 1. Download the Script <a href="#acquire-the-script" id="acquire-the-script"></a>
 
-"Purchase" the **free** vehicle radio display from the Sonoran Store.
+"Purchase" the **free** [vehicle radio display from the Sonoran Store](https://www.sonoran.store/package/6668073).
 
-[Download the script from your Keymaster account.](https://docs.sonoran.store/general/tebex-assets)
+Once purchased, see: [How to download the script from your Keymaster account.](https://docs.sonoran.store/general/tebex-assets)
 
 ## 2. Install the script
 
