@@ -6,15 +6,13 @@ description: View Sonoran Radio on a working, in-vehicle 3D display!
 
 ## Vehicle Radio Display (Video Tutorial)
 
-{% embed url="https://youtu.be/xbV3KpBOFi4" %}
-Sonoran Radio: Vehicle Display Script
-{% endembed %}
+{% embed url="https://www.youtube.com/watch?v=xbV3KpBOFi4" %}
 
 {% hint style="info" %}
 The vehicle radio display is a **free** Tebex script fully compatible with the **free** version of Sonoran Radio.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/display_promo.png" alt=""><figcaption><p>Sonoran Radio - Vehicle Display</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/display_promo (1).png" alt=""><figcaption><p>Sonoran Radio - Vehicle Display</p></figcaption></figure>
 
 ## Installation (Written) <a href="#acquire-the-script" id="acquire-the-script"></a>
 

@@ -26,7 +26,7 @@ See our [tower destruction and repairing](ts3-legacy/tutorials/script-usage.md#i
 
 Our [3D vehicle radio display](tutorials/integrations/vehicle-radio-display.md) reflects your channel information, transmitting user, and panic status in real time bringing new levels of immersion!
 
-<figure><img src=".gitbook/assets/display_promo.png" alt=""><figcaption><p>Sonoran Radio - Vehicle Display</p></figcaption></figure>
+<figure><img src=".gitbook/assets/display_promo (1).png" alt=""><figcaption><p>Sonoran Radio - Vehicle Display</p></figcaption></figure>
 
 ## 📶 [Tunnel Signal Loss](tutorials/usage/in-game-radio/tunnels-and-degrade-zones.md)
 
