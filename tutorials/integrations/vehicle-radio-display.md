@@ -179,6 +179,12 @@ Use the `/radiodisplay` command while in a vehicle to spawn a new display.
 
 <table><thead><tr><th width="254">Vehicle Spawncode</th><th>Adds Radio by Default</th></tr></thead><tbody><tr><td><code>FBI</code></td><td><code>yes</code></td></tr><tr><td><code>FBI2</code></td><td><code>yes</code></td></tr><tr><td><code>POLICE</code></td><td><code>yes</code></td></tr><tr><td><code>POLICE2</code></td><td><code>yes</code></td></tr><tr><td><code>POLICE3</code></td><td><code>yes</code></td></tr><tr><td><code>POLICE4</code></td><td><code>yes</code></td></tr><tr><td><code>POLICEOLD1</code></td><td><code>no</code></td></tr><tr><td><code>POLICEOLD2</code></td><td><code>no</code></td></tr><tr><td><code>SHERIFF</code></td><td><code>yes</code></td></tr><tr><td><code>SHERIFF2</code></td><td><code>yes</code></td></tr></tbody></table>
 
+## Additional Display Resources
+
+Loving the radio display? Check out our [in-vehicle police radar](https://docs.sonoran.store/radar-display) and [radar detector](https://docs.sonoran.store/radar-detector) displays!
+
+<div><figure><img src="../../.gitbook/assets/image (106).png" alt=""><figcaption><p>Sonoran Store: Radar Display</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (107).png" alt=""><figcaption><p>Sonoran Store: Radar Detector</p></figcaption></figure></div>
+
 ### Changelog
 
 ### v1.0.0
