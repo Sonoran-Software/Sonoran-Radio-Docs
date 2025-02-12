@@ -30,9 +30,9 @@ On web, the browser window must be in focus.
 
 Hotkeys allow for faster actions at the press of a button. These can be configured by clicking the gear icon to open the settings menu.
 
-![](<../../../.gitbook/assets/image (1).png>)
-
 ![](<../../../.gitbook/assets/image (1) (1).png>)
+
+![](<../../../.gitbook/assets/image (1) (1) (2).png>)
 
 * [Push to Talk](using-the-dispatch-panel.md#transmitting-push-to-talk)
 * [Tone Board](custom-tone-board.md)

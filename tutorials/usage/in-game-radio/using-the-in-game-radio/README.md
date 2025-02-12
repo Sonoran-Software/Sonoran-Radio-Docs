@@ -162,7 +162,7 @@ If the resource is not named `LVC`, the [`config.luxartResourceName` value must 
 
 For communities not using LVC, the functionality will fall back to a FiveM native that will trigger the functionality if either lights or sirens are activated.
 
-![](<../../../../.gitbook/assets/image (1) (1) (2).png>)
+![](<../../../../.gitbook/assets/image (1) (1) (2) (1).png>)
 
 </details>
 

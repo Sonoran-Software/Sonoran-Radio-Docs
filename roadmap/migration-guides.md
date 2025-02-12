@@ -8,9 +8,22 @@ description: >-
 
 <details>
 
+<summary>2.15.0 (ACE Perm Sync)</summary>
+
+Version 2.15.0 adds a new feature to manage radio community approval and permissions via ACE perms.
+
+1. Open your existing `config.lua`
+2. Add the new `Config.acePermSync = false` property. You can enable and configure this feature if desired.
+
+![](../.gitbook/assets/image.png)
+
+</details>
+
+<details>
+
 <summary>2.14.0 Release (LVC Resource Name)</summary>
 
-Version 2.13.0 adds a new feature to increase radio volume when in-game sirens are on.
+Version 2.14.0 adds a new feature to increase radio volume when in-game sirens are on.
 
 1. Open your existing `config.lua`
 2. Add the new `Config.luxartResourceName = 'lvc'` property.
