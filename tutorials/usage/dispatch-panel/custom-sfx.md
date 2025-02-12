@@ -40,6 +40,10 @@ When a [user places an emergency call](emergency-calls.md), dispatchers will hea
 
 When a [user toggles their panic state](../in-game-radio/using-the-in-game-radio/#panic), dispatchers will hear the `Panic Button SFX` audio.
 
+### Volume Up/Down (Hotkey) SFX
+
+When a user changes their volume in the [dispatch panel](using-the-dispatch-panel.md#hotkeys-keybinds) or [in-game](../in-game-radio/using-the-in-game-radio/fivem-keybinds-and-commands.md#volume-up-down) via hotkey, they will hear the `Volume Up/Down (Hotkey) SFX` audio.
+
 ***
 
 ## Per-User SFX
