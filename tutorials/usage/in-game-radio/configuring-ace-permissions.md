@@ -34,8 +34,9 @@ add_ace sonoranradio.example command.radiomenu allow
 add_ace sonoranradio.example sonoranradio.use allow
 
 # ACE Permission Sync (Optional: If `acePermSync` is `true` in config.lua)
-# If enabled, the general 
-add_ace sonoranradio.
+# See the "ACE Permission Sync" section below this documentation section for more info
+# This example auto-approves the user in the radio community
+add_ace sonoranradio.example sonoranradio.autoapprove allow
 
 # Tower Repair (Optional: If `acePermsForTowerRepair` is `true` in config.lua)
 add_ace sonoranradio.example sonoranradio.repair allow
@@ -65,7 +66,15 @@ add_principal identifier.license:{GTA License} group.admin
 
 ACE permission sync allows you to automatically approve users in the radio community, grant access to private channels, and give user permissions like name changes, kick, etc.
 
+This sync is ran whenever you turn the radio on and connect.
+
 [View other ways to manage user permissions.](../../getting-started/invite-and-manage-users.md)
+
+### Enable ACE Permission Sync
+
+To enable this feature, set your `config.lua`'s `Config.acePermSync` value to `true`.
+
+### Permission Sync Options
 
 <details>
 
