@@ -4,6 +4,59 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # Changelog
 
+### 2.15.0 - 02/12/2025
+
+{% tabs %}
+{% tab title="New" %}
+ACE Permission Sync (Auto-Approve + Community Perms)
+
+* Added an ACE permission sync option to automatically approve users and grant community permissions based on in-game ACE permissions.
+
+In-Game Channel Changer - Group Handling
+
+* Added a right-click option on the top channel change knob in-game to toggle between changing channels and channel groups.
+
+Tone Board: Live TTS AI
+
+* Added the ability to generate temporary AI powered text-to-speech tones directly from the tone board.
+
+Scanned Channel Audio Indicator
+
+* Added new UI elements on the in-game radio to indicate a transmission from a scanned channel, along with the user's name and channel.
+
+\#27054 Mute Scanned on Primary Transmission
+
+* Added the setting option (enabled by default) to mute scanned channels when another user is talking on your primary channel.
+
+\#27143 Group Change Channel Persistence
+
+* Using hotkeys to change your group from one to another now saves and restores your last used channel when going back to a previous group.
+
+Volume Hotkey SFX
+
+* Added customizable hotkey sound effects for the volume hotkeys.
+
+Tunnels: Menu Expansion
+
+* Added a toggle visibility button in the tunnel editor menu.
+* Added the ability to select and remove a configured tunnel via menu.
+
+Dispatch UI: Show Channel IDs
+
+* Dispatch UI now has a toggle button to view channel IDs for in-game permissions.
+
+Channel & Group Hotkey: In-Game Notify on No Options
+
+* Added small in-game notices on channel and group change hotkeys if there is no other group or channel to page to, in order to reduce confusion.
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#27173 Hotkey Resize
+
+* Fixed an issue causing desktop hotkeys to stop working if the screen was resized down to mobile UI mode and back.
+{% endtab %}
+{% endtabs %}
+
 ### 2.14.0 - 01/30/2025
 
 {% tabs %}

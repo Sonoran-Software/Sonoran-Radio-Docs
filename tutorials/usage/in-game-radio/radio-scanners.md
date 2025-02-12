@@ -51,17 +51,17 @@ By default, only public radio channels will be available. For [private channels]
 
 ### Ace Permissions
 
-If you have enabled `Config.acePermsForScanners`, you must add permissions in your `server.cfg`for the scanner to work. Example:
+If you have enabled `Config.acePermsForScanners`, you must add permissions in your `server.cfg`for the scanner to work.
+
+The channel IDs can be found in the [dispatcher panel](../dispatch-panel/using-the-dispatch-panel.md#channel-ids) or [in-game radio](using-the-in-game-radio/fivem-keybinds-and-commands.md#copying-channel-and-scan-list-ids).
 
 ```bash
 # Give the group access to /radio scanner
 add_ace group.admin sonoranradio.scanner allow
 
 # Only public (non-private) channels are accessible
-# Grant access to "Tac 1" and "Fire Dept" private channels
-# Channel names are CASE SENSITIVE and must be EXACT
-add_ace group.admin "sonoranradio.channel.Tac 1" allow
-add_ace group.admin "sonoranradio.channel.Fire Dept" allow
+# Grant access to a private channel with the ID of 123
+add_ace group.admin sonoranradio.channel.123 allow
 ```
 
 ### Giving the Scanner Item (QBCore)

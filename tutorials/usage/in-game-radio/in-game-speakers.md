@@ -14,15 +14,7 @@ description: Configure in-game speakers that dispatchers can send tones to!
 
 Open the menu with the in-game `/radiomenu` command and select `Toneboard Speaker Menu` > `Spawn/Move/Delete Speaker`
 
-<div>
-
-<figure><img src="../../../.gitbook/assets/image (63).png" alt="" width="222"><figcaption><p>Sonoran Radio - /radiomenu</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/image (64).png" alt="" width="222"><figcaption><p>Sonoran Radio - Toneboard Speaker Menu</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../.gitbook/assets/image (63).png" alt="" width="222"><figcaption><p>Sonoran Radio - /radiomenu</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (64).png" alt="" width="222"><figcaption><p>Sonoran Radio - Toneboard Speaker Menu</p></figcaption></figure></div>
 
 ### 2. Configure the Speaker
 
@@ -36,23 +28,7 @@ The spawn (create) and edit menu will allow you to set the speaker type, name, r
 
 When spawning a new speaker please select the type you would like to use. See types below:
 
-<div>
-
-<figure><img src="../../../.gitbook/assets/image (65).png" alt=""><figcaption><p>Small - Wall</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/image (66).png" alt=""><figcaption><p>Medium</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/image (71).png" alt=""><figcaption><p>Medium - Wall</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/image (72).png" alt=""><figcaption><p>Large</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../.gitbook/assets/image (65).png" alt=""><figcaption><p>Small - Wall</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (66).png" alt=""><figcaption><p>Medium</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (71).png" alt=""><figcaption><p>Medium - Wall</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (72).png" alt=""><figcaption><p>Large</p></figcaption></figure></div>
 
 #### Speaker Position
 
@@ -62,6 +38,6 @@ Use the controls displayed on screen to rotate and move the speaker to the desir
 
 ## Playing Tones to In-Game Speakers
 
-Dispatchers can now [use the tone board](../dispatch-panel/custom-tone-board.md) and select one of the in-game speaker options to play to.
+Dispatchers can now [use the tone board](../dispatch-panel/custom-tone-board.md) and select one of the in-game speaker options to broadcast tones, microphone recordings, or AI powered text-to-speech to.
 
 <figure><img src="../../../.gitbook/assets/image (61).png" alt="" width="219"><figcaption><p>Sonoran Radio - In-Game Speaker Broadcast</p></figcaption></figure>

@@ -30,6 +30,8 @@ Select the upload icon to attach an audio file.
 
 The tone board also allows you to customize AI generated text-to-speech tones.
 
+Additionally, you can [generate temporary AI TTS tones directly inside of the tone board](custom-tone-board.md#ai-tts).
+
 #### 1. Enable Tone Board AI
 
 Enable the `Tone Board TTS` option in the [AI configuration panel](../../integrations/ai.md#ai-options).
@@ -69,9 +71,11 @@ To quickly toggle the tone board, you may configure a custom hotkey in the setti
 After opening the tone board via hotkey or the music note icon, you will see the following UI.
 
 * Search: Type-to-filter for available tone names
-* [Broadcast To](custom-tone-board.md#tone-broadcast-to-options): Ty\[e-to-filter and multi-select the desired channels or channel groups
+* [Broadcast To](custom-tone-board.md#tone-broadcast-to-options): Type-to-filter and multi-select the desired channels or channel groups
 * [Stack](custom-tone-board.md#stacked-tones): Optionally toggle tone stacking to play multiple tones in order
 * [Repeat](custom-tone-board.md#repeating-tones): Optionally toggle on a tone repeat with a total play number and a delay between plays
+* [Microphone](custom-tone-board.md#recording-tones): Record a temporary live audio tone from your microphone
+* [AI TTS](custom-tone-board.md#ai-tts): Generate a temporary AI-powered text-to-speech tone
 
 <figure><img src="../../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -107,3 +111,12 @@ Click the microphone to start and stop recording. After the recording is complet
 
 <figure><img src="../../../.gitbook/assets/image (6) (2).png" alt=""><figcaption><p>Tone Board - Microphone Recording</p></figcaption></figure>
 
+#### AI TTS
+
+Similar to [pre-configured AI speech tones](custom-tone-board.md#ai-text-to-speech), the AI wand icon allows you to enter in and generate a temporary text-to-speech AI tone to be played as a tone to radios or [in-game speakers](../in-game-radio/in-game-speakers.md).
+
+This feature requires the `Tone Board TTS` option to be enabled in the [AI configuration panel](../../integrations/ai.md#ai-options).
+
+Click the wand icon to enter text and customize the voice. Then, press enter to generate the audio. Click the newly generated audio to add it to a stack or play as a single tone.
+
+<figure><img src="../../../.gitbook/assets/image (113).png" alt=""><figcaption><p>Tone Board: AI Text-To-Speech</p></figcaption></figure>

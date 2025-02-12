@@ -66,7 +66,14 @@ You can logout/un-link your in-game radio via the settings menu (gear icon).
 
 The radio will connect when you turn it on with the power button ([unless you need to login first](./#logging-in)).
 
-You can use the top knob to change the channel.
+**Previous/Next Channel (In Group)**
+
+* Left click the top knob to rotate to the next channel inside the channel group.
+
+**Previous/Next Group**
+
+* Right-click the top knob to change its mode from channel changing to group changing.
+* Left click the top knob to rotate to the next channel group.
 
 Additionally, you can use the [channel change keybind](fivem-keybinds-and-commands.md#prev-next-channel-in-group) or [commands (optionally integrated with the Steam Deck)](fivem-keybinds-and-commands.md#toggle-channel-transmit).
 
