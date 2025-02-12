@@ -30,19 +30,11 @@ In the `Degradation Zones` menu, you can specify the strength and add points to 
 
 When creating a zone you can visualize via the drawn polygon and manipulate and move your last placed point using the on-screen controls
 
-<div>
-
-<figure><img src="../../../.gitbook/assets/image (3) (2).png" alt="" width="221"><figcaption><p>Sonoran Radio - Degradation Zone Options</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/image (74).png" alt="" width="375"><figcaption><p>Sonoran Radio - Degradation Zone Poly</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../.gitbook/assets/image (114).png" alt="" width="222"><figcaption><p>Sonoran Radio - Degradation Zone Options</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (74).png" alt="" width="375"><figcaption><p>Sonoran Radio - Degradation Zone Poly</p></figcaption></figure></div>
 
 <details>
 
-<summary>Configuration Option</summary>
+<summary>Configuration Options</summary>
 
 `Strength` \
 \- The percent the signal strength will be cut by when inside the zone (0-1).\
@@ -68,6 +60,13 @@ When creating a zone you can visualize via the drawn polygon and manipulate and 
 
 </details>
 
-## View Configured Zones
+## View and Remove Configured Zones
 
-Setting `debug` to `true` in the resource's `config.lua` file will allow you to view all 3D degradation zones around the map.
+Select `Edit Degradation Zone` in the menu and toggle on `Show Zones`. All configured zones on the map will be displayed in green. If the config.lua's `debug` mode is set to `true`, all zones will also be made visible.
+
+Use the `Select Zone` menu option to swap back and forth between zones. Your selected zone will be displayed in red.
+
+Use the `Delete Zone` menu option to delete the selected (red) zone.
+
+<div><figure><img src="../../../.gitbook/assets/image (116).png" alt=""><figcaption><p>Degradation Zone: Visible</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (115).png" alt=""><figcaption><p>Degradation Zone: Selected</p></figcaption></figure></div>
+
