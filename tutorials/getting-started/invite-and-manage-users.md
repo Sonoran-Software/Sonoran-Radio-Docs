@@ -16,33 +16,39 @@ Sonoran CMS allows you to automatically add and manage user permissions with use
 
 ***
 
+## FiveM Management
+
+All user permission management, including inviting and approving members, can be automated with FiveM ACE permissions.
+
+{% content-ref url="../usage/in-game-radio/configuring-ace-permissions.md" %}
+[configuring-ace-permissions.md](../usage/in-game-radio/configuring-ace-permissions.md)
+{% endcontent-ref %}
+
 ## Manual User Management
 
 ### Inviting Members
 
-You can find your Community API ID in the administration. With this code, people from your community can join your Sonoran Radio server in the Sonoran Radio Portal
+Users will need the `Community ID` located in the `Administrator` panel.
 
-<div>
+<figure><img src="../../.gitbook/assets/image (111).png" alt="" width="375"><figcaption><p>Sonoran Radio: Community ID</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/chrome_LB001kbq6J.png" alt=""><figcaption></figcaption></figure>
+When logged into Sonoran Radio, they can select the `+` button in the portal to paste in the `Community ID`.
 
- 
-
-<figure><img src="../../.gitbook/assets/chrome_WEYw9EMGjg.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/image (112).png" alt="" width="170"><figcaption><p>Sonoran Radio: Join Community</p></figcaption></figure>
 
 ### Approving Members
 
-When a member joins your community with an invite code, they will be pending until approved. The owner or members with the `Approve Pending Members`  permission can approve in the "Members" tab
+When a member joins your community with an invite code, they will be pending until approved.
 
-<figure><img src="../../.gitbook/assets/chrome_q9hd1Yw3VE.png" alt=""><figcaption><p>Sonoran Radio - Approve Members</p></figcaption></figure>
+Users with the `Approve Pending Members`  permission can approve in the `Members` tab
+
+<figure><img src="../../.gitbook/assets/chrome_q9hd1Yw3VE.png" alt="" width="375"><figcaption><p>Sonoran Radio - Approve Members</p></figcaption></figure>
 
 ### Manage User Permissions
 
-User permissions can be managed in the "Members" tab
+User permissions can be manually set by clicking the shield icon on a user in the `Members` tab
 
-<figure><img src="../../.gitbook/assets/chrome_bInOrZU430.png" alt=""><figcaption><p>Sonoran Radio - Edit Memeber Permissions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (110).png" alt="" width="284"><figcaption></figcaption></figure>
 
 ***
 

@@ -176,3 +176,17 @@ You can also [adjust volume for a specific user](using-the-dispatch-panel.md#use
 ![](<../../../.gitbook/assets/image (2).png>)
 
 </details>
+
+### Viewing Channel IDs
+
+<details>
+
+<summary>Channel IDs</summary>
+
+Some integrations like ACE perm sync or scanner permissions may require you to enter the internal ID number of a specific channel.
+
+Select the `#` symbol on the last channel in the dispatch panel to toggle ID visibility.
+
+![](<../../../.gitbook/assets/image (108).png>)
+
+</details>
