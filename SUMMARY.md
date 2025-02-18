@@ -58,6 +58,7 @@
         * [Get Connected Users](tutorials/integrations/developer-documentation/api-endpoints/users/get-connected-users.md)
         * [Get Connected User](tutorials/integrations/developer-documentation/api-endpoints/users/get-connected-user.md)
         * [Set User Channels](tutorials/integrations/developer-documentation/api-endpoints/users/set-user-channels.md)
+        * [Set User Display Name](tutorials/integrations/developer-documentation/api-endpoints/users/set-user-display-name.md)
       * [Channels](tutorials/integrations/developer-documentation/api-endpoints/channels/README.md)
         * [Get Community Channels](tutorials/integrations/developer-documentation/api-endpoints/channels/get-community-channels.md)
       * [Community Server](tutorials/integrations/developer-documentation/api-endpoints/community-server/README.md)
