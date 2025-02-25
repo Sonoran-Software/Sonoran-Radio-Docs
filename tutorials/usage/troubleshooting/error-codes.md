@@ -18,3 +18,7 @@ Sonoran Radio uses your CFX Nucleus Proxy URL to send push events from the radio
 
 1. Check your server console for ERR 101. ERR 101 states an issue with sending this URL to Sonoran Radio.
 2. If using a non-FiveM server but still utilizing push events, ensure the `pushUrl` property is sent with a full HTTP(s) address with the [set-server-ip API endpoint](../../integrations/developer-documentation/api-endpoints/#set-server-ip).
+
+## ERR 104: No framework detected
+
+The Sonoran Radio FiveM resource is configured to `enforceRadioItem` which requires a framework with an inventory system. Currently we support the following frameworks: `QBCore` and `QBox` and support `qb-inventory` and `ox_inventory`. If you are utilizing a different inventory or framework, feel free to [make a suggestion](http://support.sonoransoftware.com/). If you do not utilize a framework, simply set `Config.enforceRadioItem`to false.
