@@ -38,7 +38,11 @@ It is very important that the `sonoranradio_updatehelper` resource is not starte
 
 **DO NOT** start the whole \[sonoranradio] folder as that will also start the sonoranradio\_updatehelper which might cause crashing if started manually.
 
-Example of what NOT to do: `ensure [sonoranradio]`
+Example of what NOT to do: `ensure [sonoranradio]`&#x20;
+{% endhint %}
+
+{% hint style="danger" %}
+Start this resource **AFTER** your preferred framework and any additional framework core resources such as inventory resources
 {% endhint %}
 
 ***
