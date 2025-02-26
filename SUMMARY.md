@@ -40,6 +40,7 @@
     * [Configuring ACE Permissions](tutorials/usage/in-game-radio/configuring-ace-permissions.md)
   * [Troubleshooting](tutorials/usage/troubleshooting/README.md)
     * [Error Codes](tutorials/usage/troubleshooting/error-codes.md)
+    * [Client Debug Mode](tutorials/usage/troubleshooting/client-debug-mode.md)
     * [In-Game Microphone Not Working](tutorials/usage/troubleshooting/in-game-microphone-not-working.md)
     * [Browser Microphone Permissions](tutorials/usage/troubleshooting/browser-microphone-permissions.md)
     * [In-Game Volume Too Low](tutorials/usage/troubleshooting/in-game-volume-too-low.md)

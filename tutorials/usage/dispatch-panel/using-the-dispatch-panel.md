@@ -30,9 +30,9 @@ On web, the browser window must be in focus.
 
 Hotkeys allow for faster actions at the press of a button. These can be configured by clicking the gear icon to open the settings menu.
 
-![](<../../../.gitbook/assets/image (1) (1).png>)
-
 ![](<../../../.gitbook/assets/image (1) (1) (2).png>)
+
+![](<../../../.gitbook/assets/image (1) (1) (2) (1).png>)
 
 * [Push to Talk](using-the-dispatch-panel.md#transmitting-push-to-talk)
 * [Tone Board](custom-tone-board.md)
@@ -173,7 +173,7 @@ In addition to the manual sliders, you can customize how much the [volume hotkey
 
 You can also [adjust volume for a specific user](using-the-dispatch-panel.md#user-actions-right-click).
 
-![](<../../../.gitbook/assets/image (2).png>)
+![](<../../../.gitbook/assets/image (2) (1).png>)
 
 </details>
 

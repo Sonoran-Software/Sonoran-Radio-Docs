@@ -138,7 +138,7 @@ Users can scan one or more channels to listen without transmitting. For monitori
 
 In the settings menu (gear icon) you can adjust the radio's total volume output.
 
-<img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="In-Game Radio - Settings" data-size="original">![](<../../../../.gitbook/assets/image (3).png>)
+<img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="In-Game Radio - Settings" data-size="original">![](<../../../../.gitbook/assets/image (3) (1).png>)
 
 #### Per-User Volume
 
@@ -169,7 +169,7 @@ If the resource is not named `LVC`, the [`config.luxartResourceName` value must 
 
 For communities not using LVC, the functionality will fall back to a FiveM native that will trigger the functionality if either lights or sirens are activated.
 
-![](<../../../../.gitbook/assets/image (1) (1) (2) (1).png>)
+![](<../../../../.gitbook/assets/image (1) (1) (2) (1) (1).png>)
 
 </details>
 
@@ -219,7 +219,7 @@ The Escape Mode selector changes the in-game radio display behavior after pressi
 
 * The radio closes on `ESC`, but is visible while transmitting
 
-![](<../../../../.gitbook/assets/image (2) (1).png>)
+![](<../../../../.gitbook/assets/image (2) (1) (2).png>)
 
 </details>
 
@@ -235,7 +235,7 @@ This can also toggle your panic status in [Sonoran CAD](../../../integrations/so
 
 [Dispatchers will also be able to see and clear your panic status.](../../dispatch-panel/using-the-dispatch-panel.md#unit-panic)
 
-![](<../../../../.gitbook/assets/image (3) (1).png>)
+![](<../../../../.gitbook/assets/image (3) (1) (2).png>)
 
 </details>
 

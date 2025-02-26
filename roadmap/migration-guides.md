@@ -15,7 +15,7 @@ Version 2.15.0 adds a new feature to manage radio community approval and permiss
 1. Open your existing `config.lua`
 2. Add the new `Config.acePermSync = false` property. You can enable and configure this feature if desired.
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (3).png>)
 
 </details>
 
