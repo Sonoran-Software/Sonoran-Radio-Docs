@@ -35,6 +35,12 @@ With the radio scanner item in their inventory, users can double click to open t
 
 #### Item Drop
 
+{% hint style="warning" %}
+Dropping scanners is not currently supported in OX inventory.
+
+Support will be added at a later date, pending more information from the OX development team.
+{% endhint %}
+
 If the scanner item is dropped on the floor, you can open its scanner menu by being near it and pressing `E`.
 
 If the scanner is powered, transmissions will be heard by nearby users.
