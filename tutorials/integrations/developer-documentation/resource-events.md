@@ -19,6 +19,16 @@ AddEventHandler('SonoranRadio::API:ToggleTalking', function(toggle, inVeh)
 end)
 ```
 
+## Radio Enabled
+
+You can check if the radio is active (turned on) like so:
+
+<pre class="language-lua"><code class="lang-lua"><strong>-- In your custom script
+</strong><strong>-- true = active
+</strong><strong>-- false = inactive
+</strong><strong>local isActive = exports['sonoranradio']:isRadioActive()
+</strong></code></pre>
+
 ## Emergency (911) Calls
 
 You can start, end, and toggle an emergency call with a client resource export:
