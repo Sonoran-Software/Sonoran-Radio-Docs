@@ -89,3 +89,12 @@ AddEventHandler('SonoranRadio::API:PanicButton', function(status)
     -- your code here
 end)
 ```
+
+## Set Display Name
+
+Programatically update a user's radio display name
+
+```lua
+-- Set your current display name in the radio
+exports['sonoranradio']:handleNameChange('my new name')
+```

@@ -25,9 +25,11 @@ Due to bandwidth usage, this feature is automatically enabled with the Pro versi
 
 You can use `/radio scanner` command to open a personal scanner. This requires the `sonoranradio.scanner` [ace permission](configuring-ace-permissions.md).
 
-### Opening in QBCore
+### Opening in a Framework Server (QBCore, Qbox, etc.)
 
-With the[ radio scanner item in their inventory](radio-scanners.md#giving-the-scanner-item-qbcore), users can double click to open the [scanner menu](radio-scanners.md#using-the-radio-scanner-1).
+With the radio scanner item in their inventory, users can double click to open the [scanner menu](radio-scanners.md#using-the-radio-scanner-1).
+
+[View our complete list of supported FiveM frameworks an inventories.](../../integrations/fivem-inventories.md)
 
 <figure><img src="../../../.gitbook/assets/image (96).png" alt=""><figcaption><p>Sonoran Radio Scanner Item in Inventory</p></figcaption></figure>
 

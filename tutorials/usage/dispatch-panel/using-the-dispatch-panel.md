@@ -157,9 +157,31 @@ In the admin panel's `Members` tab, select the drop-down and `Set Display Name` 
 
 </details>
 
-{% content-ref url="../../integrations/sonoran-cms.md" %}
-[sonoran-cms.md](../../integrations/sonoran-cms.md)
-{% endcontent-ref %}
+<details>
+
+<summary>Via Sonoran CAD Sync</summary>
+
+[Learn about automatically setting radio display names to match your unit information in Sonoran CAD.](../../integrations/sonoran-cad-integration.md)
+
+</details>
+
+<details>
+
+<summary>Via Command</summary>
+
+Use the in-game command `/radio displayname John Doe` to update your radio display name.
+
+[In-game commands can also be restircted with ACE permission](../in-game-radio/configuring-ace-permissions.md)s.
+
+</details>
+
+<details>
+
+<summary>Via Developer Export or Endpoint</summary>
+
+Programmatically [update a user's display name in FiveM](../../integrations/developer-documentation/resource-events.md#set-display-name) or [update a display name via API](../../integrations/developer-documentation/api-endpoints/users/set-user-display-name.md).
+
+</details>
 
 ### Volume Changes
 
@@ -173,7 +195,7 @@ In addition to the manual sliders, you can customize how much the [volume hotkey
 
 You can also [adjust volume for a specific user](using-the-dispatch-panel.md#user-actions-right-click).
 
-![](<../../../.gitbook/assets/image (2) (1).png>)
+![](<../../../.gitbook/assets/image (2) (1) (2).png>)
 
 </details>
 

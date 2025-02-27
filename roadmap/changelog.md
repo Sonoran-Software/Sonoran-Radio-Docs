@@ -4,6 +4,54 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # Changelog
 
+### 2.16.0 - 02/27/2025
+
+{% tabs %}
+{% tab title="undefined" %}
+Qbox & OX Inventory Support
+
+* Added support for OX inventory in both QBCore and QBox
+
+Display Name: CAD Sync
+
+* Added a new CAD integration feature to automatically update your radio display name based on unit information
+
+Display Name: Command
+
+* Added an in-game command to set your radio display name
+
+Display Name: Export
+
+* Added a developer export to set your radio display name
+
+Voice Effects: Import/Export
+
+* Added a modal to import and export radio voice effect profiles
+
+Radio Active Export
+
+* Added a developer export to check if the radio is active (turned on)
+{% endtab %}
+
+{% tab title="Fixed" %}
+Config.lua Malformat - Throw Clear Error
+
+* In the event of a malformed config.lua, the resource will throw a clear error message
+
+Neaby Chatter: Buzz
+
+* Fixed an issue causing a loud but short "buzz" sound when passing a nearby radio (chatter) at rapid speeds
+
+HF: #27364 Panic Keybind
+
+* Fixed an issue throwing an error when pressing the in-game panic keybind
+
+Scan List Restore Post-Transmit
+
+* Fixed an issue causing the scan list to not properly restore after a super short transmit (by yourself or others) in your primary channel
+{% endtab %}
+{% endtabs %}
+
 ### 2.15.0 - 02/12/2025
 
 {% tabs %}

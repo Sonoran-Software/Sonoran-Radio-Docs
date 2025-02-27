@@ -33,6 +33,9 @@ add_ace sonoranradio.example command.radiomenu allow
 # If using `acePermSync` in config.lua, this will also auto-approve the user in the community
 add_ace sonoranradio.example sonoranradio.use allow
 
+# Radio Display Name Command Access
+add_ace sonoranradio.example sonoranradio.displayname allow
+
 # ACE Permission Sync (Optional: If `acePermSync` is `true` in config.lua)
 # See the "ACE Permission Sync" section below this documentation section for more info
 # This example auto-approves the user in the radio community
