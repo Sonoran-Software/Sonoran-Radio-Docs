@@ -14,13 +14,13 @@ To resolve this issue, simply set your desired microphone "as default" in Window
 
 Open the `Control Panel` and select `Hardware and Sound`
 
-<figure><img src="../../../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. Manage Audio Devices
 
 Select `Manage Audio Devices`
 
-<figure><img src="../../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. Set Microphone as Default
 
@@ -29,8 +29,22 @@ Select `Manage Audio Devices`
 * Select `Set Default`
 * Select `Apply`
 
-<figure><img src="../../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. Restart your Game
 
 After setting your new default microphone restart your FiveM application.
+
+## Further Troubleshooting
+
+If you have set your mic as the default device and you are still unable to hear it in game, try the following steps:
+
+* Ensure device is marked as "Default Communication Device" as well. If the "Set Default" button is greyed out, that means it is both the default device and the default communication device.
+* Reset your audio devices in Windows settings, as shown below.
+
+### Resetting Windows Audio Devices
+
+1. Open Windows Settings, navigate to `System` > `Sound`
+2. Under `Advanced sound options`, click `App volume and device preferences`
+3. Scroll to the bottom and click `Reset` to reset to the Microsoft recommended defaults.
+4. Restart FiveM to ensure it recognizes the changes.
