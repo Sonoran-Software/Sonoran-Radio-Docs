@@ -107,10 +107,6 @@ Currently, the following Qbox inventories are supported:
 
 <summary>OX Inventory Bugs and Limitations</summary>
 
-#### Drop and Pick-Up State Restore
-
-Due to how OX stores item metadata, dropping a scanner item on the ground and picking it back up will not restore the state that it was dropped in (power & listening channel).
-
 #### QBCore Support
 
 [OX inventory has officially dropped QBCore support in sole favor of the Qbox framework. However, full functionality can still work.](https://overextended.dev/ox_inventory/Frameworks/qbx)
