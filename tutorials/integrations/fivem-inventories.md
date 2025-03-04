@@ -67,12 +67,17 @@ Qbox requires you to manually add the following to your `/ox_inventory/data/item
 <summary>Ox Inventory Items File</summary>
 
 ```lua
-    ['sonoran_radio_scanner'] = {
+['sonoran_radio_scanner'] = {
         label = 'Sonoran Radio Scanner',
         description = 'Listen to radio chatter with the Sonoran Radio Scanner',
         weight = 1,
         client = {
-            image = 'radio.png'
+            image = 'radio.png',
+            remove = function(total)
+                if total < 1 then
+                    TriggerServerEvent('SonoranRadio::DropItem::Scanner')
+                end
+            end
         }
     },
     ['sonoran_radio'] = {
