@@ -43,12 +43,13 @@ Config.ScannerItem = {
 
 </details>
 
-### Supported Inventories
+### Supported Inventories (QBCore)
 
 Currently, the following QBCore inventories are supported:
 
 * QBCore Inventory
-* OX Inventory ([OX has officially depreciated support for QBCore, but functionality can still work](https://overextended.dev/ox_inventory/Frameworks/qbx))
+* OX Inventory
+* QS Inventory
 
 ## Qbox
 
@@ -92,3 +93,38 @@ Qbox requires you to manually add the following to your `/ox_inventory/data/item
 
 </details>
 
+### Supported Inventories (Qbox)
+
+Currently, the following Qbox inventories are supported:
+
+* OX Inventory
+
+## Known Issues and Limitations
+
+### OX Inventory
+
+<details>
+
+<summary>OX Inventory Bugs and Limitations</summary>
+
+#### Drop and Pick-Up State Restore
+
+Due to how OX stores item metadata, dropping a scanner item on the ground and picking it back up will not restore the state that it was dropped in (power & listening channel).
+
+#### QBCore Support
+
+[OX inventory has officially dropped QBCore support in sole favor of the Qbox framework. However, full functionality can still work.](https://overextended.dev/ox_inventory/Frameworks/qbx)
+
+</details>
+
+### QS Inventory
+
+<details>
+
+<summary>QS Inventory Bugs and Limitations</summary>
+
+#### Official Support
+
+While QS inventory has not been officially tested with Sonoran Radio, customers have reported it working with full functionality. Report any issues on our [support website](https://support.sonoransoftware.com).
+
+</details>
