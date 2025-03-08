@@ -139,6 +139,25 @@ Override Talkover Protection: `sonoranradio.radiotalkover`&#x20;
 
 </details>
 
+### Permission Sync Example
+
+<details>
+
+<summary>Permission Sync Configuration Example</summary>
+
+```
+# Grant the ADMIN radio permission to everyone in the admin group
+add_ace group.admin sonoranradio.admin allow
+
+# Grant the talkover-override permission to everyone in the admin group
+add_ace group.admin sonoranradio.radiotalkover
+
+# Auto-approve everyone in the leo group
+add_ace group.leo sonoranradio.autoapprove allow
+```
+
+</details>
+
 ## ACE Permission Tools
 
 You can also use external services like [Sonoran CMS](https://info.sonorancms.com/integration-capabilities/qb-core-game-panel/using-the-game-panel/aces-and-principals) to easily manage ACE permissions via ranks and Discord roles.
