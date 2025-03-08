@@ -71,6 +71,12 @@ ACE permission sync allows you to automatically approve users in the radio commu
 
 This sync is ran whenever you turn the radio on and connect.
 
+{% hint style="danger" %}
+**ACE permission sync will override all existing user permissions.**
+
+**Any manually granted permissions will be removed**, ensuring the user has only the permissions configured through ACE.
+{% endhint %}
+
 [View other ways to manage user permissions.](../../getting-started/invite-and-manage-users.md)
 
 ### Enable ACE Permission Sync
