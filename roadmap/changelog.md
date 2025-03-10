@@ -4,10 +4,10 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # Changelog
 
-### 2.16.0 - 02/27/2025
+### 2.16.0 - 03/10/2025
 
 {% tabs %}
-{% tab title="undefined" %}
+{% tab title="New" %}
 Qbox & OX Inventory Support
 
 * Added support for OX inventory in both QBCore and QBox
