@@ -98,3 +98,30 @@ Programatically update a user's radio display name
 -- Set your current display name in the radio
 exports['sonoranradio']:handleNameChange('my new name')
 ```
+
+## Tower Destruction
+
+Get notified when a radio tower is destroyed or repaired
+
+```lua
+-- Event sent from Sonoran Radio (server-side)
+TriggerEvent('SonoranRadio::API:TowerDishDestroyed', towerId, tower.DishStatus)
+
+-- Event listener in a custom script
+AddEventHandler('SonoranRadio::API:TowerDishDestroyed', function(playerSource, towerId, dishStatus) 
+  print(playerSource) -- The player ID that destroyed the dish
+  print(towerId) -- Numerical ID of the tower
+  print(dishStatus) -- Array of statuses {'alive', 'alive', 'dead', 'alive'}
+end)
+
+-- Event sent from Sonoran Radio (server-side)
+TriggerEvent('SonoranRadio::API:TowerRepaired', towerId, tower.DishStatus)
+
+-- Event listener in a custom script
+AddEventHandler('SonoranRadio::API:TowerRepaired', function(playerSource, towerId, dishStatus) 
+  print(playerSource) -- The player ID that repaired the tower
+  print(towerId) -- Numerical ID of the tower
+  print(dishStatus) -- Array of statuses {'alive', 'alive', 'alive', 'alive'}
+                    -- (NOTE: will always contain all 'alive')
+end)
+```
