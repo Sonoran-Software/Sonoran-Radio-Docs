@@ -1,37 +1,38 @@
 ---
 title: TeamSpeak Websocket API
-description: 
 published: true
 date: 2022-05-25T19:52:02.293Z
-tags: 
+tags: null
 editor: markdown
 dateCreated: 2021-10-13T04:55:08.744Z
 ---
 
-# Connecting
+# TeamSpeak Websocket API
+
+## Connecting
 
 The websocket is available to connect to @ `ws://localhost:33802`. FiveM blocks all connections to `localhost` and `127.0.0.1`, so use `ws://[::1]:33802` instead (the IPv6 counterpart). This is **not** a secure websocket connection.
 
-## type field
+### type field
 
 All events **MUST** include a `type` field that will indicate the type of event that is being passed. The other fields of the event will depend on `type`.
 
-## to_cid field
+### to\_cid field
 
- Unless otherwise specified, all client->ws events **SHOULD** accept an optional `to_cid` field. This field dictates to which connection (or tab) the event is being passed to. If this field is ommitted, then the event will be dispatched to all connections.
- 
- # Structures
+Unless otherwise specified, all client->ws events **SHOULD** accept an optional `to_cid` field. This field dictates to which connection (or tab) the event is being passed to. If this field is ommitted, then the event will be dispatched to all connections.
+
+## Structures
 
 Includes all structures that will be frequently used across the client.
 
-## <var>frequency</var>
+### frequency
 
 ```ts
 type frequency = [number, number] // both integers (NOT FLOATS!)
 ```
 
-## <var>client_state</var>
- 
+### client\_state
+
 ```ts
 interface client_state {
   spec: number; // incremented on major version upgrade
@@ -53,9 +54,9 @@ interface client_state {
 }
 ```
 
-## <var>client_gamestate</var>
+### client\_gamestate
 
-**Since**: *0.1.2*
+**Since**: _0.1.2_
 
 ```ts
 interface client_gamestate {
@@ -67,7 +68,7 @@ interface client_gamestate {
 }
 ```
 
-## <var>server_config</var>
+### server\_config
 
 ```ts
 interface server_config {
@@ -97,9 +98,9 @@ interface server_config {
 }
 ```
 
-## <var>controller</var>
+### controller
 
-There is one unique controller per authorized connection (tab). If the connection is not authorized to use Sonoran Radio, then the controller *does not exist*.
+There is one unique controller per authorized connection (tab). If the connection is not authorized to use Sonoran Radio, then the controller _does not exist_.
 
 ```ts
 interface controller {
@@ -115,7 +116,7 @@ interface controller {
 }
 ```
 
-## <var>channel_client</var>
+### channel\_client
 
 ```ts
 interface channel_client {
@@ -126,13 +127,14 @@ interface channel_client {
 }
 ```
 
-# Client->WS Events
- 
+## Client->WS Events
+
 All events will be categorized by their `type` field, with an example of what each event will do. All events, except ones specifically stating otherwise, will accept `to_cid`.
 
-## Errors
+### Errors
 
 If an exception (error) occurs while handling an event, it will dispatch a ws->client events that contains error information.
+
 ```json
 {
   "error": true, // always true in cases of errors.
@@ -141,8 +143,8 @@ If an exception (error) occurs while handling an event, it will dispatch a ws->c
 }
 ```
 
-## <var>get_controllers</var>
- 
+### get\_controllers
+
 Will immediately produce the `recv_controllers` ws->client event
 
 **Minimum tier**: `Free`
@@ -153,7 +155,7 @@ Will immediately produce the `recv_controllers` ws->client event
 }
 ```
 
-## <var>get_controller_data</var>
+### get\_controller\_data
 
 Will immediately produce the `recv_controller_data` ws->client. Recommended to be used with `to_cid`, otherwise just use `get_controllers`.
 
@@ -165,7 +167,7 @@ Will immediately produce the `recv_controller_data` ws->client. Recommended to b
 }
 ```
 
-## <var>set_frequencies</var>
+### set\_frequencies
 
 Sets the XMIT & RECV frequencies of own client
 
@@ -179,7 +181,7 @@ Sets the XMIT & RECV frequencies of own client
 }
 ```
 
-## <var>set_frequencies_scanned</var>
+### set\_frequencies\_scanned
 
 **Minimum tier**: `Pro`
 
@@ -190,7 +192,7 @@ Sets the XMIT & RECV frequencies of own client
 }
 ```
 
-## <var>set_scanning_enabled</var>
+### set\_scanning\_enabled
 
 **Minimum tier**: `Pro`
 
@@ -201,12 +203,11 @@ Sets the XMIT & RECV frequencies of own client
 }
 ```
 
-## <var>set_gamestate</var>
+### set\_gamestate
 
 Should be called often. If left untouched for >5m, `state.game` will revert to `null`
 
-**Since**: 0.1.2
-**Minimum tier**: `Free`
+**Since**: 0.1.2 **Minimum tier**: `Free`
 
 ```json
 {
@@ -215,7 +216,7 @@ Should be called often. If left untouched for >5m, `state.game` will revert to `
 }
 ```
 
-## <var>print_chat_message</var>
+### print\_chat\_message
 
 Prints a message to the chat (only local user can see). Supports TeamSpeak formatting (like BBCode)
 
@@ -228,7 +229,7 @@ Prints a message to the chat (only local user can see). Supports TeamSpeak forma
 }
 ```
 
-## <var>change_channel</var>
+### change\_channel
 
 Changes the channel of the current client
 
@@ -241,11 +242,11 @@ Changes the channel of the current client
 }
 ```
 
-# WS->Client Events
- 
+## WS->Client Events
+
 All events will be categorized by their `type` field, with an example of what each event will do.
 
-## <var>recv_controllers</var>
+### recv\_controllers
 
 Transmitted to the connection directly after `get_controllers` is fired.
 
@@ -256,7 +257,7 @@ Transmitted to the connection directly after `get_controllers` is fired.
 }
 ```
 
-## <var>recv_controller_data</var>
+### recv\_controller\_data
 
 Transmitted to the connection directly after `get_controller_data` is fired.
 
@@ -268,7 +269,7 @@ Transmitted to the connection directly after `get_controller_data` is fired.
 }
 ```
 
-## <var>controller_created</var>
+### controller\_created
 
 A new connection controller has been established. This means there is a new connection (tab) to communicate to.
 
@@ -279,7 +280,7 @@ A new connection controller has been established. This means there is a new conn
 }
 ```
 
-## <var>controller_destroyed</var>
+### controller\_destroyed
 
 An exist connection controller has been destroyed. You are no longer able to communicate with it.
 
@@ -290,7 +291,7 @@ An exist connection controller has been destroyed. You are no longer able to com
 }
 ```
 
-## <var>config_changed</var>
+### config\_changed
 
 The server configuration of a controller has been updated. Note that this does not necessarily mean that the fields of the config have changed, it has just received a new "version"
 
@@ -302,7 +303,7 @@ The server configuration of a controller has been updated. Note that this does n
 }
 ```
 
-## <var>frequencies_updated</var>
+### frequencies\_updated
 
 The client frequencies have updated. This may have been the result of interaction in the plugin, or from an event from a websocket client.
 
@@ -315,7 +316,7 @@ The client frequencies have updated. This may have been the result of interactio
 }
 ```
 
-## <var>frequencies_scanned_updated</var>
+### frequencies\_scanned\_updated
 
 ```json
 {
@@ -326,7 +327,7 @@ The client frequencies have updated. This may have been the result of interactio
 }
 ```
 
-## <var>local_channel_changed</var>
+### local\_channel\_changed
 
 The user of the plugin has changed channels.
 
@@ -337,7 +338,7 @@ The user of the plugin has changed channels.
 }
 ```
 
-## <var>channel_clients_changed</var>
+### channel\_clients\_changed
 
 There has been some update to the clients currently in the channel with the plugin user. Note that this will not broadcast if a channel client updates their state.
 
@@ -349,11 +350,12 @@ There has been some update to the clients currently in the channel with the plug
 }
 ```
 
-## <var>client_xmit_change</var>
+### client\_xmit\_change
 
 Broadcasted whenever a client in a patrol channel begins or ends a transmission. This will be broadcasted if any client speaks, even if this client cannot hear the other.
 
 The `xmit_type` is the internal mic click identifier. `*_talk_permit` at the beginning of a transmission, and `*_squelch` is at the end of a transmission. The current values passed are (NOTE: may change in the future):
+
 * `self_talk_permit`
 * `self_squelch`
 * `unit_talk_permit`

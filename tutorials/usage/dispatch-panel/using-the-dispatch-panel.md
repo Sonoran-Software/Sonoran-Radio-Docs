@@ -40,6 +40,10 @@ Hotkeys allow for faster actions at the press of a button. These can be configur
 * [Change Channel](using-the-dispatch-panel.md#switching-transmit-and-scanned-channels)
 * [Volume Change](using-the-dispatch-panel.md#volume-sliders)
 
+Right click on a hotkey button for the option to clear it.
+
+![](<../../../.gitbook/assets/image (117).png>)
+
 </details>
 
 ### Transmitting (Push to Talk)
