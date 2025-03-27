@@ -4,6 +4,50 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # Changelog
 
+### 2.17.0 - 04/01/2025
+
+{% tabs %}
+{% tab title="New" %}
+Multi-Channel Transmit
+
+* `CTRL` + `Click` on a channel to transmit on multiple at once.
+
+Chatter: Volume Level from Source Player
+
+* In-game chatter volume is based on the person's actual radio volume. Turning down your radio on a traffic stop will make it quieter for people around you.
+
+Hotkeys: Per-Channel PTT
+
+* Added customizable per-channel PTT buttons in the dispatcher panel, allowing users to quickly switch and talk in a specific channel with one key.
+
+Hotkeys: Clear/Un-Set
+
+* Right-click on a hotkey to clear it.
+
+Radio Event: 911 Call Answered - Dispatcher Name
+
+* Added the ability to see the 911 call's dispatcher name both in-game and programmatically with the resource API.
+
+Tower Destruction Events
+
+* Added in-game events on tower destruction to help log who damaged the repeaters.
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#27676: Mic Perm Reset
+
+* If a user clicks deny on the in-game F8 mic permissions, it will reprompt them every time they try and use the radio.
+
+Modern UI - Remove Scrollbar
+
+* Hid the vertical scrollbar on the modern UI when in-game.
+
+Channel TTS Cache Busting
+
+* Fixed an issue causing the channel AI TTS audio to not clear cache when updated directly from the dispatch panel.
+{% endtab %}
+{% endtabs %}
+
 ### 2.16.0 - 03/10/2025
 
 {% tabs %}
