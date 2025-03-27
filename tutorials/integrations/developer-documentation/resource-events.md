@@ -56,12 +56,12 @@ end)
 
 ```lua
 -- Event sent from Sonoran Radio
-TriggerEvent('SonoranRadio::API:EmergencyCallDispatcher', available)
+TriggerEvent('SonoranRadio::API:EmergencyCallDispatcher', dispatcherNames)
 
 -- Event listener in a custom script
-AddEventHandler('SonoranRadio::API:EmergencyCallDispatcher', function(available)
-    print(available) -- Boolean (is a dispatcher attached to the call)
-    -- NOTE: does not receive `false` if emergency call is ended
+AddEventHandler('SonoranRadio::API:EmergencyCallDispatcher', function(dispatcherNames)
+    print(dispatcherNames) -- Table with strings for the dispatcher's names
+    -- NOTE: does not receive `{}` if emergency call is ended
     -- (above event will receive that)
 end)
 ```
