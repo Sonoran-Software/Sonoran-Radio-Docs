@@ -46,6 +46,7 @@
     * [Browser Microphone Permissions](tutorials/usage/troubleshooting/browser-microphone-permissions.md)
     * [In-Game Volume Too Low](tutorials/usage/troubleshooting/in-game-volume-too-low.md)
     * [Mac Keybinds](tutorials/usage/troubleshooting/mac-keybinds.md)
+    * [In-Game Timeouts](tutorials/usage/troubleshooting/in-game-timeouts.md)
 * [Integrations](tutorials/integrations/README.md)
   * [AI](tutorials/integrations/ai.md)
   * [Sonoran CMS](tutorials/integrations/sonoran-cms.md)
