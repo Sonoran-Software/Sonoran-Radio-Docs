@@ -16,7 +16,7 @@ Navigate to [platform.openai.com](https://platform.openai.com/) and create an ac
 
 At the top left, select `Create Project` for a new category of Sonoran Radio API keys.
 
-<div><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>OpenAI: Create Project</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>OpenAI: Name Project</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>OpenAI: Create Project</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>OpenAI: Name Project</p></figcaption></figure></div>
 
 ### 2. Add Billing Information
 
@@ -34,7 +34,7 @@ Give the new API key a name (we recommend a separate key for [each AI feature](a
 
 You can also restrict each key's model access based on the [specific feature's requirements](ai.md#ai-options).
 
-<div><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>OpenAI: Generate Key</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="251"><figcaption><p>OpenAI: Generate Key</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>OpenAI: Generate Key</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="251"><figcaption><p>OpenAI: Generate Key</p></figcaption></figure></div>
 
 ### 4. Add your API Key to Sonoran Radio
 

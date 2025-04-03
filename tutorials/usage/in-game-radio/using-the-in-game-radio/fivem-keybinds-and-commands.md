@@ -12,7 +12,7 @@ To customize these, navigate to your GTA `Settings` -> `Key Bindings` -> `FiveM`
 
 Communities can also customize the default keybinds for new users in the [configuration's](../../../getting-started/installing-the-in-game-resource.md#updates) `keybind` property.
 
-<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>FiveM Keybinds: Sonoran Radio</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6) (3).png" alt=""><figcaption><p>FiveM Keybinds: Sonoran Radio</p></figcaption></figure>
 
 ### Radio Power
 

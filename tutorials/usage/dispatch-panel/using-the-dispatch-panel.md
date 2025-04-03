@@ -35,6 +35,7 @@ Hotkeys allow for faster actions at the press of a button. These can be configur
 ![](<../../../.gitbook/assets/image (1) (1) (2) (1).png>)
 
 * [Push to Talk](using-the-dispatch-panel.md#transmitting-push-to-talk)
+* [Temporary Per-Channel Push to Talk](using-the-dispatch-panel.md#transmitting-push-to-talk)
 * [Tone Board](custom-tone-board.md)
 * [Change Group Tab](using-the-dispatch-panel.md#switching-transmit-and-scanned-channels-1)
 * [Change Channel](using-the-dispatch-panel.md#switching-transmit-and-scanned-channels)
@@ -52,9 +53,15 @@ Right click on a hotkey button for the option to clear it.
 
 <summary>Dispatch Push To Talk</summary>
 
-To transmit over Sonoran Radio, you can press the microphone button on the top-left
+To transmit over Sonoran Radio, you can press the microphone button on the top-left.
 
-<img src="../../../.gitbook/assets/chrome_GFH0uLrq05.png" alt="Sonoran Radio - Transmit Button" data-size="original">
+Alternatively, use the [PTT hotkey](using-the-dispatch-panel.md#hotkeys-keybinds).
+
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Dispatch: PTT Button</p></figcaption></figure>
+
+To temporarily transmit in a single channel, and move back to your original channel afterwards, select the keyboard icon to set a per-channel XMIT hotkey.
+
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Dispatch: Per-Channel XMIT Hotkey</p></figcaption></figure>
 
 </details>
 
@@ -64,7 +71,11 @@ To transmit over Sonoran Radio, you can press the microphone button on the top-l
 
 <summary>Switching Transmit and Scanned Channels</summary>
 
-To switch to another channel, click the microphone button on the channel card
+To switch to another channel, click the microphone button on the channel card.
+
+`CTRL` + `Click` on the microphone option to transmit on multiple channels at once.
+
+[You can also change channels via hotkey.](using-the-dispatch-panel.md#hotkeys-keybinds)
 
 <img src="../../../.gitbook/assets/chrome_RoHvxqifER.png" alt="Sonoran Radio - Switch Channel" data-size="original">
 
@@ -103,7 +114,7 @@ Right click in the user to:
 * Adjust the user's volume ([Requires Permission](../../getting-started/invite-and-manage-users.md#manage-user-permissions))
 * Change the user's display name ([Requires Permission](../../getting-started/invite-and-manage-users.md#manage-user-permissions))
 
-![](<../../../.gitbook/assets/image (5).png>)
+![](<../../../.gitbook/assets/image (5) (3).png>)
 
 </details>
 
@@ -119,7 +130,7 @@ Dispatchers can [right-click the user to clear the panic](using-the-dispatch-pan
 
 The [customizable panic sound effect](custom-sfx.md) will also alert dispatchers to an active unit panic.
 
-![](<../../../.gitbook/assets/image (4) (1).png>)
+![](<../../../.gitbook/assets/image (4) (1) (2).png>)
 
 </details>
 
