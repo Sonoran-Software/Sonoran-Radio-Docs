@@ -4,9 +4,18 @@ description: Learn how to download and install the in-game resource.
 
 # Installing the In-Game Resource
 
-{% embed url="https://youtu.be/X8Ylo2wwo3A?t=53" %}
+## A. One-Click Installation (RocketNode)
 
-## Pre-Configured Resource Installation (Recommended)
+We've partnered with Rocket Node to bring you one-click Sonoran Radio installation for FiveM — making it easier than ever to host your community and connect with Sonoran Radio.
+
+* [Purchase your FiveM Game Server!](https://sonoran.link/p62G7ncv)
+* Use code `SONORAN` to save big!
+
+{% embed url="https://www.youtube.com/watch?v=1Vw4XwiLKgY" %}
+
+## B. Pre-Configured Resource Installation
+
+{% embed url="https://youtu.be/X8Ylo2wwo3A?t=53" %}
 
 ### 1. Download the ZIP
 
@@ -47,7 +56,7 @@ Start this resource **AFTER** your preferred framework and any additional framew
 
 ***
 
-## Resource Installation (Manual)
+## C. Resource Installation (Manual)
 
 ### 1. Download the ZIP
 
@@ -94,6 +103,10 @@ Example of what NOT to do: `ensure [sonoranradio]`
 
 ## Configuration Values <a href="#updates" id="updates"></a>
 
+<details>
+
+<summary>Configuration Options</summary>
+
 | Parameter                    | Default                                                                                                                                                                                                                    | Description                                                                                                                                                                                                                                            |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `comId`                      | EMPTY                                                                                                                                                                                                                      | The Sonoran Radio Community ID                                                                                                                                                                                                                         |
@@ -133,6 +146,10 @@ Example of what NOT to do: `ensure [sonoranradio]`
 | `noPhysicalCellRepeaters`    | `false`                                                                                                                                                                                                                    | Hide the in-game cellular antenna repeaters                                                                                                                                                                                                            |
 | `noPhysicalRacks`            | `false`                                                                                                                                                                                                                    | Hide the in-game server rack repeaters                                                                                                                                                                                                                 |
 | `noPhysicalTowers`           | `false`                                                                                                                                                                                                                    | Hide the in-game tower repeaters                                                                                                                                                                                                                       |
+
+
+
+</details>
 
 ***
 
