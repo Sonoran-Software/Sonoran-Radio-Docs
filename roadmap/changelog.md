@@ -4,6 +4,24 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # Changelog
 
+### 2.17.2 - 04/07/2025
+
+{% tabs %}
+{% tab title="Fixed" %}
+Audio Duplication and Static
+
+* Fixed an issue causing some users to transmit doubled audio (echoing) and/or constant static when not using the vocoder.
+
+\#28123 - Local SFX
+
+* Fixed an issue causing local custom mic click SFX to not work.
+
+RocketNode Promotional Images
+
+* Fixed an issue causing RocketNode promotional images to not load in the app versions of Sonoran Radio.
+{% endtab %}
+{% endtabs %}
+
 ### 2.17.0 - 04/03/2025
 
 {% tabs %}
