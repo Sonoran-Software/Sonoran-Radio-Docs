@@ -34,12 +34,7 @@ Extract the .zip file into your resources directory. Place the `sonoranradio` an
 In your `server.cfg` file, add the following:
 
 ```
-# Start the sonoranradio resource
-ensure sonoranradio
-
-# Permissions for auto-updater (REQUIRED)
-add_ace resource.sonoranradio command allow
-add_ace resource.sonoranradio_updatehelper command allow
+exec @sonoranradio/sonoranradio.cfg
 ```
 
 {% hint style="danger" %}
