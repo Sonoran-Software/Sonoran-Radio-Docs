@@ -9,6 +9,7 @@ description: >-
   Not only do Sonoran Servers customers receive free in-game Radio installation,
   but can save 30%-100% on your Sonoran Radio subscription every month when you
   purchase a Windows Server from us
+hidden: true
 ---
 
 # Free in-game Radio Installation and Discount - Sonoran Servers

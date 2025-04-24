@@ -9,6 +9,7 @@ description: >-
   This guide covers the next steps after receiving free Sonoran Radio in-game
   resource installation with your Sonoran Servers Windows Server or Expert
   Installation.
+hidden: true
 ---
 
 # Free in-game Radio Installation - Next Steps

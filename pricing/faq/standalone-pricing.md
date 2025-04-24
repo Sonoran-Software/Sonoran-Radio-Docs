@@ -56,6 +56,20 @@ Pulled over in a traffic stop? You'll hear the real radio chatter when an office
 | Plus         | 🚫    |
 | Pro          | ✅     |
 
+### In-Game Background Audio
+
+{% hint style="warning" %}
+Coming Soon!
+{% endhint %}
+
+Hear in-game sirens, helicopter rotors, gunshots, and more fed into the background of your microphone while transmitting.
+
+| Subscription | Limit |
+| ------------ | ----- |
+| Free         | 🚫    |
+| Plus         | 🚫    |
+| Pro          | ✅     |
+
 <figure><img src="../../.gitbook/assets/Radio_ProFeats.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### [Community-Wide Sound Effect Customization](../../tutorials/usage/dispatch-panel/custom-sfx.md#community-wide-sfx)
