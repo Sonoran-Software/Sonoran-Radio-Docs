@@ -39,7 +39,7 @@
     * [Connected Users List](tutorials/usage/in-game-radio/connected-users-list.md)
     * [Configuring ACE Permissions](tutorials/usage/in-game-radio/configuring-ace-permissions.md)
     * [IP Whitelisting](tutorials/usage/in-game-radio/ip-whitelisting.md)
-    * [Background Audio](tutorials/usage/in-game-radio/background-audio.md)
+    * [Background Noise](tutorials/usage/in-game-radio/background-noise.md)
   * [Troubleshooting](tutorials/usage/troubleshooting/README.md)
     * [Error Codes](tutorials/usage/troubleshooting/error-codes.md)
     * [Client Debug Mode](tutorials/usage/troubleshooting/client-debug-mode.md)

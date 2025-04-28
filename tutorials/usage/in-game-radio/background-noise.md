@@ -4,8 +4,10 @@ description: >-
   blades, gunfire, and more blended into your microphone audio.
 ---
 
-# Background Audio
+# Background Noise
 
 {% hint style="warning" %}
 Coming soon!
 {% endhint %}
+
+<figure><img src="../../../.gitbook/assets/Audio_Injection.png" alt=""><figcaption><p>Sonoran Radio - Background Noise Injection</p></figcaption></figure>
