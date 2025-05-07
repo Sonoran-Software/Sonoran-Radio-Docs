@@ -44,6 +44,24 @@ When a [user toggles their panic state](../in-game-radio/using-the-in-game-radio
 
 When a user changes their volume in the [dispatch panel](using-the-dispatch-panel.md#hotkeys-keybinds) or [in-game](../in-game-radio/using-the-in-game-radio/fivem-keybinds-and-commands.md#volume-up-down) via hotkey, they will hear the `Volume Up/Down (Hotkey) SFX` audio.
 
+## [Background Audio Injection](../in-game-radio/background-noise.md)
+
+Background audio injection blends in-game sounds—like sirens, helicopter rotors, boat engines, and gunshots—into your microphone output.
+
+If you're responding with sirens active, others on the radio will hear them in the background of your voice transmissions.
+
+### In-Game Siren
+
+When the user is inside of or near a vehicle with a siren activated, this sound effect will be played in the background of their transmissions.
+
+### In-Game Boat Engine
+
+When the user is inside of a boat, this engine and water noise sound effect will be played in the background of their transmissions.
+
+### In-Game Pistol & Rifle (Silenced)
+
+When the user shooting or near someone shooting, this sound effect will be played in the background of their transmissions.
+
 ***
 
 ## Per-User SFX

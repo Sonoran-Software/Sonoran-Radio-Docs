@@ -60,10 +60,6 @@ Pulled over in a traffic stop? You'll hear the real radio chatter when an office
 
 <figure><img src="../../.gitbook/assets/Audio_Injection.png" alt="" width="375"><figcaption></figcaption></figure>
 
-{% hint style="warning" %}
-Coming Soon!
-{% endhint %}
-
 Experience immersive, realistic transmissions with in-game sirens, rotor blades, gunfire, and more blended into your microphone audio.
 
 | Subscription | Limit |
