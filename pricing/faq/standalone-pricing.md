@@ -56,7 +56,7 @@ Pulled over in a traffic stop? You'll hear the real radio chatter when an office
 | Plus         | 🚫    |
 | Pro          | ✅     |
 
-### [In-Game Background Audio](../../tutorials/usage/in-game-radio/background-noise.md)
+### [In-Game Background Audio](../../tutorials/usage/in-game-radio/background-audio-injection.md)
 
 <figure><img src="../../.gitbook/assets/Audio_Injection.png" alt="" width="375"><figcaption></figcaption></figure>
 

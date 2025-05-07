@@ -44,7 +44,7 @@ When a [user toggles their panic state](../in-game-radio/using-the-in-game-radio
 
 When a user changes their volume in the [dispatch panel](using-the-dispatch-panel.md#hotkeys-keybinds) or [in-game](../in-game-radio/using-the-in-game-radio/fivem-keybinds-and-commands.md#volume-up-down) via hotkey, they will hear the `Volume Up/Down (Hotkey) SFX` audio.
 
-## [Background Audio Injection](../in-game-radio/background-noise.md)
+## [Background Audio Injection](../in-game-radio/background-audio-injection.md)
 
 Background audio injection blends in-game sounds—like sirens, helicopter rotors, boat engines, and gunshots—into your microphone output.
 

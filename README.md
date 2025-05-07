@@ -100,7 +100,7 @@ In-game scanners allow you and others nearby to listen in on radio traffic!
 
 <figure><img src=".gitbook/assets/scanner.png" alt=""><figcaption><p>Sonoran Radio - In-Game Scanner</p></figcaption></figure>
 
-## 🎤️ [Background Noise Injection](tutorials/usage/in-game-radio/background-noise.md)
+## 🎤️ [Background Noise Injection](tutorials/usage/in-game-radio/background-audio-injection.md)
 
 Responding to a call? Sonoran Radio injects real-time sirens, gunshots, and more directly into your microphone feed for the ultimate immersion.
 
