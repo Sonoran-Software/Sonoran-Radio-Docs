@@ -44,6 +44,17 @@ Depending upon your subscription level, your community is limited to the maximum
 | Plus         | 5 Radio Channels         |
 | Pro          | Unlimited Radio Channels |
 
+### [Multi-Server](../../tutorials/usage/dispatch-panel/multi-server.md)
+
+Using multiple identical servers for overflow?\
+Multi-server lets each server run independently while sharing the same channel setup, keeping communications separate and organized.
+
+| Subscription | Limit             |
+| ------------ | ----------------- |
+| Free         | 1 Server          |
+| Plus         | 1 Server          |
+| Pro          | Unlimited Servers |
+
 ### [Hear Nearby Radio Chatter](../../tutorials/usage/in-game-radio/hear-nearby-radio-chatter.md) and [Scanners](../../tutorials/usage/in-game-radio/radio-scanners.md)
 
 <div><figure><img src="../../.gitbook/assets/image (37).png" alt="" width="375"><figcaption><p>Sonoran Radio - Hear Nearby Chatter</p></figcaption></figure> <figure><img src="../../.gitbook/assets/scanner.png" alt="" width="375"><figcaption><p>Sonoran Radio - Scanners</p></figcaption></figure></div>

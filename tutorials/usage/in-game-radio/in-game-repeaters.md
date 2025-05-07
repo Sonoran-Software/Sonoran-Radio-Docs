@@ -18,19 +18,7 @@ Press `E` on the door to open it.
 
 Each server inside can be individually destroyed and will fall separately out of the rack. These can be configured with 1-5 servers in each. As more of these servers are destroyed, the repeater signal will diminish.
 
-<div>
-
-<figure><img src="../../../.gitbook/assets/server.png" alt=""><figcaption><p>Server Rack</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/server_opened (1).png" alt=""><figcaption><p>Server Rack - Opened</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/server_destroyed (1).png" alt=""><figcaption><p>Server Rack - Destroyed</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../.gitbook/assets/server.png" alt=""><figcaption><p>Server Rack</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/server_opened (1).png" alt=""><figcaption><p>Server Rack - Opened</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/server_destroyed (1).png" alt=""><figcaption><p>Server Rack - Destroyed</p></figcaption></figure></div>
 
 ### Radio Tower
 
@@ -40,15 +28,7 @@ Players can climb the ladder to reach the top.
 
 There are four dishes inside that each account for 25% of the health. As more of these dishes are destroyed, the repeater signal will diminish.
 
-<div>
-
-<figure><img src="../../../.gitbook/assets/tower (1).png" alt=""><figcaption><p>Radio Tower</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/tower_broken.png" alt=""><figcaption><p>Radio Tower - Destroyed</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../.gitbook/assets/tower (1).png" alt=""><figcaption><p>Radio Tower</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/tower_broken.png" alt=""><figcaption><p>Radio Tower - Destroyed</p></figcaption></figure></div>
 
 ### Cellular Antenna
 
@@ -56,15 +36,7 @@ Cellular antenna style repeaters are found by default on the side of high-rises 
 
 Destroying this antenna will disable it's repeater range.
 
-<div>
-
-<figure><img src="../../../.gitbook/assets/cell.png" alt=""><figcaption><p>Cellular Antenna</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/cell_destroyed.png" alt=""><figcaption><p>Cellular Antenna - Destroyed</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../.gitbook/assets/cell.png" alt=""><figcaption><p>Cellular Antenna</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/cell_destroyed.png" alt=""><figcaption><p>Cellular Antenna - Destroyed</p></figcaption></figure></div>
 
 ### Custom Repeaters
 
@@ -86,19 +58,7 @@ To add, edit, or remove a repeater, open the configuration menu by typing `/radi
 
 Access to this command requires the `sonoranradio.towers` [ACE permission](configuring-ace-permissions.md).
 
-<div>
-
-<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Spawn Repeater</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption><p>Move/Edit Repeater</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption><p>Delete Repeater</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Spawn Repeater</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption><p>Move/Edit Repeater</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption><p>Delete Repeater</p></figcaption></figure></div>
 
 #### Manual Configuration
 
@@ -205,11 +165,19 @@ Once damaged and destroyed, the tower no longer provides radio coverage within t
 
 ### Repairing a Tower
 
+#### Individual Towers
+
 Players can walk up to a destroyed repeater and press `G` to being the repair process.
 
 The repair time can be configured in the `config.lua`'s `towerRepairTimer`.
 
 You can also restrict permissions to repairing a tower with [ACE permissions](configuring-ace-permissions.md) by setting `acePermsForTowerRepair` to `true` in the `config.lua`.
+
+#### All Towers
+
+The configuration menu can be used to repair all repeaters on the map at once.
+
+<figure><img src="../../../.gitbook/assets/image (120).png" alt="" width="222"><figcaption><p>Sonoran Radio: Repair All Repeaters</p></figcaption></figure>
 
 ### Viewing Tower Coverage
 
@@ -250,15 +218,7 @@ The [Sonoran Mobile Command Center](https://www.sonoran.store/package/5287071) a
 
 Raise the radio antenna by running the `/mccradio` command.
 
-<div>
-
-<figure><img src="../../../.gitbook/assets/mcc.png" alt=""><figcaption><p>Sonoran Mobile Command Center</p></figcaption></figure>
-
- 
-
-<figure><img src="../../../.gitbook/assets/mcc_radio.png" alt=""><figcaption><p>Sonoran Mobile Command Center</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../.gitbook/assets/mcc.png" alt=""><figcaption><p>Sonoran Mobile Command Center</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/mcc_radio.png" alt=""><figcaption><p>Sonoran Mobile Command Center</p></figcaption></figure></div>
 
 ### Hacking Repeaters - Power Grid Integration
 
