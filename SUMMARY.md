@@ -57,6 +57,7 @@
   * [Vehicle Radio Display](tutorials/integrations/vehicle-radio-display.md)
   * [Big Daddy Radio Animations](tutorials/integrations/big-daddy-radio-animations.md)
   * [FiveM Inventories](tutorials/integrations/fivem-inventories.md)
+  * [FiveM Phone Scripts](tutorials/integrations/fivem-phone-scripts.md)
   * [Developer Documentation](tutorials/integrations/developer-documentation/README.md)
     * [Resource API](tutorials/integrations/developer-documentation/resource-events.md)
     * [API Endpoints](tutorials/integrations/developer-documentation/api-endpoints/README.md)

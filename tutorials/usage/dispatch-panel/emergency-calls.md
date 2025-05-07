@@ -28,9 +28,20 @@ Dispatchers can end an emergency call with the red "End Call" button, and in-gam
 
 <figure><img src="../../../.gitbook/assets/image (84).png" alt=""><figcaption><p>Sonoran Radio - End 911 Call</p></figcaption></figure>
 
-## Customize The Emergency Number
+## Customize The Emergency Number & Banner
 
-You can customize `911` to any other number or word by [editing the config file](../../getting-started/installing-the-in-game-resource.md#updates)'s `emergencyCommand` property.
+By [editing the config file](../../getting-started/installing-the-in-game-resource.md#updates) you can customize the following options:
+
+1. Customize `911` to any other number or word by editing the `emergencyCommand` property.
+2. Hide the user's emergency call banner by setting `showEmergencyCallHelp` to `false`.
+
+## Integrated Phone Scripts
+
+Sonoran Radio also integrates with popular FiveM phone scripts like LB Phone!
+
+{% content-ref url="../../integrations/fivem-phone-scripts.md" %}
+[fivem-phone-scripts.md](../../integrations/fivem-phone-scripts.md)
+{% endcontent-ref %}
 
 ## Developer Documentation
 
