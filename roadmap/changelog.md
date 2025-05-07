@@ -4,6 +4,66 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # Changelog
 
+### 2.18.0 - 05/07/2025
+
+{% tabs %}
+{% tab title="New" %}
+Simulated Background
+
+* Added new functionality to add in simulated background noise for in-game sirens, boat engines, helicopter rotors, and gunshots.
+
+Multi-Server
+
+* Added support for multiple radio servers under one community.
+
+LB Phone Integration
+
+* Added integration with LB phone to call emergency services and hide the emergency call banner from the user's screen.
+
+Default Community Settings
+
+* Added a new customization option for default user settings when joining a community.
+
+Auto-Gain Control
+
+* Set automatic microphone gain to be enabled by default.
+
+Menu: Repair all Repeaters
+
+* Added a new menu option to repair all radio towers and repeaters at once.
+
+\#28108 - Extended Frequency Options
+
+* Removed frequency restrictions from radio channels in advanced mode.
+
+Management Panel Lookups
+
+* Added new internal tools for faster customer support.
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#28202 Connected Users List
+
+* Fixed an issue with users transmitting on multiple channels not showing properly on the in-game user list.
+
+\#28418 - Enforce Radio Item
+
+* Fixed an issue causing the enforce radio inventory item function to not work.
+
+HF: Chatter Exclusions
+
+* Fixed an issue with non-props not working properly as earpieces when configured.
+
+Siren Volume Increase Pop
+
+* Removed the volume increase/decrease sound effect when toggled via the in-game siren toggle.
+
+\#28572 - Desktop Copy
+
+* Fixed a permission issue preventing the community ID/key copy function from working on desktop.
+{% endtab %}
+{% endtabs %}
+
 ### 2.17.2 - 04/07/2025
 
 {% tabs %}
