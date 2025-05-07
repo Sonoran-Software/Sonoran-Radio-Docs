@@ -19,6 +19,7 @@ Multi-Server
 LB Phone Integration
 
 * Added integration with LB phone to call emergency services and hide the emergency call banner from the user's screen.
+* Thank you to [IC-Technologies](https://github.com/IC-Technologies) for providing much of the LB Phone integration code!
 
 Default Community Settings
 
