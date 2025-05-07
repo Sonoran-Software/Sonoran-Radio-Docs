@@ -4,7 +4,7 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # Changelog
 
-### 2.18.0 - 05/07/2025
+### 2.18.0 - 05/08/2025
 
 {% tabs %}
 {% tab title="New" %}

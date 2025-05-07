@@ -8,6 +8,21 @@ description: >-
 
 <details>
 
+<summary>2.18.0 (LB Phone, Background Noise)</summary>
+
+Version 2.18.0 adds a new integration for LB phone and feature to inject background noise into your transmissions.
+
+1. Open your existing `config.lua`
+2. Add the new `Config.showEmergencyCallHelp = true` option. [Setting this to false hides the emergency call banner.](../tutorials/usage/dispatch-panel/emergency-calls.md#customize-the-emergency-number-and-banner)
+3. Add the new `Config.phoneResource = 'none'` option. [Setting this to `'lb-phone'` enables the LB phone integration.](../tutorials/integrations/fivem-phone-scripts.md#lb-phone)
+4. Add the new `Config.enableBackgroundAudio = true` option. [Setting this to false disables the background audio injection feature.](../tutorials/usage/in-game-radio/background-audio-injection.md)
+
+<figure><img src="../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+<details>
+
 <summary>2.15.0 (ACE Perm Sync)</summary>
 
 Version 2.15.0 adds a new feature to manage radio community approval and permissions via ACE perms.
