@@ -19,3 +19,5 @@ LB Phone support for Sonoran Radio is as easy as changing a configuration variab
 ### Usage
 
 In LB Phone, dial 911 ([or your customized number](../usage/dispatch-panel/emergency-calls.md#customize-the-emergency-number-and-banner)) to connect with a Sonoran Radio dispatcher. Press the end call button to hang up.
+
+<div><figure><img src="../../.gitbook/assets/image.png" alt="" width="158"><figcaption><p>Sonoran Radio: LB Phone Emergency Call</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Sonoran Radio: LB Phone Emergency Call</p></figcaption></figure></div>
