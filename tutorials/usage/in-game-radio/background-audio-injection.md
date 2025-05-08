@@ -12,8 +12,8 @@ description: >-
 
 The example video shows audio snippets with:
 
-* Digital Effect: Sirens in Background
-* Vocoder: Helicopter Rotors
+* [Digital Effect](../dispatch-panel/custom-voice-effects.md): Sirens in Background
+* [Vocoder](../dispatch-panel/custom-voice-effects.md): Helicopter Rotors
 
 {% embed url="https://youtu.be/Ea9EowWi-Io" %}
 Sonoran Radio: Background Audio Injection
