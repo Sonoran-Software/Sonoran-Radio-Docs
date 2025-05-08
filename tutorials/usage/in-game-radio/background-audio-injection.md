@@ -4,13 +4,20 @@ description: >-
   rotors, boat engines, and gunshots—into your microphone output.
 ---
 
-# Background Noise
+# Background Audio Injection
 
 <figure><img src="../../../.gitbook/assets/Audio_Injection.png" alt=""><figcaption><p>Sonoran Radio - Background Noise Injection</p></figcaption></figure>
 
 ## Example Video
 
-Coming soon!
+The example video shows audio snippets with:
+
+* Digital Effect: Sirens in Background
+* Vocoder: Helicopter Rotors
+
+{% embed url="https://youtu.be/Ea9EowWi-Io" %}
+Sonoran Radio: Background Audio Injection
+{% endembed %}
 
 ## Using Background Audio Injection
 
