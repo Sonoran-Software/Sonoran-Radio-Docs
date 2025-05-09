@@ -6,7 +6,7 @@ description: This endpoint updates the user's transmitting and scanned channels.
 
 ## Set User Channels
 
-<mark style="color:green;">`POST`</mark> `/radio/set-user-channels/:id/:key/:identity`
+<mark style="color:green;">`POST`</mark> `/api/radio/set-user-channels/:id/:key/:identity`
 
 This endpoint updates the user's transmitting and scanned channels.
 

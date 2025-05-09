@@ -6,7 +6,7 @@ description: This endpoint gets all connected users in a community.
 
 ## Get Connected Users
 
-<mark style="color:green;">`POST`</mark> `/radio/get-connected-users/:id/:key`
+<mark style="color:green;">`POST`</mark> `/api/radio/get-connected-users/:id/:key`
 
 This endpoint gets all connected users in a community.
 
@@ -33,6 +33,8 @@ This endpoint gets all connected users in a community.
     "connectedUsers": [
         {
             "identity": "91de0ce8-c571-11e9-9714-5600023b2434",
+            "name": "John Doe",
+            "roomId": 1,
             "metadata": See "Connected User Metadata" in Data Structures below
         }
     ]

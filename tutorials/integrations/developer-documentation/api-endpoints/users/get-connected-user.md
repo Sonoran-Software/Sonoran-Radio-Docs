@@ -6,7 +6,7 @@ description: This endpoint get a specific, connected user in a community.
 
 ## Get Connected User
 
-<mark style="color:green;">`GET`</mark> `/radio/get-connected-user/:id/:key/:identity`
+<mark style="color:green;">`GET`</mark> `/api/radio/get-connected-user/:id/:key/:roomId/:identity`
 
 This endpoint get a specific, connected user in a community.
 
@@ -18,11 +18,12 @@ This endpoint get a specific, connected user in a community.
 
 **URL Parameters**
 
-| Name       | Type   | Description       |
-| ---------- | ------ | ----------------- |
-| `id`       | string | Community ID      |
-| `key`      | string | Community API Key |
-| `identity` | string | User Account UUID |
+| Name       | Type   | Description          |
+| ---------- | ------ | -------------------- |
+| `id`       | string | Community ID         |
+| `key`      | string | Community API Key    |
+| `roomId`   | number | Multi-Server Room ID |
+| `identity` | string | User Account UUID    |
 
 **Response**
 
@@ -33,6 +34,7 @@ This endpoint get a specific, connected user in a community.
     "result": "ok",
     "data": {
         "identity": "91de0ce8-c571-11e9-9714-5600023b2434",
+        "name": "John Doe",
         "metadata": See "Connected User Metadata" in Data Structures below
     }
 }
