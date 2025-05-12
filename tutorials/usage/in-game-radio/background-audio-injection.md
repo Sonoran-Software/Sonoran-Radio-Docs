@@ -39,3 +39,22 @@ To enable this feature:
 Background audio sounds can be customized in the event of a specific siren type, gunshot sound, etc.
 
 Communities can override the sound effects with custom files in the admin [SFX Customization panel](../dispatch-panel/custom-sfx.md#background-audio-injection).
+
+## Troubleshooting
+
+### Can't Hear Sirens
+
+If sirens are not playing in the background of your microphone (when next to a vehicle with one on), follow these troubleshooting steps.
+
+#### LVC Users (Luxart Vehicle Control)
+
+Sonoran Radio integrates with Luxart Vehicle Control to determine when sirens are activated.
+
+1. Ensure you have configured the `Config.luxartResourceName` configuration option to match the resource name of your installed Luxart Vehicle Control resource.
+2. Ensure you are on the latest version of Luxart Vehicle Control, as older versions do not contain the developer events needed.
+   1. LVC: [Download](https://github.com/TrevorBarns/luxart-vehicle-control/releases)
+   2. LVC Fleet: Coming soon!
+
+#### Native Fallback
+
+For communities not using LVC, the radio defaults to native siren detection. However, it cannot distinguish between just police lights and lights with sirens. As a result, background siren audio will play whenever police lights are active.
