@@ -50,6 +50,7 @@
     * [In-Game Volume Too Low](tutorials/usage/troubleshooting/in-game-volume-too-low.md)
     * [Mac Keybinds](tutorials/usage/troubleshooting/mac-keybinds.md)
     * [In-Game Timeouts](tutorials/usage/troubleshooting/in-game-timeouts.md)
+    * [Device In Use](tutorials/usage/troubleshooting/device-in-use.md)
 * [Integrations](tutorials/integrations/README.md)
   * [AI](tutorials/integrations/ai.md)
   * [Sonoran CMS](tutorials/integrations/sonoran-cms.md)
