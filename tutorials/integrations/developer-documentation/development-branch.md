@@ -44,4 +44,4 @@ When building or testing our API library, you can upgrade your development commu
 
 ## **Developer Discord**
 
-Join our [Discord](http://discord.sonorancad.com/) and view the `#request-role` channel for access to our community testing and development channel. Here you can discuss API related issues, development, and more.
+Join our [Discord](http://discord.sonorancad.com/) and access the `#community-development` channel. Here you can discuss API related issues, development, and more.
