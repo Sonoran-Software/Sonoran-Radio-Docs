@@ -4,7 +4,7 @@ description: Learn how to invite and manage users in your Sonoran Radio communit
 
 # Invite and Manage Users
 
-{% embed url="https://youtu.be/X8Ylo2wwo3A?t=22" %}
+{% embed url="https://youtu.be/5cPJCugzP4g" %}
 
 ## Automatic Join, Kick, Ban, and Permission Sync
 

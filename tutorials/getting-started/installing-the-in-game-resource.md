@@ -15,7 +15,7 @@ We've partnered with Rocket Node to bring you one-click Sonoran Radio installati
 
 ## B. Pre-Configured Resource Installation
 
-{% embed url="https://youtu.be/X8Ylo2wwo3A?t=53" %}
+{% embed url="https://youtu.be/5cPJCugzP4g" %}
 
 ### 1. Download the ZIP
 

@@ -4,7 +4,7 @@ description: Learn more about the in-game radio resource.
 
 # Using the In-Game Radio
 
-{% embed url="https://www.youtube.com/watch?v=FSJOzPkS1uE" %}
+{% embed url="https://youtu.be/x51SsH0LHUM" %}
 
 ## Initial Setup
 

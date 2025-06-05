@@ -4,7 +4,7 @@ description: Learn more about using the Sonoran Radio dispatch panel.
 
 # Using the Dispatch Panel
 
-{% embed url="https://youtu.be/aAKsxZrI3vU?t=73" %}
+{% embed url="https://youtu.be/Mm-sdHeZoHk" %}
 
 ## Dispatch Portal
 
