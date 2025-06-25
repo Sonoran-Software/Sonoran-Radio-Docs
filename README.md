@@ -2,7 +2,7 @@
 description: Learn more about Sonoran Radio for your community.
 ---
 
-# 🏆 Why Choose Sonoran Radio
+# 🏆 Why Sonoran Radio?
 
 ## 💸 Free!
 
@@ -74,7 +74,7 @@ Customizing your radio has never been easier, with live updates from our easy-to
 
 Easily visualize, manage users, play tones, and more!
 
-Sonoran Radio's dispatch UI is available everywhere on the [web](sonoran-radio/download-the-app.md) and [desktop](sonoran-radio/download-the-app.md) for Windows and OSX.
+Sonoran Radio's dispatch UI is available everywhere on the [web](download-the-app.md) and [desktop](download-the-app.md) for Windows and OSX.
 
 <figure><img src=".gitbook/assets/image (75).png" alt=""><figcaption><p>Sonoran Radio - Dispatch Panel</p></figcaption></figure>
 

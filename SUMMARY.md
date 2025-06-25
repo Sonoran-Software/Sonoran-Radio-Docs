@@ -1,9 +1,7 @@
 # Table of contents
 
-## Sonoran Radio
-
-* [🏆 Why Choose Sonoran Radio](README.md)
-* [📱 Download the App](sonoran-radio/download-the-app.md)
+* [🏆 Why Sonoran Radio?](README.md)
+* [📱 Download the App](download-the-app.md)
 
 ## Tutorials
 
