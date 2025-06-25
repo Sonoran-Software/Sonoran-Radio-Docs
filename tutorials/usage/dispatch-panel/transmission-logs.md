@@ -9,7 +9,7 @@ description: Coming soon!
 {% hint style="warning" %}
 Community transmission logs are only available on the pro version.
 
-[Learn more about our paid plans](../../../pricing/faq/).
+[Learn more about our paid plans](broken-reference).
 {% endhint %}
 
 ## Accessing Transmission Logs

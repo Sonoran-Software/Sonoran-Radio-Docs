@@ -9,7 +9,7 @@ description: Discretely listen to your community's radio
 {% hint style="warning" %}
 Due to bandwidth usage, this feature is automatically enabled with the Pro version only!
 
-[Learn more about our paid subscription plans.](../../../pricing/faq/standalone-pricing.md)
+[Learn more about our paid subscription plans.](../../../pricing/standalone-pricing.md)
 {% endhint %}
 
 ## Video Example

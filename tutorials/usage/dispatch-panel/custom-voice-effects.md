@@ -9,7 +9,7 @@ description: Customize digital and analog style voice effects for your community
 {% hint style="warning" %}
 Unless on the Pro version, communities are limited to one voice effect style.
 
-[Learn more about our paid plans](../../../pricing/faq/).
+[Learn more about our paid plans](broken-reference).
 {% endhint %}
 
 ## Available Voice Effects

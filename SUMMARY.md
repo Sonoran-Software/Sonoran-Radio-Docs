@@ -73,49 +73,11 @@
 
 ## Pricing
 
-* [Pricing FAQ](pricing/faq/README.md)
-  * [Standalone Pricing](pricing/faq/standalone-pricing.md)
-  * [Free in-game Radio Installation and Discount - Sonoran Servers](pricing/faq/discounts-and-offers.md)
-  * [Free in-game Radio Installation - Next Steps](pricing/faq/free-install-next-steps.md)
+* [Pricing Information](pricing/standalone-pricing.md)
 
 ## Roadmap & Changelog <a href="#roadmap" id="roadmap"></a>
 
 * [🗺️ Roadmap](https://roadmap.sonoranradio.com/)
-* [Changelog](roadmap/changelog.md)
-* [Migration Guides](roadmap/migration-guides.md)
-
-***
-
-* [TS3 Legacy](ts3-legacy/README.md)
-  * [End Of Support 12/31/24](ts3-legacy/end-of-support-12-31-24.md)
-  * [🏆 Why Choose Sonoran Radio](ts3-legacy/why-choose-sonoran-radio.md)
-  * [Tutorials](ts3-legacy/tutorials/README.md)
-    * [Getting Started](ts3-legacy/tutorials/getting-started/README.md)
-      * [Core Concepts](ts3-legacy/tutorials/getting-started/core-concepts.md)
-      * [Installing the TeamSpeak Plugin](ts3-legacy/tutorials/getting-started/install-plugin.md)
-      * [Registering Your Community](ts3-legacy/tutorials/getting-started/registering-your-community.md)
-      * [Installing the FiveM Radio Script](ts3-legacy/tutorials/getting-started/in-game-radio.md)
-      * [Purchase a Subscription](ts3-legacy/tutorials/getting-started/how-to-purchase.md)
-      * [Switching from SAPR](ts3-legacy/tutorials/getting-started/import-sapr-config.md)
-    * [Plugin Usage](ts3-legacy/tutorials/plugin-usage/README.md)
-      * [Using the TeamSpeak Plugin](ts3-legacy/tutorials/plugin-usage/plugin-usage.md)
-      * [TeamSpeak Spam Protection](ts3-legacy/tutorials/plugin-usage/anti-anti-flood.md)
-      * [Changing Mic Clicks](ts3-legacy/tutorials/plugin-usage/mic-clicks.md)
-    * [Using the FiveM Radio Script](ts3-legacy/tutorials/script-usage.md)
-    * [Permission Setup](ts3-legacy/tutorials/permissions.md)
-    * [Customizing Radio Frames](ts3-legacy/tutorials/customizing-radio-frames.md)
-  * [Developers](ts3-legacy/developers/README.md)
-    * [Development Build](ts3-legacy/developers/ts-dev-build.md)
-    * [TeamSpeak Websocket API](ts3-legacy/developers/ts-ws-api.md)
-  * [Archived Sonoran Radio Versions](ts3-legacy/archive-downloads.md)
-  * [Changelog](ts3-legacy/changelog/README.md)
-    * [📋 In-Game Radio Changelog](ts3-legacy/changelog/fivem-changelog.md)
-    * [📋 Plugin Changelog](ts3-legacy/changelog/ts-changelog.md)
-  * [Migrate from TeamSpeak](ts3-legacy/migrate-from-ts3.md)
-
-## Other
-
-* [Contact Us](https://support.sonoransoftware.com/)
-* [Policy](other/policy/README.md)
-  * [Privacy Policy](other/policy/privacy-policy.md)
-  * [Refund and Purchase Policy](other/policy/refund-and-purchase-policy.md)
+* [Changelog](roadmap/changelog/README.md)
+  * [App Changelog](roadmap/changelog/changelog.md)
+  * [Migration Guides](roadmap/changelog/migration-guides.md)

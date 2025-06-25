@@ -12,7 +12,7 @@ description: >-
 {% hint style="warning" %}
 Multiple servers are only available with the Pro version!
 
-[Learn more about our paid subscription plans.](../../../pricing/faq/standalone-pricing.md)
+[Learn more about our paid subscription plans.](../../../pricing/standalone-pricing.md)
 {% endhint %}
 
 Many communities run multiple game servers to handle user overflow. Sonoran Radio's multi-server support keeps players separated by server while sharing the same channel configurations and customizations across all servers.

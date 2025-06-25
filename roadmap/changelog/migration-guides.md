@@ -13,11 +13,11 @@ description: >-
 Version 2.18.0 adds a new integration for LB phone and feature to inject background noise into your transmissions.
 
 1. Open your existing `config.lua`
-2. Add the new `Config.showEmergencyCallHelp = true` option. [Setting this to false hides the emergency call banner.](../tutorials/usage/dispatch-panel/emergency-calls.md#customize-the-emergency-number-and-banner)
-3. Add the new `Config.phoneResource = 'none'` option. [Setting this to `'lb-phone'` enables the LB phone integration.](../tutorials/integrations/fivem-phone-scripts.md#lb-phone)
-4. Add the new `Config.enableBackgroundAudio = true` option. [Setting this to false disables the background audio injection feature.](../tutorials/usage/in-game-radio/background-audio-injection.md)
+2. Add the new `Config.showEmergencyCallHelp = true` option. [Setting this to false hides the emergency call banner.](../../tutorials/usage/dispatch-panel/emergency-calls.md#customize-the-emergency-number-and-banner)
+3. Add the new `Config.phoneResource = 'none'` option. [Setting this to `'lb-phone'` enables the LB phone integration.](../../tutorials/integrations/fivem-phone-scripts.md#lb-phone)
+4. Add the new `Config.enableBackgroundAudio = true` option. [Setting this to false disables the background audio injection feature.](../../tutorials/usage/in-game-radio/background-audio-injection.md)
 
-<figure><img src="../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -30,7 +30,7 @@ Version 2.15.0 adds a new feature to manage radio community approval and permiss
 1. Open your existing `config.lua`
 2. Add the new `Config.acePermSync = false` property. You can enable and configure this feature if desired.
 
-![](<../.gitbook/assets/image (3) (1) (1).png>)
+![](<../../.gitbook/assets/image (3) (1) (1).png>)
 
 </details>
 
@@ -43,7 +43,7 @@ Version 2.14.0 adds a new feature to increase radio volume when in-game sirens a
 1. Open your existing `config.lua`
 2. Add the new `Config.luxartResourceName = 'lvc'` property.
 
-![](<../.gitbook/assets/image (105).png>)
+![](<../../.gitbook/assets/image (105).png>)
 
 </details>
 
@@ -57,7 +57,7 @@ Version 2.11.0 Migrates the earpiece configuration from the `config.lua`to `earp
 2. Open your existing `config.lua`
 3. Remove the `Config.chatterExclusions` property.
 
-![](<../.gitbook/assets/image (87).png>)
+![](<../../.gitbook/assets/image (87).png>)
 
 </details>
 
@@ -116,7 +116,7 @@ Config.mobileRepeaterKeybind = {
 
 Your `config.lua` show now look like the following:
 
-<img src="../.gitbook/assets/image (80).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (80).png" alt="" data-size="original">
 
 </details>
 
@@ -158,7 +158,7 @@ Config.chatterExclusions = {
 
 3.  Your `config.lua` should now appear like the following after adding in the `Config.chatterExclusions` property:
 
-    <figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -176,7 +176,7 @@ Version 2.6.0 introduces new configuration values.
 
 Your `config.lua` should now look like the following:
 
-![](<../.gitbook/assets/image (41).png>)
+![](<../../.gitbook/assets/image (41).png>)
 
 </details>
 
@@ -195,7 +195,7 @@ Version 2.3.0 introduces a new configuration value.
 
 Your `config.lua` file should now look like the following:
 
-<img src="../.gitbook/assets/image (22).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (22).png" alt="" data-size="original">
 
 ## ACE Permissions
 
@@ -210,7 +210,7 @@ Communities can remove the old spawn and remove command permissions:
 * `command.spawnradiocellrepeater`
 * `command.removeradiorepeater`
 
-[See a complete example of our updated ACE permission structure.](../tutorials/usage/in-game-radio/configuring-ace-permissions.md)
+[See a complete example of our updated ACE permission structure.](../../tutorials/usage/in-game-radio/configuring-ace-permissions.md)
 
 </details>
 
@@ -233,6 +233,6 @@ Version 2.2.0 adds a new API key configuration for upcoming features.
 
 `Config.apiKey = 'YOUR API KEY'`
 
-2. Replace `YOUR API KEY` with the [community API key](../tutorials/getting-started/installing-the-in-game-resource.md#id-3.-configure-community-information) from the `Administration` panel.
+2. Replace `YOUR API KEY` with the [community API key](../../tutorials/getting-started/installing-the-in-game-resource.md#id-3.-configure-community-information) from the `Administration` panel.
 
 </details>

@@ -26,7 +26,7 @@ The physical in-game towers are able to be destroyed by criminals, which will de
 
 With three different in-game model types, Sonoran Radio takes immersion to the next level!
 
-See our [tower destruction and repairing](ts3-legacy/tutorials/script-usage.md#in-game-towers) info!
+See our [tower destruction and repairing](broken-reference) info!
 
 <div><figure><img src=".gitbook/assets/cell.png" alt=""><figcaption><p>Cellular Antenna</p></figcaption></figure> <figure><img src=".gitbook/assets/tower_broken.png" alt=""><figcaption><p>Radio Tower</p></figcaption></figure> <figure><img src=".gitbook/assets/server_opened (1).png" alt=""><figcaption><p>Server Rack</p></figcaption></figure></div>
 
@@ -154,6 +154,6 @@ Expand the pop-out sides for a walkable command center interior. Or, **raise the
 
 Paired with a standalone script, the mobile command center offers an **integrated Sonoran Radio repeater** and Sonoran CAD ALPR functionality!
 
-## 📋 [Frequent Updates](roadmap/changelog.md)
+## 📋 [Frequent Updates](roadmap/changelog/changelog.md)
 
 Sonoran Radio is always providing updates to help improve the experience, customizability, and realism of the product. We're always looking for new ideas and suggestions!
