@@ -19,7 +19,7 @@ To join the radio, press **Connect.** After connecting, you will be greeted with
 ### Hotkeys (Keybinds)
 
 {% hint style="warning" %}
-Push-to-talk key binds are only global in the [desktop application](../../../download-the-app.md).
+Push-to-talk key binds are only global in the [desktop application](../../../sonoran-radio/download-the-app.md).
 
 On web, the browser window must be in focus.
 {% endhint %}
