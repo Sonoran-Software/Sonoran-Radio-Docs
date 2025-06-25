@@ -22,7 +22,7 @@ The drop-down menu will appear in your settings menu if you have one or more opt
 
 Restrict radio frames by department, job, or job grade, and set admin command permissions. Compatible with ESX, QBCore, or as a standalone.
 
-You can use [CMS to automatically manage in-game ACE permissions](../../../other-products/sonoran-cms.md), and even sync them with Discord roles!
+You can use [CMS to automatically manage in-game ACE permissions](broken-reference), and even sync them with Discord roles!
 
 Example: `SAHP` department members with police job grades 1-3 can use frames:
 

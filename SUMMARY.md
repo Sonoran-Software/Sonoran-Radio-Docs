@@ -5,12 +5,6 @@
 * [🏆 Why Choose Sonoran Radio](README.md)
 * [📱 Download the App](sonoran-radio/download-the-app.md)
 
-## Other Products
-
-* [🖥️ FiveM Hosting](other-products/sonoran-servers.md)
-* [⌨️ Sonoran CAD](other-products/sonoran-cad.md)
-* [📝 Sonoran CMS](other-products/sonoran-cms.md)
-
 ## Tutorials
 
 * [Getting Started](tutorials/getting-started/README.md)
