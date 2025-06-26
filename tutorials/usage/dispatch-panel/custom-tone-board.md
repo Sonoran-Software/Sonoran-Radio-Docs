@@ -9,7 +9,7 @@ description: Customize dispatch tones to broadcast to your units!
 {% hint style="info" %}
 Tones are limited based on your subscription plan.
 
-[Learn more about our paid plans.](../../../pricing/standalone-pricing.md)
+[Learn more about our paid plans.](../../../pricing/pricing-faq/standalone-pricing.md)
 {% endhint %}
 
 ## Configuring the Tone Board

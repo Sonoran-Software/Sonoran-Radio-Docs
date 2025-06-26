@@ -73,11 +73,14 @@
 
 ## Pricing
 
-* [Pricing Information](pricing/standalone-pricing.md)
+* [Pricing FAQ](pricing/pricing-faq/README.md)
+  * [View and Compare Plans](pricing/pricing-faq/standalone-pricing.md)
+  * [Military and First Responder Discount](https://docs.sonoransoftware.com/first-responder-discount)
+  * [Expert Installation](https://docs.sonoransoftware.com/promotions/expert-installation)
 
 ## Roadmap & Changelog <a href="#roadmap" id="roadmap"></a>
 
-* [🗺️ Roadmap](https://roadmap.sonoranradio.com/)
-* [Changelog](roadmap/changelog/README.md)
-  * [App Changelog](roadmap/changelog/changelog.md)
-  * [Migration Guides](roadmap/changelog/migration-guides.md)
+* [Roadmap & Changelog](roadmap/roadmap-and-changelog/README.md)
+  * [🗺️ Roadmap](https://roadmap.sonoranradio.com/)
+  * [📋 Changelog](roadmap/roadmap-and-changelog/changelog.md)
+  * [🔁 Migration Guides](roadmap/roadmap-and-changelog/migration-guides.md)

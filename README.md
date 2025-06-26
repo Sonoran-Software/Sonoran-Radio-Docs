@@ -154,6 +154,6 @@ Expand the pop-out sides for a walkable command center interior. Or, **raise the
 
 Paired with a standalone script, the mobile command center offers an **integrated Sonoran Radio repeater** and Sonoran CAD ALPR functionality!
 
-## 📋 [Frequent Updates](roadmap/changelog/changelog.md)
+## 📋 [Frequent Updates](roadmap/roadmap-and-changelog/changelog.md)
 
 Sonoran Radio is always providing updates to help improve the experience, customizability, and realism of the product. We're always looking for new ideas and suggestions!

@@ -15,7 +15,7 @@ Community-wide sound effects can be customized in the `Customize` > `SFX Customi
 {% hint style="danger" %}
 Community SFX customization requires the **plus** version or higher.
 
-For more information, view our [pricing FAQ](../../../pricing/standalone-pricing.md).
+For more information, view our [pricing FAQ](../../../pricing/pricing-faq/standalone-pricing.md).
 {% endhint %}
 
 ### Key Up/Down
@@ -69,7 +69,7 @@ When the user shooting or near someone shooting, this sound effect will be playe
 {% hint style="danger" %}
 Per-User SFX customization requires the **pro** version or higher.
 
-For more information, view our [pricing FAQ](../../../pricing/standalone-pricing.md).
+For more information, view our [pricing FAQ](../../../pricing/pricing-faq/standalone-pricing.md).
 {% endhint %}
 
 ### Key Up/Down

@@ -13,7 +13,7 @@ Pulled over in a traffic stop? You'll hear the real radio chatter when an office
 {% hint style="warning" %}
 Due to bandwidth usage, this feature is automatically enabled with the Pro version only!
 
-[Learn more about our paid subscription plans.](../../../pricing/standalone-pricing.md)
+[Learn more about our paid subscription plans.](../../../pricing/pricing-faq/standalone-pricing.md)
 {% endhint %}
 
 ## Video Example
