@@ -1,5 +1,7 @@
 ---
-description: Learn more about Sonoran Radio for your community.
+description: >-
+  Experience Sonoran Radio, the free, most popular radio transmission software
+  for FiveM, ER:LC & gaming communities alike!
 ---
 
 # 🏆 Why Sonoran Radio?
