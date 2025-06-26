@@ -47,7 +47,7 @@ Sonoran Radio also integrates with popular FiveM phone scripts like LB Phone!
 
 Third-party scripts, such as a phone system, can also programmatically start and end emergency calls.
 
-{% content-ref url="../../integrations/developer-documentation/resource-events.md" %}
-[resource-events.md](../../integrations/developer-documentation/resource-events.md)
+{% content-ref url="../../../developer-documentation/developer-documentation/resource-events.md" %}
+[resource-events.md](../../../developer-documentation/developer-documentation/resource-events.md)
 {% endcontent-ref %}
 

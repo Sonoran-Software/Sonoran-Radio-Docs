@@ -194,7 +194,7 @@ Use the in-game command `/radio displayname John Doe` to update your radio displ
 
 <summary>Via Developer Export or Endpoint</summary>
 
-Programmatically [update a user's display name in FiveM](../../integrations/developer-documentation/resource-events.md#set-display-name) or [update a display name via API](../../integrations/developer-documentation/api-endpoints/users/set-user-display-name.md).
+Programmatically [update a user's display name in FiveM](../../../developer-documentation/developer-documentation/resource-events.md#set-display-name) or [update a display name via API](../../../developer-documentation/developer-documentation/api-endpoints/users/set-user-display-name.md).
 
 </details>
 

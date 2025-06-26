@@ -17,7 +17,7 @@ If you encounter this error, please reach out to your FiveM server host for assi
 Sonoran Radio uses your CFX Nucleus Proxy URL to send push events from the radio to your game server.
 
 1. Check your server console for ERR 101. ERR 101 states an issue with sending this URL to Sonoran Radio.
-2. If using a non-FiveM server but still utilizing push events, ensure the `pushUrl` property is sent with a full HTTP(s) address with the [set-server-ip API endpoint](../../integrations/developer-documentation/api-endpoints/#set-server-ip).
+2. If using a non-FiveM server but still utilizing push events, ensure the `pushUrl` property is sent with a full HTTP(s) address with the [set-server-ip API endpoint](../../../developer-documentation/developer-documentation/api-endpoints/#set-server-ip).
 
 ## ERR 104: No framework detected
 
