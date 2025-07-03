@@ -118,6 +118,12 @@ Responding to a call? Sonoran Radio injects real-time sirens, gunshots, and more
 
 <figure><img src=".gitbook/assets/Audio_Injection.png" alt=""><figcaption><p>Sonoran Radio - Background Noise Injection</p></figcaption></figure>
 
+## 📡[AI Pursuit Callouts](tutorials/usage/in-game-radio/ai-pursuit-callouts.md)
+
+Transmit live AI updates of your location and speed for seamless pursuit coordination.
+
+<figure><img src=".gitbook/assets/radio_ai_locations.png" alt=""><figcaption><p>Sonoran Radio - AI Pursuit Callouts</p></figcaption></figure>
+
 ## 🏃 [Free Animations Script](tutorials/integrations/big-daddy-radio-animations.md)
 
 Get the most popular in-game radio animation script for [FREE](tutorials/integrations/big-daddy-radio-animations.md)!

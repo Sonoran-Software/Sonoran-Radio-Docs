@@ -34,6 +34,7 @@
     * [Configuring ACE Permissions](tutorials/usage/in-game-radio/configuring-ace-permissions.md)
     * [IP Whitelisting](tutorials/usage/in-game-radio/ip-whitelisting.md)
     * [Background Audio Injection](tutorials/usage/in-game-radio/background-audio-injection.md)
+    * [AI Pursuit Callouts](tutorials/usage/in-game-radio/ai-pursuit-callouts.md)
   * [Troubleshooting](tutorials/usage/troubleshooting/README.md)
     * [Error Codes](tutorials/usage/troubleshooting/error-codes.md)
     * [Client Debug Mode](tutorials/usage/troubleshooting/client-debug-mode.md)
