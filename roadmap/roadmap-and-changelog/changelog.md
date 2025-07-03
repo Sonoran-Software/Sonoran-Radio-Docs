@@ -4,6 +4,86 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.19.0 - 07/07/2025
+
+{% tabs %}
+{% tab title="New" %}
+Custom Domain
+
+* Added the ability to utilize a custom domain, logging users directly into your radio community.
+
+Vanity URLs
+
+* Communities now have a free vanity URL located at COMMUNITYID.sonoranradio.com.
+
+Custom Community ID
+
+* Communities can now customize their community ID for easier user joining and vanity URL customization.
+
+Scanner UI Menu
+
+* Added a graphical UI to interact with in-game scanners.
+
+Frame Customization: In-Game Placement Menu
+
+* Added an in-game menu to easily customize new frames and live adjust the positioning, sizing, etc.
+
+Aircraft Frame Support
+
+* Added support to specify custom radio frames for aircraft use.
+
+Proxy URL - IP Backup
+
+* In the event that the CFX proxy fails for push events, servers will automatically fall back to a direct IP and port.
+
+AI Pursuit Callouts
+
+* Added AI powered pursuit callouts, toggleable with a hotkey. When enabled, your radio will automatically transmit your heading, street, and speed.
+
+Speaker Grouping
+
+* Added the ability to group multiple in-game speakers to a single location, cleaning up the dispatch tone board.
+
+\#28477 Panic Open Mic
+
+* Added the option to automatically leave the user's microphone on for a configurable amount of time after pressing the panic button.
+
+QBox Death Support
+
+* Added death detection support for QBox, allowing the radio to shut off when dead.
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#29110 - CAD Call Info Close
+
+* Fixed an issue causing radio call information screens to not clear when a CAD call is closed or your unit is unassigned.
+
+ACE Perm Sync - Don't Require Auto-Approve
+
+* Fixed an issue causing ACE permission sync to require the auto-approve permission before granting any other permissions.
+
+User List Improvements
+
+* Fixed an issue with the in-game online users list not allowing for complete scrolling with large player counts.
+
+\#29490 - Talking while Dead
+
+* Fixed an issue allowing some users to talk on the radio when the prevent transmission while dead feature was enabled.
+
+\#29213 - Server Rack Positioning
+
+* Fixed an issue causing server rack repeaters to spawn and save slightly off of their proper position.
+
+In-Game Chatter - Custom Community PTT SFX
+
+* Fixed an issue causing in-game chatter to use the default mic clicks instead of the custom community-wide microphone clicks.
+
+Text UI Condense Improvements
+
+* Fixed an issue causing the transmitting username on the text based UI to show twice, taking up space and shifting the UI into two parts.
+{% endtab %}
+{% endtabs %}
+
 ### 2.18.0 - 05/08/2025
 
 {% tabs %}
