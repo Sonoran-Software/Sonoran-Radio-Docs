@@ -72,7 +72,7 @@ Example: `SAHP` department members with police job grades 1-3 can use frames:
 ## Customizing Radio Frames
 
 1. Navigate to the `sonoranradio\skins` directory.
-2. Locate a skin folder, which will contain 2-3 images and a `skin.json` file, displaying different frames.
+2. Locate a skin folder, which will contain 2-4 images and a `skin.json` file, displaying different frames.
 3. Observe the images, which include handheld, mobile, and possibly HUD radio types.
 4. Create a new skin folder and add your own frame images in the format you've observed in Step 3.
 5. Copy over and modify an existing `skin.json` file to maintain format consistency.
@@ -261,3 +261,9 @@ Below is an example of a `skin.json` file:
 ```
 
 </details>
+
+## Using the Frame Debug Menu
+
+{% hint style="warning" %}
+Coming soon!
+{% endhint %}
