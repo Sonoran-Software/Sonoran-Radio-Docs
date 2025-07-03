@@ -6,8 +6,8 @@ description: Customize your community's radio frames!
 
 ## Video Tutorial:
 
-{% embed url="https://youtu.be/vAOQrxlPK3w" %}
-Sonoran Radio - Customize Radio Frames
+{% embed url="https://youtu.be/rv5Go-fYdak" %}
+Sonoran Radio: Customize Frames
 {% endembed %}
 
 ## Selecting Custom Frames
