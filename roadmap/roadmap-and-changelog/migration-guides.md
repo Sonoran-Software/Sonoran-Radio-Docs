@@ -8,6 +8,26 @@ description: >-
 
 <details>
 
+<summary>2.19.0 (PTT on Panic)</summary>
+
+Version 2.19.0 adds a new feature to automatically press a user's push-to-talk button on panic.
+
+1. Open your existing `config.lua`
+2. Add the new config option:
+
+```lua
+Config.autoPttOnPanic = {
+	enabled = true, -- Enable automatic PTT when panic button is pressed
+	duration = 15 -- Duration in seconds to hold PTT when panic button is pressed
+}
+```
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+<details>
+
 <summary>2.18.0 (LB Phone, Background Noise)</summary>
 
 Version 2.18.0 adds a new integration for LB phone and feature to inject background noise into your transmissions.

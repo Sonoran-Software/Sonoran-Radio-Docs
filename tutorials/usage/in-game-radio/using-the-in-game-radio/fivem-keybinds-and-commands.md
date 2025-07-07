@@ -36,9 +36,9 @@ This keybind will toggle your panic status in the radio, and in [Sonoran CAD](..
 
 #### Auto PTT on Panic&#x20;
 
-Sonoran Radio has a configurable option to automatically press a users PTT button for a configurable amount of time when the user presses their radio panic button:
+Sonoran Radio has a [configurable option](../../../getting-started/installing-the-in-game-resource.md#updates) to automatically press a users PTT button for a configurable amount of time when the user [presses their radio panic button](./#panic):
 
-```
+```lua
 Config.autoPttOnPanic = {
 	enabled = true, -- Enable automatic PTT when panic button is pressed
 	duration = 15 -- Duration in seconds to hold PTT when panic button is pressed

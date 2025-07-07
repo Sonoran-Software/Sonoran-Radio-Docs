@@ -141,6 +141,11 @@ Example of what NOT to do: `ensure [sonoranradio]`
 | `noPhysicalCellRepeaters`    | `false`                                                                                                                                                                                                                    | Hide the in-game cellular antenna repeaters                                                                                                                                                                                                            |
 | `noPhysicalRacks`            | `false`                                                                                                                                                                                                                    | Hide the in-game server rack repeaters                                                                                                                                                                                                                 |
 | `noPhysicalTowers`           | `false`                                                                                                                                                                                                                    | Hide the in-game tower repeaters                                                                                                                                                                                                                       |
+| `autoPttOnPanic`             | <p></p><pre><code>{
+	enabled = true, -- Enable automatic PTT when panic button is pressed
+	duration = 15 -- Duration in seconds to hold PTT when panic button is pressed
+}
+</code></pre>                                   | When a [radio user panics](../usage/in-game-radio/using-the-in-game-radio/#panic), this feature will automatically press their push-to-talk key for the configured amount of time.                                                                     |
 
 
 
