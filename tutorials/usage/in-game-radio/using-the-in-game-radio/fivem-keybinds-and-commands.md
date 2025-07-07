@@ -34,6 +34,17 @@ This keybind will transmit your voice on the radio while being held down.
 
 This keybind will toggle your panic status in the radio, and in [Sonoran CAD](../../../integrations/sonoran-cad-integration.md#cad-panic).
 
+#### Auto PTT on Panic&#x20;
+
+Sonoran Radio has a configurable option to automatically press a users PTT button for a configurable amount of time when the user presses their radio panic button:
+
+```
+Config.autoPttOnPanic = {
+	enabled = true, -- Enable automatic PTT when panic button is pressed
+	duration = 15 -- Duration in seconds to hold PTT when panic button is pressed
+}
+```
+
 ### Volume Up/Down
 
 This keybind will quickly adjust your volume up/down, [based on the percentage set in your settings menu](./#radio-volume).

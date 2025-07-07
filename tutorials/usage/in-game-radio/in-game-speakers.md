@@ -36,6 +36,14 @@ Use the controls displayed on screen to rotate and move the speaker to the desir
 
 <figure><img src="https://images-ext-1.discordapp.net/external/QpaFNLLXgyKaCSITDzzPoyCElQH-nFXr9JVC-uniLiA/https/cdn.jordan2139.me/u/1052403544944283680/qLCwBu8I.png?format=webp&#x26;quality=lossless" alt=""><figcaption><p>Sonoran Radio - Speaker Position Controls</p></figcaption></figure>
 
+### 3. Speaker Grouping
+
+Speakers can now be gropuped by a customizable name when placed. If you would like to group already placed speakers you can do so by navigating to the `speakers.json` file and adding a `group` property.  (If the value of the group property is empty, speakers will not group together). See below for more:&#x20;
+
+| Ungrouped Speaker(s)                                                                                           | Grouped Speaker(s)                                                                                             |
+| -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| <div><figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div> | <div><figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div> |
+
 ## Playing Tones to In-Game Speakers
 
 Dispatchers can now [use the tone board](../dispatch-panel/custom-tone-board.md) and select one of the in-game speaker options to broadcast tones, microphone recordings, or AI powered text-to-speech to.
