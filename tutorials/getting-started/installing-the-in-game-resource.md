@@ -71,7 +71,7 @@ Extract the .zip file into your resources directory. Place the `sonoranradio` an
 
 The community ID and API key can be found in the `Administration` tab.
 
-<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Community ID &#x26; API Key</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Community ID &#x26; API Key</p></figcaption></figure>
 
 ### 4. Update Your Server Config
 
@@ -141,6 +141,11 @@ Example of what NOT to do: `ensure [sonoranradio]`
 | `noPhysicalCellRepeaters`    | `false`                                                                                                                                                                                                                    | Hide the in-game cellular antenna repeaters                                                                                                                                                                                                            |
 | `noPhysicalRacks`            | `false`                                                                                                                                                                                                                    | Hide the in-game server rack repeaters                                                                                                                                                                                                                 |
 | `noPhysicalTowers`           | `false`                                                                                                                                                                                                                    | Hide the in-game tower repeaters                                                                                                                                                                                                                       |
+| `autoCallouts`               | <pre><code>{
+	enabled = true, -- Whether or not this feature is enabled
+	speedUnit = 'mph', -- mph | kmh | none -- The unit of speed provided with the callout
+}
+</code></pre>                                             | When enabled, user radios will [automatically transmit their heading, road, and speeds](broken-reference) during a pursuit.                                                                                                                            |
 | `autoPttOnPanic`             | <p></p><pre><code>{
 	enabled = true, -- Enable automatic PTT when panic button is pressed
 	duration = 15 -- Duration in seconds to hold PTT when panic button is pressed

@@ -49,11 +49,41 @@ If the scanner is powered, transmissions will be heard by nearby users.
 
 ### Radio Scanner Menu
 
-`Power On` the radio and then select `Next Channel` or `Previous Channel` until you have selected the correct channel.
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+Most scanners are default off. If you wish to enable it, press the power button and it will connect to the default channel. Use the knob to scroll through all available channels
+
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 By default, only public radio channels will be available. For [private channels](../dispatch-panel/configure-channels.md#restrict-channel-visibility), you can [configure ACE permissions to access them](radio-scanners.md#ace-permissions).
 
-<figure><img src="../../../.gitbook/assets/image (95).png" alt="" width="345"><figcaption><p>Sonoran Radio FiveM Radio Scanner Controls</p></figcaption></figure>
+## Permanent Scanners
+
+Permanent Scanners are scanners that are available to everybody at configurable locations across the map. For example, you can add a scanner in the Sandy Shores Sheriff Station that will always listen the `County Patrol Ops` channel
+
+#### Configuring Permanent Scanners
+
+You can use `/radiomenu` to easily add or remove persistent scanners
+
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+You can also modify the `scanners.json` JSON config file for more customization. By default, scanners connect to the default channel, but you can customize the channel ID it uses. Example entry:&#x20;
+
+```json
+{
+    "Id": "036a2ad1-eeae-4519-be4c-67157b8a035d",
+    "Note": "Sandy Sheriff Station",
+    "Powered": true,
+    "ChannelId": 31226,
+    "PropPosition": {
+        "x": 1853.98,
+        "y": 3688.92,
+        "z": 34.38054,
+        "heading": 32.76,
+        "exact": false
+    }
+}
+```
 
 ## Developers
 

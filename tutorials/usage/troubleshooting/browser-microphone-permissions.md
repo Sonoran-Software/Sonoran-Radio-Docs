@@ -8,7 +8,7 @@ description: Microphone permissions are required to use the radio.
 
 If you see the following error message displayed, the Sonoran Radio website has not gotten microphone access from your browser. This prevents you from connecting to the radio.
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt="" width="303"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt="" width="303"><figcaption></figcaption></figure>
 
 ## Granting Microphone Permissions
 

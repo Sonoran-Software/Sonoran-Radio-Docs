@@ -28,7 +28,8 @@ All user permission management, including inviting and approving members, can be
 
 ### Inviting Members
 
-Users will need the `Community ID` located in the `Administrator` panel.
+Users will need the `Community ID` located in the `Administrator` panel.\
+Communities can also [customize this community ID](../usage/dispatch-panel/custom-domain-vanity-url.md#vanity-urls).
 
 <figure><img src="../../.gitbook/assets/image (111).png" alt="" width="375"><figcaption><p>Sonoran Radio: Community ID</p></figcaption></figure>
 

@@ -8,12 +8,14 @@ description: >-
 
 <details>
 
-<summary>2.19.0 (PTT on Panic)</summary>
+<summary>2.19.0 (PTT on Panic &#x26; AI Callouts)</summary>
 
 Version 2.19.0 adds a new feature to automatically press a user's push-to-talk button on panic.
 
 1. Open your existing `config.lua`
-2. Add the new config option:
+2. Add the three new config options:
+
+#### A. autoPttOnPanic Config
 
 ```lua
 Config.autoPttOnPanic = {
@@ -22,7 +24,26 @@ Config.autoPttOnPanic = {
 }
 ```
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
+#### B. autoCallouts Config
+
+```
+-- Have the radio automatically callout pursuit locations (when toggled with the keybind)
+Config.autoCallouts = {
+	enabled = true, -- Whether or not this feature is enabled
+	speedUnit = 'mph', -- mph | kmh | none -- The unit of speed provided with the callout
+}
+```
+
+<figure><img src="../../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
+
+#### C. toggleAutoCallouts Keybind
+
+Inside of the existing `Config.keybinds` add a new line for:\
+\``['toggleAutoCallouts'] = '',`&#x20;
+
+<figure><img src="../../.gitbook/assets/image (128).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -50,7 +71,7 @@ Version 2.15.0 adds a new feature to manage radio community approval and permiss
 1. Open your existing `config.lua`
 2. Add the new `Config.acePermSync = false` property. You can enable and configure this feature if desired.
 
-![](<../../.gitbook/assets/image (3) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (3) (1) (1) (1) (1).png>)
 
 </details>
 

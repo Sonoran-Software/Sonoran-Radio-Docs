@@ -82,13 +82,13 @@ Once selected, anyone wearing this earpiece will not emit radio chatter to nearb
 
 <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="222"><figcaption><p>Add or Remove Earpiece</p></figcaption></figure>
 
-<div><figure><img src="../../../.gitbook/assets/image (7) (1) (1).png" alt="" width="375"><figcaption><p>Earpiece Item Selection</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (8) (1).png" alt="" width="375"><figcaption><p>Earpiece Texture Selection</p></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (7) (1) (1).png" alt="" width="375"><figcaption><p>Earpiece Item Selection</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (8) (1) (1).png" alt="" width="375"><figcaption><p>Earpiece Texture Selection</p></figcaption></figure></div>
 
 ### 3. Removing Earpieces
 
 To remove an earpiece option, navigate to the `Remove Earpiece Item` Menu option > Select the specific earpiece item > and  `Confirm Removal`
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Manual Earpiece IDs (Advanced)
 

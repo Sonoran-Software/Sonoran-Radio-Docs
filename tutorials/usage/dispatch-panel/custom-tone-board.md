@@ -64,7 +64,7 @@ Select the music icon on the left to customize the icon, background color, and t
 
 To quickly toggle the tone board, you may configure a custom hotkey in the settings menu.
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Tone Board Hotkey</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Tone Board Hotkey</p></figcaption></figure>
 
 ### Playing a Tone
 
@@ -93,7 +93,7 @@ For repeated tones, you can hover over the active tone (or tone stack) to see wh
 
 Additionally, the UI will reflect the remaining play count and show a progress bar for the delay until the next play.
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Tone Board - Repeated Tones</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (2).png" alt=""><figcaption><p>Tone Board - Repeated Tones</p></figcaption></figure>
 
 #### Stacked Tones
 

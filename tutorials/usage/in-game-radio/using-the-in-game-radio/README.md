@@ -48,7 +48,7 @@ Open [sonoranradio.com/link](https://sonoranradio.com/link) in a web browser, lo
 
 You can logout/un-link your in-game radio via the settings menu (gear icon).
 
-<div><figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Settings</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Unlink</p></figcaption></figure></div>
+<div><figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Settings</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>In-Game Radio - Unlink</p></figcaption></figure></div>
 
 ***
 
@@ -87,7 +87,7 @@ Select the channel menu icon to open the channel selection options. Click on the
 
 `CTRL` + `Click` allows you to select multiple channels to transmit on at once.
 
-<div><figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="279"><figcaption><p>Modern UI - Channel Menu Icon</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (3) (1) (1).png" alt="" width="279"><figcaption><p>Text UI - Channel Menu Icon</p></figcaption></figure></div>
+<div><figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="279"><figcaption><p>Modern UI - Channel Menu Icon</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="279"><figcaption><p>Text UI - Channel Menu Icon</p></figcaption></figure></div>
 
 <div><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="277"><figcaption><p>Modern UI - Channel Selection</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt="" width="280"><figcaption><p>Text UI - Multi-Channel Selection</p></figcaption></figure></div>
 
@@ -120,7 +120,7 @@ Scanning a radio channel allows users to hear all transmissions, even if they ar
 
 [Learn how to toggle a channel scan via command or Stream Deck!](fivem-keybinds-and-commands.md#toggle-channel-scan)
 
-![](<../../../../.gitbook/assets/image (3) (1) (1) (1) (1).png>)![](<../../../../.gitbook/assets/image (5) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png>)![](<../../../../.gitbook/assets/image (5) (1) (1) (1).png>)
 
 
 
@@ -171,7 +171,7 @@ In the settings menu (gear icon) you can adjust the radio's total volume output.
 
 You can also right-click on any user to adjust their volume specifically.
 
-<img src="../../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt="In-Game Radio - Per-User Volume" data-size="original">
+<img src="../../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="In-Game Radio - Per-User Volume" data-size="original">
 
 #### Volume Hotkey
 
@@ -179,7 +179,7 @@ You can also right-click on any user to adjust their volume specifically.
 
 The adjustment amount is customizable in the settings menu.
 
-![](<../../../../.gitbook/assets/image (4) (1).png>)
+![](<../../../../.gitbook/assets/image (4) (1) (2).png>)
 
 </details>
 
@@ -196,7 +196,7 @@ If the resource is not named `LVC`, the [`config.luxartResourceName` value must 
 
 For communities not using LVC, the functionality will fall back to a FiveM native that will trigger the functionality if either lights or sirens are activated.
 
-![](<../../../../.gitbook/assets/image (1) (1) (2) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (1) (1) (2) (1) (1) (1).png>)
 
 </details>
 

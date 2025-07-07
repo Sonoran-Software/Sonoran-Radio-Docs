@@ -2,7 +2,7 @@
 description: Learn more about pricing on Sonoran Radio standalone!
 ---
 
-# Standalone Pricing
+# View and Compare Plans
 
 Subscription Options
 
@@ -133,3 +133,20 @@ Experience immersive, realistic transmissions with in-game sirens, rotor blades,
 | Standard     | 🚫    |
 | Pro          | ✅     |
 
+### [Custom Domain](../../tutorials/usage/dispatch-panel/custom-domain-vanity-url.md#custom-domain)
+
+<figure><img src="../../.gitbook/assets/radio_domain.png" alt="" width="375"><figcaption></figcaption></figure>
+
+| Subscription | Limit |
+| ------------ | ----- |
+| Free         | 🚫    |
+| Standard     | 🚫    |
+| Pro          | ✅     |
+
+### [Custom Community ID (Vanity URL)](../../tutorials/usage/dispatch-panel/custom-domain-vanity-url.md#customizing-your-community-id)
+
+| Subscription | Limit |
+| ------------ | ----- |
+| Free         | 🚫    |
+| Standard     | ✅     |
+| Pro          | ✅     |

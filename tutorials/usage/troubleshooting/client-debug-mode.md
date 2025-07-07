@@ -22,7 +22,7 @@ In some cases, you may be asked to add a timestamp flag when an issue occurs. On
 
 This will manually add a debug log to help our developers narrow down the time window.
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt="" width="302"><figcaption><p>Flag Timestamp</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt="" width="302"><figcaption><p>Flag Timestamp</p></figcaption></figure>
 
 ### Sending Client Debug logs
 

@@ -22,7 +22,7 @@ The drop-down menu will appear in your settings menu if you have one or more opt
 
 Restrict radio frames by department, job, or job grade, and set admin command permissions. Compatible with ESX, QBCore, or as a standalone.
 
-You can use [CMS to automatically manage in-game ACE permissions](broken-reference), and even sync them with Discord roles!
+You can use [CMS to automatically manage in-game ACE permissions](https://docs.sonoransoftware.com/cms/integration-capabilities/sonoran-radio-sync), and even sync them with Discord roles!
 
 Example: `SAHP` department members with police job grades 1-3 can use frames:
 
@@ -73,17 +73,14 @@ Example: `SAHP` department members with police job grades 1-3 can use frames:
 
 1. Navigate to the `sonoranradio\skins` directory.
 2. Locate a skin folder, which will contain 2-4 images and a `skin.json` file, displaying different frames.
-3. Observe the images, which include handheld, mobile, and possibly HUD radio types.
+3. Observe the images, which include handheld, mobile, aircraft, and possibly HUD radio types.
 4. Create a new skin folder and add your own frame images in the format you've observed in Step 3.
 5. Copy over and modify an existing `skin.json` file to maintain format consistency.
 6. In the `skin.json` file, specify the radio name and configure the frame types and body settings.
-7. In the `skin.json` file, define the images and button positions for each radio type.
-
-### Debug Mode
-
-You can turn on debug mode in the main config to display button positions on screen for easier position configuration.
-
-To enable debug mode, set `Config.debug` to `true` in your `config.lua` file.
+7. Configure the skin
+   1. In the `skin.json` file, define the images for each radio type.
+   2. Enable debug mode by [setting `Config.debug` to `true` in your `config.lua` file](../../getting-started/installing-the-in-game-resource.md#updates).
+   3. Use the [in-game frame placement menu](customizing-radio-frames.md#frame-placement-menu) for easy adjustments.
 
 <figure><img src="../../../.gitbook/assets/RadioDebugBoxesVeh.png" alt=""><figcaption><p>Sonoran Radio - Vehicle Radio - Debug Mode Enabled</p></figcaption></figure>
 
@@ -94,6 +91,8 @@ The following are valid as values for `type`:
 * `portable` - Used for handheld radios
 * `vehicle` - Used for mobile radios installed in a vehicle
 * `hud` - Top-down view of a portable radio
+
+<mark style="color:yellow;">TODO - Aircraft?</mark>
 
 ### Body Settings
 
@@ -262,8 +261,8 @@ Below is an example of a `skin.json` file:
 
 </details>
 
-## Using the Frame Debug Menu
+## Frame Placement Menu
 
-{% hint style="warning" %}
-Coming soon!
-{% endhint %}
+{% embed url="https://www.youtube.com/watch?v=rv5Go-fYdak" %}
+
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
