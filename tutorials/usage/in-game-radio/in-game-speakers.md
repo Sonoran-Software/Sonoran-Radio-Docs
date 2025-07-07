@@ -38,7 +38,9 @@ Use the controls displayed on screen to rotate and move the speaker to the desir
 
 ### 3. Speaker Grouping
 
-Speakers can now be gropuped by a customizable name when placed. If you would like to group already placed speakers you can do so by navigating to the `speakers.json` file and adding a `group` property.  (If the value of the group property is empty, speakers will not group together). See below for more:&#x20;
+Speakers can be grouped by a customizable name when placed. Grouped speakers show up as a single option on the tone board.
+
+If you would like to group already placed speakers you can do so by navigating to the `speakers.json` file and adding a `group` property.  (If the value of the group property is empty, speakers will not group together). See below for more:&#x20;
 
 | Ungrouped Speaker(s)                                                                                           | Grouped Speaker(s)                                                                                                 |
 | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
