@@ -4,7 +4,7 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
-### 2.19.0 - 07/07/2025
+### 2.19.0 - 07/08/2025
 
 {% tabs %}
 {% tab title="New" %}
@@ -81,6 +81,14 @@ In-Game Chatter - Custom Community PTT SFX
 Text UI Condense Improvements
 
 * Fixed an issue causing the transmitting username on the text based UI to show twice, taking up space and shifting the UI into two parts.
+
+Multiple Servers - Same IP
+
+* Fixed an issue where running multiple servers on the same IP (but different ports) and on the same radio community would cause one to override the push url for the other.
+
+Servers - Admin Delete
+
+* Fixed an issue where users with the admin permission could not delete servers.
 {% endtab %}
 {% endtabs %}
 
