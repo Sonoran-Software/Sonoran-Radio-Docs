@@ -27,7 +27,7 @@
       * [FiveM Keybinds & Commands](tutorials/usage/in-game-radio/using-the-in-game-radio/fivem-keybinds-and-commands.md)
     * [Customizing Radio Frames](tutorials/usage/in-game-radio/customizing-radio-frames.md)
     * [Hear Nearby Radio Chatter](tutorials/usage/in-game-radio/hear-nearby-radio-chatter.md)
-    * [Pursuit Auto-Callouts](tutorials/usage/in-game-radio/hear-nearby-radio-chatter-1.md)
+    * [AI Pursuit Auto-Callouts](tutorials/usage/in-game-radio/pursuit-callouts.md)
     * [Radio Scanners](tutorials/usage/in-game-radio/radio-scanners.md)
     * [In-Game Repeaters](tutorials/usage/in-game-radio/in-game-repeaters.md)
     * [Tunnels and Degrade Zones](tutorials/usage/in-game-radio/tunnels-and-degrade-zones.md)

@@ -49,11 +49,9 @@ If the scanner is powered, transmissions will be heard by nearby users.
 
 ### Radio Scanner Menu
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<div><figure><img src="../../../.gitbook/assets/image (7).png" alt="" width="209"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (8).png" alt="" width="200"><figcaption></figcaption></figure></div>
 
-Most scanners are default off. If you wish to enable it, press the power button and it will connect to the default channel. Use the knob to scroll through all available channels
-
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+Press the power button and the scanner will auto-connect to the default channel. Use the knob to scroll through all available channels.
 
 By default, only public radio channels will be available. For [private channels](../dispatch-panel/configure-channels.md#restrict-channel-visibility), you can [configure ACE permissions to access them](radio-scanners.md#ace-permissions).
 
@@ -65,9 +63,13 @@ Permanent Scanners are scanners that are available to everybody at configurable 
 
 You can use `/radiomenu` to easily add or remove persistent scanners
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9).png" alt="" width="316"><figcaption></figcaption></figure>
 
-You can also modify the `scanners.json` JSON config file for more customization. By default, scanners connect to the default channel, but you can customize the channel ID it uses. Example entry:&#x20;
+You can also modify the `scanners.json` JSON config file for more customization. By default, scanners connect to the default channel, but you can customize the channel ID it uses.
+
+<details>
+
+<summary>Example Scanner JSON</summary>
 
 ```json
 {
@@ -84,6 +86,12 @@ You can also modify the `scanners.json` JSON config file for more customization.
     }
 }
 ```
+
+</details>
+
+#### Finding Channel IDs
+
+The channel IDs can be found in the [dispatcher panel](../dispatch-panel/using-the-dispatch-panel.md#channel-ids) or [in-game radio](using-the-in-game-radio/fivem-keybinds-and-commands.md#copying-channel-and-scan-list-ids).
 
 ## Developers
 

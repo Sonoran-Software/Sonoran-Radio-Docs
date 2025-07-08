@@ -92,7 +92,9 @@ The following are valid as values for `type`:
 * `vehicle` - Used for mobile radios installed in a vehicle
 * `hud` - Top-down view of a portable radio
 
-<mark style="color:yellow;">TODO - Aircraft?</mark>
+With `vehicle` type frames, you can additionally customize the `vehicleClasses` property to whitelist the frame to specific vehicle types.
+
+For example, our `default` skin whitelists one frame to **aircraft** only: `"vehicleClasses": [15, 16]`. See available vehicle classes [here](https://docs.fivem.net/natives/?_0x29439776AAA00A62).
 
 ### Body Settings
 
@@ -265,4 +267,12 @@ Below is an example of a `skin.json` file:
 
 {% embed url="https://www.youtube.com/watch?v=rv5Go-fYdak" %}
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+The frame placement menu offers rapid configuration of the screen size, location, and button placements.
+
+With debug mode enabled, open the menu by clicking on the icon in the top right of your screen.
+
+Select the skin ID and frame that you wish to edit. Then, select each property and utilize the arrow keys to adjust the configuration.
+
+Once complete, save your changes using the `Save skin.json` button.
+
+<figure><img src="../../../.gitbook/assets/image (12).png" alt="" width="217"><figcaption></figcaption></figure>
