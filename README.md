@@ -118,7 +118,7 @@ Responding to a call? Sonoran Radio injects real-time sirens, gunshots, and more
 
 <figure><img src=".gitbook/assets/Audio_Injection.png" alt=""><figcaption><p>Sonoran Radio - Background Noise Injection</p></figcaption></figure>
 
-## 📡[AI Pursuit Callouts](broken-reference)
+## 📡 [AI Pursuit Callouts](tutorials/usage/in-game-radio/pursuit-callouts.md)
 
 Transmit live AI updates of your location and speed for seamless pursuit coordination.
 
