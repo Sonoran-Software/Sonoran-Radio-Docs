@@ -14,7 +14,19 @@ description: >-
 
 In-game, users can utilize the `/radiousers` command or a [customizable FiveM keybind](using-the-in-game-radio/fivem-keybinds-and-commands.md) (`F11` by default) to open the connected users window.
 
-This window displays all active users connected to the radio, and the channel they are in.
+This window displays all active users connected to the radio, and the channel they are in. When a user is transmitting, their name will turn green.
+
+### Resize and Reposition
+
+#### Resize
+
+To resize the connected users list, use the command `/radiouserssize W H` with `W` being the width in pixels (ex: `500`) and `H` being the height (ex: `500`).
+
+<figure><img src="../../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
+
+#### Reposition
+
+To move the connected users list on your screen, click and drag while the in-game radio is in focus.
 
 ## ACE Permission Restrictions
 
