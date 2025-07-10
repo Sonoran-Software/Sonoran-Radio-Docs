@@ -4,7 +4,7 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
-### 2.19.0 - 07/09/2025
+### 2.19.0 - 07/10/2025
 
 {% tabs %}
 {% tab title="New" %}
@@ -47,6 +47,10 @@ Speaker Grouping
 \#28477 Panic Open Mic
 
 * Added the option to automatically leave the user's microphone on for a configurable amount of time after pressing the panic button.
+
+Desktop: Side Mouse Button Support
+
+* Overhauled and wrote a custom keybind handler, allowing for better keybind support with side mouse buttons and more.
 
 QBox Death Support
 
