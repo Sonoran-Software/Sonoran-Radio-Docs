@@ -10,7 +10,7 @@ Sonoran Radio allows you to customize keybinds for in-game actions on the radio.
 
 To customize these, navigate to your GTA `Settings` -> `Key Bindings` -> `FiveM` -> `(sonoranradio)`
 
-Communities can also customize the default keybinds for new users in the [configuration's](../../../getting-started/installing-the-in-game-resource.md#updates) `keybind` property.
+Communities can also customize the default keybinds for new users in the [configuration's](../../../getting-started/installing-the-in-game-resource.md#updates) `keybind` property with the [available options](https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/).
 
 <figure><img src="../../../../.gitbook/assets/image (6) (3).png" alt=""><figcaption><p>FiveM Keybinds: Sonoran Radio</p></figcaption></figure>
 
