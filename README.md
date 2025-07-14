@@ -110,7 +110,7 @@ Pulled over in a traffic stop? You'll hear the real radio chatter when an office
 
 In-game scanners allow you and others nearby to listen in on radio traffic!
 
-<figure><img src=".gitbook/assets/scanner.png" alt=""><figcaption><p>Sonoran Radio - In-Game Scanner</p></figcaption></figure>
+<figure><img src=".gitbook/assets/scanner (1).png" alt=""><figcaption><p>Sonoran Radio - In-Game Scanner</p></figcaption></figure>
 
 ## 🎤️ [Background Noise Injection](tutorials/usage/in-game-radio/background-audio-injection.md)
 
