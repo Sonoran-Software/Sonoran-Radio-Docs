@@ -50,6 +50,7 @@ Currently, the following QBCore inventories are supported:
 * QBCore Inventory
 * OX Inventory
 * QS Inventory
+* Core Inventory
 
 ## Qbox
 
