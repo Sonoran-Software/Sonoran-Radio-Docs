@@ -9,7 +9,7 @@ description: Customize digital and analog style voice effects for your community
 {% hint style="warning" %}
 Unless on the Pro version, communities are limited to one voice effect style.
 
-[Learn more about our paid plans](broken-reference).
+[Learn more about our paid plans](../../../pricing/pricing-faq/standalone-pricing.md).
 {% endhint %}
 
 ## Available Voice Effects
@@ -46,15 +46,22 @@ The digital voice effect applies bitrate compression to the audio, causing it to
 
 The analog voice effect adds static and scratchiness to the audio, making it sound progressively fuzzier and less clear as signal quality deteriorates.
 
-### Equalizer (EQ)
+### Equalizer (Pre & Post-Effects)
 
 {% hint style="info" %}
 This **EQ** effect remains consistent and does not fluctuate based on [in-game signal strength](../in-game-radio/in-game-repeaters.md)
 {% endhint %}
 
-The equalizer effect allows you to boost or reduce frequencies in the high, mid, and low ranges.
+The equalizer effect allows you to boost or reduce frequencies throughout the audio range.\
+&#xNAN;_**Tip:** For a "tin can" effect, increase the mid frequencies while reducing the low and high ranges._
 
-_**Tip:** For a "tin can" effect, increase the mid frequencies while reducing the low and high ranges._
+#### Pre-Effect EQ
+
+The pre-effect EQ is a profile applied directly to the mic input before any effects (vocoder, digital, analogue, etc.) are applied. This can help improve clarity with the vocoder, grant a tin-can style effect, and more.
+
+#### Post-Effect EQ
+
+The post-effect EQ is a profile applied to the audio after all effects have been processed. This can help improve clarity and improve the finalized effects.
 
 ## Applying the Voice Effect
 
@@ -71,3 +78,19 @@ To apply a custom voice effect for [emergency phone calls](emergency-calls.md), 
 **Note:** If no custom voice effect is selected for emergency calls, a default "tin can" EQ effect will be applied.
 
 <figure><img src="../../../.gitbook/assets/image (92).png" alt="" width="375"><figcaption><p>Sonoran Radio: Emergency Call Voice Effect Selection</p></figcaption></figure>
+
+## Voice Profile Examples
+
+We've pre-configured voice effects for popular use.
+
+### Vocoder Example
+
+This voice effect combines the vocoder effect with pre-effect EQ customizations for the best possible clarity.
+
+COMING SOON!
+
+### Emergency Call Example
+
+This voice effect utilizes EQ customizations for the best possible phone call effect.
+
+COMING SOON!
