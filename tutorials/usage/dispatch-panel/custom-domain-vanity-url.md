@@ -12,7 +12,7 @@ Each community gets their own free vanity URL, visible in the `Custom Domain` se
 
 If your community is Plus or Pro, your vanity URL will match your community's custom ID
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Customizing Your Community ID
 

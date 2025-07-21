@@ -25,3 +25,15 @@ Users can still customize their own setting preferences by selecting the gear ic
 Under the `Advanced` tab, users can select `Reset Settings` to reset to the community defined defaults.
 
 <figure><img src="../../../.gitbook/assets/image (123).png" alt="" width="283"><figcaption><p>Sonoran Radio: Reset Settings</p></figcaption></figure>
+
+## FiveM Default Settings
+
+Some FiveM specific settings can be customized in the resource configuration.
+
+### Keybinds
+
+The server defaults for push-to-talk, AI callouts, etc. can be configured in the [config's `keybinds` property](../../getting-started/installing-the-in-game-resource.md#updates).
+
+### ESC Behavior
+
+&#x20;The server default for radio [escape key handling](../in-game-radio/using-the-in-game-radio/#c.-esc-options) can be configured in the [config's `defaultEscapeMode` property](../../getting-started/installing-the-in-game-resource.md#updates).

@@ -38,11 +38,11 @@ You can also [customize the display behavior when pressing `ESC`](./#escape-mode
 When you first use the in-game resource, you'll need to log in.\
 A 4-digit code will appear for you to sign in from your browser.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="345"><figcaption><p>Sonoran Radio - Login with Link Prompt</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="345"><figcaption><p>Sonoran Radio - Login with Link Prompt</p></figcaption></figure>
 
 Open [sonoranradio.com/link](https://sonoranradio.com/link) in a web browser, log in if needed, enter your code, and click "Activate" to log in to the game.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Activate Link</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Activate Link</p></figcaption></figure>
 
 ### Logging Out
 
@@ -87,9 +87,9 @@ Select the channel menu icon to open the channel selection options. Click on the
 
 `CTRL` + `Click` allows you to select multiple channels to transmit on at once.
 
-<div><figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="279"><figcaption><p>Modern UI - Channel Menu Icon</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="279"><figcaption><p>Text UI - Channel Menu Icon</p></figcaption></figure></div>
+<div><figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="279"><figcaption><p>Modern UI - Channel Menu Icon</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="279"><figcaption><p>Text UI - Channel Menu Icon</p></figcaption></figure></div>
 
-<div><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="277"><figcaption><p>Modern UI - Channel Selection</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt="" width="280"><figcaption><p>Text UI - Multi-Channel Selection</p></figcaption></figure></div>
+<div><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="277"><figcaption><p>Modern UI - Channel Selection</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="280"><figcaption><p>Text UI - Multi-Channel Selection</p></figcaption></figure></div>
 
 </details>
 
@@ -147,7 +147,7 @@ Users can scan one or more channels to listen without transmitting. For monitori
 
 [Learn how to toggle a scan list via command or Stream Deck](fivem-keybinds-and-commands.md#toggle-scan-list)!
 
-![](<../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)![](<../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)![](<../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 </details>
 
@@ -232,7 +232,8 @@ Select `Move/Resize`
 
 <summary>ESC Radio Display Behavior</summary>
 
-The Escape Mode selector changes the in-game radio display behavior after pressing `ESC`.
+The Escape Mode selector changes the in-game radio display behavior after pressing `ESC`.\
+The server default for this setting can be configured in the [config's `defaultEscapeMode` property](../../../getting-started/installing-the-in-game-resource.md#updates).
 
 `Keep Radio Visible`
 

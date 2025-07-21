@@ -57,13 +57,17 @@ By default, only public radio channels will be available. For [private channels]
 
 ## Permanent Scanners
 
-Permanent Scanners are scanners that are available to everybody at configurable locations across the map. For example, you can add a scanner in the Sandy Shores Sheriff Station that will always listen the `County Patrol Ops` channel
+Permanent Scanners are scanners that are available to everybody at configurable locations across the map. For example, you can add a scanner in the Sandy Shores Sheriff Station that will always listen the `County Patrol Ops` channel.
 
 #### Configuring Permanent Scanners
 
-You can use `/radiomenu` to easily add or remove persistent scanners
+You can use `/radiomenu` to easily add, move, or delete persistent scanners
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt="" width="316"><figcaption></figcaption></figure>
+<div data-full-width="false"><figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/Discord_3K6SgyKxlB.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/Discord_ENiHYlz2zJ.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/Discord_tdGWrI3Idq.png" alt=""><figcaption></figcaption></figure></div>
+
+When creating a scanner, you have the ability to choose between many different scanner-like models to best fit your needs
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 You can also modify the `scanners.json` JSON config file for more customization. By default, scanners connect to the default channel, but you can customize the channel ID it uses.
 
@@ -77,6 +81,7 @@ You can also modify the `scanners.json` JSON config file for more customization.
     "Note": "Sandy Sheriff Station",
     "Powered": true,
     "ChannelId": 31226,
+    "PropModel": "prop_cs_hand_radio",
     "PropPosition": {
         "x": 1853.98,
         "y": 3688.92,
