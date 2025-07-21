@@ -4,6 +4,46 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.20.0 - 07/21/2025
+
+{% tabs %}
+{% tab title="New" %}
+Voice EQ: V2
+
+* Added a new pre and post-effect advanced EQ in the voice effect settings.
+
+Persistent Scanners: Model Options
+
+* Added new model options for in-game persistent scanners.
+
+Persistent Scanners: Move
+
+* Added the ability to move an existing in-game persistent scanner instead of needing to delete and re-add it.
+
+Radio Frame & User List Size Safety
+
+* Added checks to prevent users from resizing the radio or connected users list to be off of their screen, reducing the need for the `/radio reset` command.
+
+Default Settings: ESC Behavior
+
+* Added the ability to set the in-game FiveM ESC default behavior.
+
+VFX Customization: XMIT vs RECV Signal Strength
+
+* Added two sliders in the voice customization testing menu to better reflect in-game usage for both transmitter and receiver signal strength.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Desktop Channel Hotkey
+
+* Fixed an issue with desktop per-channel hotkeys not being able to be re-registered with a new key.
+
+\#29952 - Persist Frame
+
+* Fixed an issue where frame selection would not persist when in QB item mode.
+{% endtab %}
+{% endtabs %}
+
 ### 2.19.0 - 07/10/2025
 
 {% tabs %}
