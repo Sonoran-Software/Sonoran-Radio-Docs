@@ -8,6 +8,19 @@ description: >-
 
 <details>
 
+<summary>2.20.0 (Default ESC Behavior)</summary>
+
+Version 2.20.0 adds a new feature to configure your community's default [ESC behavior setting](../../tutorials/usage/in-game-radio/using-the-in-game-radio/#c.-esc-options).
+
+1. Open your existing `config.lua`
+2. Add the new `Config.defaultEscapeMode = 'keep'` property. You can enable and configure this feature if desired.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+<details>
+
 <summary>2.19.0 (PTT on Panic &#x26; AI Callouts)</summary>
 
 Version 2.19.0 adds a new feature to automatically press a user's push-to-talk button on panic.

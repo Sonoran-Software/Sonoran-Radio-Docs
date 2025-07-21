@@ -16,7 +16,7 @@ If you see the following error message displayed, the Sonoran Radio website has 
 
 Select the icon to the left of the URL bar and ensure `Microphone` access is enabled.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="187"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="187"><figcaption></figcaption></figure>
 
 ### Via Chrome Settings
 
