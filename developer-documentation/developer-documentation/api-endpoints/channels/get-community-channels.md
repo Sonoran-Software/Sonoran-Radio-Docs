@@ -6,7 +6,7 @@ description: This endpoint gets all configured radio channels in a community.
 
 ## Get Community Channels
 
-<mark style="color:green;">`POST`</mark> `/radio/get-community-channels/:id/:key`
+<mark style="color:green;">`GET`</mark> `/api/radio/get-community-channels/:id/:key`
 
 This endpoint gets all configured radio channels in a community.
 
