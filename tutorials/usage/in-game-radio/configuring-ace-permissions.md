@@ -10,6 +10,9 @@ description: >-
 
 ACE permissions allow you to restrict what users have access to certain commands.
 
+ACE permissions are configured in your `server.cfg` file.\
+To keep them organized, you can also place them in a separate file (e.g., `permissions.cfg` in the same directory) and then `exec permissionss.cfg` from within your `server.cfg`.
+
 ### **1. Create a Permission Group**
 
 Here, we'll create an `admin` ACE group that has access to all of the `sonoranradio.example` categorized permissions.
