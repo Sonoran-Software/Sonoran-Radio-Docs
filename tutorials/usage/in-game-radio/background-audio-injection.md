@@ -52,8 +52,8 @@ Sonoran Radio integrates with Luxart Vehicle Control to determine when sirens ar
 
 1. Ensure you have configured the `Config.luxartResourceName` configuration option to match the resource name of your installed Luxart Vehicle Control resource.
 2. Ensure you are on the latest version of Luxart Vehicle Control, as older versions do not contain the developer events needed.
-   1. LVC: [Download](https://github.com/TrevorBarns/luxart-vehicle-control/releases)
-   2. LVC Fleet: Coming soon!
+   1. LVC (v3.2.9-Rev2+): [Download](https://github.com/TrevorBarns/luxart-vehicle-control/releases)
+   2. LVC Fleet (v1.0.1+): [Download](https://github.com/TrevorBarns/luxart-vehicle-control-fleet/releases)
 
 #### Native Fallback
 
