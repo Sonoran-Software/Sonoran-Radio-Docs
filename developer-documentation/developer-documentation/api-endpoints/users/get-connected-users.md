@@ -6,7 +6,7 @@ description: This endpoint gets all connected users in a community.
 
 ## Get Connected Users
 
-<mark style="color:green;">`POST`</mark> `/api/radio/get-connected-users/:id/:key`
+<mark style="color:green;">`GET`</mark>`/api/radio/get-connected-users/:id/:key`
 
 This endpoint gets all connected users in a community.
 
