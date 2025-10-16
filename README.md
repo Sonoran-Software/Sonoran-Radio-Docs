@@ -46,6 +46,12 @@ Configure signal loss in tunnels, underground locations, and more!
 
 <figure><img src=".gitbook/assets/image (43).png" alt=""><figcaption><p>Sonoran Radio - Tunnel Detection</p></figcaption></figure>
 
+## 📶 [Signal Jammers](tutorials/usage/in-game-radio/radio-jammers.md)
+
+Configure custom in-game items to jam nearby radio signals.
+
+<figure><img src=".gitbook/assets/jammer.png" alt=""><figcaption></figcaption></figure>
+
 ## 📢 [Custom Tone Board](tutorials/usage/dispatch-panel/custom-tone-board.md)
 
 Upload and customize dispatch tones for your community!

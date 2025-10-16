@@ -56,6 +56,12 @@ add_ace sonoranradio.example sonoranradio.scanner allow
 # Radio Scanner Channel Access (Optional: If `chatter` is `true` in config.lua)
 # Number is based off of the channel ID
 add_ace sonoranradio.example sonoranradio.channel.123
+
+# Give the group access to /radio scanner
+add_ace group.admin sonoranradio.jammers allow
+
+# You can restrict specifc jammer types to specific ace groups
+add_ace group.admin sonoranradio.jammer_handheld allow
 ```
 
 ### **3. Add Users to the ACE Group**
