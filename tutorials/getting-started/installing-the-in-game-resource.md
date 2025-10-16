@@ -121,7 +121,26 @@ Example of what NOT to do: `ensure [sonoranradio]`
 	enabled = true, -- Enable automatic PTT when panic button is pressed
 	duration = 15 -- Duration in seconds to hold PTT when panic button is pressed
 }
-</code></pre></td><td>When a <a href="../usage/in-game-radio/using-the-in-game-radio/#panic">radio user panics</a>, this feature will automatically press their push-to-talk key for the configured amount of time.</td></tr></tbody></table>
+</code></pre></td><td>When a <a href="../usage/in-game-radio/using-the-in-game-radio/#panic">radio user panics</a>, this feature will automatically press their push-to-talk key for the configured amount of time.</td></tr><tr><td><code>radioJammers</code></td><td><p></p><pre><code>Config.radioJammers = {
+	enabled = true, -- Enable or disable radio jammers
+	menuCommand = 'jammers', -- Subcommand to open the jammers menu | e.g. /sonoranradio jammers
+	toggleRange = 3.0, -- Distance in meters required to toggle a jammer on/off
+	permissionMode = 'none', -- ace, qbcore, esx or none
+	acePermission = 'sonoranradio.jammers', -- ACE permission required to use jammers
+	allowedJobs = { -- Jobs that can use jammers | Requires permission mode to be set to 'qbcore' or 'esx'
+		['hacker'] = {
+			grades = { -- Job grades that can use jammers
+				1,
+				2,
+				3
+			}
+		}
+	},
+	jammers = {
+		-- See file for full example
+	}
+}
+</code></pre></td><td>Configuration for in-game  signal jammers.</td></tr></tbody></table>
 
 
 
