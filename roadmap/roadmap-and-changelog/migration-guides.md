@@ -6,6 +6,101 @@ description: >-
 
 # 🔁 Migration Guides
 
+
+
+<details>
+
+<summary>2.21.0 (AI Postal Callouts + Signal Jammers)</summary>
+
+Version 2.21.0 adds a new configuration option for AI Pursuit Postal Callouts.
+
+1. Open your existing `config.lua`
+2. Add the new properties (`withPostal` and `postalResource`) to your `Config.autoCallouts` object. The end result should look like:
+
+```lua
+Config.autoCallouts = {
+	enabled = true, -- Whether or not this feature is enabled
+	speedUnit = 'mph', -- mph | kmh | none -- The unit of speed provided with the callout
+	withPostals = false, -- Whether to include postals with the automatic callouts
+	postalResource = 'nearest-postal',
+}
+```
+
+Version 2.21.0 adds a new configuration option for Signal Jammers.
+
+1. Open your existing `config.lua`
+2. At the bottom of the configuration file, copy and paste the entire `Config.radioJammers` object.
+
+```lua
+Config.radioJammers = {
+	enabled = true, -- Enable or disable radio jammers
+	menuCommand = 'jammers', -- Subcommand to open the jammers menu | e.g. /sonoranradio jammers
+	toggleRange = 3.0, -- Distance in meters required to toggle a jammer on/off
+	permissionMode = 'none', -- ace, qbcore, esx or none
+	acePermission = 'sonoranradio.jammers', -- ACE permission required to use jammers
+	allowedJobs = { -- Jobs that can use jammers | Requires permission mode to be set to 'qbcore' or 'esx'
+		['hacker'] = {
+			grades = { -- Job grades that can use jammers
+				1,
+				2,
+				3
+			}
+		}
+	},
+	jammers = {
+		-- Define jammers here
+		-- Example:
+		{
+			name = 'Hand Held Jammer', -- Name of the jammer
+			model = 'm23_2_prop_m32_hackdevice_01a', -- Model name for the jammer
+			offModel = 'm23_2_prop_m32_hackdevice_01a', -- Model name for the jammer when off | Optional
+			range = 25, -- Range of the jammer in meters
+			strength = 0.5, -- Strength of the jammer (0.0 to 1.0)
+			permission = 'sonoranradio.jammer_handheld', -- ACE permission required to use this jammer | Optional
+			-- If permission is not set, the jammer will be available to all players that can access the jammers menu
+			type = 'handheld', -- Type of jammer (handheld or static)
+			itemName = 'sonoran_radio_jammer_handheld', -- Item name for the jammer (if Config.enforceRadioItem is true)
+			poweredItemName = 'sonoran_radio_jammer_handheld_on' -- Optional item that replaces the base item while the jammer is powered on
+		},
+		{
+			name = 'Suitcase Jammer', -- Name of the jammer
+			model = 'ch_prop_ch_mobile_jammer_01x', -- Model name for the jammer
+			offModel = 'ch_prop_ch_mobile_jammer_01x', -- Model name for the jammer when off | Optional
+			range = 100, -- Range of the jammer in meters
+			strength = 0.8, -- Strength of the jammer (0.0 to 1.0)
+			permission = '', -- ACE permission required to use this jammer | Optional
+			-- If permission is not set, the jammer will be available to all players that can access the jammers menu
+			type = 'static', -- Type of jammer (handheld or static)
+			itemName = 'sonoran_radio_jammer_suitcase' -- Item name for the jammer (if Config.enforceRadioItem is true)
+		},
+		{
+			name = 'Case Jammer', -- Name of the jammer
+			model = 'h4_prop_h4_jammer_01a', -- Model name for the jammer
+			offModel = 'h4_prop_h4_jammer_01a', -- Model name for the jammer when off | Optional
+			range = 200, -- Range of the jammer in meters
+			strength = 1.0, -- Strength of the jammer (0.0 to 1.0)
+			permission = '', -- ACE permission required to use this jammer | Optional
+			-- If permission is not set, the jammer will be available to all players that can
+			type = 'static', -- Type of jammer (handheld or static)
+			itemName = 'sonoran_radio_jammer_case' -- Item name for the jammer (if Config.enforceRadioItem is true)
+		},
+		{
+			name = 'Satelite Jammer', -- Name of the jammer
+			model = 'm23_2_prop_m32_jammer_01a', -- Model name for the jammer
+			offModel = 'm23_2_prop_m32_jammer_01a', -- Model name for the jammer when off | Optional
+			range = 300, -- Range of the jammer in meters
+			strength = 1.0, -- Strength of the jammer (0.0 to 1.0)
+			permission = '', -- ACE permission required to use this jammer | Optional
+			-- If permission is not set, the jammer will be available to all players that can
+			type = 'static', -- Type of jammer (handheld or static)
+			itemName = 'sonoran_radio_jammer_satelite' -- Item name for the jammer (if Config.enforceRadioItem is true)
+		}
+	}
+}
+```
+
+</details>
+
 <details>
 
 <summary>2.20.0 (Default ESC Behavior)</summary>
@@ -15,7 +110,7 @@ Version 2.20.0 adds a new feature to configure your community's default [ESC beh
 1. Open your existing `config.lua`
 2. Add the new `Config.defaultEscapeMode = 'keep'` property. You can enable and configure this feature if desired.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -84,7 +179,7 @@ Version 2.15.0 adds a new feature to manage radio community approval and permiss
 1. Open your existing `config.lua`
 2. Add the new `Config.acePermSync = false` property. You can enable and configure this feature if desired.
 
-![](<../../.gitbook/assets/image (3) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png>)
 
 </details>
 
@@ -212,7 +307,7 @@ Config.chatterExclusions = {
 
 3.  Your `config.lua` should now appear like the following after adding in the `Config.chatterExclusions` property:
 
-    <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 

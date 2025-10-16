@@ -4,6 +4,32 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.21.0 - 10/16/2025
+
+{% tabs %}
+{% tab title="New" %}
+Shared Radio Channels
+
+* Communities can now link multiple radio channels together from separate groups. Useful for shared "Interops" or other communication channels between departments.
+
+Signal Jammers
+
+* Added in-game signal jammer items, configurable with QB Core and ESX to block radio signals within a specified radius.
+
+Emergency Call Redial
+
+* Added the ability to re-dial an emergency caller after the call has been ended.
+
+AI Callouts: Postal Code
+
+* Added postal code text-to-speech in the AI pursuit callouts.
+
+Earpiece Notifications
+
+* Added an in-game notification whenever a configured earpiece is inserted or removed, confirming if other players nearby can hear your radio or not.
+{% endtab %}
+{% endtabs %}
+
 ### 2.20.0 - 07/21/2025
 
 {% tabs %}

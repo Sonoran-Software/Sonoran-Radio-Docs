@@ -8,7 +8,7 @@ description: Learn more about creating and managing radio channels!
 
 ## Creating Channel Groups
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Channel groups allow communities to organize channels in separated categories.
 
@@ -20,7 +20,7 @@ To add a new channel group, select the green `+` icon to the right of the group 
 
 Enter in a new group name, and select `Ok`.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Add Channel Group</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Add Channel Group</p></figcaption></figure>
 
 ### Edit or Delete a Group
 
@@ -30,21 +30,43 @@ Select the trash icon on the group to remove it.
 
 Re-order the channel groups via drag-and-drop.
 
+### Shared Channels
+
+Shared channels let you create a single channel that exists across multiple groups.
+
+#### Setup
+
+In this example, there are three radio groups — `City`, `Highway`, and `County`. Each group has its own `Interops` channel, but these channels are linked together so that any transmission on one `Interops` channel is heard across all three groups.
+
+This setup allows seamless communication between departments while maintaining their individual group structures.
+
+1. **Determine the "Primary" Channel**
+
+* One channel must be chosen as the "Primary" channel that the other channels link to. In this example, we will select the `City` group's `Interops`.
+
+2. **Link the First Channel to Primary**
+
+* In the `Highway` group, edit the `Highway Interops` channel. Toggle the channel mode to `Shared` and select the `City Interops` channel (our "primary" channel).
+
+3. **Link the Second Channel to Primary**
+
+* In the `County` group, edit the `County Interops` channel. Toggle the channel mode to `Shared` and select the `City Interops` channel (our "primary" channel).
+
+Now, any user in the City, Highway, or County Interops channel will appear in all three and any transmissions in one will be heard in all three.
+
+<div><figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="278"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2).png" alt="" width="281"><figcaption></figcaption></figure></div>
+
 ## Channels
 
 Channels are inside of groups and are what users connect to in order to communicate.
 
 You can create a channel in the `Customization` > `Channels & Groups` tab, or right inside of the `Dispatch` panel.
 
+* Select the gear icon on the channel to rename it.
+* Select the plus icon in the server settings or dispatch panel to add a new channel.
+* Select the gear icon > trash icon to delete the channel.
 
-
-Select the gear icon on the channel to rename it.
-
-Select the plus icon in the server settings or dispatch panel to add a new channel.
-
-Select the gear icon > trash icon to delete the channel.
-
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption><p>Sonoran Radio - Dispatch Panel Configure Channels</p></figcaption></figure>
 

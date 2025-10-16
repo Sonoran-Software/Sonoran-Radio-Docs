@@ -28,6 +28,14 @@ Dispatchers can end an emergency call with the red "End Call" button, and in-gam
 
 <figure><img src="../../../.gitbook/assets/image (84).png" alt=""><figcaption><p>Sonoran Radio - End 911 Call</p></figcaption></figure>
 
+## Redial the Caller
+
+In some cases, the caller may hang up or dispatch needs to call them back for more information.
+
+Once the call has ended, a `Re-dial {user}` option will appear. Click the green call button to re-dial.
+
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
 ## Customize The Emergency Number & Banner
 
 By [editing the config file](../../getting-started/installing-the-in-game-resource.md#updates) you can customize the following options:

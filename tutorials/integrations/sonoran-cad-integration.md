@@ -30,7 +30,7 @@ Triggering your Sonoran Radio panic (by pressing the yellow button at the top of
 
 When attached to a Sonoran CAD dispatch call, the radio will display a red call info box and set the top status bar to red. Click the call title to expand and collapse the information.
 
-<img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Sonoran Radio x CAD Call Information" data-size="original"><img src="../../.gitbook/assets/FiveM_b3095_GTAProcess_hDcNs1gDMg.png" alt="Call Information - Expanded" data-size="original">
+<img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Sonoran Radio x CAD Call Information" data-size="original"><img src="../../.gitbook/assets/FiveM_b3095_GTAProcess_hDcNs1gDMg.png" alt="Call Information - Expanded" data-size="original">
 
 </details>
 
@@ -44,7 +44,7 @@ Sonoran Radio towers will be displayed on the CAD live map.
 
 Select one of the blips to view it's repeater type and health.
 
-![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 </details>
 
@@ -58,6 +58,6 @@ Automatically set your radio's display name based on your CAD unit information.
 
 In the `sonorad` submodule's configuration file, set `config.syncRadioName.enabled` to true and customize the formatting in `config.syncRadioName.nameFormat`.
 
-![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 </details>

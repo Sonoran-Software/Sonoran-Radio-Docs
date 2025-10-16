@@ -4,7 +4,7 @@ description: >-
   automatically!
 ---
 
-# Pursuit Auto-Callouts
+# AI Pursuit Auto-Callouts
 
 ## Video Example
 
@@ -31,6 +31,10 @@ You can [edit the default keybinding under the `Config.keybinds['toggleAutoCallo
 ### **Speeds**
 
 You can [configure the type of speed announced in the auto-callout using the `Config.autoCallouts.speedUnit` config option](../../getting-started/installing-the-in-game-resource.md#updates). By default, it is in miles per hour, but can be changed to kilometers per hours (`kmh`), or speed callouts can be disabled by setting it to `none`.
+
+### Postal Codes
+
+You can [configure the callouts to state the unit's postal code using the `Config.autoCallouts.withPostals` config option](../../getting-started/installing-the-in-game-resource.md#updates). Additionally, you will need to specify the name of your postal code resource in the [`Config.autoCallouts.postalResource` config option](../../getting-started/installing-the-in-game-resource.md#updates).
 
 ### **Languages**
 
