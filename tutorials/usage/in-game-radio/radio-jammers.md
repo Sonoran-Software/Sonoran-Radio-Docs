@@ -1,8 +1,12 @@
 ---
-description: Disable nearby police radios
+description: >-
+  Deploy a signal jammer to disrupt nearby emergency radios for the ultimate
+  heist!
 ---
 
 # Radio Jammers
+
+<figure><img src="../../../.gitbook/assets/jammer.png" alt=""><figcaption></figcaption></figure>
 
 ## Video Example
 
