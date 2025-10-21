@@ -4,6 +4,22 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.21.2 - 10/21/2025
+
+{% tabs %}
+{% tab title="Changed" %}
+Custom Domains Cloudflare for SaaS
+
+* Updated the custom domain setup to use the newer "Cloudflare for SaaS" method, with legacy being depreciated in the near future.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Reconnection Handling
+
+* Fixed an issue primarily in-game, where users would be unable to hear other transmissions after a network reconnection.
+{% endtab %}
+{% endtabs %}
+
 ### 2.21.0 - 10/17/2025
 
 {% tabs %}
