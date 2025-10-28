@@ -4,6 +4,34 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.21.3 - 10/28/2025
+
+{% tabs %}
+{% tab title="New" %}
+Resource Exports
+
+* Added and documented several new developer exports in the FiveM resource.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Shared Channel UI
+
+* Fixed an issue with shared channels causing the in-game/mini UI to show the user in the main shared channel instead of the per-group subchannel.
+
+UI Positions
+
+* Fixed an issue with saving radio UI positions in-game.
+
+CF Custom Domains
+
+* Fixed an issue with newly created custom domains on Cloudflare.
+
+Desktop Split Error
+
+* Fixed an error that would popup on the desktop version.
+{% endtab %}
+{% endtabs %}
+
 ### 2.21.2 - 10/21/2025
 
 {% tabs %}
