@@ -20,8 +20,7 @@ When first setting a keybind, you will be prompted to add the `Accessibility` pe
 
 Click the `Open System Preferences` button, and toggle the permission on for `Sonoran Radio`.
 
-_If you do not see the `Sonoran Radio` application as an option, click the `+` button in the bottom right and select the program from your `Applications` folder._\
-
+_If you do not see the `Sonoran Radio` application as an option, click the `+` button in the bottom right and select the program from your `Applications` folder._<br>
 
 <div><figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt="" width="267"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
