@@ -19,7 +19,7 @@ Sonoran Radio's development branch maintains the same rate limiting as productio
 All API endpoints and requests should be made to the following address:
 
 ```
-https://radioapi.dev.sonoransoftware.com
+https://staging-api.dev.sonoranradio.com
 ```
 
 ## Development Radio <a href="#development-cad" id="development-cad"></a>
@@ -27,7 +27,7 @@ https://radioapi.dev.sonoransoftware.com
 The latest Radio development version can be accessed at the following address:
 
 ```
-https://radio.dev.sonoransoftware.com
+https://staging.dev.sonoranradio.com
 ```
 
 ## Development Subscription - Free <a href="#development-subscription-free" id="development-subscription-free"></a>
