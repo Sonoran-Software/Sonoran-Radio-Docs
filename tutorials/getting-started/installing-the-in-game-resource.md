@@ -117,7 +117,7 @@ Example of what NOT to do: `ensure [sonoranradio]`
 	withPostals = false, -- Whether to include postals with the automatic callouts
 	postalResource = 'nearest-postal',
 <strong>}
-</strong></code></pre></td><td>When enabled, user radios will <a href="broken-reference">automatically transmit their heading, road, and speeds</a> during a pursuit.</td></tr><tr><td><code>autoPttOnPanic</code></td><td><p></p><pre class="language-lua"><code class="lang-lua">{
+</strong></code></pre></td><td>When enabled, user radios will <a href="/broken/pages/8K95enlvAv1TRZPhQrlS">automatically transmit their heading, road, and speeds</a> during a pursuit.</td></tr><tr><td><code>autoPttOnPanic</code></td><td><p></p><pre class="language-lua"><code class="lang-lua">{
 	enabled = true, -- Enable automatic PTT when panic button is pressed
 	duration = 15 -- Duration in seconds to hold PTT when panic button is pressed
 }

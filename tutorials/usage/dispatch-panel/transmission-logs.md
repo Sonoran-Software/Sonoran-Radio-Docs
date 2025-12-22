@@ -9,7 +9,7 @@ description: Coming soon!
 {% hint style="warning" %}
 Community transmission logs are only available on the pro version.
 
-[Learn more about our paid plans](broken-reference).
+[Learn more about our paid plans](/broken/pages/FjG6luNtOYdxkXxVERZt).
 {% endhint %}
 
 ## Accessing Transmission Logs
@@ -30,4 +30,4 @@ Transmission logs have the following properties:
 
 Audio transcripts can also be automatically generated for each transmission recording.
 
-Communities can optionally enable the `Transmission Log STT` option in the [AI configuration panel](../../integrations/ai.md#ai-options).
+Communities can optionally enable the `Transmission Log STT` option in the [AI configuration panel](../../integrations/ai-keys.md#ai-options).

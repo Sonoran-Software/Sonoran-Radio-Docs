@@ -34,7 +34,7 @@ Additionally, you can [generate temporary AI TTS tones directly inside of the to
 
 #### 1. Enable Tone Board AI
 
-Enable the `Tone Board TTS` option in the [AI configuration panel](../../integrations/ai.md#ai-options).
+Enable the `Tone Board TTS` option in the [AI configuration panel](../../integrations/ai-keys.md#ai-options).
 
 #### 2. Toggle AI Tone Mode
 
@@ -115,7 +115,7 @@ Click the microphone to start and stop recording. After the recording is complet
 
 Similar to [pre-configured AI speech tones](custom-tone-board.md#ai-text-to-speech), the AI wand icon allows you to enter in and generate a temporary text-to-speech AI tone to be played as a tone to radios or [in-game speakers](../in-game-radio/in-game-speakers.md).
 
-This feature requires the `Tone Board TTS` option to be enabled in the [AI configuration panel](../../integrations/ai.md#ai-options).
+This feature requires the `Tone Board TTS` option to be enabled in the [AI configuration panel](../../integrations/ai-keys.md#ai-options).
 
 Click the wand icon to enter text and customize the voice. Then, press enter to generate the audio. Click the newly generated audio to add it to a stack or play as a single tone.
 

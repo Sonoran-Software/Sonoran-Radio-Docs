@@ -4,6 +4,44 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.21.7 - 12/22/2025
+
+{% tabs %}
+{% tab title="New" %}
+AI Pursuit Callout Hear
+
+* Added a settings option to toggle on the ability to hear your AI pursuit callouts when enabled.
+
+Community Log Search
+
+* Added a panel to view user logs for configuration edits and more.
+
+Translations
+
+* Added translation support along with several new language examples.
+{% endtab %}
+
+{% tab title="Changed" %}
+Custom Domain Removal
+
+* Added handling on community downgrade to remove the custom domain from Cloudflare.
+
+Bandwidth
+
+* Tweaked connection subscription events in an effort to minimize bandwidth usage.
+{% endtab %}
+
+{% tab title="Fixed" %}
+API Channel
+
+* Fixed an issue where changing the radio channel via API would result in client side errors.
+
+Trialing Status
+
+* Fixed an issue where trial subscription days would still place the user on the free version.
+{% endtab %}
+{% endtabs %}
+
 ### 2.21.3 - 10/28/2025
 
 {% tabs %}

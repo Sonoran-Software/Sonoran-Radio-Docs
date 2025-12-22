@@ -34,7 +34,7 @@ In some cases, the caller may hang up or dispatch needs to call them back for mo
 
 Once the call has ended, a `Re-dial {user}` option will appear. Click the green call button to re-dial.
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (4).png" alt=""><figcaption></figcaption></figure>
 
 ## Customize The Emergency Number & Banner
 

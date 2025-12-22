@@ -28,7 +28,7 @@ The physical in-game towers are able to be destroyed by criminals, which will de
 
 With three different in-game model types, Sonoran Radio takes immersion to the next level!
 
-See our [tower destruction and repairing](broken-reference) info!
+See our [tower destruction and repairing](/broken/pages/mxyQXf4yxBFCop97PfJq#in-game-towers) info!
 
 <div><figure><img src=".gitbook/assets/cell.png" alt=""><figcaption><p>Cellular Antenna</p></figcaption></figure> <figure><img src=".gitbook/assets/tower_broken.png" alt=""><figcaption><p>Radio Tower</p></figcaption></figure> <figure><img src=".gitbook/assets/server_opened (1).png" alt=""><figcaption><p>Server Rack</p></figcaption></figure></div>
 

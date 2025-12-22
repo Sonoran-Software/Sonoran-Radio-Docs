@@ -2,7 +2,7 @@
 description: Integrate Sonoran Radio with OpenAI.
 ---
 
-# AI
+# AI Keys
 
 ## Sonoran Radio AI
 
@@ -30,9 +30,9 @@ Navigate to `Settings` > `Billing` > `Add payment details` to add a credit or de
 
 With the new project selected, navigate to `API Keys` > `Create new secret key`&#x20;
 
-Give the new API key a name (we recommend a separate key for [each AI feature](ai.md#ai-options) for optimal billing transparency) and select your Sonoran Radio project.
+Give the new API key a name (we recommend a separate key for [each AI feature](ai-keys.md#ai-options) for optimal billing transparency) and select your Sonoran Radio project.
 
-You can also restrict each key's model access based on the [specific feature's requirements](ai.md#ai-options).
+You can also restrict each key's model access based on the [specific feature's requirements](ai-keys.md#ai-options).
 
 <div><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>OpenAI: Generate Key</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="251"><figcaption><p>OpenAI: Generate Key</p></figcaption></figure></div>
 

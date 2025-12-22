@@ -54,7 +54,7 @@ This setup allows seamless communication between departments while maintaining t
 
 Now, any user in the City, Highway, or County Interops channel will appear in all three and any transmissions in one will be heard in all three.
 
-<div><figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="278"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2).png" alt="" width="281"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (1) (5).png" alt="" width="278"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2) (5).png" alt="" width="281"><figcaption></figcaption></figure></div>
 
 ## Channels
 
