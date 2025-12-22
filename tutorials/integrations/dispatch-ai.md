@@ -10,13 +10,29 @@ description: >-
 This feature is available to select communities in our beta testing group and is **not yet available to the public**.
 {% endhint %}
 
+{% hint style="warning" %}
+This feature requires **Sonoran One**, which includes the pro version of Sonoran Radio, CAD, and more.
+
+[Learn more about our paid subscription plans.](../../pricing/pricing-faq/standalone-pricing.md)
+{% endhint %}
+
 ## Setup
 
 ### Copy Sonoran CAD API Information
 
 Dispatch AI requires a Sonoran CAD community ID, API key, and server ID.
 
+The community ID and API key are located in the **Admin** panel > **Advanced** > **In-Game Integration** > **Web API**.
 
+The server ID can be found in the **Admin** panel > **Customization** > **Servers**. The default server ID is `1`.
+
+<div><figure><img src="../../.gitbook/assets/image (134).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (135).png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+### Link CAD In Radio
+
+In the radio **Customization** panel > **Info** > Select a server (or create one) and click on the Sonoran CAD icon. This will open a popup modal to enter in your CAD's community ID, API key, and server ID.
+
+<div><figure><img src="../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Usage
 
@@ -25,6 +41,8 @@ Dispatch AI requires a Sonoran CAD community ID, API key, and server ID.
 When pressing your push-to-talk key, a local AI listens to your microphone feed for the selected wake word. Once the wake word is heard, it sends all microphone traffic to the external AI for processing.
 
 Customizing your wake word is available in the radio settings. Communities can even [create their own, custom wake words](dispatch-ai.md#creating-custom-wake-words).
+
+<figure><img src="../../.gitbook/assets/image (133).png" alt="" width="284"><figcaption></figcaption></figure>
 
 ### Prompting the AI
 
@@ -40,21 +58,56 @@ If your wake word is `Dispatch`, then your transmissions to the AI would be as f
 
 ## AI Commands & Features
 
-### CAD Status
+### CAD Functionality
 
-TODO
+<details>
 
-### CAD Lookup
+<summary>CAD Status</summary>
 
-TODO
+_**Dispatch**, A-10, mark me as available._\
+&#xNAN;_**Dispatch**, A-10, show me 10-8._
 
-### CAD Dispatch Calls
+The AI agent will update your status in the CAD to the stated, customizable status code.
 
-TODO
+</details>
 
-### CAD Panic
+<details>
 
-TODO
+<summary>CAD Lookup</summary>
+
+_**Dispatch**, A-10, run a lookup on the plate ABC123._\
+&#xNAN;_**Dispatch**, A-10, do a record check on first name John last name Doe._
+
+The AI agent will perform the lookup, send the results to your CAD, and notify you of brief details.
+
+</details>
+
+<details>
+
+<summary>CAD Dispatch Calls</summary>
+
+_**Dispatch**, A-10, attach me to the robbery in progress call._\
+&#xNAN;_**Dispatch**, A-10, clear my call._\
+&#xNAN;_**Dispatch**, A-10, close my call._\
+&#xNAN;_**Dispatch**, A-10, add a note on the call that I am arriving on-scene now, it's a white vehicle._
+
+The AI agent till attach, detach, clear, close, or add notes to the dispatch call.
+
+</details>
+
+<details>
+
+<summary>CAD Panic</summary>
+
+_**Dispatch**, A-10, toggle my panic status._
+
+The AI agent will enable or disable your panic status.
+
+</details>
+
+### Radio Functionality
+
+Coming soon!
 
 ## Creating Custom Wake Words
 
@@ -83,19 +136,13 @@ Training may take an **hour or longer to complete**. When finished, two files wi
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
 
-You may notice a **Restart session** popup during the training. If so, select **Cancel** to continue forward.
-
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="272"><figcaption></figcaption></figure>
-
-#### Model Training Troubleshooting
-
-* If you experience the error `name 'generate_samples' is not defined` select **Runtime** > **Disconnect and delete runtime** to clear and restart.
-
 ### 2. Upload the Model
 
 Now that your model files are ready, it's time to upload them to Sonoran Radio.
 
-TODO...
+{% hint style="warning" %}
+This feature is coming soon!
+{% endhint %}
 
 ### 3. Select the Model
 
