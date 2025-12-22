@@ -73,7 +73,7 @@ The webpage will play your custom wake word using its current pronunciation. Mak
 **Example:**\
 Sonoran → _suh\_nar\_rohn_
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### 1B. Running the Model Training
 
@@ -81,11 +81,11 @@ Once you’re satisfied with the wake word’s pronunciation, select **Run All**
 
 Training may take an **hour or longer to complete**. When finished, two files will automatically download to your computer.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
 
 You may notice a **Restart session** popup during the training. If so, select **Cancel** to continue forward.
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="272"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="272"><figcaption></figcaption></figure>
 
 #### Model Training Troubleshooting
 

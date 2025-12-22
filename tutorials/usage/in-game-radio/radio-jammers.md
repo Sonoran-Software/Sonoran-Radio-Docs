@@ -43,7 +43,7 @@ If the jammer item is dropped on the floor, you can interact by being near it an
 
 If the jammer is powered on, it will impact radios in the configured radius.
 
-<figure><img src="../../../.gitbook/assets/image (131).png" alt=""><figcaption><p>Sonoran Radio Jammer Interaction</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (131) (1).png" alt=""><figcaption><p>Sonoran Radio Jammer Interaction</p></figcaption></figure>
 
 ## Permanent Jammers
 

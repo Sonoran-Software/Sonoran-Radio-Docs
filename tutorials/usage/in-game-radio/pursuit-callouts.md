@@ -348,3 +348,7 @@ Three hundred
 ```
 
 </details>
+
+### Audio Playback
+
+By default, users can hear the AI transmissions locally when their radio is playing them. This can be disabled in the FiveM tab of the radio settings.
