@@ -4,6 +4,22 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.22.0 - 12/29/2025
+
+{% tabs %}
+{% tab title="New" %}
+FiveM Login as Guest
+
+* Added a new option for FiveM communities. Allowing users to **bypass the need for a linked Sonoran account to login and utilizing ACE permissions** for all radio access.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Audio Node Disposal
+
+* Improved audio node disposal for temporarily muted users and channels in attempt to resolve an issue with distortion over time.
+{% endtab %}
+{% endtabs %}
+
 ### 2.21.7 - 12/22/2025
 
 {% tabs %}
