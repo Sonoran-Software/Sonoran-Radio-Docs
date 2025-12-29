@@ -10,6 +10,23 @@ description: >-
 
 <details>
 
+<summary>2.22.0 (Login as Guest)</summary>
+
+Version 2.22.0 adds a new configuration option to use in-game ACE permissions for a guest login, removing the need for a user account.
+
+1. Open your existing `config.lua`
+2. Add the new property to the configuration file
+
+```lua
+Config.acePermsForRadioGuests = false -- Restrict users joining the radio as a guest to an ace permission
+```
+
+[Learn more about this new configuration line.](../../tutorials/usage/in-game-radio/configuring-ace-permissions.md#guest-login)
+
+</details>
+
+<details>
+
 <summary>2.21.0 (AI Postal Callouts + Signal Jammers)</summary>
 
 Version 2.21.0 adds a new configuration option for AI Pursuit Postal Callouts.

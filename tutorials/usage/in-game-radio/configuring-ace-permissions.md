@@ -26,6 +26,10 @@ add_principal group.admin sonoranradio.example
 
 This adds all of the Sonoran Radio permissions (configuring repeaters, using the radio, and repairing repeaters) to the `sonoranradio.example` category that the `admin` ACE group has access to.
 
+<details>
+
+<summary>Group Permission Example</summary>
+
 ```
 # Add permissions to the ace category "sonoranradio.example"
 
@@ -64,6 +68,8 @@ add_ace group.admin sonoranradio.jammers allow
 add_ace group.admin sonoranradio.jammer_handheld allow
 ```
 
+</details>
+
 ### **3. Add Users to the ACE Group**
 
 This grants a user the `admin` ACE permission group, specific to their in-game license ID.
@@ -76,23 +82,34 @@ add_principal identifier.license:{GTA License} group.admin
 
 ## ACE Permission Sync
 
-ACE permission sync allows you to automatically approve users in the radio community, grant access to private channels, and give user permissions like name changes, kick, etc.
-
-ACE permission sync also allows new users to bypass the Sonoran account login and [sign in as a guest](using-the-in-game-radio/#login-as-guest).
-
-This sync is ran whenever you turn the radio on and connect.
-
 {% hint style="danger" %}
 **ACE permission sync will override all existing user permissions.**
 
 **Any manually granted permissions will be removed**, ensuring the user has only the permissions configured through ACE.
 {% endhint %}
 
+ACE permission sync allows you to automatically approve users in the radio community, grant access to private channels, and give user permissions like name changes, kick, etc.
+
+This sync is ran whenever you turn the radio on and connect.
+
 [View other ways to manage user permissions.](../../getting-started/invite-and-manage-users.md)
 
 ### Enable ACE Permission Sync
 
-To enable this feature, set your `config.lua`'s `Config.acePermSync` value to `true`.
+To enable this feature, set your [`config.lua`'s `Config.acePermSync` value](../../getting-started/installing-the-in-game-resource.md#updates) to `true`.
+
+### Guest Login
+
+ACE permission sync also allows new users to bypass the Sonoran account login and [sign in as a guest](using-the-in-game-radio/#login-as-guest).
+
+#### Restrict Guest Logins
+
+The [config.lua's `acePermsForRadioGuests` property](../../getting-started/installing-the-in-game-resource.md#updates) is `false` by default.
+
+* When `false`: All users can see and use the **Login as Guest** button.
+* When `true`: Users must have the `sonoranradio.use` ACE permission to see the **Login as Guest** button.
+
+Once logged in as a guest, radio permissions will be granted based on the[ configured ACE permissions](configuring-ace-permissions.md#permission-sync-options).
 
 ### Permission Sync Options
 

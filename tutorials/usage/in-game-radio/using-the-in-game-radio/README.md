@@ -59,11 +59,11 @@ If your community has ACE permissions configured, no account creation or link is
 
 <figure><img src="../../../../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
 
-Select **Login as guest** to bypass the account link and start using your radio. This guest option will only display if `acePermsForRadio` is set to `true`.
+Select **Login as guest** to bypass the account link and start using your radio. This guest option will only display if `acePermsForGuests` is set to `true`.
 
 ### Permission Configuration
 
-In the config.lua, ensure `acePermsForRadio` is set to `true`. Then, [configure ACE permissions for the radio](../configuring-ace-permissions.md#ace-permission-sync).
+Learn how to [configure ACE permissions for the radio](../configuring-ace-permissions.md#ace-permission-sync).
 
 ### Display Name
 
