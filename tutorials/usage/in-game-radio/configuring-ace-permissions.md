@@ -78,6 +78,8 @@ add_principal identifier.license:{GTA License} group.admin
 
 ACE permission sync allows you to automatically approve users in the radio community, grant access to private channels, and give user permissions like name changes, kick, etc.
 
+ACE permission sync also allows new users to bypass the Sonoran account login and [sign in as a guest](using-the-in-game-radio/#login-as-guest).
+
 This sync is ran whenever you turn the radio on and connect.
 
 {% hint style="danger" %}
