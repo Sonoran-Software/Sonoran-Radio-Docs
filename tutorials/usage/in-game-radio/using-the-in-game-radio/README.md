@@ -35,14 +35,41 @@ You can also [customize the display behavior when pressing `ESC`](./#escape-mode
 
 ### Logging In
 
+<details>
+
+<summary>Login with Account</summary>
+
 When you first use the in-game resource, you'll need to log in.\
 A 4-digit code will appear for you to sign in from your browser.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="345"><figcaption><p>Sonoran Radio - Login with Link Prompt</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
 
-Open [sonoranradio.com/link](https://sonoranradio.com/link) in a web browser, log in if needed, enter your code, and click "Activate" to log in to the game.
+Open [sradio.link](https://sradio.link) in a web browser, log in if needed, enter your code, and click "Activate" to log in to the game.
 
 <figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Activate Link</p></figcaption></figure>
+
+</details>
+
+<details>
+
+<summary>Login as Guest</summary>
+
+When you first use the in-game resource, you'll need to log in.\
+If your community has ACE permissions configured, no account creation or link is necessary.
+
+<figure><img src="../../../../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
+
+Select **Login as guest** to bypass the account link and start using your radio. This guest option will only display if `acePermsForRadio` is set to `true`.
+
+### Permission Configuration
+
+In the config.lua, ensure `acePermsForRadio` is set to `true`. Then, [configure ACE permissions for the radio](../configuring-ace-permissions.md#ace-permission-sync).
+
+### Display Name
+
+By default, guest login uses your in-game name as the radio display name. [Users with permission can change this name](../../dispatch-panel/using-the-dispatch-panel.md#display-names). Custom display names are saved locally in your cache and automatically restored on future guest logins.
+
+</details>
 
 ### Logging Out
 
