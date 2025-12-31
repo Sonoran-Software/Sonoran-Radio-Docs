@@ -4,6 +4,20 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.22.1 - 12/30/2025
+
+{% tabs %}
+{% tab title="Fixed" %}
+Audio Leak Degradation
+
+* Fixed an issue where scanning and listening to 50-100 users at once would slowly create a node leak, resulting in laggy or stuttering audio until after a refresh.
+
+Push-To-Talk Hotmic
+
+* Fixed an issue where quickly pressing push-to-talk could result in a stuck "hot mic" on.
+{% endtab %}
+{% endtabs %}
+
 ### 2.22.0 - 12/29/2025
 
 {% tabs %}
