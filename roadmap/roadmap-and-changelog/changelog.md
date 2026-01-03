@@ -4,6 +4,22 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.22.2 - 01/02/2025
+
+{% tabs %}
+{% tab title="New" %}
+Dispatch UI Revamp
+
+* Initial UI revamps for the dispatch panel
+{% endtab %}
+
+{% tab title="Fixed" %}
+Audio Synchronization
+
+* Fixed an issue where users could sometimes hear transmissions they were not scanning
+{% endtab %}
+{% endtabs %}
+
 ### 2.22.1 - 12/30/2025
 
 {% tabs %}
