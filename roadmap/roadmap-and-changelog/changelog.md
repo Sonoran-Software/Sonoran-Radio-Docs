@@ -4,6 +4,30 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.22.3 - 01/07/2025
+
+{% tabs %}
+{% tab title="New" %}
+Recording Filtering
+
+* Added the ability to filter transmission recordings by user and channel.
+
+User Ban
+
+* Added the ability to ban a user account from the members tab, preventing them from re-joining as a pending user.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Mobile Server Selection
+
+* Disabled the automatic connect on mobile if the community has multiple servers configured. Allowing the user to select the server prior to connecting.
+
+Members Panel Pagination
+
+* Added pagination to the members table, resolving a timeout issue for communities with several thousand users.
+{% endtab %}
+{% endtabs %}
+
 ### 2.22.2 - 01/02/2025
 
 {% tabs %}
