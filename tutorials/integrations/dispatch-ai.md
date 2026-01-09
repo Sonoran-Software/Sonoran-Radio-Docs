@@ -52,6 +52,8 @@ In the radio **Customization** panel > **Info** > Select a server (or create one
 
 When pressing your push-to-talk key, a local AI listens to your microphone feed for the customizable wake word. By default, this is **Dispatch**.
 
+Communities can also [customize the default wake word for all users](../usage/dispatch-panel/default-user-settings.md).
+
 <figure><img src="../../.gitbook/assets/image (140).png" alt="" width="287"><figcaption></figcaption></figure>
 
 ### Prompting the AI
