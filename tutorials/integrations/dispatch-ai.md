@@ -76,8 +76,8 @@ If your wake word is **Dispatch**, then your transmissions to the AI would be as
 
 <summary>CAD Status</summary>
 
-_**Dispatch**, A-10, mark me as available._\
-&#xNAN;_**Dispatch**, A-10, show me 10-8._
+_**Dispatch**, A-10, mark my status as available._\
+&#xNAN;_**Dispatch**, A-10, set my status to 10-8._
 
 The AI agent will update your status in the CAD to the stated, customizable status code.
 
