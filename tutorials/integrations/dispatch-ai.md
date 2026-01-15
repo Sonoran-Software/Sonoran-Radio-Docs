@@ -46,6 +46,22 @@ In the radio **Customization** panel > **Info** > Select a server (or create one
 
 </details>
 
+### 3. Prompt Customization
+
+<details>
+
+<summary>AI Prompt Phrases</summary>
+
+The AI has a set of tools it can use to take action in the CAD and on the radio—such as running lookups, creating calls, or updating statuses.
+
+Radio traffic varies by community. One agency might say, “show me out on traffic with a blue sedan,” while another says, “create a traffic stop call with a blue sedan.”
+
+Prompt phrase customization lets you train the AI to map your agency’s specific radio language to the correct system actions, so it responds appropriately to local lingo.
+
+Keep your phrases short and direct. Adding too many phrases can eventually overload the AI's context window.
+
+</details>
+
 ## Usage
 
 ### Selecting Your Wake Word
@@ -55,6 +71,12 @@ When pressing your push-to-talk key, a local AI listens to your microphone feed 
 Communities can also [customize the default wake word for all users](../usage/dispatch-panel/default-user-settings.md).
 
 <figure><img src="../../.gitbook/assets/image (140).png" alt="" width="287"><figcaption></figcaption></figure>
+
+### Manual AI Toggle
+
+FiveM users can also set a manual keybind in the settings. Pressing this keybind will enable the AI (same as the wake word) for your transmission.
+
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Prompting the AI
 

@@ -26,7 +26,7 @@ Create an account and [download the latest script resource](https://sonoran.link
 
 In the account portal, select your recent order and copy the product key.
 
-<div><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Big Daddy - Account Panel</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption><p>Big Daddy - License Key</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Big Daddy - Account Panel</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption><p>Big Daddy - License Key</p></figcaption></figure></div>
 
 ### 2. Install The Script
 
