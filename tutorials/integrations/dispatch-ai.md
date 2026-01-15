@@ -62,21 +62,17 @@ Keep your phrases short and direct. Adding too many phrases can eventually overl
 
 </details>
 
-## Usage
+## Invoke the AI
 
-### Selecting Your Wake Word
+<details>
+
+<summary>Via Wake Work</summary>
 
 When pressing your push-to-talk key, a local AI listens to your microphone feed for the customizable wake word. By default, this is **Dispatch**.
 
 Communities can also [customize the default wake word for all users](../usage/dispatch-panel/default-user-settings.md).
 
 <figure><img src="../../.gitbook/assets/image (140).png" alt="" width="287"><figcaption></figcaption></figure>
-
-### Manual AI Toggle
-
-FiveM users can also set a manual keybind in the settings. Pressing this keybind will enable the AI (same as the wake word) for your transmission.
-
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Prompting the AI
 
@@ -89,6 +85,18 @@ If your wake word is **Dispatch**, then your transmissions to the AI would be as
 \<wake word>, \<optional: my unit number>, \<action to do>\
 &#xNAN;_**Dispatch**, A-10, mark me as available._\
 &#xNAN;_**Dispatch**, A-10, run a lookup on the license plate ABC123_
+
+</details>
+
+<details>
+
+<summary>Via Hotkey</summary>
+
+FiveM users can also set a manual keybind in the settings. Pressing this keybind will enable the AI (same as the wake word) for your transmission.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+
+</details>
 
 ## AI Commands & Features
 
@@ -142,3 +150,15 @@ The AI agent will enable or disable your panic status.
 ### Radio Functionality
 
 Coming soon!
+
+## Settings
+
+<details>
+
+<summary>Hear AI Replies</summary>
+
+By default, users hear AI replies directed to anyone in their primary or scanned channel. The radio setting allows you to switch from hearing AI replies for all users to hearing only replies addressed to you.
+
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
+
+</details>
