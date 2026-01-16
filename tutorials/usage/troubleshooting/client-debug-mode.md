@@ -30,4 +30,4 @@ This will manually add a debug log to help our developers narrow down the time w
 2. Select `Open Log`
 3. Send the latest file located at `C:\Users\USER\AppData\Local\FiveM\FiveM.app\logs`&#x20;
 
-<div><figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>FiveM: Open Client Log</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>FiveM: Client Log</p></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>FiveM: Open Client Log</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>FiveM: Client Log</p></figcaption></figure></div>

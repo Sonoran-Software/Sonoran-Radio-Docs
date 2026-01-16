@@ -70,9 +70,11 @@ Keep your phrases short and direct. Adding too many phrases can eventually overl
 
 When pressing your push-to-talk key, a local AI listens to your microphone feed for the customizable wake word. By default, this is **Dispatch**.
 
+Users can customize their wake word by pressing the microphone button and speaking their custom wake word.
+
 Communities can also [customize the default wake word for all users](../usage/dispatch-panel/default-user-settings.md).
 
-<figure><img src="../../.gitbook/assets/image (140).png" alt="" width="287"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="260"><figcaption></figcaption></figure>
 
 ### Prompting the AI
 
@@ -94,7 +96,7 @@ If your wake word is **Dispatch**, then your transmissions to the AI would be as
 
 FiveM users can also set a manual keybind in the settings. Pressing this keybind will enable the AI (same as the wake word) for your transmission.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 </details>
 
@@ -155,10 +157,20 @@ Coming soon!
 
 <details>
 
+<summary>AI Volume</summary>
+
+The AI's reply volume can be changed in the settings menu.
+
+<figure><img src="../../.gitbook/assets/image (141).png" alt="" width="259"><figcaption></figcaption></figure>
+
+</details>
+
+<details>
+
 <summary>Hear AI Replies</summary>
 
 By default, users hear AI replies directed to anyone in their primary or scanned channel. The radio setting allows you to switch from hearing AI replies for all users to hearing only replies addressed to you.
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 </details>
