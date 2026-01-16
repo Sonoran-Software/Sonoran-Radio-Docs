@@ -130,12 +130,42 @@ The AI agent will perform the lookup, send the results to your CAD, and notify y
 
 <summary>CAD Dispatch Calls</summary>
 
-_**Dispatch**, A-10, attach me to the robbery in progress call._\
-&#xNAN;_**Dispatch**, A-10, clear my call._\
-&#xNAN;_**Dispatch**, A-10, close my call._\
-&#xNAN;_**Dispatch**, A-10, add a note on the call that I am arriving on-scene now, it's a white vehicle._
+#### Create Call
 
-The AI agent till attach, detach, clear, close, or add notes to the dispatch call.
+The AI can create a call and assign your unit. If your unit has a location, it will be automatically applied to the call unless otherwise specified. If a license plate is provided, it will automatically run a plate lookup and send the results to your CAD.
+
+_**Dispatch**, A-10, show me out on traffic with a blue four-door sedan. License plate ABC123._
+
+***
+
+#### Attach to Call
+
+The AI can attach your unit to an existing call by mentioning the call ID, location, postal, title, etc.
+
+_**Dispatch**, A-10, attach me to the robbery in progress call._
+
+***
+
+#### Call Notes
+
+The AI can add a note to your active dispatch call for other units to see.
+
+_**Dispatch**, A-10, add a note on the call that I am arriving on-scene now, it's a white vehicle._
+
+***
+
+#### Detach from Call
+
+The AI can lookup your current dispatch call and remove you from it.
+
+_**Dispatch**, A-10, clear my call._
+
+***
+
+#### Close Call
+
+The AI can lookup and close your current dispatch call.\
+&#xNAN;_**Dispatch**, A-10, close my call._
 
 </details>
 
@@ -146,6 +176,38 @@ The AI agent till attach, detach, clear, close, or add notes to the dispatch cal
 _**Dispatch**, A-10, toggle my panic status._
 
 The AI agent will enable or disable your panic status.
+
+</details>
+
+<details>
+
+<summary>FiveM: GPS Route to Postal</summary>
+
+The AI can draw an in-game GPS route to a postal code on the map.
+
+#### Raw Postal:
+
+_**Dispatch**, A-10, route me to postal 123._\
+&#xNAN;_**Dispatch**, A-10, directions to postal 123._
+
+***
+
+#### Postal on a Dispatch Call
+
+The AI can find an active dispatch call based on the ID, location, title, etc.\
+&#xNAN;_**Dispatch**, A-10, route me to call 123._\
+&#xNAN;_**Dispatch**, A-10, route me to the traffic stop call._
+
+</details>
+
+<details>
+
+<summary>FiveM: GPS Route to Unit</summary>
+
+The AI will route you to the coordinates of another active unit by providing their unit name, number, etc.
+
+_**Dispatch**, A-10, route me unit B-11._\
+&#xNAN;_**Dispatch**, A-10, directions to unit J. Doe._
 
 </details>
 
