@@ -171,6 +171,28 @@ The AI can lookup and close your current dispatch call.\
 
 <details>
 
+<summary>CAD Unit Groups</summary>
+
+#### Group Units
+
+The AI can add your unit (and others) to a new or existing group.
+
+_**Dispatch**, A-10, add me to group 'Ladder 12'._\
+&#xNAN;_**Dispatch**, A-10, add myself and B-11 to group 'Ladder 12'._
+
+***
+
+#### Clear Unit Group
+
+The AI can remove your unit (and others) from a group.
+
+_**Dispatch**, A-10, clear my unit group._\
+&#xNAN;_**Dispatch**, A-10, remove B-11 and I's unit group._
+
+</details>
+
+<details>
+
 <summary>CAD Panic</summary>
 
 _**Dispatch**, A-10, toggle my panic status._
