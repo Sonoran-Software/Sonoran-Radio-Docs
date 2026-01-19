@@ -80,6 +80,8 @@ Communities can also [customize the default wake word for all users](../usage/di
 
 In order to reduce false triggers and conserve local resources, the AI will only listen to the first five seconds of your transmission. This amount can be modified in the **Advanced** tab of the **Audio** settings.
 
+Upon detection of the wake word, an audible beep indicates that the AI has been activated. Users may begin speaking before the beep is heard, as long as the tone occurs at some point during the same transmission.
+
 **Example**
 
 If your wake word is **Dispatch**, then your transmissions to the AI would be as follows:
@@ -108,10 +110,10 @@ FiveM users can also set a manual keybind in the settings. Pressing this keybind
 
 <summary>CAD Status</summary>
 
+The AI agent can update your status in the CAD to the stated, customizable status code.
+
 _**Dispatch**, A-10, mark my status as available._\
 &#xNAN;_**Dispatch**, A-10, set my status to 10-8._
-
-The AI agent will update your status in the CAD to the stated, customizable status code.
 
 </details>
 
@@ -119,10 +121,10 @@ The AI agent will update your status in the CAD to the stated, customizable stat
 
 <summary>CAD Lookup</summary>
 
+The AI agent can perform a name or plate lookup, send the results to your CAD, and notify you of brief details.
+
 _**Dispatch**, A-10, run a lookup on the plate ABC123._\
 &#xNAN;_**Dispatch**, A-10, do a record check on first name John last name Doe._
-
-The AI agent will perform the lookup, send the results to your CAD, and notify you of brief details.
 
 </details>
 
