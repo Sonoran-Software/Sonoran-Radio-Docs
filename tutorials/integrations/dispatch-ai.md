@@ -207,6 +207,11 @@ The AI agent will enable or disable your panic status.
 
 <summary>FiveM: GPS Route to Postal</summary>
 
+{% hint style="warning" %}
+In order to route your GPS to a postal code, the **Nearest Postal** resource is required.\
+Or, another resource that can handle the command `/postal <id>`.
+{% endhint %}
+
 The AI can draw an in-game GPS route to a postal code on the map.
 
 #### Raw Postal:
