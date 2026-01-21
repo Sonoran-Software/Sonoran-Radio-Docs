@@ -142,9 +142,10 @@ _**Dispatch**, A-10, show me out on traffic with a blue four-door sedan. License
 
 #### Attach to Call
 
-The AI can attach your unit to an existing call by mentioning the call ID, location, postal, title, etc.
+The AI can attach you and other units to an existing call by mentioning the call ID, location, postal, title, etc.
 
-_**Dispatch**, A-10, attach me to the robbery in progress call._
+_**Dispatch**, A-10, attach me to the robbery in progress call._\
+&#xNAN;_**Dispatch**, A-10, attach B-11 to my call._
 
 ***
 
