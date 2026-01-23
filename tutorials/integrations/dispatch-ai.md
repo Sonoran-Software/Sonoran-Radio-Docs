@@ -110,10 +110,10 @@ FiveM users can also set a manual keybind in the settings. Pressing this keybind
 
 <summary>CAD Status</summary>
 
-The AI agent can update your status in the CAD to the stated, customizable status code.
+The AI can update the status of you and other units to the stated, customizable status code.
 
 _**Dispatch**, A-10, mark my status as available._\
-&#xNAN;_**Dispatch**, A-10, set my status to 10-8._
+&#xNAN;_**Dispatch**, A-10, set B-11 and I to 10-8._
 
 </details>
 
