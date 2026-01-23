@@ -35,6 +35,7 @@ Hotkeys allow for faster actions at the press of a button. These can be configur
 ![](<../../../.gitbook/assets/image (1) (1) (2) (1) (1) (1).png>)
 
 * [Push to Talk](using-the-dispatch-panel.md#transmitting-push-to-talk)
+* [AI Mode Toggle](../../integrations/dispatch-ai.md#via-hotkey)
 * [Temporary Per-Channel Push to Talk](using-the-dispatch-panel.md#transmitting-push-to-talk)
 * [Tone Board](custom-tone-board.md)
 * [Change Group Tab](using-the-dispatch-panel.md#switching-transmit-and-scanned-channels-1)

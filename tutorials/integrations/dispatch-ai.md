@@ -94,7 +94,17 @@ If your wake word is **Dispatch**, then your transmissions to the AI would be as
 
 <details>
 
-<summary>Via Hotkey</summary>
+<summary>Via Hotkey (Web and Desktop)</summary>
+
+Web and desktop users can also set a [customizable hotkey in the settings menu](../usage/dispatch-panel/using-the-dispatch-panel.md#dispatch-hotkeys). Pressing this keybind will enable the AI (same as the wake word) for your transmission.
+
+<figure><img src="../../.gitbook/assets/image (142).png" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+<details>
+
+<summary>FiveM: Via Hotkey</summary>
 
 FiveM users can also set a manual keybind in the settings. Pressing this keybind will enable the AI (same as the wake word) for your transmission.
 
