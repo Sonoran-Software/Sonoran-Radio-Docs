@@ -112,6 +112,30 @@ FiveM users can also set a manual keybind in the settings. Pressing this keybind
 
 </details>
 
+## Enable/Disable the AI
+
+<details>
+
+<summary>Manually</summary>
+
+The AI can be manually toggled on or off via the CAD link page.
+
+<figure><img src="../../.gitbook/assets/image (143).png" alt="" width="227"><figcaption></figcaption></figure>
+
+</details>
+
+<details>
+
+<summary>`Auto Disable w/Human Dispatcher</summary>
+
+The AI can be automatically disabled whenever an active dispatcher is in the CAD.
+
+When this feature is enabled, the AI will check for a dispatcher once per minute.
+
+<figure><img src="../../.gitbook/assets/image (144).png" alt="" width="227"><figcaption></figcaption></figure>
+
+</details>
+
 ## AI Commands & Features
 
 ### CAD Functionality
@@ -237,6 +261,20 @@ _**Dispatch**, A-10, route me to postal 123._\
 The AI can find an active dispatch call based on the ID, location, title, etc.\
 &#xNAN;_**Dispatch**, A-10, route me to call 123._\
 &#xNAN;_**Dispatch**, A-10, route me to the traffic stop call._
+
+</details>
+
+<details>
+
+<summary>FiveM: Automatic Status on Postal</summary>
+
+{% hint style="warning" %}
+This feature requires the **Nearest Postal** resource version v1.5.4 or newer.
+{% endhint %}
+
+When the AI routes your unit to a postal code or other unit location, the AI will automatically mark your status as en-route. Upon arrival, the AI will automatically mark your status as on-scene.
+
+These settings are configurable in TODO!
 
 </details>
 
