@@ -126,7 +126,7 @@ The AI can be manually toggled on or off via the CAD link page.
 
 <details>
 
-<summary>`Auto Disable w/Human Dispatcher</summary>
+<summary>Auto Disable w/Human Dispatcher</summary>
 
 The AI can be automatically disabled whenever an active dispatcher is in the CAD.
 
@@ -274,7 +274,7 @@ This feature requires the **Nearest Postal** resource version v1.5.4 or newer.
 
 When the AI routes your unit to a postal code or other unit location, the AI will automatically mark your status as en-route. Upon arrival, the AI will automatically mark your status as on-scene.
 
-These settings are configurable in TODO!
+This feature is configurable the [config.lua](../getting-started/installing-the-in-game-resource.md#configuration-options)'s `Config.autoOnSceneStatus` settings.
 
 </details>
 

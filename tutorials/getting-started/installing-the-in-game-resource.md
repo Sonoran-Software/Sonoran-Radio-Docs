@@ -119,11 +119,13 @@ Example of what NOT to do: `ensure [sonoranradio]`
 	withPostals = false, -- Whether to include postals with the automatic callouts
 	postalResource = 'nearest-postal',
 <strong>}
-</strong></code></pre></td><td>When enabled, user radios will <a href="/broken/pages/8K95enlvAv1TRZPhQrlS">automatically transmit their heading, road, and speeds</a> during a pursuit.</td></tr><tr><td><code>autoPttOnPanic</code></td><td><p></p><pre class="language-lua"><code class="lang-lua">{
-	enabled = true, -- Enable automatic PTT when panic button is pressed
-	duration = 15 -- Duration in seconds to hold PTT when panic button is pressed
+</strong></code></pre></td><td>When enabled, user radios will <a href="/broken/pages/8K95enlvAv1TRZPhQrlS">automatically transmit their heading, road, and speeds</a> during a pursuit.</td></tr><tr><td><code>autoOnSceneStatus</code></td><td><p></p><pre class="language-lua"><code class="lang-lua">Config.autoOnSceneStatus = {
+	enabled = true, -- Enable automatic ON_SCENE status when arriving at a waypoint created by SonoranRadio AI
+	distance = 30.0, -- Distance in meters from the waypoint to trigger ON_SCENE status
+	statusEnum = 4, -- Status enum for "ON_SCENE" -- See https://docs.sonoransoftware.com/cad/api-integration/api-endpoints/emergency/identifiers/unit-status for more information
+	timeout = 300000 -- Time in milliseconds to timeout the auto ON_SCENE status after arriving at the waypoint
 }
-</code></pre></td><td>When a <a href="../usage/in-game-radio/using-the-in-game-radio/#panic">radio user panics</a>, this feature will automatically press their push-to-talk key for the configured amount of time.</td></tr><tr><td><code>radioJammers</code></td><td><p></p><pre><code>Config.radioJammers = {
+</code></pre></td><td>When the <a href="../integrations/dispatch-ai.md#fivem-gps-route-to-postal">AI dispatcher GPS routes a user</a>, <a href="../integrations/dispatch-ai.md#fivem-automatic-status-on-postal">automatically update their CAD status</a> to en-route. Upon arrival, update their CAD status to on-scene.</td></tr><tr><td><code>radioJammers</code></td><td><p></p><pre><code>Config.radioJammers = {
 	enabled = true, -- Enable or disable radio jammers
 	menuCommand = 'jammers', -- Subcommand to open the jammers menu | e.g. /sonoranradio jammers
 	toggleRange = 3.0, -- Distance in meters required to toggle a jammer on/off
