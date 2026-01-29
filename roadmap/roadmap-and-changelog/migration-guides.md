@@ -8,12 +8,59 @@ description: >-
 
 <details>
 
-<summary>2.24.0 (Auto On-Scene Status AI)</summary>
+<summary>2.24.0 (Geo Channels, Auto Notifications, Display Name Function, Auto On-Scene Status AI)</summary>
 
-Version 2.24.0 adds a new configuration option for the upcoming dispatch AI release, allowing the AI to automatically change your status when you are en-route and arrive on-scene at a GPS routed location.
+Version 2.24.0 adds a new configuration options to:
+
+* Create Geo-based channel switching
+* Use new notification frameworks
+* A custom function for guest user display names
+* Allowing the upcoming AI to automatically change your status when you are en-route and arrive on-scene at a GPS routed location.
 
 1. Open your existing `config.lua`
-2. Add the new property to the configuration file
+2. Add the new properties to the configuration file
+
+**Geo Channels**
+
+```lua
+-- Geo-Channel Settings --
+Config.geoChannels = {
+	enabled = true,
+	command = 'sonradgeoswitch', -- command to toggle geo-channel switching | e.g. /sonradgeoswitch
+	friendlyCommand = 'geoswitch', -- friendly subcommand of the /radio command to toggle geo-channel switching | e.g. / radio geoswitch
+	acePermission = '', -- ACE permission required to use disable geo-channel switching | Leave blank to allow all users
+	showNotifications = true -- Show notifications when geo-channel switching is enabled/disabled
+}
+
+```
+
+**Auto Notifications**
+
+```lua
+-- Change the type from 'native' to the new 'auto' option
+
+-- OLD:
+Config.notifications = {
+	type = 'native', -- Available options: native, pNotify, okokNotify, ox_lib, chat, or custom
+	notificationTitle = 'SonoranRadio', -- Notification Title for methods that support it
+
+-- NEW:
+Config.notifications = {
+	type = 'auto', -- Available options: auto, native, pNotify, ox_lib, okokNotify, chat, or custom
+	notificationTitle = 'SonoranRadio', -- Notification Title for methods that support it
+```
+
+**Guest Display Name**
+
+```lua
+-- Customize Radio Guest Display Names
+Config.getGuestDisplayName = function(source)
+	-- return ('Guest %s'):format(source)
+	return nil
+end
+```
+
+**AI GPS Auto-Status**
 
 ```lua
 Config.autoOnSceneStatus = {

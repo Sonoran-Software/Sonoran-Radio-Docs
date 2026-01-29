@@ -105,3 +105,19 @@ Use the `Delete Zone` menu option to delete the selected (red) zone.
 <figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Degredation Zone: Visible and Selected</p></figcaption></figure>
 
 </details>
+
+## Commands and ACE Permissions
+
+<details>
+
+<summary>FiveM Geo Channel Config + ACE Permissions</summary>
+
+In the [config.lua](../../getting-started/installing-the-in-game-resource.md#updates)'s `Config.geoChannels` property allows for additional customization.
+
+**User Toggle**
+
+Users can use `/radio geoswitch` to toggle the auto-switcher on/off for themselves.
+
+An optional `acePermission` can be added to restrict this command to specific users.
+
+</details>
