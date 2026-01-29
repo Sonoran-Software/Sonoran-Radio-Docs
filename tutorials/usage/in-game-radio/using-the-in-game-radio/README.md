@@ -67,7 +67,16 @@ Learn how to [configure ACE permissions for the radio](../configuring-ace-permis
 
 ### Display Name
 
-By default, guest login uses your in-game name as the radio display name. [Users with permission can change this name](../../dispatch-panel/using-the-dispatch-panel.md#display-names). Custom display names are saved locally in your cache and automatically restored on future guest logins.
+Custom display names are saved locally in your cache and automatically restored on future guest logins.
+
+Guest usernames are set in the following priority order (whichever is found first):
+
+* Last used guest display name
+* [Custom framework function](../../../../developer-documentation/developer-documentation/resource-events.md#guest-display-names)
+* First and last name from QBCore, QBox, or ESX.
+* In-game display name
+
+[Users with permission can change this name](../../dispatch-panel/using-the-dispatch-panel.md#display-names).
 
 </details>
 
