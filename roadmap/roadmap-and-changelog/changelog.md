@@ -4,6 +4,39 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.24.0 - Coming Soon!
+
+{% tabs %}
+{% tab title="New" %}
+Geo Channels
+
+* Communities can now specify custom coordinate zones with specific radio channels to transmit and scan. When aplayer enters the zones, their radio channels will be automatically updated.
+
+FiveM Guest Login - Framework
+
+* Integrated the guest login with QB-Core, QBox, and ESX to use the player's character name by default.
+
+FiveM Tablet
+
+* Added an in-game tablet to view the dispatch panel.
+
+Tone Board Improvements
+
+* Tone board now auto-selects your currently transmitting channels.
+* Tone stacks can now be saved for faster, repeated use.
+
+Notifications
+
+* In-game notifications now support an "auto" mode, automatically detecting any of the new notification options: native, pNotify, ox\_lib, okokNotify, chat, lation\_ui or custom.
+{% endtab %}
+
+{% tab title="Changed" %}
+FiveM Resource Restart Auto-Connect
+
+* When the FiveM resource is restarted, all users will now automatically re-connect to their radio.
+{% endtab %}
+{% endtabs %}
+
 ### 2.23.2 - 01/07/2025
 
 {% tabs %}

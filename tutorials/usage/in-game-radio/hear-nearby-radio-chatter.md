@@ -68,13 +68,13 @@ Whenever a user inserts or removes a configured in-game earpiece, a notification
 
 Communities can easily select which clothing items will be treated as a radio earpiece.
 
-<div><figure><img src="../../../.gitbook/assets/image (46).png" alt="" width="147"><figcaption><p>Sonoran Radio: In-Game Radio Earpiece</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio: Configure Earpieces</p></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (46).png" alt="" width="147"><figcaption><p>Sonoran Radio: In-Game Radio Earpiece</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio: Configure Earpieces</p></figcaption></figure></div>
 
 ### 1. Open the Earpiece Menu
 
 Open the earpiece configuration menu via  `/radiomenu` > `Configure Earpiece Chatter`
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="223"><figcaption><p>Sonoran Radio Menu</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="223"><figcaption><p>Sonoran Radio Menu</p></figcaption></figure>
 
 ### 2. Toggle Earpiece Items
 
@@ -82,7 +82,7 @@ To add a chatter exclusion click "Add Earpiece Item" and select the component yo
 
 Once selected, anyone wearing this earpiece will not emit radio chatter to nearby users.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="222"><figcaption><p>Add or Remove Earpiece</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="222"><figcaption><p>Add or Remove Earpiece</p></figcaption></figure>
 
 <div><figure><img src="../../../.gitbook/assets/image (7) (1) (1).png" alt="" width="375"><figcaption><p>Earpiece Item Selection</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (8) (1) (1).png" alt="" width="375"><figcaption><p>Earpiece Texture Selection</p></figcaption></figure></div>
 
