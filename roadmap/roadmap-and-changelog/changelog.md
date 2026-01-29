@@ -10,7 +10,15 @@ description: View the changelog for the Sonoran Radio application and in-game re
 {% tab title="New" %}
 Geo Channels
 
-* Communities can now specify custom coordinate zones with specific radio channels to transmit and scan. When aplayer enters the zones, their radio channels will be automatically updated.
+* Communities can now specify custom coordinate zones with specific radio channels to transmit and scan. When a player enters the zones, their radio channels will be automatically updated.
+
+Degrade/Tunnel Zones - Panel UI
+
+* Degredation zones can now be viewed and configured via the zones panel in Sonoran Radio.
+
+Emergency Zones
+
+* Communities can now create emergency zones for dispatch AI to read out CAD emergency calls to specific channels based on location.
 
 FiveM Guest Login - Framework
 
