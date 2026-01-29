@@ -74,7 +74,7 @@ Users can customize their wake word by pressing the microphone button and speaki
 
 Communities can also [customize the default wake word for all users](../usage/dispatch-panel/default-user-settings.md).
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="260"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="260"><figcaption></figcaption></figure>
 
 ### Prompting the AI
 

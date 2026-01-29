@@ -38,7 +38,7 @@ Extract the script to your server's `resources` folder.
 
 In the `settings.ini` file, paste your license key.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Big Daddy - Product Key</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Big Daddy - Product Key</p></figcaption></figure>
 
 #### C. Ensure the Resource
 

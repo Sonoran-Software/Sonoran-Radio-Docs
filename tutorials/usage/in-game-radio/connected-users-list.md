@@ -22,7 +22,7 @@ This window displays all active users connected to the radio, and the channel th
 
 To resize the connected users list, use the command `/radiouserssize W H` with `W` being the width in pixels (ex: `500`) and `H` being the height (ex: `500`).
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### Reposition
 

@@ -15,7 +15,7 @@ When connecting to the radio, your microphone may be locked in "exclusive mode" 
 * Open the `Control Panel` and select `Hardware and Sound`
 * Select `Manage Audio Devices`
 
-<div><figure><img src="../../../.gitbook/assets/image (29).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (29).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### 2. Disable Exclusive Mode
 

@@ -78,7 +78,7 @@ After opening the tone board via hotkey or the music note icon, you will see the
 * [Microphone](custom-tone-board.md#recording-tones): Record a temporary live audio tone from your microphone
 * [AI TTS](custom-tone-board.md#ai-tts): Generate a temporary AI-powered text-to-speech tone
 
-<figure><img src="../../../.gitbook/assets/image (145).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (145) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### Tone Broadcast To Options
 

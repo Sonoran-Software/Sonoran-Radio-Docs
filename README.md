@@ -60,7 +60,7 @@ Sonoran Radio's dispatch UI allows you to specify specific channels and groups, 
 
 <figure><img src=".gitbook/assets/Customizable Tone Board Promo.png" alt=""><figcaption><p>Sonoran Radio - Tone Board</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - In-Game Speakers</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - In-Game Speakers</p></figcaption></figure>
 
 ## 🎙️[Custom Voice Effects](tutorials/usage/dispatch-panel/custom-voice-effects.md)
 

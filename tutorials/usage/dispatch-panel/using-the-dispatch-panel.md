@@ -62,7 +62,7 @@ Alternatively, use the [PTT hotkey](using-the-dispatch-panel.md#hotkeys-keybinds
 
 To temporarily transmit in a single channel, and move back to your original channel afterwards, select the keyboard icon to set a per-channel XMIT hotkey.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>Dispatch: Per-Channel XMIT Hotkey</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption><p>Dispatch: Per-Channel XMIT Hotkey</p></figcaption></figure>
 
 </details>
 

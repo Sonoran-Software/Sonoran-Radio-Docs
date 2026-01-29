@@ -24,5 +24,5 @@ In Chrome, paste the following into the URL bar and hit enter: `chrome://setting
 
 Ensure that sites are allowed to ask for microphone access, and that `sonoranradio.com` is not blacklisted from microphone access.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
