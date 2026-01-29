@@ -28,6 +28,10 @@ FiveM Guest Login - Framework
 
 * Integrated the guest login with QB-Core, QBox, and ESX to use the player's character name by default.
 
+FiveM Guest Display Name Function
+
+* Communities can now use a custom function to set user's guest display names for their framework.
+
 FiveM Tablet
 
 * Added an in-game tablet to view the dispatch panel.
