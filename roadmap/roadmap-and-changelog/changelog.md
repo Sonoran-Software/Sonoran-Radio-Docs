@@ -16,9 +16,13 @@ Degrade/Tunnel Zones - Panel UI
 
 * Degredation zones can now be viewed and configured via the zones panel in Sonoran Radio.
 
-Emergency Zones
+AI Emergency Zones
 
 * Communities can now create emergency zones for dispatch AI to read out CAD emergency calls to specific channels based on location.
+
+AI Auto-Status Routing
+
+* When the AI GPS routes a user to a specific postal or coordinate locations, the AI will automatically mark the unit as en-route and on-scene.
 
 FiveM Guest Login - Framework
 

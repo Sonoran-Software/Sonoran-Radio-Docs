@@ -276,20 +276,6 @@ The AI can find an active dispatch call based on the ID, location, title, etc.\
 
 <details>
 
-<summary>FiveM: Automatic Status on Postal</summary>
-
-{% hint style="warning" %}
-This feature requires the **Nearest Postal** resource version v1.5.4 or newer.
-{% endhint %}
-
-When the AI routes your unit to a postal code or other unit location, the AI will automatically mark your status as en-route. Upon arrival, the AI will automatically mark your status as on-scene.
-
-This feature is configurable the [config.lua](../getting-started/installing-the-in-game-resource.md#configuration-options)'s `Config.autoOnSceneStatus` settings.
-
-</details>
-
-<details>
-
 <summary>FiveM: GPS Route to Unit</summary>
 
 The AI will route you to the coordinates of another active unit by providing their unit name, number, etc.
@@ -303,7 +289,11 @@ _**Dispatch**, A-10, route me unit B-11._\
 
 <summary>FiveM: Auto-Status on GPS Route + Arrival</summary>
 
-When the AI routes a user to a specific postal code or GPS coordinate (unit location) it will automatically set your status as en-route. Upon arrival, the AI will automatically mark your status as on-scene.
+{% hint style="warning" %}
+This feature requires the **Nearest Postal** resource version v1.5.4 or newer.
+{% endhint %}
+
+When the AI routes a user to a specific [postal code](dispatch-ai.md#fivem-gps-route-to-postal) or [GPS coordinate (unit location) ](dispatch-ai.md#fivem-gps-route-to-unit)it will automatically set your status as en-route. Upon arrival, the AI will automatically mark your status as on-scene.
 
 The radio resource's [config.lua](../getting-started/installing-the-in-game-resource.md#configuration-options) contains `Config.autoOnSceneStatus` with options to tweak the settings.
 
