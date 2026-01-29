@@ -71,15 +71,14 @@ To quickly toggle the tone board, you may configure a custom hotkey in the setti
 After opening the tone board via hotkey or the music note icon, you will see the following UI.
 
 * Search: Type-to-filter for available tone names
+* Saved Stacks: Saved, pre-created tone stacks
 * [Broadcast To](custom-tone-board.md#tone-broadcast-to-options): Type-to-filter and multi-select the desired channels or channel groups
 * [Stack](custom-tone-board.md#stacked-tones): Optionally toggle tone stacking to play multiple tones in order
 * [Repeat](custom-tone-board.md#repeating-tones): Optionally toggle on a tone repeat with a total play number and a delay between plays
 * [Microphone](custom-tone-board.md#recording-tones): Record a temporary live audio tone from your microphone
 * [AI TTS](custom-tone-board.md#ai-tts): Generate a temporary AI-powered text-to-speech tone
 
-<figure><img src="../../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - Tone Board</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (145).png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### Tone Broadcast To Options
 
@@ -102,6 +101,19 @@ Stacked tones allow you to align multiple tones together and play them in order.
 Toggle on the `Stack` icon and click on tones in order. You can also drag-and-drop the stack at the bottom left to reorder tones prior to pressing `Play`.
 
 <figure><img src="../../../.gitbook/assets/image (4) (2).png" alt=""><figcaption><p>Tone Board - Stacked Tones</p></figcaption></figure>
+
+#### Saved Stacks
+
+Tone stacks can be saved for faster re-use.
+
+After creating a stack press the **Save** icon. This will prompt you to enter in a stack name. Saved stacks will display on the **Saved Stacks** tab. Saved stacks can be "loaded" into the editor, played directly to your current **Broadcast To** channels, or deleted.
+
+**Shortcuts:**
+
+* Clicking a saved tone stack once will load the stack.
+* Double-clicking a saved tone stack will play it.
+
+<figure><img src="../../../.gitbook/assets/image (147).png" alt=""><figcaption></figcaption></figure>
 
 #### Recording Tones
 
