@@ -4,7 +4,7 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
-### 2.24.0 - Coming Soon!
+### 2.24.0 - 01/29/2026
 
 {% tabs %}
 {% tab title="New" %}
@@ -53,7 +53,7 @@ FiveM Resource Restart Auto-Connect
 {% endtab %}
 {% endtabs %}
 
-### 2.23.2 - 01/07/2025
+### 2.23.2 - 01/07/2026
 
 {% tabs %}
 {% tab title="New" %}
@@ -77,7 +77,7 @@ Members Panel Pagination
 {% endtab %}
 {% endtabs %}
 
-### 2.22.2 - 01/02/2025
+### 2.22.2 - 01/02/2026
 
 {% tabs %}
 {% tab title="New" %}
