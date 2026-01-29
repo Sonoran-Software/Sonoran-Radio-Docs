@@ -6,7 +6,25 @@ description: >-
 
 # 🔁 Migration Guides
 
+<details>
 
+<summary>2.24.0 (Auto On-Scene Status AI)</summary>
+
+Version 2.24.0 adds a new configuration option for the upcoming dispatch AI release, allowing the AI to automatically change your status when you are en-route and arrive on-scene at a GPS routed location.
+
+1. Open your existing `config.lua`
+2. Add the new property to the configuration file
+
+```lua
+Config.autoOnSceneStatus = {
+	enabled = true, -- Enable automatic ON_SCENE status when arriving at a waypoint created by SonoranRadio AI
+	distance = 30.0, -- Distance in meters from the waypoint to trigger ON_SCENE status
+	statusEnum = 4, -- Status enum for "ON_SCENE" -- See https://docs.sonoransoftware.com/cad/api-integration/api-endpoints/emergency/identifiers/unit-status for more information
+	timeout = 300000 -- Time in milliseconds to timeout the auto ON_SCENE status after arriving at the waypoint
+}
+```
+
+</details>
 
 <details>
 

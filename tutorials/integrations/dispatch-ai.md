@@ -299,6 +299,16 @@ _**Dispatch**, A-10, route me unit B-11._\
 
 </details>
 
+<details>
+
+<summary>FiveM: Auto-Status on GPS Route + Arrival</summary>
+
+When the AI routes a user to a specific postal code or GPS coordinate (unit location) it will automatically set your status as en-route. Upon arrival, the AI will automatically mark your status as on-scene.
+
+The radio resource's [config.lua](../getting-started/installing-the-in-game-resource.md#configuration-options) contains `Config.autoOnSceneStatus` with options to tweak the settings.
+
+</details>
+
 ### Radio Functionality
 
 Coming soon!
