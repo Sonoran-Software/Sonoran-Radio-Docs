@@ -92,11 +92,28 @@ end)
 
 ## Set Display Name
 
-Programatically update a user's radio display name
+Programmatically update a user's radio display name (Client Side)
+
+{% hint style="warning" %}
+The user must have permission to set their own display name
+{% endhint %}
 
 ```lua
 -- Set your current display name in the radio
 exports['sonoranradio']:handleNameChange('my new name')
+```
+
+#### Guest Display Names
+
+To customize guest display names without giving permission to change their own name, you can update the `Config.getGuestDisplayName`&#x20;
+
+```lua
+-- My Custom Guest Display Name Generator
+-- Param `source`: The server id of the user logging in as guest
+-- Returns string or nil (to use default)
+Config.getGuestDisplayName = function(source)
+    return ('I am logging in as a guest %s %s'):format(GetDisplayName(source), makeid())
+end
 ```
 
 ## Tower Destruction
