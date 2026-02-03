@@ -49,6 +49,7 @@
     * [Mac Keybinds](tutorials/usage/troubleshooting/mac-keybinds.md)
     * [In-Game Timeouts](tutorials/usage/troubleshooting/in-game-timeouts.md)
     * [Device In Use](tutorials/usage/troubleshooting/device-in-use.md)
+    * [Read and Write Permissions](tutorials/usage/troubleshooting/read-and-write-permissions.md)
 * [Integrations](tutorials/integrations/README.md)
   * [Dispatch AI](tutorials/integrations/dispatch-ai.md)
   * [AI Keys](tutorials/integrations/ai.md)
