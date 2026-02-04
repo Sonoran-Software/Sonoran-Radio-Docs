@@ -242,7 +242,7 @@ The AI agent will enable or disable your panic status.
 
 <summary>FIveM &#x26; ER:LC: Emergency Call Readout</summary>
 
-In the Radio Zones menu, you can create custom zones and assign radio channels to each. When a 911 call is generated in CAD, the AI automatically reads the call over the channels configured for that zone.
+In the Radio Zones menu, you can create custom zones and assign radio channels to each. When a 911 call is generated in CAD, the AI automatically creates a new dispatch call, reads the call over the channels configured for that zone, and removes the 911 call.
 
 <figure><img src="../../.gitbook/assets/image (151).png" alt=""><figcaption></figcaption></figure>
 
