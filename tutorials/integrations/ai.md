@@ -16,7 +16,7 @@ Navigate to [platform.openai.com](https://platform.openai.com/) and create an ac
 
 At the top left, select `Create Project` for a new category of Sonoran Radio API keys.
 
-<div><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>OpenAI: Create Project</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>OpenAI: Name Project</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>OpenAI: Create Project</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>OpenAI: Name Project</p></figcaption></figure></div>
 
 ### 2. Add Billing Information
 
@@ -44,21 +44,34 @@ In Sonoran Radio, navigate to `Customize` > `AI` > toggle on and paste in your n
 
 ## AI Options
 
+
+
+### [Dispatch AI](dispatch-ai.md)
+
+Dispatch AI offers in-depth integration to manage Sonoran CAD unit statuses, lookups, call creation, emergency calls, and more.
+
+#### Model Requirements (OpenAI)
+
+* `gpt-realtime-mini`
+* `gpt-5-nano`
+* `gpt-4o-mini-transcribe`
+* `gpt-4o-mini-tts`
+
 ### [Transmission Log STT](../usage/dispatch-panel/transmission-logs.md) (Speech-To-Text)
 
 Transmission logs enable dispatchers to review and replay previous transmissions. With AI integration, these logs are enhanced with text transcripts, making it easier to search, reference, and analyze past communications efficiently.
 
-#### Model Requirements:
+#### Model Requirements  (OpenAI):
 
-OpenAI `whisper-1` model
+`whisper-1`
 
 ### [Tone Board TTS](../usage/dispatch-panel/custom-tone-board.md#ai-text-to-speech) (Text-To-Speech)
 
 Tone board text-to-speech allows the generation of spoken text tones.
 
-#### Model Requirements:
+#### Model Requirements  (OpenAI):
 
-OpenAI `tts-1-hd` model
+`tts-1-hd`
 
 
 

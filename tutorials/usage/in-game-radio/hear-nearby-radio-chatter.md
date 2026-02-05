@@ -74,7 +74,7 @@ Communities can easily select which clothing items will be treated as a radio ea
 
 Open the earpiece configuration menu via  `/radiomenu` > `Configure Earpiece Chatter`
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="223"><figcaption><p>Sonoran Radio Menu</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="223"><figcaption><p>Sonoran Radio Menu</p></figcaption></figure>
 
 ### 2. Toggle Earpiece Items
 

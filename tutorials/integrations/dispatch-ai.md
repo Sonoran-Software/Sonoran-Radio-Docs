@@ -7,11 +7,15 @@ description: >-
 # Dispatch AI
 
 {% hint style="danger" %}
-This feature is available to select communities in our beta testing group and is **not yet available to the public**.
+This feature is in a public **BETA** state.
+
+Services may be intermittent and unreliable. Some features may experience issues.
+
+Dispatch AI is not yet approved for full, production use. Utilize dispatch AI at your own risk.
 {% endhint %}
 
 {% hint style="warning" %}
-This feature requires **Sonoran One**, which includes the pro version of Sonoran Radio, CAD, and more.
+This feature requires both **Sonoran CAD Pro** and **Sonoran Radio Pro**.
 
 [Learn more about our paid subscription plans.](../../pricing/pricing-faq/standalone-pricing.md)
 {% endhint %}
@@ -34,19 +38,44 @@ The server ID can be found in the **Admin** panel > **Customization** > **Server
 
 </details>
 
-### 2. Link CAD In Radio
+### 2. Create an Open AI API Key (BYOK)
+
+<details>
+
+<summary>Open AI API Key</summary>
+
+Currently, dispatch AI runs on a bring-your-own-key (BYOK) system for AI usage billing. This allows communities to maintain granular control of their AI expenses with OpenAI as a third-party. This system is subject to change in the future.
+
+{% hint style="danger" %}
+Sonoran Software Systems is not responsible for any unexpected or excess charges incurred from OpenAI or other third-party AI service providers. Communities are strongly encouraged to set spending limits, enable billing alerts, and actively monitor AI usage to ensure costs remain within approved thresholds.
+
+Because OpenAI and all other AI providers are a third-party, Sonoran Software Systems has no ability to offer refunds or reduced rates for AI costs.
+{% endhint %}
+
+[View the OpenAI API Key process here.](ai.md)
+
+In the current beta, dispatch AI relies on the following models:
+
+* `gpt-realtime-mini`
+* `gpt-5-nano`
+* `gpt-4o-mini-transcribe`
+* `gpt-4o-mini-tts`
+
+</details>
+
+### 3. Link CAD In Radio
 
 <details>
 
 <summary>Link CAD In Radio</summary>
 
-In the radio **Customization** panel > **Info** > Select a server (or create one) and click on the Sonoran CAD icon. This will open a popup modal to enter in your CAD's community ID, API key, and server ID.
+In the radio **Customization** panel > **Info** > Select a server (or create one) and click on the Sonoran CAD icon. This will open a popup modal to enter in your CAD's community ID, API key, and server ID. Additionally, paste in your AI API key from the previous step.
 
-<div><figure><img src="../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
 
 </details>
 
-### 3. Prompt Customization
+### 4. Prompt Customization
 
 <details>
 
@@ -108,7 +137,7 @@ Web and desktop users can also set a [customizable hotkey in the settings menu](
 
 FiveM users can also set a manual keybind in the settings. Pressing this keybind will enable the AI (same as the wake word) for your transmission.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 </details>
 
@@ -240,7 +269,7 @@ The AI agent will enable or disable your panic status.
 
 <details>
 
-<summary>FIveM &#x26; ER:LC: Emergency Call Readout</summary>
+<summary>FIveM: Emergency Call Readout</summary>
 
 In the Radio Zones menu, you can create custom zones and assign radio channels to each. When a 911 call is generated in CAD, the AI automatically creates a new dispatch call, reads the call over the channels configured for that zone, and removes the 911 call.
 
@@ -321,6 +350,6 @@ The AI's reply volume can be changed in the settings menu.
 
 By default, users hear AI replies directed to anyone in their primary or scanned channel. The radio setting allows you to switch from hearing AI replies for all users to hearing only replies addressed to you.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 </details>

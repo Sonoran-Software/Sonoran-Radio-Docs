@@ -157,7 +157,7 @@ Use the `/radiodisplay` command while in a vehicle to spawn a new display.
 * Select `Apply to all of this vehicle model` to have the radio display automatically added whenever the vehicle type is spawned.
   * See the [config.lua](vehicle-radio-display.md#configuration) `Config.acePerms.aceObjectAdminUseMenu` for permission restrictions.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### `radios.json` Property Explanation <a href="#radars.json-property-explanation" id="radars.json-property-explanation"></a>
 
