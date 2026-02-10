@@ -20,7 +20,11 @@ This feature requires both **Sonoran CAD Pro** and **Sonoran Radio Pro**.
 [Learn more about our paid subscription plans.](../../pricing/pricing-faq/standalone-pricing.md)
 {% endhint %}
 
-## Setup
+## Setup Video
+
+{% embed url="https://app.guidde.com/share/playbooks/937jHS9EDLh9vEuWnaovk8?origin=G25dDmjNZ2b8ccFUz9X7G7W8T1k1" %}
+
+## Setup Documentation
 
 ### 1. Copy Sonoran CAD API Information
 
