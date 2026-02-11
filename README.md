@@ -22,6 +22,12 @@ Sonoran Radio offers a fully-featured free version accessible to anyone!
 
 With instant setup, you can chat with community members in just minutes!
 
+## ✨ [Dispatch AI](tutorials/integrations/dispatch-ai.md)
+
+Dispatch AI is our most powerful integration ever built. Talk to a live AI dispatcher over the radio to create calls, run license plate lookups, update your status, and so much more!
+
+<figure><img src=".gitbook/assets/dai_promo.png" alt=""><figcaption></figcaption></figure>
+
 ## 💣 [In-Game Tower Destruction](tutorials/usage/in-game-radio/in-game-repeaters.md)
 
 The physical in-game towers are able to be destroyed by criminals, which will devastate quality of radios around it.

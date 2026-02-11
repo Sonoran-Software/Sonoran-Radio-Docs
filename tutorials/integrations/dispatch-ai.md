@@ -6,6 +6,8 @@ description: >-
 
 # Dispatch AI
 
+<figure><img src="../../.gitbook/assets/dai_promo.png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="danger" %}
 This feature is in a public **BETA** state.
 
