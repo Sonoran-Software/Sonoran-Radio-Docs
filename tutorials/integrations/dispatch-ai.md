@@ -99,6 +99,12 @@ Keep your phrases short and direct. Adding too many phrases can eventually overl
 
 ## Invoke the AI
 
+{% hint style="info" %}
+When first connecting to the radio, if you are the only user in the room, the AI agent may take up to 30 seconds to join.
+
+When the agent has joined, a brief "Dispatch Online" audio will play.
+{% endhint %}
+
 <details>
 
 <summary>Via Wake Work</summary>
