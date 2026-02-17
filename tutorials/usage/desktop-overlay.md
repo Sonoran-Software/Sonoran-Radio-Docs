@@ -6,6 +6,8 @@ description: >-
 
 # Desktop Overlay
 
+<figure><img src="../../.gitbook/assets/overlay_promo.png" alt=""><figcaption></figcaption></figure>
+
 ## Accessing the Overlay
 
 With the desktop application opened, select the **Open Overlay** button. This will close the main dispatch panel and will open up the radio overlay. The overlay will be displayed on top of any window it's placed on. Pressing the power button **Off** will close the overlay and re-open the dispatch panel.

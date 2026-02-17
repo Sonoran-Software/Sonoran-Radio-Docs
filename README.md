@@ -28,6 +28,12 @@ Dispatch AI is our most powerful integration ever built. Talk to a live AI dispa
 
 <figure><img src=".gitbook/assets/dai_promo.png" alt=""><figcaption></figcaption></figure>
 
+## 🎮 [Universal Desktop Overlay](tutorials/usage/desktop-overlay.md)
+
+Sonoran Radio's desktop overlay works with any game, leaving you with full immersion!
+
+<figure><img src=".gitbook/assets/overlay_promo.png" alt=""><figcaption></figcaption></figure>
+
 ## 💣 [In-Game Tower Destruction](tutorials/usage/in-game-radio/in-game-repeaters.md)
 
 The physical in-game towers are able to be destroyed by criminals, which will devastate quality of radios around it.
