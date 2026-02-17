@@ -4,6 +4,16 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.24.4 - 02/17/2026
+
+{% tabs %}
+{% tab title="New" %}
+Desktop Overlay
+
+* Added a desktop overlay with customizable frames to display your radio on top of any game window.
+{% endtab %}
+{% endtabs %}
+
 ### 2.24.0 - 01/29/2026
 
 {% tabs %}

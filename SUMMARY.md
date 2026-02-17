@@ -23,6 +23,7 @@
     * [Multi-Server](tutorials/usage/dispatch-panel/multi-server.md)
     * [Custom Domain / Vanity URL](tutorials/usage/dispatch-panel/custom-domain-vanity-url.md)
     * [Logging](tutorials/usage/dispatch-panel/logging.md)
+  * [Desktop Overlay](tutorials/usage/desktop-overlay.md)
   * [In-Game Radio](tutorials/usage/in-game-radio/README.md)
     * [Using the In-Game Radio](tutorials/usage/in-game-radio/using-the-in-game-radio/README.md)
       * [FiveM Keybinds & Commands](tutorials/usage/in-game-radio/using-the-in-game-radio/fivem-keybinds-and-commands.md)

@@ -58,11 +58,11 @@ To transmit over Sonoran Radio, you can press the microphone button on the top-l
 
 Alternatively, use the [PTT hotkey](using-the-dispatch-panel.md#hotkeys-keybinds).
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Dispatch: PTT Button</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p>Dispatch: PTT Button</p></figcaption></figure>
 
 To temporarily transmit in a single channel, and move back to your original channel afterwards, select the keyboard icon to set a per-channel XMIT hotkey.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption><p>Dispatch: Per-Channel XMIT Hotkey</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption><p>Dispatch: Per-Channel XMIT Hotkey</p></figcaption></figure>
 
 </details>
 

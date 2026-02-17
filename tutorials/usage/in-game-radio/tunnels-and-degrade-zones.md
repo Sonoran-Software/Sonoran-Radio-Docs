@@ -26,7 +26,7 @@ Degradation zones are areas like tunnels, underground areas, or mountain valleys
 
 Use the polygon, square, or circle tool to create a new zone. Select the zone to customize the name, Z coordinates (floor and ceiling height), and the degrade strength.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 

@@ -64,7 +64,7 @@ Select the music icon on the left to customize the icon, background color, and t
 
 To quickly toggle the tone board, you may configure a custom hotkey in the settings menu.
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Tone Board Hotkey</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Tone Board Hotkey</p></figcaption></figure>
 
 ### Playing a Tone
 

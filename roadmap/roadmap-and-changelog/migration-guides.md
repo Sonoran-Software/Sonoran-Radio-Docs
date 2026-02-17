@@ -192,7 +192,7 @@ Version 2.20.0 adds a new feature to configure your community's default [ESC beh
 1. Open your existing `config.lua`
 2. Add the new `Config.defaultEscapeMode = 'keep'` property. You can enable and configure this feature if desired.
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -261,7 +261,7 @@ Version 2.15.0 adds a new feature to manage radio community approval and permiss
 1. Open your existing `config.lua`
 2. Add the new `Config.acePermSync = false` property. You can enable and configure this feature if desired.
 
-![](<../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png>)
 
 </details>
 
@@ -389,7 +389,7 @@ Config.chatterExclusions = {
 
 3.  Your `config.lua` should now appear like the following after adding in the `Config.chatterExclusions` property:
 
-    <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 

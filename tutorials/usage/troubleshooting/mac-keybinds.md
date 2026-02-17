@@ -12,7 +12,7 @@ Due to Apple's permission restrictions, and limited support on newer Apple Silic
 
 Sonoran Radio must adjust a file permission in order to listen to keybinds while the application is running. You will be prompted to enter your computer's password:
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="267"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="267"><figcaption></figcaption></figure>
 
 ## 2. Grant Accessibility Access
 
@@ -22,7 +22,7 @@ Click the `Open System Preferences` button, and toggle the permission on for `So
 
 _If you do not see the `Sonoran Radio` application as an option, click the `+` button in the bottom right and select the program from your `Applications` folder._<br>
 
-<div><figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="267"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="267"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 You can also manually open this menu via `System Settings` > `Privacy and Security` > `Accessibility`

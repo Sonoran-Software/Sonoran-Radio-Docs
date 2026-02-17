@@ -14,7 +14,7 @@ At times, our support team may request debug logs from your local radio. This co
 2. At the bottom, a red section labeled `Debug Mode` will appear, indicating that it has been correctly enabled.
 3. Restart the radio (power on/off) to start capturing fresh logs. Once you have re-created the issue, continue on with sending the logs as described below.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="232"><figcaption><p>Sonoran Radio: Debug Mode</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="232"><figcaption><p>Sonoran Radio: Debug Mode</p></figcaption></figure>
 
 ### Flagging Timestamps
 
@@ -22,7 +22,7 @@ In some cases, you may be asked to add a timestamp flag when an issue occurs. On
 
 This will manually add a debug log to help our developers narrow down the time window.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="302"><figcaption><p>Flag Timestamp</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt="" width="302"><figcaption><p>Flag Timestamp</p></figcaption></figure>
 
 ### Sending Client Debug logs
 
@@ -30,4 +30,4 @@ This will manually add a debug log to help our developers narrow down the time w
 2. Select `Open Log`
 3. Send the latest file located at `C:\Users\USER\AppData\Local\FiveM\FiveM.app\logs`&#x20;
 
-<div><figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>FiveM: Open Client Log</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>FiveM: Client Log</p></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>FiveM: Open Client Log</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>FiveM: Client Log</p></figcaption></figure></div>

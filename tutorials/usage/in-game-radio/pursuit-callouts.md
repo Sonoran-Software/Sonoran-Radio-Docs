@@ -14,7 +14,7 @@ description: >-
 
 Auto-callouts can be enabled using the in-game keybind (configurable in the `config.lua`) or by using the `/sonradtogglecallouts` command in-game
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 When your radio is powered, auto-callouts are enabled, and you're in a vehicle - Sonoran Radio will automatically callout street and direction changes over the radio. If configured, it will also callout average your speeds
 
