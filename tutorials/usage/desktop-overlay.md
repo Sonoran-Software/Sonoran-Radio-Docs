@@ -52,6 +52,12 @@ Click and drag on the radio to move it around the screen. Hold **CTRL** while cl
 
 ## Customizing Radio Frames
 
+{% hint style="warning" %}
+Uploading custom radio frames requires the **Pro** subscription.
+
+For more information, [view our pricing page](../../pricing/pricing-faq/).
+{% endhint %}
+
 <details>
 
 <summary>Configuring Custom Overlay Frames</summary>

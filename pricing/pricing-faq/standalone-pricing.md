@@ -55,6 +55,18 @@ Multi-server lets each server run independently while sharing the same channel s
 | Plus         | 1 Server          |
 | Pro          | Unlimited Servers |
 
+### [Desktop Overlay](standalone-pricing.md#desktop-overlay)
+
+Customize your desktop overlay with unique radio frames for your community!
+
+<figure><img src="../../.gitbook/assets/overlay_promo.png" alt="" width="375"><figcaption></figcaption></figure>
+
+| Subscription | Limit                    |
+| ------------ | ------------------------ |
+| Free         | Default three frames     |
+| Plus         | Default three frames     |
+| Pro          | Full frame customization |
+
 ### [Hear Nearby Radio Chatter](../../tutorials/usage/in-game-radio/hear-nearby-radio-chatter.md) and [Scanners](../../tutorials/usage/in-game-radio/radio-scanners.md)
 
 <div><figure><img src="../../.gitbook/assets/image (37).png" alt="" width="375"><figcaption><p>Sonoran Radio - Hear Nearby Chatter</p></figcaption></figure> <figure><img src="../../.gitbook/assets/scanner.png" alt="" width="375"><figcaption><p>Sonoran Radio - Scanners</p></figcaption></figure></div>
