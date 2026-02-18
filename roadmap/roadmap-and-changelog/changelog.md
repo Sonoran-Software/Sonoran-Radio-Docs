@@ -4,6 +4,27 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.24.5 - 02/18/2026
+
+{% tabs %}
+{% tab title="Changed" %}
+Desktop Overlay Promo
+
+* Added a check to ensure the community is on Pro before uploading a custom frame.
+* Added a popup promotional to encourage upgrading when uploading a custom frame.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Desktop Overlay Overflow
+
+* Fixed an issue where users in channel would overflow the screen in the desktop overlay.
+
+Free Community Upload Overlay Frame
+
+* Fixed an issue with an undefined error message when a community on the free version would attempt to upload a custom radio frame.
+{% endtab %}
+{% endtabs %}
+
 ### 2.24.4 - 02/17/2026
 
 {% tabs %}
