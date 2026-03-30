@@ -4,6 +4,47 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.25.0 - 03/30/2026
+
+{% tabs %}
+{% tab title="New" %}
+Stun User
+
+* Added a new right-click menu option and permission to stun a user from talking temporarily.
+
+Ping User
+
+* Added a new right-click menu option to ping a user
+
+User List Overlay
+
+* Added a new desktop overlay option with a hotkey to display the current list of users and channels
+
+Community Image
+
+* Added the ability to customize your radio community's logo
+
+Hotkey Recording
+
+* Added support for multi-combination hotkeys
+* Hotkeys now auto-save after releasing the combination Open Overlay Mobile Button
+
+Open Overlay Mobile Button
+
+* Added a button on the "mobile" (non-dispatch) UI panel for desktop users with smaller windows
+
+Overlay Back Button
+
+* Tweaked the close button on the desktop overlay to swap back to the main radio screen instead of the community menu
+{% endtab %}
+
+{% tab title="Fixed" %}
+Temporary Transmit
+
+* Fixed an issue where using a hotkey to temporarily transmit in a specific channel resulted in your current channel still hearing your transmission briefly
+{% endtab %}
+{% endtabs %}
+
 ### 2.24.5 - 02/18/2026
 
 {% tabs %}
