@@ -8,6 +8,14 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 {% tabs %}
 {% tab title="New" %}
+Radio Channels: Unlimited for Free
+
+* Free communities can now configure unlimited channels without limits
+
+Tone Board: Unlimited for Free
+
+* Free communities can now configure unlimited tones without limits
+
 Stun User
 
 * Added a new right-click menu option and permission to stun a user from talking temporarily.
@@ -36,6 +44,10 @@ Open Overlay Mobile Button
 Overlay Back Button
 
 * Tweaked the close button on the desktop overlay to swap back to the main radio screen instead of the community menu
+
+Settings Privacy Tab
+
+* Users can now individually opt-out of having their radio transmissions recorded
 {% endtab %}
 
 {% tab title="Fixed" %}
