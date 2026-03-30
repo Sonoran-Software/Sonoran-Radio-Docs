@@ -114,6 +114,8 @@ Right click in the user to:
 * Move the user to a different channel ([Requires Permission](../../getting-started/invite-and-manage-users.md#manage-user-permissions))
 * Adjust the user's volume ([Requires Permission](../../getting-started/invite-and-manage-users.md#manage-user-permissions))
 * Change the user's display name ([Requires Permission](../../getting-started/invite-and-manage-users.md#manage-user-permissions))
+* Stun the user from transmissing temporarily ([Requires Permission](../../getting-started/invite-and-manage-users.md#manage-user-permissions))
+* Ping the user to get their attention
 
 ![](<../../../.gitbook/assets/image (5) (3).png>)
 
