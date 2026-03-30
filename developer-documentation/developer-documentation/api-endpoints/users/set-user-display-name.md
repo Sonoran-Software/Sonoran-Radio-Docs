@@ -6,9 +6,9 @@ description: This endpoint updates the user's display name in the radio.
 
 ## Set User Display Name
 
-<mark style="color:green;">`POST`</mark> `/api/set-user-display-name`
+<mark style="color:green;">`POST`</mark> `/radio/set-user-display-name`
 
-This endpoint updates the user's transmitting and scanned channels.
+This endpoint updates a connected user's display name in the radio.
 
 **Headers**
 
@@ -21,9 +21,13 @@ This endpoint updates the user's transmitting and scanned channels.
 | Name          | Type   | Description       |
 | ------------- | ------ | ----------------- |
 | `id`          | string | Community ID      |
-| `key`         | string | Community ID      |
-| `accId`       | string | User Account UUID |
+| `key`         | string | Community API Key |
+| `identity`    | string | User radio identity |
 | `displayName` | string | New Display Name  |
+
+You can also call the URL-parameter form:
+
+<mark style="color:green;">`POST`</mark> `/radio/set-user-display-name/:id/:key/:identity`
 
 
 

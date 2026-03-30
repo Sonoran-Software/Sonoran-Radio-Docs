@@ -14,6 +14,12 @@ Sonoran CMS allows you to automatically add and manage user permissions with use
 [sonoran-cms.md](../integrations/sonoran-cms.md)
 {% endcontent-ref %}
 
+If you are building your own integration, Sonoran Radio also exposes API endpoints to approve members, kick members, ban members, update member display names, and set member permissions.
+
+{% content-ref url="../../developer-documentation/developer-documentation/api-endpoints/users/README.md" %}
+[README.md](../../developer-documentation/developer-documentation/api-endpoints/users/README.md)
+{% endcontent-ref %}
+
 ***
 
 ## FiveM Management
