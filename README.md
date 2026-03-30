@@ -32,7 +32,7 @@ Dispatch AI is our most powerful integration ever built. Talk to a live AI dispa
 
 Sonoran Radio's desktop overlay works with any game, leaving you with full immersion!
 
-<figure><img src=".gitbook/assets/overlay_promo.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/overlay_promo (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 💣 [In-Game Tower Destruction](tutorials/usage/in-game-radio/in-game-repeaters.md)
 

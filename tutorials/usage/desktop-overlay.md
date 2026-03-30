@@ -8,13 +8,25 @@ description: >-
 
 <figure><img src="../../.gitbook/assets/overlay_promo.png" alt=""><figcaption></figcaption></figure>
 
-## Accessing the Overlay
+## Radio Overlay
 
-With the desktop application opened, select the **Open Overlay** button. This will close the main dispatch panel and will open up the radio overlay. The overlay will be displayed on top of any window it's placed on. Pressing the power button **Off** will close the overlay and re-open the dispatch panel.
+### Accessing the Radio Overlay
 
-<div><figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<details>
 
-### Using the Overlay
+<summary>Accessing the Radio Overlay</summary>
+
+With the desktop application opened, select the **Open Overlay** button on the dispatch or mobile panel. This will close the main dispatch panel and will open up the radio overlay.
+
+The overlay will be displayed on top of any window it's placed on. Pressing the power button **Off** or selecting **Return to Portal** will close the overlay and re-open the dispatch panel.
+
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+### Using the Radio Overlay
 
 #### Hotkeys
 
@@ -24,7 +36,7 @@ With the desktop application opened, select the **Open Overlay** button. This wi
 
 By selecting the **Settings** button on the overlay, users can configure a hotkey to hide/show the overlay. Additionally, a hotkey to focus the radio can be used for games with fullscreen mode.
 
-<div><figure><img src="../../.gitbook/assets/image (2).png" alt="" width="105"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (3).png" alt="" width="189"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="105"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="189"><figcaption></figcaption></figure></div>
 
 </details>
 
@@ -38,7 +50,7 @@ Communities can configure custom radio frames to be made available to their user
 
 Users can change their selected frame in the settings window.
 
-<div><figure><img src="../../.gitbook/assets/image (2).png" alt="" width="105"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (4).png" alt="" width="119"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="105"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (4).png" alt="" width="119"><figcaption></figcaption></figure></div>
 
 </details>
 
@@ -50,7 +62,7 @@ Click and drag on the radio to move it around the screen. Hold **CTRL** while cl
 
 </details>
 
-## Customizing Radio Frames
+### Customizing Radio Frames
 
 {% hint style="warning" %}
 Uploading custom radio frames requires the **Pro** subscription.
@@ -65,5 +77,25 @@ For more information, [view our pricing page](../../pricing/pricing-faq/).
 In the admin's **Customization** > **Desktop Frames** menu, new frame images can be uploaded. Once uploaded, drag-and-drop the buttons onto the frame and position the screen size.
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+## Connected Users Overlay
+
+The user list overlay allows you to quickly view what users are online, what channels they're in, and who is currently transmitting.
+
+<figure><img src="../../.gitbook/assets/image (152).png" alt="" width="375"><figcaption></figcaption></figure>
+
+### Accessing the User List Overlay
+
+<details>
+
+<summary>Accessing the Connected Users Overlay</summary>
+
+To open the connected users overlay, select the **Open User List** button on the dispatch or mobile panel. Or, create a new hotkey in the **Settings** panel to **Open the Connected Users**.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 </details>

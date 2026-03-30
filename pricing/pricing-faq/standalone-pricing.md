@@ -59,7 +59,7 @@ Multi-server lets each server run independently while sharing the same channel s
 
 Customize your desktop overlay with unique radio frames for your community!
 
-<figure><img src="../../.gitbook/assets/overlay_promo.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/overlay_promo (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 | Subscription | Limit                    |
 | ------------ | ------------------------ |

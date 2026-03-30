@@ -12,7 +12,7 @@ Due to Apple's permission restrictions, and limited support on newer Apple Silic
 
 Sonoran Radio must adjust a file permission in order to listen to keybinds while the application is running. You will be prompted to enter your computer's password:
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="267"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="267"><figcaption></figcaption></figure>
 
 ## 2. Grant Accessibility Access
 
