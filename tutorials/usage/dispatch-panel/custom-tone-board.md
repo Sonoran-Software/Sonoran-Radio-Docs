@@ -6,12 +6,6 @@ description: Customize dispatch tones to broadcast to your units!
 
 <figure><img src="../../../.gitbook/assets/Customizable Tone Board Promo.png" alt=""><figcaption><p>Sonoran Radio: Tone Board</p></figcaption></figure>
 
-{% hint style="info" %}
-Tones are limited based on your subscription plan.
-
-[Learn more about our paid plans.](../../../pricing/pricing-faq/standalone-pricing.md)
-{% endhint %}
-
 ## Configuring the Tone Board
 
 Under the `Customization` tab, select `Tone Board`.

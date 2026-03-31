@@ -32,18 +32,6 @@ Depending upon your subscription level, your community is limited to the maximum
 | Plus         | 30 Connected Users        |
 | Pro          | Unlimited Connected Users |
 
-### [Radio Channels](../../tutorials/usage/dispatch-panel/configure-channels.md)
-
-Depending upon your subscription level, your community is limited to the maximum amount of radio channels.
-
-<figure><img src="../../.gitbook/assets/profile-limit.png" alt="" width="375"><figcaption></figcaption></figure>
-
-| Subscription | Limit                    |
-| ------------ | ------------------------ |
-| Free         | 1 Radio Channel          |
-| Plus         | 5 Radio Channels         |
-| Pro          | Unlimited Radio Channels |
-
 ### [Multi-Server](../../tutorials/usage/dispatch-panel/multi-server.md)
 
 Using multiple identical servers for overflow?\
@@ -114,16 +102,6 @@ Experience immersive, realistic transmissions with in-game sirens, rotor blades,
 | Free         | 🚫    |
 | Plus         | 🚫    |
 | Pro          | ✅     |
-
-### [Tone Board Customization](../../tutorials/usage/dispatch-panel/custom-tone-board.md)
-
-<figure><img src="../../.gitbook/assets/Customizable Tone Board Promo.png" alt="" width="375"><figcaption></figcaption></figure>
-
-| Subscription | Limit     |
-| ------------ | --------- |
-| Free         | 1         |
-| Standard     | 3         |
-| Pro          | Unlimited |
 
 ### [Voice Effect Customization](../../tutorials/usage/dispatch-panel/custom-voice-effects.md)
 
