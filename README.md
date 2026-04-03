@@ -34,6 +34,12 @@ Sonoran Radio's desktop overlay works with any game, leaving you with full immer
 
 <figure><img src=".gitbook/assets/overlay_promo (1).png" alt=""><figcaption></figcaption></figure>
 
+## ⌨️ [Stream Deck Plugin](tutorials/integrations/stream-deck-plugin.md)
+
+The Sonoran Radio Stream Deck plugin allows you to rotate channels, groups, create custom XMIT and SCAN profiles, adjust system, channel, SFX, and AI volume, toggle overlays, and more. Additional integration for the Stream Deck + with dials offers unique integration.
+
+<figure><img src=".gitbook/assets/radio_deck_promo_thumbnail.png" alt=""><figcaption></figcaption></figure>
+
 ## 💣 [In-Game Tower Destruction](tutorials/usage/in-game-radio/in-game-repeaters.md)
 
 The physical in-game towers are able to be destroyed by criminals, which will devastate quality of radios around it.
