@@ -18,7 +18,7 @@ Or, use the bottom section to upload and configure a new tone.
 
 Select the upload icon to attach an audio file.
 
-<figure><img src="../../../.gitbook/assets/image (3) (3) (1).png" alt=""><figcaption><p>Sonoran Radio: Tone Upload</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ### AI Text-To-Speech
 
@@ -26,25 +26,15 @@ The tone board also allows you to customize AI generated text-to-speech tones.
 
 Additionally, you can [generate temporary AI TTS tones directly inside of the tone board](custom-tone-board.md#ai-tts).
 
-#### 1. Enable Tone Board AI
+#### 1. Toggle AI Tone Mode
 
-Enable the `Tone Board TTS` option in the [AI configuration panel](../../integrations/ai.md#ai-options).
+On the right of the new tone configurator, select the **AI Mode** button to change from file uploads to AI text-to-speech.
 
-#### 2. Toggle AI Tone Mode
-
-On the right of the new tone configurator, toggle the icon to change the new tone from audio uploader to AI.
-
-<figure><img src="../../../.gitbook/assets/image (1) (4).png" alt=""><figcaption><p>Sonoran Radio: Tone AI</p></figcaption></figure>
-
-#### 3. Customize And Generate via AI
+#### 2. Customize And Generate via AI
 
 Add the tone label, specify the text for the voice, and [customize any other visual options](custom-tone-board.md#visual-customizatio).
 
-The person icon will allow you to customize the voice type and speed.
-
-The arrows icon will allow you to generate the voice.
-
-The play icon will allow you to preview the AI voice.
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ### Visual Customization
 
@@ -58,7 +48,7 @@ Select the music icon on the left to customize the icon, background color, and t
 
 To quickly toggle the tone board, you may configure a custom hotkey in the settings menu.
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Tone Board Hotkey</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Tone Board Hotkey</p></figcaption></figure>
 
 ### Playing a Tone
 
@@ -113,16 +103,14 @@ After creating a stack press the **Save** icon. This will prompt you to enter in
 
 The microphone icon allows you to record local microphone audio to be played as a tone to radios or [in-game speakers](../in-game-radio/in-game-speakers.md).
 
-Click the microphone to start and stop recording. After the recording is completed, a small recording tone button will appear next to it. Click to add it to a stack or play as a single tone.
+Click the **Audio Recording** to start and stop recording. After the recording is completed, a small recording tone button will appear next to it. Click to add it to a stack or play as a single tone.
 
-<figure><img src="../../../.gitbook/assets/image (6) (2).png" alt=""><figcaption><p>Tone Board - Microphone Recording</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 #### AI TTS
 
 Similar to [pre-configured AI speech tones](custom-tone-board.md#ai-text-to-speech), the AI wand icon allows you to enter in and generate a temporary text-to-speech AI tone to be played as a tone to radios or [in-game speakers](../in-game-radio/in-game-speakers.md).
 
-This feature requires the `Tone Board TTS` option to be enabled in the [AI configuration panel](../../integrations/ai.md#ai-options).
+Enter text into the **AI Text-To-Speech** input or use the **Microphone** icon to enter text via voice recording. Press **Enter** to generate and send the text-to-speech tone to the broadcast or tone stack.
 
-Click the wand icon to enter text and customize the voice. Then, press enter to generate the audio. Click the newly generated audio to add it to a stack or play as a single tone.
-
-<figure><img src="../../../.gitbook/assets/image (113).png" alt=""><figcaption><p>Tone Board: AI Text-To-Speech</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>

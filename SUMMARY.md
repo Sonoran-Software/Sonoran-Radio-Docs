@@ -52,6 +52,7 @@
     * [Device In Use](tutorials/usage/troubleshooting/device-in-use.md)
     * [Read and Write Permissions](tutorials/usage/troubleshooting/read-and-write-permissions.md)
 * [Integrations](tutorials/integrations/README.md)
+  * [Stream Deck Plugin](tutorials/integrations/stream-deck-plugin.md)
   * [Dispatch AI](tutorials/integrations/dispatch-ai.md)
   * [AI Keys](tutorials/integrations/ai.md)
   * [Sonoran CMS](tutorials/integrations/sonoran-cms.md)

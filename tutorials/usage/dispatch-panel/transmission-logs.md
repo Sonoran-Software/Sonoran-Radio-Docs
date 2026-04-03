@@ -24,7 +24,7 @@ Transmission logs have the following properties:
 * Download the Recording
 * AI Transcript
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio: Transmission Logs</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio: Transmission Logs</p></figcaption></figure>
 
 ## AI Audio Transcripts
 

@@ -12,7 +12,7 @@ Each community gets their own free vanity URL, visible in the `Custom Domain` se
 
 If your community is Plus or Pro, your vanity URL will match your community's custom ID
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Customizing Your Community ID
 
@@ -37,11 +37,11 @@ Custom Domain requires a **pro** subscription.\
 
 Enter the domain you want Sonoran Radio on, this can be either a root domain (like `sonoranroleplay.com`) or a subdomain (like `radio.sonoranroleplay.com`)
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### 2. Configure DNS Records for you Domain
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Add the shown DNS records shown to you in your domain's administrative panel. If you are using Cloudflare, be sure to **disable** the proxy!
 
@@ -51,4 +51,4 @@ Having trouble? Contact your domain name provider.
 
 Press `Save Custom Domain` in the panel to save your new custom domain. If successful, your new custom domain will be visible above your vanity URL
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>

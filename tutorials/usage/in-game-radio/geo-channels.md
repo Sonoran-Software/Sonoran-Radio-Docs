@@ -22,7 +22,7 @@ In the **Geo Zone** tab, use the polygon, rectangle, or circle tool to create a 
 
 Additionally, you can enter comma separated ACE permissions for the zone. When configured, the zone will only apply to users with those ACE permissions.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -34,7 +34,7 @@ Additionally, you can enter comma separated ACE permissions for the zone. When c
 
 Open the menu with the in-game `/radiomenu` command and select `Geo Channels`
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - In-game Menu</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - In-game Menu</p></figcaption></figure>
 
 </details>
 
@@ -44,7 +44,7 @@ Open the menu with the in-game `/radiomenu` command and select `Geo Channels`
 
 In the `Geo Channels` menu, you can specify which channels you want to transmit and scan upon entering, ace perms required to auto switch, add points to create a 3D zone and toggle auto switching on and off.&#x20;
 
-<p align="center"><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""> <img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""></p>
+<p align="center"><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""> <img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""></p>
 
 `Add Point to Zone`
 
@@ -102,7 +102,7 @@ Use the `Select Zone` menu option to swap back and forth between zones. Your sel
 
 Use the `Delete Zone` menu option to delete the selected (red) zone.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Degredation Zone: Visible and Selected</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>Degredation Zone: Visible and Selected</p></figcaption></figure>
 
 </details>
 

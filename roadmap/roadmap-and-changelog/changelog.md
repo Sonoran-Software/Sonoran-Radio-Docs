@@ -4,6 +4,25 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.26.0 - 04/03/2026
+
+{% tabs %}
+{% tab title="New" %}
+Stream Deck Plugin
+
+* Added an official Stream Deck plugin for advanced control and integration
+
+Text-to-Speech Tones
+
+* Added free, localized text-to-speech tones in the tone board editor (permanent) and in the tone board (temporary)
+* Tone board users can use speech-to-text to quickly enter text into the text-to-speech input
+
+Per-Channel Volume
+
+* Right-click or select the volume icon on a channel to adjust the per-channer volume
+{% endtab %}
+{% endtabs %}
+
 ### 2.25.0 - 03/30/2026
 
 {% tabs %}

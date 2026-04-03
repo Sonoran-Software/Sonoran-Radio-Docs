@@ -49,7 +49,7 @@ If the scanner is powered, transmissions will be heard by nearby users.
 
 ### Radio Scanner Menu
 
-<div><figure><img src="../../../.gitbook/assets/image (7).png" alt="" width="209"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (8).png" alt="" width="200"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (7) (1).png" alt="" width="209"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (8) (1).png" alt="" width="200"><figcaption></figcaption></figure></div>
 
 Press the power button and the scanner will auto-connect to the default channel. Use the knob to scroll through all available channels.
 
@@ -63,11 +63,11 @@ Permanent Scanners are scanners that are available to everybody at configurable 
 
 You can use `/radiomenu` to easily add, move, or delete persistent scanners
 
-<div data-full-width="false"><figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/Discord_3K6SgyKxlB.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/Discord_ENiHYlz2zJ.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/Discord_tdGWrI3Idq.png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/Discord_3K6SgyKxlB.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/Discord_ENiHYlz2zJ.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/Discord_tdGWrI3Idq.png" alt=""><figcaption></figcaption></figure></div>
 
 When creating a scanner, you have the ability to choose between many different scanner-like models to best fit your needs
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 You can also modify the `scanners.json` JSON config file for more customization. By default, scanners connect to the default channel, but you can customize the channel ID it uses.
 
