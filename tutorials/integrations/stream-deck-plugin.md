@@ -6,6 +6,10 @@ description: >-
 
 # Stream Deck Plugin
 
+<figure><img src="../../.gitbook/assets/radio_deck_promo_thumbnail.png" alt=""><figcaption></figcaption></figure>
+
+<div><figure><img src="../../.gitbook/assets/radio_deck_promo_general.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/radio_deck_promo_channels.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/radio_deck_promo_dial.png" alt=""><figcaption></figcaption></figure></div>
+
 ## Introduction <a href="#introduction" id="introduction"></a>
 
 Sonoran Radio's MacOS and Windows desktop applications offer direct integration with [Stream Deck hardware](https://www.elgato.com/us/en/p/stream-deck). By installing our official Stream Deck plugin, users can change channels, toggle preset channel groups, change channel and system volumes, and more - faster than ever before.
@@ -16,13 +20,13 @@ Don't have a physical Stream Deck? Download the [free Stream Deck Mobile app](ht
 
 ### 1. Download and Install the Plugin <a href="#id-1.-download-and-install-the-plugin" id="id-1.-download-and-install-the-plugin"></a>
 
-Download the official Sonoran Radio Stream Deck plugin from the Elgato Marketplace.
+~~Download the official Sonoran Radio Stream Deck plugin from the Elgato Marketplace.~~
 
 {% hint style="info" %}
 Marketplace plugin coming soon!
 {% endhint %}
 
-Download the Manual Beta Plugin
+[Download the Manual Beta Plugin Here](https://download.sonoransoftware.com/sonoranradio/streamdeck/sonoran-radio.streamDeckPlugin)
 
 ### 2. Configure Actions <a href="#id-2.-configure-actions" id="id-2.-configure-actions"></a>
 
