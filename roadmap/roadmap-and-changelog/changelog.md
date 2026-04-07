@@ -12,9 +12,19 @@ Client Side Voice FX
 
 * Individual users can now customize voice effects on their own, bypassing community channel-level FX.
 
+Vocoder Preview
+
+* Added audio preview support to the vocoder in the voice effect editor.
+
 Voice Effects: Unlimited
 
 * Removed paid restrictions, allowing the free tier to create unlimited custom voice effect profiles.
+{% endtab %}
+
+{% tab title="Changed" %}
+EQ V1 Depreciation
+
+* Removed the old, depreciated V1 EQ option from the voice FX customization.
 {% endtab %}
 {% endtabs %}
 
