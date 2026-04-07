@@ -1,30 +1,26 @@
 ---
-description: Customize digital and analog style voice effects for your community!
+description: Customize transmission voice effects for your community, or local user!
 ---
 
 # Custom Voice Effects
 
-<figure><img src="../../../.gitbook/assets/Radio FX (1).png" alt=""><figcaption><p>Sonoran Radio: Voice Effect Customization</p></figcaption></figure>
-
-{% hint style="warning" %}
-Unless on the Pro version, communities are limited to one voice effect style.
-
-[Learn more about our paid plans](../../../pricing/pricing-faq/standalone-pricing.md).
-{% endhint %}
+<figure><img src="../../../.gitbook/assets/fx_promo (1).png" alt=""><figcaption><p>Sonoran Radio: Voice Effect Customization</p></figcaption></figure>
 
 ## Available Voice Effects
 
-Sonoran Radio lets you create custom voice effect profiles for user audio. These effects can be independently assigned to specific radio channels and emergency calls.
+Sonoran Radio lets you create custom voice effect profiles for transmissions. These effects can be independently assigned to specific radio channels and emergency calls. Or, users can also customize their own voice effect preferences!
 
-Expand the `Vocoder`, `Clipping`, `Digital`, `Analog` and `Equalizer` boxes for specific customizations.
-
-By clicking the microphone icon and using the signal strength slider, you can hear how the effect will sound when users are talking.
+By clicking the **headphone** icon and using the signal strength sliders, you can hear how the effect will sound when users are talking.
 
 ### Vocoder
 
 {% hint style="info" %}
 The **vocoder** effect remains consistent and does not fluctuate based on [in-game signal strength](../in-game-radio/in-game-repeaters.md)
 {% endhint %}
+
+<details>
+
+<summary>Vocoder</summary>
 
 The Vocoder voice effect simulates a modern P25-style radio compression using an AMBE-like encoding approach, commonly heard in proprietary digital radio systems. It’s ideal for communities seeking realistic conditions and authentic downsides.
 
@@ -34,23 +30,47 @@ The vocoder has optional bitrates of `3200`, `2400`, `1600`, `1400`, `1300`, `12
 
 **It is recommended to use the** [**clipping voice effect**](custom-voice-effects.md#clipping) **in addition to the vocoder to have in-game signal strength impact the transmission quality.**
 
+</details>
+
 ### Clipping
+
+<details>
+
+<summary>Clipping</summary>
 
 The clipping voice effect mutes or "clips" audio intermittently based on in-game signal strength. As the signal weakens, more audio is cut, making transmissions increasingly difficult to understand.
 
+</details>
+
 ### Digital
+
+<details>
+
+<summary>Digital</summary>
 
 The digital voice effect applies bitrate compression to the audio, causing it to sound increasingly robotic and harder to understand as signal quality decreases.
 
+</details>
+
 ### Analog
 
+<details>
+
+<summary>Analog</summary>
+
 The analog voice effect adds static and scratchiness to the audio, making it sound progressively fuzzier and less clear as signal quality deteriorates.
+
+</details>
 
 ### Equalizer (Pre & Post-Effects)
 
 {% hint style="info" %}
 This **EQ** effect remains consistent and does not fluctuate based on [in-game signal strength](../in-game-radio/in-game-repeaters.md)
 {% endhint %}
+
+<details>
+
+<summary>Equalizer</summary>
 
 The equalizer effect allows you to boost or reduce frequencies throughout the audio range.\
 &#xNAN;_**Tip:** For a "tin can" effect, increase the mid frequencies while reducing the low and high ranges._
@@ -63,11 +83,31 @@ The pre-effect EQ is a profile applied directly to the mic input before any effe
 
 The post-effect EQ is a profile applied to the audio after all effects have been processed. This can help improve clarity and improve the finalized effects.
 
+</details>
+
 ## Applying the Voice Effect
 
-## To Radio Channels
+### On the User-Side
+
+Voice effects can be customized by the individual listener, based on their preferences. Users can open their **Settings** menu and select the **Voice FX** tab to customize.
+
+Toggle **Community FX** to **Local FX** mode to [bypass the community set channel effects](custom-voice-effects.md#to-radio-channels).
+
+{% hint style="warning" %}
+Enabling the vocoder locally forces your client to encode and decode all incoming transmissions, which can impact performance at higher user counts.
+
+For better performance, [enable the vocoder at the channel level](custom-voice-effects.md#to-radio-channels) so users pre-process transmissions on their end.
+
+When a [channel has vocoder FX enabled](custom-voice-effects.md#to-radio-channels), it cannot be bypassed client-side—all transmissions are already vocoded before playback.
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/image (154).png" alt="" width="375"><figcaption></figcaption></figure>
+
+### To Radio Channels
 
 In the [channel editor, you can select the desired voice effect](configure-channels.md#setting-the-voice-effect). This voice effect will apply to anyone talking in that channel.
+
+[User-side voice FX can bypass channel effects](custom-voice-effects.md#on-the-user-side), but enabling Vocoder FX forces all transmissions through the vocoder, ensuring it still applies to all custom FX.
 
 <figure><img src="../../../.gitbook/assets/image (93).png" alt="" width="282"><figcaption><p>Sonoran Radio: Channel Voice Effect</p></figcaption></figure>
 

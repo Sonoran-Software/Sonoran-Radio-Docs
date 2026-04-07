@@ -103,16 +103,6 @@ Experience immersive, realistic transmissions with in-game sirens, rotor blades,
 | Plus         | 🚫    |
 | Pro          | ✅     |
 
-### [Voice Effect Customization](../../tutorials/usage/dispatch-panel/custom-voice-effects.md)
-
-<figure><img src="../../.gitbook/assets/Radio FX (1).png" alt="" width="375"><figcaption></figcaption></figure>
-
-| Subscription | Effect Styles Limit |
-| ------------ | ------------------- |
-| Free         | 1                   |
-| Standard     | 1                   |
-| Pro          | Unlimited           |
-
 ### [Transmission Logs](../../tutorials/usage/dispatch-panel/transmission-logs.md)
 
 <figure><img src="../../.gitbook/assets/Transmission.png" alt="" width="375"><figcaption></figcaption></figure>

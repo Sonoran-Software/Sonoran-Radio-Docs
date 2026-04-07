@@ -4,6 +4,20 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.26.3 - 04/07/2026
+
+{% tabs %}
+{% tab title="New" %}
+Client Side Voice FX
+
+* Individual users can now customize voice effects on their own, bypassing community channel-level FX.
+
+Voice Effects: Unlimited
+
+* Removed paid restrictions, allowing the free tier to create unlimited custom voice effect profiles.
+{% endtab %}
+{% endtabs %}
+
 ### 2.26.0 - 04/03/2026
 
 {% tabs %}
