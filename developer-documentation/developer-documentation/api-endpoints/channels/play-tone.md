@@ -4,11 +4,11 @@ description: This endpoint plays a tone (or multiple tones) in the radio.
 
 # Play Tone
 
-## Get Community Channels
+## Play Tone
 
 <mark style="color:green;">`POST`</mark> `/api/play-tone`
 
-This endpoint plays a tone (or multiple tones) for participants of the radio
+This endpoint plays one or more tones for radio participants.
 
 **Headers**
 
@@ -18,7 +18,16 @@ This endpoint plays a tone (or multiple tones) for participants of the radio
 
 **Request (Body)**
 
-<pre class="language-typescript"><code class="lang-typescript">interface Request {
+<pre class="language-typescript"><code class="lang-typescript">interface Tone {
+  id: number;
+  color: string;
+  textColor: string;
+  label: string;
+  icon: string;
+  src: string;
+}
+
+interface Request {
   /** The community ID */
   id: string<a data-footnote-ref href="#user-content-fn-1">;</a>
   /** The community API key */
@@ -26,8 +35,13 @@ This endpoint plays a tone (or multiple tones) for participants of the radio
 
   /** Which room (server id) to play tones for */
   roomId: number;
-  /** the IDs of tones to play */
-  tones: number[];
+  /**
+   * Tones to play.
+   * You can provide either:
+   * - a saved tone ID from the community tone list
+   * - a full Tone object, including a custom src URL
+   */
+  tones: Array<number | Tone>;
   
   /** where to play the tones */
   playTo: {
@@ -49,37 +63,39 @@ This endpoint plays a tone (or multiple tones) for participants of the radio
 {% tab title="200" %}
 ```json
 {
-    "result": "ok",
-    "groups": [
-        {
-            "id": 0,
-            "name": "Default",
-            "orderIndex": 0
-        },
-        {
-            "id": 1,
-            "name": "test",
-            "orderIndex": 1
-        }
-    ],
-    "channels": [
-        {
-            "id": 123,
-            "groupId": 0,
-            "displayName": "Patrol Ops",
-            "recvFreqMajor": 40,
-            "recvFreqMinor": 120,
-            "xmitFreqMajor": 36,
-            "xmitFreqMinor": 275,
-            "repeatsXmit": true,
-            "status": true,
-            "orderIndex": 0,
-            "talkoverProtection": false
-        }
-    ]
+  "result": "ok",
+  "code": 200
 }
 ```
 {% endtab %}
 {% endtabs %}
 
-[^1]: 
+You can use a full `Tone` object when you need to play a temporary or external audio file without first saving it to the community tone list. The object must include a valid `src` URL and the standard tone display fields.
+
+Example:
+
+```json
+{
+  "id": "community-id",
+  "key": "community-api-key",
+  "roomId": 1,
+  "tones": [
+    {
+      "id": -1,
+      "color": "#647492",
+      "textColor": "text-white",
+      "label": "Custom Tone",
+      "icon": "fas fa-volume-high",
+      "src": "https://example.com/custom-tone.mp3"
+    }
+  ],
+  "playTo": [
+    {
+      "type": "channel",
+      "value": 123
+    }
+  ]
+}
+```
+
+[^1]:
