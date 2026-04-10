@@ -25,10 +25,7 @@ This endpoint plays one or more tones for radio participants.
   label: string;
   icon: string;
   /**
-   * One of:
-   * - an audio file URL
-   * - a data:audio/...;base64,... string
-   * - a raw base64-encoded audio string
+   * An audio file URL
    */
   src?: string;
   /**
@@ -86,8 +83,6 @@ You can use a full `Tone` object when you need to play a temporary or external t
 Supported `Tone` object options:
 
 * `src` as an audio file URL ending in a supported audio extension such as `.mp3`, `.wav`, or `.ogg`
-* `src` as a `data:audio/...;base64,...` string
-* `src` as a raw base64-encoded audio string
 * `tts` as a text string for local text-to-speech playback on supported radio clients
 
 Notes:
@@ -111,32 +106,6 @@ Audio File URL Example:
       "label": "Custom Tone",
       "icon": "fas fa-volume-high",
       "src": "https://example.com/custom-tone.mp3"
-    }
-  ],
-  "playTo": [
-    {
-      "type": "channel",
-      "value": 123
-    }
-  ]
-}
-```
-
-Base64 Audio Example:
-
-```json
-{
-  "id": "community-id",
-  "key": "community-api-key",
-  "roomId": 1,
-  "tones": [
-    {
-      "id": -1,
-      "color": "#647492",
-      "textColor": "text-white",
-      "label": "Base64 Tone",
-      "icon": "fas fa-volume-high",
-      "src": "data:audio/mpeg;base64,SUQzBAAAAAAA..."
     }
   ],
   "playTo": [
