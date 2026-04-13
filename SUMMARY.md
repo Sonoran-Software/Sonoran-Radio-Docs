@@ -81,6 +81,7 @@
 * [Developer Documentation](developer-documentation/developer-documentation/README.md)
   * [Open Source Contributions](developer-documentation/developer-documentation/open-source-contributions.md)
   * [Resource API](developer-documentation/developer-documentation/resource-events.md)
+  * [Stream Deck API](developer-documentation/developer-documentation/stream-deck-api.md)
   * [API Endpoints](developer-documentation/developer-documentation/api-endpoints/README.md)
     * [Node Library](developer-documentation/developer-documentation/api-endpoints/node-library.md)
     * [Data Structures](developer-documentation/developer-documentation/api-endpoints/data-structures.md)
