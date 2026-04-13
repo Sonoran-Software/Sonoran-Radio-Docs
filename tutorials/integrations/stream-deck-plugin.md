@@ -32,6 +32,14 @@ Ex: **Channel** key type > **Toggle XMIT Channels** > **Select Channels**
 
 <figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
 
+### 3. Optional: FiveM Integration
+
+Each action can be configured to control the desktop app (default) or FiveM in-game resource.
+
+For clients using the in-game radio in FiveM, simply toggle each action from **Desktop** to **FiveM**. Unless your community has modified the in-game resource, keep the default port as `17338`.
+
+<figure><img src="../../.gitbook/assets/image (155).png" alt="" width="267"><figcaption></figcaption></figure>
+
 ## Capabilities <a href="#action-capabilities" id="action-capabilities"></a>
 
 ### Keys
