@@ -276,3 +276,23 @@ Select the skin ID and frame that you wish to edit. Then, select each property a
 Once complete, save your changes using the `Save skin.json` button.
 
 <figure><img src="../../../.gitbook/assets/image (12).png" alt="" width="217"><figcaption></figcaption></figure>
+
+## Programmatically Changing Frames&#x20;
+
+To get all available frames, utilize the following **server-side** export:
+
+```lua
+local frames = exports.sonoranradio:GetAvailableFrames(GetResourcePath('sonoranradio').. '/skins')
+print(json.encode(frames))
+-- Returns:
+-- ["default","hi-vis","signalpro","voxguard"]
+-- Array of frame names 
+```
+
+To set a users frame, utilize the **client-side** event:&#x20;
+
+```lua
+local frameName = "hi-vis" -- Frame/skin name | i.e. hi-vis, default, voxguard
+local source = 1 -- User's server ID
+TriggerClientEvent('SonoranRadio::AdminSkinChange', source, frameName)
+```
