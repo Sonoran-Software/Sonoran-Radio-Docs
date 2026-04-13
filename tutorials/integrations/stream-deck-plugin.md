@@ -20,13 +20,7 @@ Don't have a physical Stream Deck? Download the [free Stream Deck Mobile app](ht
 
 ### 1. Download and Install the Plugin <a href="#id-1.-download-and-install-the-plugin" id="id-1.-download-and-install-the-plugin"></a>
 
-~~Download the official Sonoran Radio Stream Deck plugin from the Elgato Marketplace.~~
-
-{% hint style="info" %}
-Marketplace plugin coming soon!
-{% endhint %}
-
-[Download the Manual Beta Plugin Here](https://download.sonoransoftware.com/sonoranradio/streamdeck/sonoran-radio.streamDeckPlugin)
+[Download the official Sonoran Radio Stream Deck plugin from the Elgato Marketplace.](https://marketplace.elgato.com/product/sonoran-radio-6e959b5a-4cd3-40c8-b145-8eb1ea982fd5)
 
 ### 2. Configure Actions <a href="#id-2.-configure-actions" id="id-2.-configure-actions"></a>
 
