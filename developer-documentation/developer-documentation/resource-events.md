@@ -68,11 +68,50 @@ end)
 
 ## Signal Quality
 
-You can get the current signal quality with an export
+You can read the player's signal quality and apply extra degradation from another client resource.
 
 ```lua
 -- In your custom script
-exports['sonoranradio']:getSignalQuality() -- number from 0.0 to 1.0
+exports['sonoranradio']:getSignalQuality() -- raw infrastructure quality from 0.0 to 1.0
+exports['sonoranradio']:getEffectiveSignalQuality() -- final quality after zones + extra degradation
+exports['sonoranradio']:getExtraSignalDegradation() -- total extra degradation from third-party modifiers
+```
+
+### Forcing Extra Degradation
+
+Use keyed modifiers so multiple resources can affect signal quality without overwriting each other.
+
+```lua
+-- Add 25% extra degradation from your resource
+exports['sonoranradio']:setExtraSignalDegradation('my-resource', 0.25)
+
+-- Reduce degradation by 10% for a temporary buff or item
+exports['sonoranradio']:setExtraSignalDegradation('signal-booster', -0.10)
+
+-- Clear your modifier when it is no longer needed
+exports['sonoranradio']:clearExtraSignalDegradation('my-resource')
+exports['sonoranradio']:clearExtraSignalDegradation('signal-booster')
+```
+
+The `amount` passed to `setExtraSignalDegradation(key, amount)` is clamped between `-1.0` and `1.0`.
+
+* Positive values add more degradation.
+* Negative values reduce degradation.
+* Passing `0` or `nil` removes that key's modifier.
+
+### Getting Signal Details
+
+If you need the full breakdown of what the player is experiencing, use:
+
+```lua
+local signal = exports['sonoranradio']:getSignalQualityDetails()
+
+print(signal.baseQuality) -- tower/rack/repeater quality before degradation
+print(signal.zoneDegradation) -- active tunnel/polyzone degradation
+print(signal.extraDegradation) -- third-party modifier total
+print(signal.totalDegradation) -- final degradation after combining both
+print(signal.effectiveQuality) -- final signal quality sent to the radio UI
+print(signal.zoneName) -- current degradation zone name, or nil
 ```
 
 ## Panic Button
