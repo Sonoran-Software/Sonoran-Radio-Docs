@@ -8,6 +8,25 @@ description: >-
 
 <details>
 
+<summary>2.25.6 (Water Degredation)</summary>
+
+Version 2.25.6 adds a new configuration option to degrade signal strength when the user is underwater.
+
+1. Open your existing `config.lua`
+2. Add the new properties to the configuration file
+
+```lua
+Config.heavySignalDegradeInWater = { -- Heavily degrade radio signal while the player is in water to mimic an IP67-rated handheld
+	enabled = true, -- Set to true to enable heavy signal degrade in water
+	pedInWaterDegredation = 0.6, -- Signal strength multiplier when the player is simply in water (e.g. 0.6 would reduce signal strength to 60% of normal)
+	pedUnderWaterDegredation = 0.3 -- Signal strength multiplier when the player is underwater (e.g. 0.3 would reduce signal strength to 30% of normal)
+}
+```
+
+</details>
+
+<details>
+
 <summary>2.24.0 (Geo Channels, Auto Notifications, Display Name Function, Auto On-Scene Status AI)</summary>
 
 Version 2.24.0 adds a new configuration options to:
