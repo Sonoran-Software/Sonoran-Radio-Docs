@@ -8,6 +8,9 @@ description: Approve existing pending members for a specific Sonoran Radio serve
 
 <mark style="color:green;">`POST`</mark> `/v2/servers/:serverId/members/approve`
 
+> **Rate limit:** `12 requests per minute`  
+> This endpoint has a small internal gateway buffer, but the published public limit is `12 requests per minute`.
+
 Approves pending community members already attached to the selected server.
 
 **Headers**
@@ -68,3 +71,15 @@ curl -X POST "https://api.sonoranradio.com/v2/servers/1/members/approve" \
 ```
 {% endtab %}
 {% endtabs %}
+
+## Response
+
+Successful requests return `application/json`.
+
+```json
+{
+  "approvedAccIds": [
+    "91de0ce8-c571-11e9-9714-5600023b2434"
+  ]
+}
+```

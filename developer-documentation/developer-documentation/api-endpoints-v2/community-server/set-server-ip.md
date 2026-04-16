@@ -8,6 +8,8 @@ description: Set or update a server room IP and push URL for a specific Sonoran 
 
 <mark style="color:green;">`POST`</mark> `/v2/servers/:serverId/server-ip`
 
+> **Rate limit:** `2 requests per minute`
+
 Adds or updates a room origin and push URL for the selected server.
 
 **Headers**
@@ -84,3 +86,14 @@ curl -X POST "https://api.sonoranradio.com/v2/servers/1/server-ip" \
 ```
 {% endtab %}
 {% endtabs %}
+
+## Response
+
+Successful requests return `application/json`.
+
+```json
+{
+  "roomId": 1,
+  "pushUrl": "http://127.0.0.1:30120/sonoranradio"
+}
+```

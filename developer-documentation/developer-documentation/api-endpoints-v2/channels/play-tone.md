@@ -8,6 +8,9 @@ description: Play one or more tones for a specific Sonoran Radio server.
 
 <mark style="color:green;">`POST`</mark> `/v2/servers/:serverId/tones/play`
 
+> **Rate limit:** `12 requests per minute`  
+> This endpoint has a small internal gateway buffer, but the published public limit is `12 requests per minute`.
+
 Plays one or more saved tone IDs or custom tone payloads to channels, groups, or in-game speaker targets.
 
 **Headers**
@@ -77,3 +80,14 @@ curl -X POST "https://api.sonoranradio.com/v2/servers/1/tones/play" \
 ```
 {% endtab %}
 {% endtabs %}
+
+## Response
+
+Successful requests return `application/json`.
+
+```json
+{
+  "roomId": 1,
+  "played": true
+}
+```

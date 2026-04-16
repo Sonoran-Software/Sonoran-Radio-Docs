@@ -8,6 +8,9 @@ description: This endpoint gets a connected user in a specific room for a specif
 
 <mark style="color:green;">`GET`</mark> `/v2/servers/:serverId/rooms/:roomId/users/:identity`
 
+> **Rate limit:** `12 requests per minute`  
+> This endpoint has a small internal gateway buffer, but the published public limit is `12 requests per minute`.
+
 Returns a single connected participant.
 
 **Headers**
@@ -56,3 +59,16 @@ curl -X GET "https://api.sonoranradio.com/v2/servers/1/rooms/1/users/91de0ce8-c5
 ```
 {% endtab %}
 {% endtabs %}
+
+## Response
+
+Successful requests return `application/json`.
+
+```json
+{
+  "identity": "91de0ce8-c571-11e9-9714-5600023b2434",
+  "name": "Officer Smith",
+  "metadata": "{\"sonrad\":true}",
+  "state": "ACTIVE"
+}
+```

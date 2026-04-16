@@ -8,6 +8,8 @@ description: Ban members from a specific Sonoran Radio server.
 
 <mark style="color:green;">`POST`</mark> `/v2/servers/:serverId/members/ban`
 
+> **Rate limit:** `4 requests per minute`
+
 Bans members from the selected server and disconnects them from live radio sessions when applicable.
 
 **Headers**
@@ -68,3 +70,15 @@ curl -X POST "https://api.sonoranradio.com/v2/servers/1/members/ban" \
 ```
 {% endtab %}
 {% endtabs %}
+
+## Response
+
+Successful requests return `application/json`.
+
+```json
+{
+  "bannedAccIds": [
+    "91de0ce8-c571-11e9-9714-5600023b2434"
+  ]
+}
+```

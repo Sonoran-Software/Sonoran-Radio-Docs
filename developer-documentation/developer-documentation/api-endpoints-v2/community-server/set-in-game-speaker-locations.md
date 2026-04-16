@@ -8,6 +8,8 @@ description: Set in-game speaker locations for tone playback on a specific Sonor
 
 <mark style="color:yellow;">`PUT`</mark> `/v2/servers/:serverId/speakers`
 
+> **Rate limit:** `2 requests per minute`
+
 Stores the in-game speaker list used by tone playback targets.
 
 **Headers**
@@ -77,3 +79,13 @@ curl -X PUT "https://api.sonoranradio.com/v2/servers/1/speakers" \
 ```
 {% endtab %}
 {% endtabs %}
+
+## Response
+
+Successful requests return `application/json`.
+
+```json
+{
+  "locationsCount": 1
+}
+```

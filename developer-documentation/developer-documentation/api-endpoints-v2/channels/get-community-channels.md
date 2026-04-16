@@ -8,6 +8,9 @@ description: Get configured channel groups and channels for a specific Sonoran R
 
 <mark style="color:green;">`GET`</mark> `/v2/servers/:serverId/channels`
 
+> **Rate limit:** `6 requests per minute`  
+> Authenticated v2 endpoints are rate limited per API key rather than per IP address.
+
 Returns channel groups and channel definitions for the selected server.
 
 **Headers**
@@ -56,3 +59,19 @@ curl -X GET "https://api.sonoranradio.com/v2/servers/1/channels" \
 ```
 {% endtab %}
 {% endtabs %}
+
+## Response
+
+Successful requests return `application/json`.
+
+```json
+{
+  "groups": [],
+  "channels": [
+    {
+      "id": 101,
+      "name": "Law Dispatch"
+    }
+  ]
+}
+```

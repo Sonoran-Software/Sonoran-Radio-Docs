@@ -8,6 +8,8 @@ description: This endpoint gets all connected users for a specific Sonoran Radio
 
 <mark style="color:green;">`GET`</mark> `/v2/servers/:serverId/connected-users`
 
+> **Rate limit:** `6 requests per minute`
+
 Returns every currently connected radio participant for the selected server.
 
 **Headers**
@@ -69,3 +71,20 @@ curl -X GET "https://api.sonoranradio.com/v2/servers/1/connected-users" \
 ```
 {% endtab %}
 {% endtabs %}
+
+## Response
+
+Successful requests return `application/json`.
+
+```json
+{
+  "connectedUsers": [
+    {
+      "identity": "91de0ce8-c571-11e9-9714-5600023b2434",
+      "name": "Officer Smith",
+      "metadata": "{\"sonrad\":true}",
+      "roomId": 1
+    }
+  ]
+}
+```

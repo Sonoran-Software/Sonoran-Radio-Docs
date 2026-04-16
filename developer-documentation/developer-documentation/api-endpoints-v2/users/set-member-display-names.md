@@ -8,6 +8,8 @@ description: Update stored member display names for a specific Sonoran Radio ser
 
 <mark style="color:yellow;">`PATCH`</mark> `/v2/servers/:serverId/members/display-names`
 
+> **Rate limit:** `4 requests per minute`
+
 Updates member nicknames for the selected server.
 
 **Headers**
@@ -81,3 +83,15 @@ curl -X PATCH "https://api.sonoranradio.com/v2/servers/1/members/display-names" 
 ```
 {% endtab %}
 {% endtabs %}
+
+## Response
+
+Successful requests return `application/json`.
+
+```json
+{
+  "updatedAccIds": [
+    "91de0ce8-c571-11e9-9714-5600023b2434"
+  ]
+}
+```

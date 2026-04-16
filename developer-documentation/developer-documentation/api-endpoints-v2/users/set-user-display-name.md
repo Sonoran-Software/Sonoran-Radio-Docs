@@ -8,6 +8,9 @@ description: Update a stored user display name for a specific Sonoran Radio serv
 
 <mark style="color:yellow;">`PATCH`</mark> `/v2/servers/:serverId/users/display-name`
 
+> **Rate limit:** `12 requests per minute`  
+> This endpoint has a small internal gateway buffer, but the published public limit is `12 requests per minute`.
+
 Updates a single member display name and propagates that update to connected sessions.
 
 **Headers**
@@ -76,3 +79,14 @@ curl -X PATCH "https://api.sonoranradio.com/v2/servers/1/users/display-name" \
 ```
 {% endtab %}
 {% endtabs %}
+
+## Response
+
+Successful requests return `application/json`.
+
+```json
+{
+  "accId": "91de0ce8-c571-11e9-9714-5600023b2434",
+  "displayName": "Officer Smith"
+}
+```

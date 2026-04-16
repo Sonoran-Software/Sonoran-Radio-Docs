@@ -8,6 +8,8 @@ description: Return the highest Sonoran Radio subscription level associated with
 
 <mark style="color:green;">`GET`</mark> `/v2/server-subscriptions/by-ip`
 
+> **Rate limit:** `2 requests per minute`
+
 Returns the highest matching subscription level for the caller IP.
 
 This endpoint does not require bearer authentication.
@@ -49,3 +51,13 @@ curl -X GET "https://api.sonoranradio.com/v2/server-subscriptions/by-ip"
 ```
 {% endtab %}
 {% endtabs %}
+
+## Response
+
+Successful requests return `application/json`.
+
+```json
+{
+  "subscription": 2
+}
+```

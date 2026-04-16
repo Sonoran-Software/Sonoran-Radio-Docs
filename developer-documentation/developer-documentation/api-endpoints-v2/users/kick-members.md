@@ -8,6 +8,8 @@ description: Remove members from a specific Sonoran Radio server.
 
 <mark style="color:green;">`POST`</mark> `/v2/servers/:serverId/members/kick`
 
+> **Rate limit:** `4 requests per minute`
+
 Removes members from the selected server and disconnects them from live radio sessions when applicable.
 
 **Headers**
@@ -68,3 +70,15 @@ curl -X POST "https://api.sonoranradio.com/v2/servers/1/members/kick" \
 ```
 {% endtab %}
 {% endtabs %}
+
+## Response
+
+Successful requests return `application/json`.
+
+```json
+{
+  "kickedAccIds": [
+    "91de0ce8-c571-11e9-9714-5600023b2434"
+  ]
+}
+```

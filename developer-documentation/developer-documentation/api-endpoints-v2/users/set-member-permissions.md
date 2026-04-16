@@ -8,6 +8,8 @@ description: Update member permissions for a specific Sonoran Radio server.
 
 <mark style="color:yellow;">`PATCH`</mark> `/v2/servers/:serverId/members/permissions`
 
+> **Rate limit:** `4 requests per minute`
+
 Updates permission bitmasks and optional profile permissions for one or more server members.
 
 **Headers**
@@ -81,3 +83,15 @@ curl -X PATCH "https://api.sonoranradio.com/v2/servers/1/members/permissions" \
 ```
 {% endtab %}
 {% endtabs %}
+
+## Response
+
+Successful requests return `application/json`.
+
+```json
+{
+  "updatedAccIds": [
+    "91de0ce8-c571-11e9-9714-5600023b2434"
+  ]
+}
+```

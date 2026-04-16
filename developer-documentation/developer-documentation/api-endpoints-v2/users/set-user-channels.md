@@ -8,6 +8,8 @@ description: Update the transmit and scan channels for a connected user on a spe
 
 <mark style="color:yellow;">`PATCH`</mark> `/v2/servers/:serverId/rooms/:roomId/users/:identity/channels`
 
+> **Rate limit:** `6 requests per minute`
+
 Updates the connected participant's current transmit and scan channel state.
 
 **Headers**
@@ -77,3 +79,16 @@ curl -X PATCH "https://api.sonoranradio.com/v2/servers/1/rooms/1/users/91de0ce8-
 ```
 {% endtab %}
 {% endtabs %}
+
+## Response
+
+Successful requests return `application/json`.
+
+```json
+{
+  "identity": "91de0ce8-c571-11e9-9714-5600023b2434",
+  "roomId": 1,
+  "transmit": [101],
+  "scan": [102, 103]
+}
+```
