@@ -70,3 +70,11 @@ All authenticated v2 endpoints are rate limited per API key, not per caller IP. 
 When a request is rate limited, the gateway returns `429 Too Many Requests`.
 
 High-frequency integrations should respect the published per-endpoint limits even if a small internal buffer exists.
+
+## Libraries
+
+Use the official Sonoran SDK libraries if you want package-managed helpers for the v2 API.
+
+{% content-ref url="libraries.md" %}
+[libraries](libraries.md)
+{% endcontent-ref %}

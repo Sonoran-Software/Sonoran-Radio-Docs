@@ -103,6 +103,7 @@
       * [Get Server Subscription from IP](developer-documentation/developer-documentation/api-endpoints/community-server/get-server-subscription-from-ip.md)
       * [Set In-Game Speaker Locations](developer-documentation/developer-documentation/api-endpoints/community-server/set-in-game-speaker-locations.md)
   * [API Endpoints v2](developer-documentation/developer-documentation/api-endpoints-v2/README.md)
+    * [Libraries](developer-documentation/developer-documentation/api-endpoints-v2/libraries.md)
     * [Users](developer-documentation/developer-documentation/api-endpoints-v2/users/README.md)
       * [Get Connected Users](developer-documentation/developer-documentation/api-endpoints-v2/users/get-connected-users.md)
       * [Get Connected User](developer-documentation/developer-documentation/api-endpoints-v2/users/get-connected-user.md)
