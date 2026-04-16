@@ -6,29 +6,47 @@ description: Sonoran Radio v2 API endpoints with bearer auth, server-scoped URLs
 
 Sonoran Radio v2 moves authentication to the `Authorization` header and scopes server-specific requests with `serverId` in the URL.
 
-## Base URL
+## Available v2 Docs
 
-```http
-https://api.sonoranradio.com
-```
+### Libraries
 
-## Required Headers
+Use the official Sonoran SDK libraries if you want package-managed helpers for the v2 API.
 
-| Header | Value | Description |
-| --- | --- | --- |
-| `Authorization` | `Bearer YOUR_API_KEY` | Required for authenticated v2 endpoints |
-| `Accept` | `application/json` | Recommended for all requests |
-| `Content-Type` | `application/json` | Required for requests with a JSON body |
+{% content-ref url="libraries.md" %}
+[libraries](libraries.md)
+{% endcontent-ref %}
 
-## Routing
+### Authentication
 
-Authenticated server-specific requests use:
+Start here for bearer authentication, required headers, server-scoped routing, and common error formats.
 
-```http
-/v2/servers/{serverId}/...
-```
+{% content-ref url="authentication.md" %}
+[authentication](authentication.md)
+{% endcontent-ref %}
 
-This allows one community API key to interact with multiple Radio servers without sharing a single rate-limit bucket tied to the old v1 format.
+### Users
+
+User endpoints cover connected users, member approval, moderation, permissions, and channel assignment.
+
+{% content-ref url="users/" %}
+[users](users/)
+{% endcontent-ref %}
+
+### Channels
+
+Channel endpoints cover channel discovery and tone playback operations.
+
+{% content-ref url="channels/" %}
+[channels](channels/)
+{% endcontent-ref %}
+
+### Community Server
+
+Community server endpoints cover server IP registration, subscription lookup, and in-game speaker location updates.
+
+{% content-ref url="community-server/" %}
+[community-server](community-server/)
+{% endcontent-ref %}
 
 ## Response Formats
 
@@ -70,11 +88,3 @@ All authenticated v2 endpoints are rate limited per API key, not per caller IP. 
 When a request is rate limited, the gateway returns `429 Too Many Requests`.
 
 High-frequency integrations should respect the published per-endpoint limits even if a small internal buffer exists.
-
-## Libraries
-
-Use the official Sonoran SDK libraries if you want package-managed helpers for the v2 API.
-
-{% content-ref url="libraries.md" %}
-[libraries](libraries.md)
-{% endcontent-ref %}
