@@ -4,6 +4,90 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.26.4 04/21/2026
+
+{% tabs %}
+{% tab title="New" %}
+Translations
+
+* Added translation support
+
+Log Search
+
+* Added the ability to view and search logs from user actions.
+
+FiveM Guest Login
+
+* Added a login method based on in-game ACE permissions, allowing users to login as guest and not require an account.
+
+Ban User
+
+* Added the ability to ban a user, preventing them from re-joining as a pending user.
+
+Tone Board Improvements
+
+* Added the ability to save tone stacks and the board now auto-selects your currently transmitting channels.
+
+Desktop Overlay
+
+* Added customizable desktop overlays to see your radio in-game on any application.
+
+Community Image Customization
+
+* Communities can now set a custom logo for their radio community
+
+Connected Users Popout
+
+* Added a new overlay window with a hotkey to show connected users
+
+Privacy Tab - Recordings
+
+* Added a tab to toggle on/off the ability to send local transmission recordings
+
+free limits
+
+* todo
+
+Stun
+
+* todo
+
+TTS Tone
+
+* TODO
+
+TTS Tone
+
+* Tone Board Updates
+
+Channel Volume
+
+* Per-channel volume
+
+Client FX
+
+* TODO
+{% endtab %}
+
+{% tab title="Fixed" %}
+Emergency Call Disconnect
+
+* Fixed an issue where creating an emergency call would cause other users to listen in.
+
+URL Migration
+
+* Updated internal S3 storage URLs for newer infrastructure paths.
+
+gkhjk
+
+* ghjk
+
+Temporary Transmit Channel Change
+
+* Fixed an issue where using a hotkey to temporarily transmit in another channel resulted in the first channel still hearing you for a few seconds
+{% endtab %}
+
+{% endtabs %}
 ### 2.26.3 - 04/07/2026
 
 {% tabs %}
