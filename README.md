@@ -32,7 +32,7 @@ Dispatch AI is our most powerful integration ever built. Talk to a live AI dispa
 
 Sonoran Radio's desktop overlay works with any game, leaving you with full immersion!
 
-<figure><img src=".gitbook/assets/overlay_promo (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/overlay_promo.png" alt=""><figcaption></figcaption></figure>
 
 ## ⌨️ [Stream Deck Plugin](tutorials/integrations/stream-deck-plugin.md)
 
@@ -48,7 +48,7 @@ With three different in-game model types, Sonoran Radio takes immersion to the n
 
 See our [tower destruction and repairing](/broken/pages/mxyQXf4yxBFCop97PfJq#in-game-towers) info!
 
-<div><figure><img src=".gitbook/assets/cell.png" alt=""><figcaption><p>Cellular Antenna</p></figcaption></figure> <figure><img src=".gitbook/assets/tower_broken.png" alt=""><figcaption><p>Radio Tower</p></figcaption></figure> <figure><img src=".gitbook/assets/server_opened (1).png" alt=""><figcaption><p>Server Rack</p></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/cell.png" alt=""><figcaption><p>Cellular Antenna</p></figcaption></figure> <figure><img src=".gitbook/assets/tower_broken.png" alt=""><figcaption><p>Radio Tower</p></figcaption></figure> <figure><img src=".gitbook/assets/server_opened.png" alt=""><figcaption><p>Server Rack</p></figcaption></figure></div>
 
 <figure><img src=".gitbook/assets/destroy_towers_b.png" alt=""><figcaption><p>Sonoran Radio - Destructible Towers - Promotional Image</p></figcaption></figure>
 
@@ -78,7 +78,7 @@ Sonoran Radio's dispatch UI allows you to specify specific channels and groups, 
 
 <figure><img src=".gitbook/assets/Customizable Tone Board Promo.png" alt=""><figcaption><p>Sonoran Radio - Tone Board</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran Radio - In-Game Speakers</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (42).png" alt=""><figcaption><p>Sonoran Radio - In-Game Speakers</p></figcaption></figure>
 
 ## 🎙️[Custom Voice Effects](tutorials/usage/dispatch-panel/custom-voice-effects.md)
 
@@ -89,8 +89,6 @@ Customize digital and analog style voice effects for your community!
 ## 🔊 [Custom SFX](tutorials/usage/dispatch-panel/custom-sfx.md)
 
 Easily customize mic clicks, talkover protection tones, and more!
-
-
 
 <figure><img src=".gitbook/assets/Radio_ProFeats.png" alt=""><figcaption><p>Sonoran Radio: Custom Sound Effects</p></figcaption></figure>
 
