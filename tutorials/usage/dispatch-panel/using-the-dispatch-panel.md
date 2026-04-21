@@ -80,7 +80,7 @@ To switch to another channel, click the microphone button on the channel card.
 
 <img src="../../../.gitbook/assets/chrome_RoHvxqifER.png" alt="Sonoran Radio - Switch Channel" data-size="original">
 
-### Scanning (Listen) To Multiple Channels
+#### Scanning (Listen) To Multiple Channels
 
 Select the headphone icon on each channel to listen in.\
 You can listen to multiple channels at once.
@@ -145,7 +145,7 @@ The [customizable panic sound effect](custom-sfx.md) will also alert dispatchers
 
 To change your display name, users will need the `Change Display Name` permission. To manage others, users will need the `Manage Display Names` permission.
 
-#### Via Radio Interface
+**Via Radio Interface**
 
 Right click a user in the radio interface and select `Display Name`
 
@@ -157,11 +157,11 @@ Right click a user in the radio interface and select `Display Name`
 
 <summary>Via Members Tab</summary>
 
-#### Via Members Tab
+**Via Members Tab**
 
 In the admin panel's `Members` tab, select the drop-down and `Set Display Name` button to edit a user's display name.
 
-<img src="../../../.gitbook/assets/image (58).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (57).png" alt="" data-size="original">
 
 </details>
 
@@ -169,7 +169,7 @@ In the admin panel's `Members` tab, select the drop-down and `Set Display Name` 
 
 <summary>Via Sonoran CMS</summary>
 
-#### Via Sonoran CMS
+**Via Sonoran CMS**
 
 [Sonoran CMS can also automatically set and manage your Radio display names and sync them with Discord.](../../integrations/sonoran-cms.md)
 

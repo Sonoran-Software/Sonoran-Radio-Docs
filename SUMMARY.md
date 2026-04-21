@@ -51,6 +51,7 @@
     * [In-Game Timeouts](tutorials/usage/troubleshooting/in-game-timeouts.md)
     * [Device In Use](tutorials/usage/troubleshooting/device-in-use.md)
     * [Read and Write Permissions](tutorials/usage/troubleshooting/read-and-write-permissions.md)
+    * [Windows App Volume](tutorials/usage/troubleshooting/windows-app-volume.md)
 * [Integrations](tutorials/integrations/README.md)
   * [Stream Deck Plugin](tutorials/integrations/stream-deck-plugin.md)
   * [Dispatch AI](tutorials/integrations/dispatch-ai.md)

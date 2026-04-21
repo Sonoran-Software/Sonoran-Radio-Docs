@@ -18,7 +18,7 @@ Press `E` on the door to open it.
 
 Each server inside can be individually destroyed and will fall separately out of the rack. These can be configured with 1-5 servers in each. As more of these servers are destroyed, the repeater signal will diminish.
 
-<div><figure><img src="../../../.gitbook/assets/server.png" alt=""><figcaption><p>Server Rack</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/server_opened (1).png" alt=""><figcaption><p>Server Rack - Opened</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/server_destroyed (1).png" alt=""><figcaption><p>Server Rack - Destroyed</p></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/server.png" alt=""><figcaption><p>Server Rack</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/server_opened.png" alt=""><figcaption><p>Server Rack - Opened</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/server_destroyed.png" alt=""><figcaption><p>Server Rack - Destroyed</p></figcaption></figure></div>
 
 ### Radio Tower
 

@@ -14,7 +14,7 @@ To resolve this issue, simply set your desired microphone "as default" in Window
 
 Open the `Control Panel` and select `Hardware and Sound`
 
-<figure><img src="../../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. Manage Audio Devices
 

@@ -34,7 +34,7 @@ On the right of the new tone configurator, select the **AI Mode** button to chan
 
 Add the tone label, specify the text for the voice, and [customize any other visual options](custom-tone-board.md#visual-customizatio).
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ### Visual Customization
 

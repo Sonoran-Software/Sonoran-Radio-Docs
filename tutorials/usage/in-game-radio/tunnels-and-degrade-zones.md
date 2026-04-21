@@ -6,8 +6,6 @@ description: >-
 
 # Tunnels and Degrade Zones
 
-
-
 <figure><img src="../../../.gitbook/assets/image (43).png" alt=""><figcaption><p>Sonoran Radio - Tunnel Detection System</p></figcaption></figure>
 
 {% embed url="https://youtu.be/IHNPs6aATQU" %}
@@ -38,7 +36,7 @@ Use the polygon, square, or circle tool to create a new zone. Select the zone to
 
 Open the menu with the in-game `/radiomenu` command and select `Degradation Zones`
 
-<figure><img src="../../../.gitbook/assets/image (2) (2) (1).png" alt="" width="222"><figcaption><p>Sonoran Radio - </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (2) (1).png" alt="" width="222"><figcaption><p>Sonoran Radio -</p></figcaption></figure>
 
 </details>
 
@@ -50,11 +48,11 @@ In the `Degradation Zones` menu, you can specify the strength and add points to 
 
 When creating a zone you can visualize via the drawn polygon and manipulate and move your last placed point using the on-screen controls
 
-<div><figure><img src="../../../.gitbook/assets/image (114).png" alt="" width="222"><figcaption><p>Sonoran Radio - Degradation Zone Options</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (74).png" alt="" width="375"><figcaption><p>Sonoran Radio - Degradation Zone Poly</p></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (114).png" alt="" width="222"><figcaption><p>Sonoran Radio - Degradation Zone Options</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (73).png" alt="" width="375"><figcaption><p>Sonoran Radio - Degradation Zone Poly</p></figcaption></figure></div>
 
-`Strength` \
+`Strength`\
 \- The percent the signal strength will be cut by when inside the zone (0-1).\
-\- Example: 0.5 = 50% [voice effect](../dispatch-panel/custom-voice-effects.md) degradation&#x20;
+\- Example: 0.5 = 50% [voice effect](../dispatch-panel/custom-voice-effects.md) degradation
 
 `Add Point to Zone`\
 \- Adds another point to the 3D zone
@@ -89,4 +87,3 @@ Use the `Delete Zone` menu option to delete the selected (red) zone.
 <div><figure><img src="../../../.gitbook/assets/image (116).png" alt=""><figcaption><p>Degradation Zone: Visible</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (115).png" alt=""><figcaption><p>Degradation Zone: Selected</p></figcaption></figure></div>
 
 </details>
-

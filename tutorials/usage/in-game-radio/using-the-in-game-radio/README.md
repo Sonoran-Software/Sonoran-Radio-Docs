@@ -57,15 +57,15 @@ Open [sradio.link](https://sradio.link) in a web browser, log in if needed, ente
 When you first use the in-game resource, you'll need to log in.\
 If your community has ACE permissions configured, no account creation or link is necessary.
 
-<figure><img src="../../../../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
 
 Select **Login as guest** to bypass the account link and start using your radio. This guest option will only display if `acePermsForGuests` is set to `true`.
 
-### Permission Configuration
+#### Permission Configuration
 
 Learn how to [configure ACE permissions for the radio](../configuring-ace-permissions.md#ace-permission-sync).
 
-### Display Name
+#### Display Name
 
 Custom display names are saved locally in your cache and automatically restored on future guest logins.
 
@@ -111,7 +111,7 @@ The radio will connect when you turn it on with the power button ([unless you ne
 * Right-click the top knob to change its mode from channel changing to group changing.
 * Left click the top knob to rotate to the next channel group.
 
-<img src="../../../../.gitbook/assets/FiveM_b3095_GTAProcess_y5BTRN8idW.png" alt="Sonoran Radio: Power Button" data-size="original"><img src="../../../../.gitbook/assets/FiveM_b3095_GTAProcess_8EDvlAfgKq.png" alt="Sonoran Radio: Channel List" data-size="original">
+![Sonoran Radio: Power Button](../../../../.gitbook/assets/FiveM_b3095_GTAProcess_y5BTRN8idW.png) ![Sonoran Radio: Channel List](../../../../.gitbook/assets/FiveM_b3095_GTAProcess_8EDvlAfgKq.png)
 
 </details>
 
@@ -148,7 +148,7 @@ Channels can also be changed via:
 
 Scanning a radio channel allows users to hear all transmissions, even if they are not actively transmitting on that channel. However, transmissions on the primary channel (the one you are actively talking on) will take priority, muting transmissions from scanned channels whenever someone speaks on the primary channel.
 
-#### Selecting Scanned Channels ([Modern or Text Display](../customizing-radio-frames.md#screen-styles))
+**Selecting Scanned Channels (**[**Modern or Text Display**](../customizing-radio-frames.md#screen-styles)**)**
 
 1. Select the Channel Scan Icon
 2. Select the channel group to view the contained channels
@@ -156,9 +156,7 @@ Scanning a radio channel allows users to hear all transmissions, even if they ar
 
 [Learn how to toggle a channel scan via command or Stream Deck!](fivem-keybinds-and-commands.md#toggle-channel-scan)
 
-![](<../../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)![](<../../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png>)
-
-
+![](<../../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>) ![](<../../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png>)
 
 Users can also [create a scan list](./#scan-lists) to swap between multiple scanned channels at once.
 
@@ -172,7 +170,7 @@ Users can also [create a scan list](./#scan-lists) to swap between multiple scan
 
 Users can scan one or more channels to listen without transmitting. For monitoring multiple channels, "Scan Lists" let users group channels and easily switch between them.
 
-#### Creating a Scan List ([Modern or Text Display](../customizing-radio-frames.md#screen-styles))
+**Creating a Scan List (**[**Modern or Text Display**](../customizing-radio-frames.md#screen-styles)**)**
 
 1. Toggle scanning on one or more channels.
 2. Select the `+` icon next to `Scan Lists` to create a new scan list with the current selection.
@@ -183,7 +181,7 @@ Users can scan one or more channels to listen without transmitting. For monitori
 
 [Learn how to toggle a scan list via command or Stream Deck](fivem-keybinds-and-commands.md#toggle-scan-list)!
 
-![](<../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)![](<../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>) ![](<../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 </details>
 
@@ -197,25 +195,25 @@ Your radio volume also controls how loudly [nearby users hear the radio chatter]
 
 <summary>Radio Volume</summary>
 
-#### System-Wide Volume
+**System-Wide Volume**
 
 In the settings menu (gear icon) you can adjust the radio's total volume output.
 
-<img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="In-Game Radio - Settings" data-size="original">![](<../../../../.gitbook/assets/image (3) (1) (2).png>)
+![In-Game Radio - Settings](<../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>) ![](<../../../../.gitbook/assets/image (3) (1) (2).png>)
 
-#### Per-User Volume
+**Per-User Volume**
 
 You can also right-click on any user to adjust their volume specifically.
 
 <img src="../../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="In-Game Radio - Per-User Volume" data-size="original">
 
-#### Per-Channel Volume
+**Per-Channel Volume**
 
 Select the volume icon to change the current channel's transmission volume.
 
 <div><figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
 
-#### Volume Hotkey
+**Volume Hotkey**
 
 [You can also use the in-game keybind to quickly adjust volume.](fivem-keybinds-and-commands.md#volume-up-down)
 
@@ -238,7 +236,7 @@ If the resource is not named `LVC`, the [`config.luxartResourceName` value must 
 
 For communities not using LVC, the functionality will fall back to a FiveM native that will trigger the functionality if either lights or sirens are activated.
 
-![](<../../../../.gitbook/assets/image (1) (1) (2) (1) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (99).png>)
 
 </details>
 
@@ -262,7 +260,7 @@ Select `Move/Resize`
 * Hold `ctrl` and drag to resize the radio.
 * Press `esc` to save the new size and position.
 
-<img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="In-Game Radio - Settings" data-size="original"><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png" alt="In-Game Radio - Move/Resize" data-size="original">
+![In-Game Radio - Settings](<../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>) ![In-Game Radio - Move/Resize](<../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png>)
 
 <img src="../../../../.gitbook/assets/image (17).png" alt="In-Game Radio - Adjustment" data-size="original">
 
@@ -289,7 +287,7 @@ The server default for this setting can be configured in the [config's `defaultE
 
 * The radio closes on `ESC`, but is visible while transmitting
 
-![](<../../../../.gitbook/assets/image (2) (1) (2) (1).png>)
+![](<../../../../.gitbook/assets/image (99).png>)
 
 </details>
 

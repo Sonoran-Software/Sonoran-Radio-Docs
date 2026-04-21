@@ -72,7 +72,7 @@ Communities can easily select which clothing items will be treated as a radio ea
 
 ### 1. Open the Earpiece Menu
 
-Open the earpiece configuration menu via  `/radiomenu` > `Configure Earpiece Chatter`
+Open the earpiece configuration menu via `/radiomenu` > `Configure Earpiece Chatter`
 
 <figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="223"><figcaption><p>Sonoran Radio Menu</p></figcaption></figure>
 
@@ -84,11 +84,11 @@ Once selected, anyone wearing this earpiece will not emit radio chatter to nearb
 
 <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="222"><figcaption><p>Add or Remove Earpiece</p></figcaption></figure>
 
-<div><figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1).png" alt="" width="375"><figcaption><p>Earpiece Item Selection</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (8) (1) (1) (1).png" alt="" width="375"><figcaption><p>Earpiece Texture Selection</p></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1).png" alt="" width="375"><figcaption><p>Earpiece Item Selection</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (9) (1) (1).png" alt="" width="375"><figcaption><p>Earpiece Texture Selection</p></figcaption></figure></div>
 
 ### 3. Removing Earpieces
 
-To remove an earpiece option, navigate to the `Remove Earpiece Item` Menu option > Select the specific earpiece item > and  `Confirm Removal`
+To remove an earpiece option, navigate to the `Remove Earpiece Item` Menu option > Select the specific earpiece item > and `Confirm Removal`
 
 <figure><img src="../../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -98,7 +98,7 @@ To remove an earpiece option, navigate to the `Remove Earpiece Item` Menu option
 
 <summary>Manually Configure Earpiece IDs</summary>
 
-The `earpieces.json`  file defines earpiece items (custom EUP prop IDs) that block radio chatter from being heard nearby.
+The `earpieces.json` file defines earpiece items (custom EUP prop IDs) that block radio chatter from being heard nearby.
 
 Component IDs
 

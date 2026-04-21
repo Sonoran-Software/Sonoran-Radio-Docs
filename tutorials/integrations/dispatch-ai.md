@@ -117,7 +117,7 @@ Communities can also [customize the default wake word for all users](../usage/di
 
 <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="260"><figcaption></figcaption></figure>
 
-### Prompting the AI
+#### Prompting the AI
 
 In order to reduce false triggers and conserve local resources, the AI will only listen to the first five seconds of your transmission. This amount can be modified in the **Advanced** tab of the **Audio** settings.
 
@@ -128,8 +128,8 @@ Upon detection of the wake word, an audible beep indicates that the AI has been 
 If your wake word is **Dispatch**, then your transmissions to the AI would be as follows:
 
 \<wake word>, \<optional: my unit number>, \<action to do>\
-&#xNAN;_**Dispatch**, A-10, mark me as available._\
-&#xNAN;_**Dispatch**, A-10, run a lookup on the license plate ABC123_
+\&#xNAN;_**Dispatch**, A-10, mark me as available._\
+\&#xNAN;_**Dispatch**, A-10, run a lookup on the license plate ABC123_
 
 </details>
 
@@ -188,7 +188,7 @@ When this feature is enabled, the AI will check for a dispatcher once per minute
 The AI can update the status of you and other units to the stated, customizable status code.
 
 _**Dispatch**, A-10, mark my status as available._\
-&#xNAN;_**Dispatch**, A-10, set B-11 and I to 10-8._
+\&#xNAN;_**Dispatch**, A-10, set B-11 and I to 10-8._
 
 </details>
 
@@ -199,7 +199,7 @@ _**Dispatch**, A-10, mark my status as available._\
 The AI agent can perform a name or plate lookup, send the results to your CAD, and notify you of brief details.
 
 _**Dispatch**, A-10, run a lookup on the plate ABC123._\
-&#xNAN;_**Dispatch**, A-10, do a record check on first name John last name Doe._
+\&#xNAN;_**Dispatch**, A-10, do a record check on first name John last name Doe._
 
 </details>
 
@@ -207,7 +207,7 @@ _**Dispatch**, A-10, run a lookup on the plate ABC123._\
 
 <summary>CAD Dispatch Calls</summary>
 
-#### Create Call
+**Create Call**
 
 The AI can create a call and assign your unit. If your unit has a location, it will be automatically applied to the call unless otherwise specified. If a license plate is provided, it will automatically run a plate lookup and send the results to your CAD.
 
@@ -215,16 +215,16 @@ _**Dispatch**, A-10, show me out on traffic with a blue four-door sedan. License
 
 ***
 
-#### Attach to Call
+**Attach to Call**
 
 The AI can attach you and other units to an existing call by mentioning the call ID, location, postal, title, etc.
 
 _**Dispatch**, A-10, attach me to the robbery in progress call._\
-&#xNAN;_**Dispatch**, A-10, attach B-11 to my call._
+\&#xNAN;_**Dispatch**, A-10, attach B-11 to my call._
 
 ***
 
-#### Call Notes
+**Call Notes**
 
 The AI can add a note to your active dispatch call for other units to see.
 
@@ -232,7 +232,7 @@ _**Dispatch**, A-10, add a note on the call that I am arriving on-scene now, it'
 
 ***
 
-#### Detach from Call
+**Detach from Call**
 
 The AI can lookup your current dispatch call and remove you from it.
 
@@ -240,10 +240,10 @@ _**Dispatch**, A-10, clear my call._
 
 ***
 
-#### Close Call
+**Close Call**
 
 The AI can lookup and close your current dispatch call.\
-&#xNAN;_**Dispatch**, A-10, close my call._
+\&#xNAN;_**Dispatch**, A-10, close my call._
 
 </details>
 
@@ -251,21 +251,21 @@ The AI can lookup and close your current dispatch call.\
 
 <summary>CAD Unit Groups</summary>
 
-#### Group Units
+**Group Units**
 
 The AI can add your unit (and others) to a new or existing group.
 
 _**Dispatch**, A-10, add me to group 'Ladder 12'._\
-&#xNAN;_**Dispatch**, A-10, add myself and B-11 to group 'Ladder 12'._
+\&#xNAN;_**Dispatch**, A-10, add myself and B-11 to group 'Ladder 12'._
 
 ***
 
-#### Clear Unit Group
+**Clear Unit Group**
 
 The AI can remove your unit (and others) from a group.
 
 _**Dispatch**, A-10, clear my unit group._\
-&#xNAN;_**Dispatch**, A-10, remove B-11 and I's unit group._
+\&#xNAN;_**Dispatch**, A-10, remove B-11 and I's unit group._
 
 </details>
 
@@ -300,18 +300,18 @@ Or, another resource that can handle the command `/postal <id>`.
 
 The AI can draw an in-game GPS route to a postal code on the map.
 
-#### Raw Postal:
+**Raw Postal:**
 
 _**Dispatch**, A-10, route me to postal 123._\
-&#xNAN;_**Dispatch**, A-10, directions to postal 123._
+\&#xNAN;_**Dispatch**, A-10, directions to postal 123._
 
 ***
 
-#### Postal on a Dispatch Call
+**Postal on a Dispatch Call**
 
 The AI can find an active dispatch call based on the ID, location, title, etc.\
-&#xNAN;_**Dispatch**, A-10, route me to call 123._\
-&#xNAN;_**Dispatch**, A-10, route me to the traffic stop call._
+\&#xNAN;_**Dispatch**, A-10, route me to call 123._\
+\&#xNAN;_**Dispatch**, A-10, route me to the traffic stop call._
 
 </details>
 
@@ -322,7 +322,7 @@ The AI can find an active dispatch call based on the ID, location, title, etc.\
 The AI will route you to the coordinates of another active unit by providing their unit name, number, etc.
 
 _**Dispatch**, A-10, route me unit B-11._\
-&#xNAN;_**Dispatch**, A-10, directions to unit J. Doe._
+\&#xNAN;_**Dispatch**, A-10, directions to unit J. Doe._
 
 </details>
 

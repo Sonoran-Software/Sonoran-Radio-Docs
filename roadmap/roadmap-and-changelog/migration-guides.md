@@ -224,7 +224,7 @@ Version 2.19.0 adds a new feature to automatically press a user's push-to-talk b
 1. Open your existing `config.lua`
 2. Add the three new config options:
 
-#### A. autoPttOnPanic Config
+**A. autoPttOnPanic Config**
 
 ```lua
 Config.autoPttOnPanic = {
@@ -235,7 +235,7 @@ Config.autoPttOnPanic = {
 
 <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-#### B. autoCallouts Config
+**B. autoCallouts Config**
 
 ```
 -- Have the radio automatically callout pursuit locations (when toggled with the keybind)
@@ -247,10 +247,10 @@ Config.autoCallouts = {
 
 <figure><img src="../../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
 
-#### C. toggleAutoCallouts Keybind
+**C. toggleAutoCallouts Keybind**
 
 Inside of the existing `Config.keybinds` add a new line for:\
-\``['toggleAutoCallouts'] = '',`&#x20;
+\``['toggleAutoCallouts'] = '',`
 
 <figure><img src="../../.gitbook/assets/image (128).png" alt=""><figcaption></figcaption></figure>
 
@@ -434,7 +434,7 @@ Your `config.lua` should now look like the following:
 
 <summary>2.3.0-1 Release (In-Game Configuration Menu)</summary>
 
-## Configuration File
+### Configuration File
 
 Version 2.3.0 introduces a new configuration value.
 
@@ -447,7 +447,7 @@ Your `config.lua` file should now look like the following:
 
 <img src="../../.gitbook/assets/image (22).png" alt="" data-size="original">
 
-## ACE Permissions
+### ACE Permissions
 
 Version 2.3.0 introduces a new in-game repeater configuration menu. This allows an easier way to add, edit, or remove in-game repeaters.
 
@@ -468,14 +468,14 @@ Communities can remove the old spawn and remove command permissions:
 
 <summary>2.2.0 Release (In-Game Towers)</summary>
 
-## Towers File
+### Towers File
 
 Version 2.2.0 introduces multiple new in-game tower options. This includes a new `towers.DEFAULT.json` file that is required.
 
 1. Delete the existing `towers.json` file in your `sonoranradio` resource.
 2. Rename the new `towers.DEFAULT.json` file to `towers.json` in your `sonoranradio` resource and save.
 
-## Configuration File
+### Configuration File
 
 Version 2.2.0 adds a new API key configuration for upcoming features.
 
