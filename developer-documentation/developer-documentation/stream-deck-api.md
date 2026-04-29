@@ -4,31 +4,59 @@ description: Integrate the Sonoran Radio Stream Deck plugin with desktop or Five
 
 # Stream Deck API
 
-Sonoran Radio includes a Stream Deck plugin that can control the desktop application directly or route commands through a FiveM resource.
+Sonoran Radio includes a Stream Deck plugin that can control the desktop application directly or control the FiveM radio through the desktop app.
 
-This document covers the public integration contract required for either target:
+This document covers the public integration contract for:
 
 * the built-in **desktop bridge** exposed by the Electron app
-* the **FiveM relay** expected by the plugin when an action target is set to `FiveM`
+* the built-in **FiveM bridge** exposed by the Electron app when Stream Deck actions are set to `FiveM`
+* the **legacy direct FiveM relay** still supported by the plugin as a fallback
 
 ## Overview
 
 Each Stream Deck action is configured with a target:
 
-* `Desktop` uses the local Electron bridge at `http://127.0.0.1:39111`
-* `FiveM` uses a local HTTP relay, defaulting to `http://127.0.0.1:17338`
+* `Desktop` sends commands directly to Sonoran Radio Desktop
+* `FiveM` sends commands to Sonoran Radio Desktop, which forwards them to a FiveM client over localhost
 
-The plugin uses the same command and snapshot schema for both targets. The only difference is transport:
+The plugin uses the same command and snapshot schema for both targets. The difference is transport:
 
-* Desktop sends requests directly to Sonoran Radio
-* FiveM sends requests to your local relay, and your relay forwards messages to and from the radio iframe/NUI
+* `Desktop` uses local HTTP requests to Sonoran Radio Desktop
+* `FiveM` uses local HTTP requests to Sonoran Radio Desktop, and Sonoran Radio Desktop forwards commands and receives snapshots over a local WebSocket connected by your FiveM client script
+
+## Recommended FiveM Architecture
+
+When the Stream Deck action target is set to `FiveM`, the recommended flow is:
+
+```text
+Stream Deck Plugin
+  -> Sonoran Radio Desktop HTTP bridge
+  -> local FiveM WebSocket client
+  -> FiveM client script
+  -> Sonoran Radio iframe/NUI
+
+Sonoran Radio iframe/NUI
+  -> FiveM client script
+  -> local FiveM WebSocket client
+  -> Sonoran Radio Desktop snapshot cache
+  -> Stream Deck Plugin label/status polling
+```
+
+This means the Stream Deck plugin does not need to talk to the FiveM NUI directly anymore. As long as:
+
+1. Sonoran Radio Desktop is running
+2. the Stream Deck action is set to `FiveM`
+3. your FiveM client script is connected to the desktop WebSocket
+4. your FiveM client script forwards commands to the iframe and forwards snapshots back to desktop
+
+the plugin will behave the same as normal.
 
 ## Desktop Bridge
 
 When Sonoran Radio Desktop is running, it starts a local HTTP bridge on:
 
 ```text
-http://127.0.0.1:39111
+http://127.0.0.1:39112
 ```
 
 ### Health Check
@@ -41,7 +69,9 @@ Response:
 {
   "ok": true,
   "appReady": true,
-  "snapshotReady": true
+  "snapshotReady": true,
+  "attempts": 1,
+  "lastError": null
 }
 ```
 
@@ -104,6 +134,218 @@ Example response:
 ```
 
 If the command is invalid, the radio is not ready, or the payload is malformed, the bridge returns a non-200 response.
+
+## FiveM Desktop Bridge
+
+When the Stream Deck action target is set to `FiveM`, the plugin first talks to the desktop app at:
+
+```text
+http://127.0.0.1:39112
+```
+
+The desktop app then talks to your FiveM client over:
+
+```text
+ws://127.0.0.1:39112/streamdeck/fivem/socket
+```
+
+### Health Check
+
+`GET /streamdeck/fivem/health`
+
+Response:
+
+```json
+{
+  "ok": true,
+  "socketPath": "/streamdeck/fivem/socket",
+  "websocketClients": 1,
+  "snapshotReady": true,
+  "attempts": 1,
+  "lastError": null
+}
+```
+
+### Get Current FiveM Snapshot
+
+`GET /streamdeck/fivem/labels`
+
+Response:
+
+```json
+{
+  "ok": true,
+  "websocketClients": 1,
+  "snapshotReady": true,
+  "channels": [
+    {
+      "id": 101,
+      "label": "Law 1",
+      "groupId": 10,
+      "groupName": "Patrol"
+    }
+  ],
+  "state": {
+    "connected": true,
+    "aiEnabled": false,
+    "micOpen": false,
+    "primaryChIds": [101],
+    "scannedChIds": [102, 103],
+    "sfxVolume": 25,
+    "agentGain": 100
+  }
+}
+```
+
+### Forward a Command to FiveM
+
+`POST /streamdeck/fivem/command`
+
+Headers:
+
+```http
+Content-Type: application/json
+```
+
+Request:
+
+```json
+{
+  "command": "transmit.ptt",
+  "phase": "down"
+}
+```
+
+Response:
+
+```json
+{
+  "ok": true,
+  "command": "transmit.ptt",
+  "delivered": 1
+}
+```
+
+If no FiveM socket clients are connected, the desktop app returns a non-200 response.
+
+## WebSocket Message Contract
+
+Your FiveM client should connect to:
+
+```text
+ws://127.0.0.1:39112/streamdeck/fivem/socket
+```
+
+### Messages Sent From Desktop to FiveM
+
+#### `hello`
+
+Sent immediately after the socket connects.
+
+```json
+{
+  "type": "hello",
+  "ok": true,
+  "snapshot": {
+    "channels": [],
+    "state": {
+      "connected": false,
+      "aiEnabled": false,
+      "micOpen": false,
+      "primaryChIds": [],
+      "scannedChIds": [],
+      "sfxVolume": 0,
+      "agentGain": 0
+    }
+  }
+}
+```
+
+#### `streamdeck_command`
+
+Sent when a Stream Deck action is pressed/rotated while targeting `FiveM`.
+
+```json
+{
+  "type": "streamdeck_command",
+  "payload": {
+    "command": "transmit.toggleChannels",
+    "channelIds": [101, 102]
+  }
+}
+```
+
+#### `streamdeck_snapshot`
+
+Sent when the FiveM client explicitly requests the latest cached snapshot.
+
+```json
+{
+  "type": "streamdeck_snapshot",
+  "snapshot": {
+    "channels": [],
+    "state": {
+      "connected": false,
+      "aiEnabled": false,
+      "micOpen": false,
+      "primaryChIds": [],
+      "scannedChIds": [],
+      "sfxVolume": 0,
+      "agentGain": 0
+    }
+  }
+}
+```
+
+### Messages Sent From FiveM to Desktop
+
+#### `streamdeck_snapshot`
+
+Send this whenever the iframe publishes a new radio snapshot.
+
+```json
+{
+  "type": "streamdeck_snapshot",
+  "snapshot": {
+    "channels": [
+      {
+        "id": 101,
+        "label": "Law 1",
+        "groupId": 10,
+        "groupName": "Patrol"
+      }
+    ],
+    "state": {
+      "connected": true,
+      "aiEnabled": false,
+      "micOpen": false,
+      "primaryChIds": [101],
+      "scannedChIds": [102, 103],
+      "sfxVolume": 25,
+      "agentGain": 100
+    }
+  }
+}
+```
+
+#### `streamdeck_snapshot_request`
+
+Optional. Ask the desktop app to send back its current cached snapshot.
+
+```json
+{
+  "type": "streamdeck_snapshot_request"
+}
+```
+
+### Optional Acknowledgements
+
+The desktop app may reply with:
+
+* `streamdeck_snapshot_ack`
+* `streamdeck_command_ack`
+
+These are informational and do not need special handling.
 
 ## Command Payload
 
@@ -218,95 +460,6 @@ The plugin reads a snapshot to populate action configuration, channel selectors,
 | `sfxVolume` | number | Current SFX volume |
 | `agentGain` | number | Current AI volume |
 
-## FiveM Relay
-
-When an action target is set to `FiveM`, the Stream Deck plugin sends requests to a local relay instead of the desktop bridge.
-
-Default relay address:
-
-```text
-http://127.0.0.1:17338
-```
-
-The port is configurable in the Stream Deck property inspector.
-
-### Relay Endpoint
-
-Your resource should expose:
-
-`POST /emit`
-
-Headers:
-
-```http
-Content-Type: application/json
-```
-
-The plugin sends one of two request types.
-
-### 1. Forward a Stream Deck Command
-
-Request:
-
-```json
-{
-  "eventName": "streamdeck_command",
-  "payload": {
-    "command": "transmit.ptt",
-    "phase": "down"
-  }
-}
-```
-
-Your relay should:
-
-1. forward the `payload` to the Sonoran Radio iframe/NUI as a message with type `streamdeck_command`
-2. return a successful HTTP response
-
-Recommended response:
-
-```json
-{
-  "ok": true
-}
-```
-
-### 2. Request the Latest Snapshot
-
-Request:
-
-```json
-{
-  "eventName": "streamdeck_snapshot_request",
-  "payload": {}
-}
-```
-
-Your relay should:
-
-1. ask the Sonoran Radio iframe/NUI for the latest snapshot
-2. return the snapshot in the response body under the `snapshot` key
-
-Required response shape:
-
-```json
-{
-  "ok": true,
-  "snapshot": {
-    "channels": [],
-    "state": {
-      "connected": false,
-      "aiEnabled": false,
-      "micOpen": false,
-      "primaryChIds": [],
-      "scannedChIds": [],
-      "sfxVolume": 25,
-      "agentGain": 100
-    }
-  }
-}
-```
-
 ## FiveM Iframe Message Contract
 
 Inside the FiveM web view, Sonoran Radio uses iframe messages for Stream Deck integration.
@@ -368,35 +521,175 @@ The iframe emits this message whenever radio/channel state changes and also in r
 }
 ```
 
-## Recommended FiveM Relay Flow
+## FiveM JavaScript Example
 
-To ensure the plugin works reliably, the local FiveM relay should:
+The following browser-side example shows the minimum bridge needed in FiveM to make Stream Deck `FiveM` mode work through Sonoran Radio Desktop.
 
-1. keep a cached copy of the most recent `streamdeck_snapshot`
-2. forward `streamdeck_command` to the iframe immediately
-3. respond to `streamdeck_snapshot_request` with the cached snapshot
-4. update the cached snapshot whenever the iframe emits a new `streamdeck_snapshot`
+This example assumes:
 
-This avoids forcing the Stream Deck plugin to wait on asynchronous browser message timing for every poll.
+* your FiveM client script can open a browser WebSocket to `ws://127.0.0.1:39112/streamdeck/fivem/socket`
+* your client script can forward messages to the Sonoran Radio iframe/NUI
+* your iframe/NUI can send `streamdeck_snapshot` messages back to this script
 
-## Example FiveM Relay Mapping
+```js
+const DESKTOP_SOCKET_URL = 'ws://127.0.0.1:39112/streamdeck/fivem/socket';
 
-Example relay logic:
+let desktopSocket = null;
+let reconnectTimer = null;
+let latestSnapshot = {
+  channels: [],
+  state: {
+    connected: false,
+    aiEnabled: false,
+    micOpen: false,
+    primaryChIds: [],
+    scannedChIds: [],
+    sfxVolume: 0,
+    agentGain: 0,
+  },
+};
+
+function postToRadioIframe(message) {
+  window.postMessage(message, '*');
+}
+
+function sendToDesktop(message) {
+  if (!desktopSocket || desktopSocket.readyState !== WebSocket.OPEN) return;
+  desktopSocket.send(JSON.stringify(message));
+}
+
+function scheduleReconnect() {
+  if (reconnectTimer) return;
+  reconnectTimer = window.setTimeout(() => {
+    reconnectTimer = null;
+    connectDesktopSocket();
+  }, 3000);
+}
+
+function handleDesktopMessage(message) {
+  if (!message || typeof message.type !== 'string') return;
+
+  if (message.type === 'hello' && message.snapshot) {
+    latestSnapshot = message.snapshot;
+    return;
+  }
+
+  if (message.type === 'streamdeck_command' && message.payload) {
+    postToRadioIframe({
+      type: 'streamdeck_command',
+      payload: message.payload,
+    });
+    return;
+  }
+
+  if (message.type === 'streamdeck_snapshot') {
+    latestSnapshot = message.snapshot || latestSnapshot;
+  }
+}
+
+function connectDesktopSocket() {
+  if (desktopSocket && (desktopSocket.readyState === WebSocket.OPEN || desktopSocket.readyState === WebSocket.CONNECTING)) {
+    return;
+  }
+
+  desktopSocket = new WebSocket(DESKTOP_SOCKET_URL);
+
+  desktopSocket.addEventListener('open', () => {
+    sendToDesktop({
+      type: 'streamdeck_snapshot',
+      snapshot: latestSnapshot,
+    });
+  });
+
+  desktopSocket.addEventListener('message', (event) => {
+    try {
+      handleDesktopMessage(JSON.parse(event.data));
+    } catch (error) {
+      console.error('Failed to parse desktop Stream Deck message', error);
+    }
+  });
+
+  desktopSocket.addEventListener('close', scheduleReconnect);
+  desktopSocket.addEventListener('error', scheduleReconnect);
+}
+
+window.addEventListener('message', (event) => {
+  const data = event.data;
+  if (!data || typeof data.type !== 'string') return;
+
+  if (data.type === 'streamdeck_snapshot' && data.snapshot) {
+    latestSnapshot = data.snapshot;
+    sendToDesktop({
+      type: 'streamdeck_snapshot',
+      snapshot: data.snapshot,
+    });
+    return;
+  }
+
+  if (data.type === 'streamdeck_snapshot_request') {
+    postToRadioIframe({ type: 'streamdeck_snapshot_request' });
+  }
+});
+
+connectDesktopSocket();
+```
+
+## Legacy Direct FiveM Relay
+
+The Stream Deck plugin still supports the older direct relay flow as a fallback.
+
+Default legacy relay address:
 
 ```text
-Stream Deck Plugin
-  -> POST /emit { eventName: "streamdeck_command", payload: {...} }
-  -> Local FiveM relay
-  -> NUI message { type: "streamdeck_command", payload: {...} }
+http://127.0.0.1:17338
+```
 
-Stream Deck Plugin
-  -> POST /emit { eventName: "streamdeck_snapshot_request", payload: {} }
-  -> Local FiveM relay
-  -> return { ok: true, snapshot: <latest cached snapshot> }
+If the desktop FiveM bridge is unavailable, the plugin can still send:
 
-Sonoran Radio iframe
-  -> postMessage { type: "streamdeck_snapshot", snapshot: {...} }
-  -> Local FiveM relay caches snapshot
+* `POST /emit` with `eventName: "streamdeck_command"`
+* `POST /emit` with `eventName: "streamdeck_snapshot_request"`
+
+using the same payloads documented below.
+
+### Legacy Command Request
+
+```json
+{
+  "eventName": "streamdeck_command",
+  "payload": {
+    "command": "transmit.ptt",
+    "phase": "down"
+  }
+}
+```
+
+### Legacy Snapshot Request
+
+```json
+{
+  "eventName": "streamdeck_snapshot_request",
+  "payload": {}
+}
+```
+
+### Legacy Snapshot Response
+
+```json
+{
+  "ok": true,
+  "snapshot": {
+    "channels": [],
+    "state": {
+      "connected": false,
+      "aiEnabled": false,
+      "micOpen": false,
+      "primaryChIds": [],
+      "scannedChIds": [],
+      "sfxVolume": 0,
+      "agentGain": 0
+    }
+  }
+}
 ```
 
 ## Notes
@@ -404,4 +697,5 @@ Sonoran Radio iframe
 * Use channel IDs exactly as returned by the snapshot.
 * `transmit.tempChannel` and `transmit.ptt` should send both press and release phases.
 * Multi-channel commands should send `channelIds` as an array of numbers.
-* The FiveM relay does not need to translate command names or payload fields. Forward them exactly as documented.
+* Your FiveM client does not need to translate command names or payload fields. Forward them exactly as documented.
+* The desktop app caches the most recent FiveM snapshot, so send `streamdeck_snapshot` whenever radio state changes inside the iframe.
