@@ -10,7 +10,6 @@ This document covers the public integration contract for:
 
 * the built-in **desktop bridge** exposed by the Electron app
 * the built-in **FiveM bridge** exposed by the Electron app when Stream Deck actions are set to `FiveM`
-* the **legacy direct FiveM relay** still supported by the plugin as a fallback
 
 ## Overview
 
@@ -632,64 +631,6 @@ window.addEventListener('message', (event) => {
 });
 
 connectDesktopSocket();
-```
-
-## Legacy Direct FiveM Relay
-
-The Stream Deck plugin still supports the older direct relay flow as a fallback.
-
-Default legacy relay address:
-
-```text
-http://127.0.0.1:17338
-```
-
-If the desktop FiveM bridge is unavailable, the plugin can still send:
-
-* `POST /emit` with `eventName: "streamdeck_command"`
-* `POST /emit` with `eventName: "streamdeck_snapshot_request"`
-
-using the same payloads documented below.
-
-### Legacy Command Request
-
-```json
-{
-  "eventName": "streamdeck_command",
-  "payload": {
-    "command": "transmit.ptt",
-    "phase": "down"
-  }
-}
-```
-
-### Legacy Snapshot Request
-
-```json
-{
-  "eventName": "streamdeck_snapshot_request",
-  "payload": {}
-}
-```
-
-### Legacy Snapshot Response
-
-```json
-{
-  "ok": true,
-  "snapshot": {
-    "channels": [],
-    "state": {
-      "connected": false,
-      "aiEnabled": false,
-      "micOpen": false,
-      "primaryChIds": [],
-      "scannedChIds": [],
-      "sfxVolume": 0,
-      "agentGain": 0
-    }
-  }
-}
 ```
 
 ## Notes

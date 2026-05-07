@@ -42,6 +42,28 @@ Sonoran Radio then acts as a local bridge between the Stream Deck, the desktop a
 
 <figure><img src="../../.gitbook/assets/image (29).png" alt="" width="375"><figcaption></figcaption></figure>
 
+1. Stream Deck sends the action to Sonoran Radio Desktop on localhost
+2. Sonoran Radio Desktop forwards the command to a localhost WebSocket
+3. your FiveM client script listens to that socket and forwards the event into the radio iframe/NUI
+4. the iframe/NUI sends radio state snapshots back through your FiveM client script to Sonoran Radio Desktop
+5. Stream Deck reads those snapshots for channel lists, labels, and action state
+
+This means the normal setup for users is:
+
+* keep **Sonoran Radio Desktop** running
+* switch the Stream Deck action target to **FiveM**
+* run a FiveM client script that connects to the desktop socket and forwards the documented messages
+
+<figure><img src="../../.gitbook/assets/image (155).png" alt="" width="267"><figcaption></figcaption></figure>
+
+### 4. FiveM Developer Setup
+
+If you are implementing the FiveM side yourself, use the documented developer contract here:
+
+{% content-ref url="../../developer-documentation/developer-documentation/stream-deck-api.md" %}
+[stream-deck-api.md](../../developer-documentation/developer-documentation/stream-deck-api.md)
+{% endcontent-ref %}
+
 ## Capabilities <a href="#action-capabilities" id="action-capabilities"></a>
 
 ### Keys
@@ -122,10 +144,3 @@ Stream Deck hardware with dials have the following supported actions:
 
 </details>
 
-### Developer Setup
-
-If you are implementing the FiveM side yourself, use the documented developer contract here:
-
-{% content-ref url="../../developer-documentation/developer-documentation/stream-deck-api.md" %}
-[stream-deck-api.md](../../developer-documentation/developer-documentation/stream-deck-api.md)
-{% endcontent-ref %}

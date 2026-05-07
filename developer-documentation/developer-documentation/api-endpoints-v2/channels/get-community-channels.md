@@ -6,7 +6,7 @@ description: Get configured channel groups and channels for a specific Sonoran R
 
 ## Get Community Channels
 
-<mark style="color:green;">`GET`</mark> `/v2/servers/:serverId/channels`
+<mark style="color:green;">`GET`</mark> `/v2/servers/:communityId/channels`
 
 > **Rate limit:** `6 requests per minute`  
 > Authenticated v2 endpoints are rate limited per API key rather than per IP address.
@@ -46,7 +46,7 @@ var response = await sonoran.Radio.getCommunityChannelsV2(1);
 ```yaml
 openapi: 3.1.0
 paths:
-  /v2/servers/{serverId}/channels:
+  /v2/servers/{communityId}/channels:
     get:
       security:
         - bearerAuth: []
@@ -75,3 +75,4 @@ Successful requests return `application/json`.
   ]
 }
 ```
+

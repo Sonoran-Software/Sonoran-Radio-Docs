@@ -108,6 +108,7 @@
     * [Authentication](developer-documentation/developer-documentation/api-endpoints-v2/authentication.md)
     * [Users](developer-documentation/developer-documentation/api-endpoints-v2/users/README.md)
       * [Get Connected Users](developer-documentation/developer-documentation/api-endpoints-v2/users/get-connected-users.md)
+      * [Get Members](developer-documentation/developer-documentation/api-endpoints-v2/users/get-members.md)
       * [Get Connected User](developer-documentation/developer-documentation/api-endpoints-v2/users/get-connected-user.md)
       * [Approve Members](developer-documentation/developer-documentation/api-endpoints-v2/users/approve-members.md)
       * [Kick Members](developer-documentation/developer-documentation/api-endpoints-v2/users/kick-members.md)
