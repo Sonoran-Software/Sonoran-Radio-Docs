@@ -1,12 +1,12 @@
 ---
-description: This endpoint gets paginated community members for a specific Sonoran Radio server.
+description: This endpoint gets paginated community members for a specific Sonoran Radio community.
 ---
 
 # Get Members
 
 ## Get Members
 
-<mark style="color:green;">`GET`</mark> `/v2/servers/:serverId/members`
+<mark style="color:green;">`GET`</mark> `/v2/servers/:communityId/members`
 
 > **Rate limit:** `15 requests per minute`
 
@@ -22,7 +22,7 @@ Returns paginated community membership data, including approval state, permissio
 
 | Name | Type | Description |
 | --- | --- | --- |
-| `serverId` | integer | Sonoran Radio server ID |
+| `communityId` | string | Sonoran Radio community ID |
 
 **Query Parameters**
 
@@ -88,15 +88,15 @@ var response = await sonoran.Radio.getMembersV2(new GetMembersV2Query
 ```yaml
 openapi: 3.1.0
 paths:
-  /v2/servers/{serverId}/members:
+  /v2/servers/{communityId}/members:
     get:
       parameters:
         - in: path
-          name: serverId
+          name: communityId
           required: true
           schema:
-            type: integer
-            example: 1
+            type: string
+            example: YOUR_COMMUNITY_ID
         - in: query
           name: page
           schema:
