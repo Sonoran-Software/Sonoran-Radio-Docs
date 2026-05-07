@@ -46,7 +46,7 @@ local response = client.radio:getMembersV2({
   status = "approved",
   sortBy = "username",
   search = "dispatch"
-}, 1)
+}, "YOUR_COMMUNITY_ID")
 ```
 {% endtab %}
 {% tab title="Sonoran.js" %}
@@ -57,7 +57,7 @@ const response = await instance.radio?.getMembersV2({
   status: 'approved',
   sortBy: 'username',
   search: 'dispatch'
-}, 1);
+}, 'YOUR_COMMUNITY_ID');
 ```
 {% endtab %}
 {% tab title="Sonoran.py" %}
@@ -68,7 +68,7 @@ response = instance.radio.getMembersV2({
     "status": "approved",
     "sortBy": "username",
     "search": "dispatch",
-}, 1)
+}, "YOUR_COMMUNITY_ID")
 ```
 {% endtab %}
 {% tab title="Sonoran.Net" %}
@@ -86,10 +86,21 @@ var response = await sonoran.Radio.getMembersV2(new GetMembersV2Query
 {% endtab %}
 {% tab title="OpenAPI" %}
 ```yaml
-openapi: 3.1.0
+openapi: 3.0.3
+info:
+  title: Sonoran Radio API v2
+  version: "1.0"
+servers:
+  - url: https://api.sonoranradio.com
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
 paths:
   /v2/servers/{communityId}/members:
     get:
+      summary: Get paginated community members
       parameters:
         - in: path
           name: communityId
@@ -129,11 +140,20 @@ paths:
             example: dispatch
       security:
         - bearerAuth: []
+      responses:
+        "200":
+          description: Paginated members response
+        "400":
+          description: Validation failed
+        "401":
+          description: Missing or invalid bearer token
+        "404":
+          description: Community not found for this API key
 ```
 {% endtab %}
 {% tab title="cURL" %}
 ```bash
-curl -G "https://api.sonoranradio.com/v2/servers/1/members" \
+curl -G "https://api.sonoranradio.com/v2/servers/YOUR_COMMUNITY_ID/members" \
   -H "Authorization: Bearer your-community-api-key" \
   --data-urlencode "page=1" \
   --data-urlencode "perPage=25" \
