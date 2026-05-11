@@ -6,7 +6,7 @@ description: Set or update a server room IP and push URL for a specific Sonoran 
 
 ## Set Server IP
 
-<mark style="color:green;">`POST`</mark> `/v2/servers/:serverId/server-ip`
+<mark style="color:green;">`POST`</mark> `/v2/servers/:communityId/server-ip`
 
 > **Rate limit:** `2 requests per minute`
 
@@ -25,7 +25,7 @@ Adds or updates a room origin and push URL for the selected server.
 {% tab title="Sonoran.lua" %}
 ```lua
 local response = client.radio:setServerIpV2({
-  serverId = 1,
+  communityId = "YOUR_COMMUNITY_ID",
   roomId = 1,
   serverPort = 30120,
   pushUrl = "http://127.0.0.1:30120/sonoranradio",
@@ -36,7 +36,7 @@ local response = client.radio:setServerIpV2({
 {% tab title="Sonoran.js" %}
 ```javascript
 const response = await instance.radio?.setServerIpV2({
-  serverId: 1,
+  communityId: "YOUR_COMMUNITY_ID",
   roomId: 1,
   serverPort: 30120,
   pushUrl: "http://127.0.0.1:30120/sonoranradio",
@@ -47,7 +47,7 @@ const response = await instance.radio?.setServerIpV2({
 {% tab title="Sonoran.py" %}
 ```python
 response = instance.radio.setServerIpV2({
-    "serverId": 1,
+    "communityId": "YOUR_COMMUNITY_ID",
     "roomId": 1,
     "serverPort": 30120,
     "pushUrl": "http://127.0.0.1:30120/sonoranradio",
@@ -59,8 +59,6 @@ response = instance.radio.setServerIpV2({
 ```csharp
 var response = await sonoran.Radio.setServerIpV2(new SetServerIpV2Request
 {
-    ServerId = 1,
-    RoomId = 1,
     ServerPort = 30120,
     PushUrl = "http://127.0.0.1:30120/sonoranradio",
     Nickname = "Patrol"
@@ -71,7 +69,7 @@ var response = await sonoran.Radio.setServerIpV2(new SetServerIpV2Request
 ```yaml
 openapi: 3.1.0
 paths:
-  /v2/servers/{serverId}/server-ip:
+  /v2/servers/{communityId}/server-ip:
     post:
       security:
         - bearerAuth: []
@@ -79,7 +77,7 @@ paths:
 {% endtab %}
 {% tab title="cURL" %}
 ```bash
-curl -X POST "https://api.sonoranradio.com/v2/servers/1/server-ip" \
+curl -X POST "https://api.sonoranradio.com/v2/servers/YOUR_COMMUNITY_ID/server-ip" \
   -H "Authorization: Bearer your-community-api-key" \
   -H "Content-Type: application/json" \
   -d "{\"roomId\":1,\"serverPort\":30120,\"pushUrl\":\"http://127.0.0.1:30120/sonoranradio\",\"nickname\":\"Patrol\"}"

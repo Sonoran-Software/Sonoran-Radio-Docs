@@ -25,8 +25,10 @@ https://api.sonoranradio.com
 Authenticated server-specific requests use:
 
 ```http
-/v2/servers/{serverId}/...
+/v2/servers/{communityId}/...
 ```
+
+For SDK clients, configure Radio with your public community ID. Room-scoped helpers also use the room ID configured on client creation.
 
 ## Example Request
 
@@ -39,10 +41,10 @@ local client = Sonoran.createClient({
   product = Sonoran.productEnums.RADIO,
   communityId = "YOUR_COMMUNITY_ID",
   apiKey = "YOUR_API_KEY",
-  defaultServerId = 1
+  roomId = 1
 })
 
-local response = client.radio:getConnectedUsersV2(1)
+local response = client.radio:getConnectedUsersV2()
 
 print(response.success)
 ```
@@ -57,10 +59,10 @@ const Sonoran = require('@sonoransoftware/sonoran.js');
     communityId: 'YOUR_COMMUNITY_ID',
     apiKey: 'YOUR_API_KEY',
     product: Sonoran.productEnums.RADIO,
-    serverId: 1,
+    roomId: 1,
   });
 
-  const response = await instance.radio?.getConnectedUsersV2(1);
+  const response = await instance.radio?.getConnectedUsersV2();
   console.log(response);
 })();
 ```
@@ -73,10 +75,10 @@ instance = Instance(
     apiKey="YOUR_API_KEY",
     communityId="YOUR_COMMUNITY_ID",
     product=productEnums.RADIO,
-    serverId=1,
+    roomId=1,
 )
 
-response = instance.radio.getConnectedUsersV2(1)
+response = instance.radio.getConnectedUsersV2()
 
 print(response.success)
 print(response.data if response.success else response.reason)
@@ -91,10 +93,10 @@ using var sonoran = new SonoranClient(new SonoranClientOptions
     product = SonoranProduct.RADIO,
     communityId = "YOUR_COMMUNITY_ID",
     apiKey = "YOUR_API_KEY",
-    defaultServerId = 1
+    roomId = 1
 });
 
-var response = await sonoran.Radio.getConnectedUsersV2(1);
+var response = await sonoran.Radio.getConnectedUsersV2();
 
 Console.WriteLine(response.success);
 Console.WriteLine(response.data);
@@ -104,7 +106,7 @@ Console.WriteLine(response.data);
 {% tab title="cURL" %}
 ```bash
 curl --request GET \
-  --url "https://api.sonoranradio.com/v2/servers/1/connected-users" \
+  --url "https://api.sonoranradio.com/v2/servers/YOUR_COMMUNITY_ID/connected-users" \
   --header "Authorization: Bearer YOUR_API_KEY" \
   --header "Accept: application/json"
 ```
@@ -129,7 +131,7 @@ Example:
   "title": "Unauthorized",
   "status": 401,
   "detail": "Missing Authorization header.",
-  "instance": "/v2/servers/1/connected-users",
+  "instance": "/v2/servers/YOUR_COMMUNITY_ID/connected-users",
   "traceId": "00-abc123..."
 }
 ```
@@ -141,7 +143,7 @@ Example:
 | `401` | Missing `Authorization` header |
 | `401` | `Authorization` header is not using the `Bearer` scheme |
 | `401` | API key is invalid |
-| `404` | The requested `serverId` is not configured for the authenticated community |
+| `404` | The requested `communityId` is not configured for the authenticated community |
 
 ## Rate Limits
 

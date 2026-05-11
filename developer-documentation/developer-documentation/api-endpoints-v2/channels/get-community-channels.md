@@ -24,22 +24,22 @@ Returns channel groups and channel definitions for the selected server.
 {% tabs %}
 {% tab title="Sonoran.lua" %}
 ```lua
-local response = client.radio:getCommunityChannelsV2(1)
+local response = client.radio:getCommunityChannelsV2()
 ```
 {% endtab %}
 {% tab title="Sonoran.js" %}
 ```javascript
-const response = await instance.radio?.getCommunityChannelsV2(1);
+const response = await instance.radio?.getCommunityChannelsV2();
 ```
 {% endtab %}
 {% tab title="Sonoran.py" %}
 ```python
-response = instance.radio.getCommunityChannelsV2(1)
+response = instance.radio.getCommunityChannelsV2()
 ```
 {% endtab %}
 {% tab title="Sonoran.Net" %}
 ```csharp
-var response = await sonoran.Radio.getCommunityChannelsV2(1);
+var response = await sonoran.Radio.getCommunityChannelsV2();
 ```
 {% endtab %}
 {% tab title="OpenAPI" %}
@@ -54,7 +54,7 @@ paths:
 {% endtab %}
 {% tab title="cURL" %}
 ```bash
-curl -X GET "https://api.sonoranradio.com/v2/servers/1/channels" \
+curl -X GET "https://api.sonoranradio.com/v2/servers/YOUR_COMMUNITY_ID/channels" \
   -H "Authorization: Bearer your-community-api-key"
 ```
 {% endtab %}
@@ -75,4 +75,3 @@ Successful requests return `application/json`.
   ]
 }
 ```
-

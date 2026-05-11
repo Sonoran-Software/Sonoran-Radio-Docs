@@ -6,7 +6,7 @@ description: Update member permissions for a specific Sonoran Radio server.
 
 ## Set Member Permissions
 
-<mark style="color:yellow;">`PATCH`</mark> `/v2/servers/:serverId/members/permissions`
+<mark style="color:yellow;">`PATCH`</mark> `/v2/servers/:communityId/members/permissions`
 
 > **Rate limit:** `4 requests per minute`
 
@@ -61,14 +61,14 @@ var response = await sonoran.Radio.setMemberPermissionsV2(new[]
         AccId = "91de0ce8-c571-11e9-9714-5600023b2434",
         Perm = 34
     }
-}, 1);
+});
 ```
 {% endtab %}
 {% tab title="OpenAPI" %}
 ```yaml
 openapi: 3.1.0
 paths:
-  /v2/servers/{serverId}/members/permissions:
+  /v2/servers/{communityId}/members/permissions:
     patch:
       security:
         - bearerAuth: []
@@ -76,7 +76,7 @@ paths:
 {% endtab %}
 {% tab title="cURL" %}
 ```bash
-curl -X PATCH "https://api.sonoranradio.com/v2/servers/1/members/permissions" \
+curl -X PATCH "https://api.sonoranradio.com/v2/servers/YOUR_COMMUNITY_ID/members/permissions" \
   -H "Authorization: Bearer your-community-api-key" \
   -H "Content-Type: application/json" \
   -d "{\"userPerms\":[{\"accId\":\"91de0ce8-c571-11e9-9714-5600023b2434\",\"perm\":34}]}"

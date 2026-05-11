@@ -66,7 +66,7 @@ Example:
   "title": "Unauthorized",
   "status": 401,
   "detail": "Missing Authorization header.",
-  "instance": "/v2/servers/1/channels",
+  "instance": "/v2/servers/YOUR_COMMUNITY_ID/channels",
   "traceId": "00-abc123..."
 }
 ```

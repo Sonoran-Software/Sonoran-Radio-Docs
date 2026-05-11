@@ -6,7 +6,7 @@ description: This endpoint gets all connected users for a specific Sonoran Radio
 
 ## Get Connected Users
 
-<mark style="color:green;">`GET`</mark> `/v2/servers/:serverId/connected-users`
+<mark style="color:green;">`GET`</mark> `/v2/servers/:communityId/connected-users`
 
 > **Rate limit:** `6 requests per minute`
 
@@ -22,51 +22,51 @@ Returns every currently connected radio participant for the selected server.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| `serverId` | integer | Sonoran Radio server ID |
+| `communityId` | string | Sonoran Radio community ID |
 
 **Examples**
 
 {% tabs %}
 {% tab title="Sonoran.lua" %}
 ```lua
-local response = client.radio:getConnectedUsersV2(1)
+local response = client.radio:getConnectedUsersV2()
 ```
 {% endtab %}
 {% tab title="Sonoran.js" %}
 ```javascript
-const response = await instance.radio?.getConnectedUsersV2(1);
+const response = await instance.radio?.getConnectedUsersV2();
 ```
 {% endtab %}
 {% tab title="Sonoran.py" %}
 ```python
-response = instance.radio.getConnectedUsersV2(1)
+response = instance.radio.getConnectedUsersV2()
 ```
 {% endtab %}
 {% tab title="Sonoran.Net" %}
 ```csharp
-var response = await sonoran.Radio.getConnectedUsersV2(1);
+var response = await sonoran.Radio.getConnectedUsersV2();
 ```
 {% endtab %}
 {% tab title="OpenAPI" %}
 ```yaml
 openapi: 3.1.0
 paths:
-  /v2/servers/{serverId}/connected-users:
+  /v2/servers/{communityId}/connected-users:
     get:
       parameters:
         - in: path
-          name: serverId
+          name: communityId
           required: true
           schema:
-            type: integer
-            example: 1
+            type: string
+            example: YOUR_COMMUNITY_ID
       security:
         - bearerAuth: []
 ```
 {% endtab %}
 {% tab title="cURL" %}
 ```bash
-curl -X GET "https://api.sonoranradio.com/v2/servers/1/connected-users" \
+curl -X GET "https://api.sonoranradio.com/v2/servers/YOUR_COMMUNITY_ID/connected-users" \
   -H "Authorization: Bearer your-community-api-key"
 ```
 {% endtab %}

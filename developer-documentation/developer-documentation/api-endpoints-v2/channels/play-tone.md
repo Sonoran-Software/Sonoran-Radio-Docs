@@ -6,7 +6,7 @@ description: Play one or more tones for a specific Sonoran Radio server.
 
 ## Play Tone
 
-<mark style="color:green;">`POST`</mark> `/v2/servers/:serverId/tones/play`
+<mark style="color:green;">`POST`</mark> `/v2/servers/:communityId/tones/play`
 
 > **Rate limit:** `12 requests per minute`  
 > This endpoint has a small internal gateway buffer, but the published public limit is `12 requests per minute`.
@@ -54,8 +54,6 @@ response = instance.radio.playToneV2(
 ```csharp
 var response = await sonoran.Radio.playToneV2(new PlayToneV2Request
 {
-    ServerId = 1,
-    RoomId = 1,
     Tones = new object[] { 12 },
     PlayTo = new object[] { new { type = "channel", value = 101 } }
 });
@@ -65,7 +63,7 @@ var response = await sonoran.Radio.playToneV2(new PlayToneV2Request
 ```yaml
 openapi: 3.1.0
 paths:
-  /v2/servers/{serverId}/tones/play:
+  /v2/servers/{communityId}/tones/play:
     post:
       security:
         - bearerAuth: []
@@ -73,7 +71,7 @@ paths:
 {% endtab %}
 {% tab title="cURL" %}
 ```bash
-curl -X POST "https://api.sonoranradio.com/v2/servers/1/tones/play" \
+curl -X POST "https://api.sonoranradio.com/v2/servers/YOUR_COMMUNITY_ID/tones/play" \
   -H "Authorization: Bearer your-community-api-key" \
   -H "Content-Type: application/json" \
   -d "{\"roomId\":1,\"tones\":[12],\"playTo\":[{\"type\":\"channel\",\"value\":101}]}"

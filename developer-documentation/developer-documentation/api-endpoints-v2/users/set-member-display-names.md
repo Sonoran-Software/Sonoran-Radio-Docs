@@ -6,7 +6,7 @@ description: Update stored member display names for a specific Sonoran Radio ser
 
 ## Set Member Display Names
 
-<mark style="color:yellow;">`PATCH`</mark> `/v2/servers/:serverId/members/display-names`
+<mark style="color:yellow;">`PATCH`</mark> `/v2/servers/:communityId/members/display-names`
 
 > **Rate limit:** `4 requests per minute`
 
@@ -61,14 +61,14 @@ var response = await sonoran.Radio.setMemberDisplayNamesV2(new[]
         AccId = "91de0ce8-c571-11e9-9714-5600023b2434",
         Nickname = "Chief Miller"
     }
-}, 1);
+});
 ```
 {% endtab %}
 {% tab title="OpenAPI" %}
 ```yaml
 openapi: 3.1.0
 paths:
-  /v2/servers/{serverId}/members/display-names:
+  /v2/servers/{communityId}/members/display-names:
     patch:
       security:
         - bearerAuth: []
@@ -76,7 +76,7 @@ paths:
 {% endtab %}
 {% tab title="cURL" %}
 ```bash
-curl -X PATCH "https://api.sonoranradio.com/v2/servers/1/members/display-names" \
+curl -X PATCH "https://api.sonoranradio.com/v2/servers/YOUR_COMMUNITY_ID/members/display-names" \
   -H "Authorization: Bearer your-community-api-key" \
   -H "Content-Type: application/json" \
   -d "{\"accNicknames\":[{\"accId\":\"91de0ce8-c571-11e9-9714-5600023b2434\",\"nickname\":\"Chief Miller\"}]}"

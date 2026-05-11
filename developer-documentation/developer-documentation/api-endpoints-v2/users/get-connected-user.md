@@ -39,7 +39,7 @@ response = instance.radio.getConnectedUserV2(1, "91de0ce8-c571-11e9-9714-5600023
 {% endtab %}
 {% tab title="Sonoran.Net" %}
 ```csharp
-var response = await sonoran.Radio.getConnectedUserV2(1, "91de0ce8-c571-11e9-9714-5600023b2434", "YOUR_COMMUNITY_ID");
+var response = await sonoran.Radio.getConnectedUserV2("91de0ce8-c571-11e9-9714-5600023b2434");
 ```
 {% endtab %}
 {% tab title="OpenAPI" %}
@@ -72,4 +72,3 @@ Successful requests return `application/json`.
   "state": "ACTIVE"
 }
 ```
-

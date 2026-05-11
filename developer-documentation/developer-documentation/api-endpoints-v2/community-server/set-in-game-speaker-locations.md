@@ -6,7 +6,7 @@ description: Set in-game speaker locations for tone playback on a specific Sonor
 
 ## Set In-Game Speaker Locations
 
-<mark style="color:yellow;">`PUT`</mark> `/v2/servers/:serverId/speakers`
+<mark style="color:yellow;">`PUT`</mark> `/v2/servers/:communityId/speakers`
 
 > **Rate limit:** `2 requests per minute`
 
@@ -57,14 +57,14 @@ response = instance.radio.setInGameSpeakerLocationsV2([
 var response = await sonoran.Radio.setInGameSpeakerLocationsV2(new object?[]
 {
     new { label = "Fire Station 123", id = "STATION_123" }
-}, 1);
+});
 ```
 {% endtab %}
 {% tab title="OpenAPI" %}
 ```yaml
 openapi: 3.1.0
 paths:
-  /v2/servers/{serverId}/speakers:
+  /v2/servers/{communityId}/speakers:
     put:
       security:
         - bearerAuth: []
@@ -72,7 +72,7 @@ paths:
 {% endtab %}
 {% tab title="cURL" %}
 ```bash
-curl -X PUT "https://api.sonoranradio.com/v2/servers/1/speakers" \
+curl -X PUT "https://api.sonoranradio.com/v2/servers/YOUR_COMMUNITY_ID/speakers" \
   -H "Authorization: Bearer your-community-api-key" \
   -H "Content-Type: application/json" \
   -d "{\"locations\":[{\"label\":\"Fire Station 123\",\"id\":\"STATION_123\"}]}"

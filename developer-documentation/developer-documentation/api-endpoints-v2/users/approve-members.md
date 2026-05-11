@@ -6,7 +6,7 @@ description: Approve existing pending members for a specific Sonoran Radio serve
 
 ## Approve Members
 
-<mark style="color:green;">`POST`</mark> `/v2/servers/:serverId/members/approve`
+<mark style="color:green;">`POST`</mark> `/v2/servers/:communityId/members/approve`
 
 > **Rate limit:** `12 requests per minute`  
 > This endpoint has a small internal gateway buffer, but the published public limit is `12 requests per minute`.
@@ -49,14 +49,14 @@ response = instance.radio.approveMembersV2([
 var response = await sonoran.Radio.approveMembersV2(new[]
 {
     "91de0ce8-c571-11e9-9714-5600023b2434"
-}, 1);
+});
 ```
 {% endtab %}
 {% tab title="OpenAPI" %}
 ```yaml
 openapi: 3.1.0
 paths:
-  /v2/servers/{serverId}/members/approve:
+  /v2/servers/{communityId}/members/approve:
     post:
       security:
         - bearerAuth: []
@@ -64,7 +64,7 @@ paths:
 {% endtab %}
 {% tab title="cURL" %}
 ```bash
-curl -X POST "https://api.sonoranradio.com/v2/servers/1/members/approve" \
+curl -X POST "https://api.sonoranradio.com/v2/servers/YOUR_COMMUNITY_ID/members/approve" \
   -H "Authorization: Bearer your-community-api-key" \
   -H "Content-Type: application/json" \
   -d "{\"accIds\":[\"91de0ce8-c571-11e9-9714-5600023b2434\"]}"

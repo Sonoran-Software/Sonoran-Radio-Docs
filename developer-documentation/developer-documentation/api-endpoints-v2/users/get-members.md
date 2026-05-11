@@ -75,7 +75,6 @@ response = instance.radio.getMembersV2({
 ```csharp
 var response = await sonoran.Radio.getMembersV2(new GetMembersV2Query
 {
-    CommunityId = "YOUR_COMMUNITY_ID",
     Page = 1,
     PerPage = 25,
     Status = "approved",
