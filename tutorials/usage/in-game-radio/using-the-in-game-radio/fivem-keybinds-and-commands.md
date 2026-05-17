@@ -34,7 +34,7 @@ This keybind will transmit your voice on the radio while being held down.
 
 This keybind will toggle your panic status in the radio, and in [Sonoran CAD](../../../integrations/sonoran-cad-integration.md#cad-panic).
 
-#### Auto PTT on Panic&#x20;
+#### Auto PTT on Panic
 
 Sonoran Radio has a [configurable option](../../../getting-started/installing-the-in-game-resource.md#updates) to automatically press a users PTT button for a configurable amount of time when the user [presses their radio panic button](./#panic):
 
@@ -101,16 +101,16 @@ To toggle on/off [scanning a specific channel](./#channel-scanning-listening) us
 
 Commands for the server console.
 
-### Debug Mode
+### Debug Mode Toggle
 
 Toggle the [`config.debug` mode](../../../getting-started/installing-the-in-game-resource.md#updates) with the command
 
-`/sonoranradio debugmode`
+`sonoranradio debugmode`
 
 Note: This mode does not persist through server restarts.
 
-### Update
+### Update Resource Command
 
 Run the automatic update with the command
 
-`/sonoranradio update`
+`sonoranradio update`
