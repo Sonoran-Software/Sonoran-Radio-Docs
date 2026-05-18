@@ -283,6 +283,213 @@ Procopio Dr
 Pyrite Ave
 Cascabel Ave
 
+// Florida Roads
+Stockyard Rd
+Sawgrass Expressway
+Davie Blvd
+Flagler St
+Flamingo Rd
+Broward Blvd
+Las Olas Blvd
+Brickell Pl
+Brickell Ave
+Weston Vista Dr
+Weston Rd
+Seminole Way
+Everglades Blvd
+Plantation Rd
+Sawgrass Expy
+Fishing Dock Rd
+A1A Scenic Highway
+Griffin Rd
+Biscayne Blvd
+Biscayne Ramp
+Coconut Palm Dr
+Collins Ave
+Seven Mile Bridge Rd
+Sunrise Blvd
+Buccaneer Blvd
+Ocean Club Dr
+Alligator Alley
+Davie Rd
+Broward County Pkwy
+Justice Blvd
+Commercial Blvd
+Coconut Creek Pkwy
+Everglades Trail
+Panther Pkwy
+Gulf View Rd
+Sheriff Dr
+Marsh Passage
+US-27 Access Rd
+Cypress Preserve Blvd
+Marina Rd
+Gator Rd
+Washington Ave
+Spanish River Rd
+SW 8th St
+Panther Run
+Weston Blvd
+Sawgrass Way
+Volunteer Rd
+NW 27th Ave
+Port Blvd
+Interstate 4
+Brickell Bay Dr
+Drydock Ave
+Cypress Creek Rd
+Weston Hills Dr
+Weston Hills Ln
+PortMiami Tunnel Rd
+Everglades Observatory Rd
+US-98 Alternate
+Lakeview Dr
+Weston Way
+Coral Way
+Pine Island Rd
+NW 79th St
+Big Cypress Rd
+Okeechobee Rd
+Miami Ave
+Dolphin Expressway (SR 836)
+Freedom Blvd
+Le Jeune Rd
+Paradise Blvd
+Plantation Preserve Dr
+Airbase Access Rd
+Convention Center Dr
+Sugar Cane Rd
+Markham Park
+Markham Park Rd
+Plantation Ln
+Little Havana Ave
+Freedom Tower Blvd
+Wynwood Ave
+Belle Glade Rd
+Belle Glade Main St
+Interstate 75
+Biscayne Pkwy
+Biscayne Pl
+Biscayne Way
+Coconut Grove Dr
+Hangar Way
+Outpost Rd
+Coral Gables Blvd
+Hillcrest Dr
+Hillcrest Access Rd
+Paradise Ct
+Everglades Rd
+Brickell Key Dr
+Innovation Court
+Innovation Ct
+NW 36th St
+Farm Rd
+US-98
+Rickenbacker Cswy
+Interstate 95
+Industrial Pl
+Cypress Pl
+Lake Okeechobee Dr
+Lake Estates Dr
+Alton Rd
+Marsh Ln
+Liberty City Blvd
+Palm Circle
+NW 62nd St
+Florida Turnpike
+Utility Rd
+NW 20th St
+Thunder Rd
+Ocean Dr
+Marathon Key Blvd
+Overseas Hwy Frontage Rd
+Coral Gables Dr
+Medical Pkwy
+Orange Grove Ln
+NE 2nd Ave
+Biscayne Overpass
+Biscayne Park Blvd
+Reflection Pl
+Miracle Mile
+Sawgrass Ridge Dr
+Star Island Dr
+Cypress Hill Dr
+Cypress Hill Rd
+Royal Palm Dr
+Pirate Cove Rd
+MacArthur Cswy
+Edison Ave
+Edison Pl
+Normandy Isle Dr
+N Miami Ave
+Key Largo Dr
+Old Cutler Rd
+Coral Gables Ave
+North Bay Ave
+NW 87th Ave
+I-395
+Orange Grove Rd
+Overseas Hwy
+Key Colony Blvd
+University Dr
+Sunset Key Rd
+Gulfstream Dr
+Scenic Overseas Dr
+Tarpon Basin Ct
+Playa Vista
+SE 1st Ave
+Harbor Dr
+FPL Service Rd
+Islamorada Dr
+Key Largo Promenade
+Brickell Heights Blvd
+Prosperity Walk
+Islamorada Ave
+Cypress Pass
+Redland Rd
+US-27
+US-27 Business
+US-27 Connector
+MLK Blvd
+River Rd
+Runway 1
+Florida Ave
+Beachfront Rd
+Ocean Reef Dr
+Tamiami Trail East
+Everglades Way
+Marina Service Rd
+Overseas Causeway
+Harbor St
+Harbor Passage
+South Port Blvd
+South Beach Blvd
+South Bayshore Dr
+South Harbor Industrial Rd
+Española Way
+Weston Industrial Blvd
+Liberty City Ave
+Doral Industrial Blvd
+Quarry Rd
+Palm Ave
+Charter Boat Row
+Little River Rd
+Cypress Preserve Rd
+Freedom Tower Dr
+Harbor Key Rd
+Keys County Rd
+Flamingo Gardens
+Bayfront Park Dr
+Saint Vitus St
+Bayou Place
+West Lake Dr
+Weston Ridge Dr
+Ranch Rd
+SE 2nd St
+Everglades Canal Rd
+Big Cypress Basin
+Tamiami Trail
+
 // Speeds (MPH/KMH - Every 5)
 Zero  
 Five  
