@@ -46,6 +46,7 @@
     * [Client Debug Mode](tutorials/usage/troubleshooting/client-debug-mode.md)
     * [In-Game Microphone Not Working](tutorials/usage/troubleshooting/in-game-microphone-not-working.md)
     * [Browser Microphone Permissions](tutorials/usage/troubleshooting/browser-microphone-permissions.md)
+    * [Set Mic In-game for Radio](tutorials/usage/troubleshooting/set-mic-in-game-for-radio.md)
     * [In-Game Volume Too Low](tutorials/usage/troubleshooting/in-game-volume-too-low.md)
     * [Mac Keybinds](tutorials/usage/troubleshooting/mac-keybinds.md)
     * [In-Game Timeouts](tutorials/usage/troubleshooting/in-game-timeouts.md)

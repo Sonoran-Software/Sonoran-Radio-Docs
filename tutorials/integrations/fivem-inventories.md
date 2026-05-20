@@ -108,7 +108,7 @@ Currently, the following Qbox inventories are supported:
 
 <summary>OX Inventory Bugs and Limitations</summary>
 
-#### QBCore Support
+**QBCore Support**
 
 [OX inventory has officially dropped QBCore support in sole favor of the Qbox framework. However, full functionality can still work.](https://overextended.dev/ox_inventory/Frameworks/qbx)
 
@@ -120,7 +120,7 @@ Currently, the following Qbox inventories are supported:
 
 <summary>QS Inventory Bugs and Limitations</summary>
 
-#### Official Support
+**Official Support**
 
 While QS inventory has not been officially tested with Sonoran Radio, customers have reported it working with full functionality. Report any issues on our [support website](https://support.sonoransoftware.com).
 

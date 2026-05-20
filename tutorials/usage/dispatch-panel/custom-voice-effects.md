@@ -73,13 +73,13 @@ This **EQ** effect remains consistent and does not fluctuate based on [in-game s
 <summary>Equalizer</summary>
 
 The equalizer effect allows you to boost or reduce frequencies throughout the audio range.\
-&#xNAN;_**Tip:** For a "tin can" effect, increase the mid frequencies while reducing the low and high ranges._
+\&#xNAN;_**Tip:** For a "tin can" effect, increase the mid frequencies while reducing the low and high ranges._
 
-#### Pre-Effect EQ
+**Pre-Effect EQ**
 
 The pre-effect EQ is a profile applied directly to the mic input before any effects (vocoder, digital, analogue, etc.) are applied. This can help improve clarity with the vocoder, grant a tin-can style effect, and more.
 
-#### Post-Effect EQ
+**Post-Effect EQ**
 
 The post-effect EQ is a profile applied to the audio after all effects have been processed. This can help improve clarity and improve the finalized effects.
 
