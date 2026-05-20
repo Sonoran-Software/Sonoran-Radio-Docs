@@ -44,9 +44,9 @@ Once selected, you can enable or disable your microphone and configure Automatic
 
 #### Controls
 
-* **Green Microphone** = Microphone Enabled
+* **Blue Microphone** = Microphone Enabled
 * **Red Microphone** = Microphone Muted/Disabled
-* **Slider** = Automatic Gain Control (AGC)
+* **Green Slider** = Automatic Gain Control (AGC)
 
 Automatic Gain Control helps balance microphone volume automatically.
 
