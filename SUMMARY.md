@@ -114,6 +114,7 @@
       * [Approve Members](developer-documentation/developer-documentation/api-endpoints-v2/users/approve-members.md)
       * [Kick Members](developer-documentation/developer-documentation/api-endpoints-v2/users/kick-members.md)
       * [Ban Members](developer-documentation/developer-documentation/api-endpoints-v2/users/ban-members.md)
+      * [Unban Members](developer-documentation/developer-documentation/api-endpoints-v2/users/unban-members.md)
       * [Set Member Permissions](developer-documentation/developer-documentation/api-endpoints-v2/users/set-member-permissions.md)
       * [Set Member Display Names](developer-documentation/developer-documentation/api-endpoints-v2/users/set-member-display-names.md)
       * [Set User Channels](developer-documentation/developer-documentation/api-endpoints-v2/users/set-user-channels.md)
