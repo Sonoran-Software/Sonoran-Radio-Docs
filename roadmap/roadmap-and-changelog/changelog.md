@@ -8,17 +8,37 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 {% tabs %}
 {% tab title="New" %}
-Permission ID Generator
-
-* Added a UI in the members panel to generate and copy a bitwise permission ID for external use (Discord bot role sync)
-
 App Emergency Call
 
-* Added the ability to make emergency calls from the website version instead of only in-game FiveM
+* Added the ability to make emergency calls from the web, desktop, or mobile version instead of only in-game FiveM.
+
+In-Game Name Sync
+
+* Added a new config option allowing communities to sync users' in-game names to their radio display name.
+
+In-Game Emergency Call Mic Setup
+
+* Added a new command for users to change their microphone input device when placing in-game emergency calls.
+
+Custom Zone Maps
+
+* Added the ability to upload custom FiveM maps to the zone editor.
+
+Permission ID Generator
+
+* Added a UI in the members panel to generate and copy a bitwise permission ID for external use (Discord bot role sync).
+
+Admin Permissions
+
+* Removed the ability for users to remove their own admin permission.
 
 Tone Voice Effects
 
-* Tones played on the radio now have the custom voice effects applied to them
+* Tones played on the radio now have the custom voice effects applied to them.
+
+In-Game Errors
+
+* Added standardized error codes to the in-game resource complete with short links to specific documentation.
 {% endtab %}
 
 {% tab title="Changed" %}
@@ -29,9 +49,19 @@ Permission Removal
 Tone Stop on Channel Exit
 
 * Local tones now stop playing right away when exiting the channel they were playing on
+
+Framework Startup Retry
+
+* Added retry logic when the radio resource starts up if it fails to detect a framework (QB, QBox, ESX) due to startup order.
 {% endtab %}
 
+{% tab title="Fixed" %}
+In-Game User List Resize
+
+* Fixed an issue with the in-game user list not being able to be resized and moved in some cases.
+{% endtab %}
 {% endtabs %}
+
 ### 2.26.4 04/21/2026
 
 {% tabs %}
@@ -72,29 +102,21 @@ Privacy Tab - Recordings
 
 * Added a tab to toggle on/off the ability to send local transmission recordings
 
-free limits
-
-* todo
-
 Stun
 
-* todo
+* Added the ability to stun a user from talking temporarily.
 
 TTS Tone
 
-* TODO
-
-TTS Tone
-
-* Tone Board Updates
+* Added AI text-to-speech support for tone board tones.
 
 Channel Volume
 
-* Per-channel volume
+* Added per-channel volume
 
 Client FX
 
-* TODO
+* Added client-sided customizable voice effects.
 {% endtab %}
 
 {% tab title="Fixed" %}
@@ -106,16 +128,12 @@ URL Migration
 
 * Updated internal S3 storage URLs for newer infrastructure paths.
 
-gkhjk
-
-* ghjk
-
 Temporary Transmit Channel Change
 
 * Fixed an issue where using a hotkey to temporarily transmit in another channel resulted in the first channel still hearing you for a few seconds
 {% endtab %}
-
 {% endtabs %}
+
 ### 2.26.3 - 04/07/2026
 
 {% tabs %}
@@ -1531,8 +1549,6 @@ PTT In-Game & Radio
 {% endtab %}
 {% endtabs %}
 
-
-
 ### 2.3.0 (Alpha) - 7/11/2024
 
 {% tabs %}
@@ -1635,8 +1651,6 @@ Developer Exports - PTT
 *
 {% endtab %}
 {% endtabs %}
-
-
 
 ### 2.1.1 (Alpha) - 06/21/2024
 

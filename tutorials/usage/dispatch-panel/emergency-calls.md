@@ -18,6 +18,12 @@ Users can place emergency calls directly from the web, desktop, or mobile apps.&
 
 <div><figure><img src="../../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure></div>
 
+**Permissions**
+
+Users can be restricted to accessing the emergency call panel and not the radio with the **Call-Only** [permission](../../getting-started/invite-and-manage-users.md).
+
+<figure><img src="../../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
+
 </details>
 
 ### Emergency Calling In-Game
