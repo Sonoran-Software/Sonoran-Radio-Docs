@@ -8,6 +8,23 @@ description: >-
 
 <details>
 
+<summary>2.26.0 (Display Name Sync)</summary>
+
+Version 2.26.0 adds a new configuration option to set user's radio display names to match their in-game name.
+
+1. Open your existing `config.lua`
+2. Add the new properties to the configuration file
+
+If set to `true` the radio display name will be set to the QBCore, QBox, ESX, or vanilla in-game name.
+
+```lua
+Config.syncPlayerNameToRadio = false -- Sync the player's in-game character name to their Sonoran Radio display name
+```
+
+</details>
+
+<details>
+
 <summary>2.25.6 (Water Degredation)</summary>
 
 Version 2.25.6 adds a new configuration option to degrade signal strength when the user is underwater.

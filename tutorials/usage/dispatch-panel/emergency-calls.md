@@ -6,17 +6,37 @@ description: In-game players can call 911 and talk to you through Sonoran Radio!
 
 <figure><img src="../../../.gitbook/assets/Customizable Tone Board Promo (1).png" alt=""><figcaption><p>Sonoran Radio - Emergency Calls</p></figcaption></figure>
 
-## Emergency Calling In-Game
+## Creating Emergency Calls
+
+### Via Portal/App
+
+<details>
+
+<summary>Via Portal/App</summary>
+
+Users can place emergency calls directly from the web, desktop, or mobile apps.&#x20;
+
+<div><figure><img src="../../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure></div>
+
+</details>
+
+### Emergency Calling In-Game
+
+<details>
+
+<summary>Emergency Calling In-Game</summary>
 
 Players are able to make an emergency call in FiveM with `/radio 911`. This will place them in a call on the Dispatch Panel waiting for a dispatcher.
 
-<div><figure><img src="../../../.gitbook/assets/image (81).png" alt=""><figcaption><p>Sonoran Radio FiveM - Emergency Call</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (82).png" alt=""><figcaption><p>Sonoran Radio - Dispatch Panel</p></figcaption></figure></div>
+<figure><img src="../../../.gitbook/assets/image (81).png" alt=""><figcaption><p>Sonoran Radio FiveM - Emergency Call</p></figcaption></figure>
 
-### Caller Microphone
+#### Caller Microphone
 
 The emergency call will use the caller's default microphone. If the caller can not be heard, they may need to [change the input device selection](../troubleshooting/set-mic-in-game-for-radio.md) with `/radio 911 mic`.
 
 <div><figure><img src="../../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure></div>
+
+</details>
 
 ## Answering the Emergency Call
 
