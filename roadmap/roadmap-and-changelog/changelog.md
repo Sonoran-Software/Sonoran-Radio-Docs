@@ -4,6 +4,34 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.27.0 06/01/2026
+
+{% tabs %}
+{% tab title="New" %}
+Permission ID Generator
+
+* Added a UI in the members panel to generate and copy a bitwise permission ID for external use (Discord bot role sync)
+
+App Emergency Call
+
+* Added the ability to make emergency calls from the website version instead of only in-game FiveM
+
+Tone Voice Effects
+
+* Tones played on the radio now have the custom voice effects applied to them
+{% endtab %}
+
+{% tab title="Changed" %}
+Permission Removal
+
+* Restricted the ability to remove permissions from your own account
+
+Tone Stop on Channel Exit
+
+* Local tones now stop playing right away when exiting the channel they were playing on
+{% endtab %}
+
+{% endtabs %}
 ### 2.26.4 04/21/2026
 
 {% tabs %}
