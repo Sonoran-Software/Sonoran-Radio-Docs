@@ -4,6 +4,16 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.27.2 06/08/2026
+
+{% tabs %}
+{% tab title="New" %}
+Dispatch AI v2
+
+* An overhaul to the AI dispatcher, no longer requiring you to bring your own AI API key.
+{% endtab %}
+
+{% endtabs %}
 ### 2.27.0 06/01/2026
 
 {% tabs %}
