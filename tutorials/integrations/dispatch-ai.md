@@ -6,7 +6,7 @@ description: >-
 
 # Dispatch AI
 
-<figure><img src="../../.gitbook/assets/dai_promo.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/DispatchAI.webp" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 This feature is in a public **BETA** state.
@@ -22,10 +22,6 @@ This feature requires both **Sonoran CAD Pro** and **Sonoran Radio Pro**.
 [Learn more about our paid subscription plans.](../../pricing/pricing-faq/standalone-pricing.md)
 {% endhint %}
 
-## Setup Video
-
-{% embed url="https://app.guidde.com/share/playbooks/937jHS9EDLh9vEuWnaovk8?origin=G25dDmjNZ2b8ccFUz9X7G7W8T1k1" %}
-
 ## Setup Documentation
 
 ### 1. Copy Sonoran CAD API Information
@@ -36,52 +32,27 @@ This feature requires both **Sonoran CAD Pro** and **Sonoran Radio Pro**.
 
 Dispatch AI requires a Sonoran CAD community ID, API key, and server ID.
 
-The community ID and API key are located in the **Admin** panel > **Advanced** > **In-Game Integration** > **Web API**.
+The community ID and API key are located in the **Admin** panel > **Advanced** > **In-Game Integration** > **API**.
 
 The server ID can be found in the **Admin** panel > **Customization** > **Servers**. The default server ID is `1`.
 
-<div><figure><img src="../../.gitbook/assets/image (134).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (135).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure></div>
 
 </details>
 
-### 2. Create an Open AI API Key (BYOK)
-
-<details>
-
-<summary>Open AI API Key</summary>
-
-Currently, dispatch AI runs on a bring-your-own-key (BYOK) system for AI usage billing. This allows communities to maintain granular control of their AI expenses with OpenAI as a third-party. This system is subject to change in the future.
-
-{% hint style="danger" %}
-Sonoran Software Systems is not responsible for any unexpected or excess charges incurred from OpenAI or other third-party AI service providers. Communities are strongly encouraged to set spending limits, enable billing alerts, and actively monitor AI usage to ensure costs remain within approved thresholds.
-
-Because OpenAI and all other AI providers are a third-party, Sonoran Software Systems has no ability to offer refunds or reduced rates for AI costs.
-{% endhint %}
-
-[View the OpenAI API Key process here.](ai.md)
-
-In the current beta, dispatch AI relies on the following models:
-
-* `gpt-realtime-mini`
-* `gpt-5-nano`
-* `gpt-4o-mini-transcribe`
-* `gpt-4o-mini-tts`
-
-</details>
-
-### 3. Link CAD In Radio
+### 2. Link CAD In Radio
 
 <details>
 
 <summary>Link CAD In Radio</summary>
 
-In the radio **Customization** panel > **Info** > Select a server (or create one) and click on the Sonoran CAD icon. This will open a popup modal to enter in your CAD's community ID, API key, and server ID. Additionally, paste in your AI API key from the previous step.
+In the radio **Customization** panel > **Info** > Select a server (or create one) and click on the Sonoran CAD icon. This will open a popup modal to enter in your CAD's community ID, API key, and server ID.
 
-<div><figure><img src="../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure></div>
 
 </details>
 
-### 4. Prompt Customization
+### 3. Prompt Customization
 
 <details>
 
@@ -95,61 +66,7 @@ Prompt phrase customization lets you train the AI to map your agency’s specifi
 
 Keep your phrases short and direct. Adding too many phrases can eventually overload the AI's context window.
 
-</details>
-
-## Invoke the AI
-
-{% hint style="info" %}
-When first connecting to the radio, if you are the only user in the room, the AI agent may take up to 30 seconds to join.
-
-When the agent has joined, a brief "Dispatch Online" audio will play.
-{% endhint %}
-
-<details>
-
-<summary>Via Wake Work</summary>
-
-When pressing your push-to-talk key, a local AI listens to your microphone feed for the customizable wake word. By default, this is **Dispatch**.
-
-Users can customize their wake word by pressing the microphone button and speaking their custom wake word.
-
-Communities can also [customize the default wake word for all users](../usage/dispatch-panel/default-user-settings.md).
-
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="260"><figcaption></figcaption></figure>
-
-#### Prompting the AI
-
-In order to reduce false triggers and conserve local resources, the AI will only listen to the first five seconds of your transmission. This amount can be modified in the **Advanced** tab of the **Audio** settings.
-
-Upon detection of the wake word, an audible beep indicates that the AI has been activated. Users may begin speaking before the beep is heard, as long as the tone occurs at some point during the same transmission.
-
-**Example**
-
-If your wake word is **Dispatch**, then your transmissions to the AI would be as follows:
-
-\<wake word>, \<optional: my unit number>, \<action to do>\
-\&#xNAN;_**Dispatch**, A-10, mark me as available._\
-\&#xNAN;_**Dispatch**, A-10, run a lookup on the license plate ABC123_
-
-</details>
-
-<details>
-
-<summary>Via Hotkey (Web and Desktop)</summary>
-
-Web and desktop users can also set a [customizable hotkey in the settings menu](../usage/dispatch-panel/using-the-dispatch-panel.md#dispatch-hotkeys). Pressing this keybind will enable the AI (same as the wake word) for your transmission.
-
-<figure><img src="../../.gitbook/assets/image (142).png" alt=""><figcaption></figcaption></figure>
-
-</details>
-
-<details>
-
-<summary>FiveM: Via Hotkey</summary>
-
-FiveM users can also set a manual keybind in the settings. Pressing this keybind will enable the AI (same as the wake word) for your transmission.
-
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (157).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -174,6 +91,80 @@ The AI can be automatically disabled whenever an active dispatcher is in the CAD
 When this feature is enabled, the AI will check for a dispatcher once per minute.
 
 <figure><img src="../../.gitbook/assets/image (144).png" alt="" width="227"><figcaption></figcaption></figure>
+
+</details>
+
+## Using the AI
+
+### Invoke the AI
+
+{% hint style="info" %}
+When first connecting to the radio, if you are the only user in the room, the AI agent may take up to 15 seconds to join.
+
+When the agent has joined, a brief "Dispatch Online" audio will play.
+{% endhint %}
+
+<details>
+
+<summary>Via Wake Work</summary>
+
+When pressing your push-to-talk key, a local AI listens to your microphone feed for the customizable wake word. By default, this is **Dispatch**.
+
+Users can customize their wake words by pressing the microphone button and speaking their custom wake words.
+
+Communities can also [customize the default wake word for all users](../usage/dispatch-panel/default-user-settings.md).
+
+<figure><img src="../../.gitbook/assets/image (158).png" alt=""><figcaption></figcaption></figure>
+
+#### Prompting the AI
+
+In order to reduce false triggers and conserve local resources, the AI will only listen to the first five seconds of your transmission. This amount can be modified in the **Advanced** tab of the **Audio** settings.
+
+Upon detection of the wake word, an audible beep indicates that the AI has been activated. Users may begin speaking before the beep is heard, as long as the tone occurs at some point during the same transmission.
+
+**Example**
+
+If your wake word is **Dispatch**, then your transmissions to the AI would be as follows:
+
+\<wake word>, \<optional: my unit number>, \<action to do>\
+&#xNAN;_**Dispatch**, A-10, mark me as available._\
+&#xNAN;_**Dispatch**, A-10, run a lookup on the license plate ABC123_
+
+</details>
+
+<details>
+
+<summary>Via Hotkey (Web and Desktop)</summary>
+
+Web and desktop users can also set a [customizable hotkey in the settings menu](../usage/dispatch-panel/using-the-dispatch-panel.md#dispatch-hotkeys). Pressing this keybind will enable the AI (same as the wake word) for your transmission.
+
+<figure><img src="../../.gitbook/assets/image (142).png" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+<details>
+
+<summary>FiveM: Via Hotkey</summary>
+
+FiveM users can also set a manual keybind in the settings. Pressing this keybind will enable the AI (same as the wake word) for your transmission.
+
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+
+</details>
+
+### User Customization
+
+<details>
+
+<summary>Transcripts and Overrides</summary>
+
+A local speech-to-text AI generates a text transcript of your transmission. Sometimes, the AI can mishear common phrases resulting in poor performance.
+
+Users can view their latest transcripts under **Settings** > **AI** > **Recent Transcripts**.
+
+To improve these common mixups, add a **Phrase Override** manually.
+
+<figure><img src="../../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -352,7 +343,7 @@ Coming soon!
 
 The AI's reply volume can be changed in the settings menu.
 
-<figure><img src="../../.gitbook/assets/image (141).png" alt="" width="259"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (161).png" alt="" width="350"><figcaption></figcaption></figure>
 
 </details>
 
@@ -362,6 +353,6 @@ The AI's reply volume can be changed in the settings menu.
 
 By default, users hear AI replies directed to anyone in their primary or scanned channel. The radio setting allows you to switch from hearing AI replies for all users to hearing only replies addressed to you.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (160).png" alt="" width="352"><figcaption></figcaption></figure>
 
 </details>

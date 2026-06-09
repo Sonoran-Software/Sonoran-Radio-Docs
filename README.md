@@ -26,7 +26,7 @@ With instant setup, you can chat with community members in just minutes!
 
 Dispatch AI is our most powerful integration ever built. Talk to a live AI dispatcher over the radio to create calls, run license plate lookups, update your status, and so much more!
 
-<figure><img src=".gitbook/assets/dai_promo.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/DispatchAI.webp" alt=""><figcaption></figcaption></figure>
 
 ## 🎮 [Universal Desktop Overlay](tutorials/usage/desktop-overlay.md)
 
