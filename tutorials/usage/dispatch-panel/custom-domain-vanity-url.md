@@ -41,7 +41,7 @@ Enter the domain you want Sonoran Radio on, this can be either a root domain (li
 
 ### 2. Configure DNS Records for you Domain
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Custom DNS Records Sonoran Radio.png" alt=""><figcaption></figcaption></figure>
 
 Add the shown DNS records shown to you in your domain's administrative panel. If you are using Cloudflare, be sure to **disable** the proxy!
 
