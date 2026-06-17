@@ -42,9 +42,9 @@ You can also [customize the display behavior when pressing `ESC`](./#escape-mode
 When you first use the in-game resource, you'll need to log in.\
 A 4-digit code will appear for you to sign in from your browser.
 
-<figure><img src="../../../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (162).png" alt="" width="375"><figcaption></figcaption></figure>
 
-Open [sradio.link](https://sradio.link) in a web browser, log in if needed, enter your code, and click "Activate" to log in to the game.
+This will open [sradio.link](https://sradio.link) in a web browser, log in if needed, and your radio will be linked automatically with a 4-digit code.
 
 <figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Activate Link</p></figcaption></figure>
 
@@ -57,7 +57,7 @@ Open [sradio.link](https://sradio.link) in a web browser, log in if needed, ente
 When you first use the in-game resource, you'll need to log in.\
 If your community has ACE permissions configured, no account creation or link is necessary.
 
-<figure><img src="../../../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (163).png" alt=""><figcaption></figcaption></figure>
 
 Select **Login as guest** to bypass the account link and start using your radio. This guest option will only display if `acePermsForGuests` is set to `true`.
 
