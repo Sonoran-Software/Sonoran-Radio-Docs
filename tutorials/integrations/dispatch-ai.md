@@ -104,6 +104,10 @@ When first connecting to the radio, if you are the only user in the room, the AI
 When the agent has joined, a brief "Dispatch Online" audio will play.
 {% endhint %}
 
+{% hint style="warning" %}
+FiveM users must be logged into the radio with their Sonoran account (4-digit link code on first use) or have ran `/link` in-game to link their CAD. Otherwise, Dispatch AI will be unable to determine the CAD user to run the AI actions against.
+{% endhint %}
+
 <details>
 
 <summary>Via Wake Work</summary>
