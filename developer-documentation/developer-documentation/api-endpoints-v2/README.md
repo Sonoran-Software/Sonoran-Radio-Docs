@@ -128,6 +128,31 @@ paths:
       responses:
         "200":
           description: Channels response
+  /v2/servers/{communityId}/transmissions:
+    get:
+      summary: Get paginated transmission logs
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: path
+          name: communityId
+          required: true
+          schema:
+            type: string
+            example: YOUR_COMMUNITY_ID
+        - in: query
+          name: page
+          schema:
+            type: integer
+            example: 1
+        - in: query
+          name: perPage
+          schema:
+            type: integer
+            example: 25
+      responses:
+        "200":
+          description: Paginated transmission logs response
   /v2/servers/{communityId}/connected-users:
     get:
       summary: Get connected users

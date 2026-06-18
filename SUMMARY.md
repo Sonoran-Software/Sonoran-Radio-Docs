@@ -122,6 +122,7 @@
       * [Set User Display Name](developer-documentation/developer-documentation/api-endpoints-v2/users/set-user-display-name.md)
     * [Channels](developer-documentation/developer-documentation/api-endpoints-v2/channels/README.md)
       * [Get Community Channels](developer-documentation/developer-documentation/api-endpoints-v2/channels/get-community-channels.md)
+      * [Get Transmissions](developer-documentation/developer-documentation/api-endpoints-v2/channels/get-transmissions.md)
       * [Play Tone](developer-documentation/developer-documentation/api-endpoints-v2/channels/play-tone.md)
     * [Community Server](developer-documentation/developer-documentation/api-endpoints-v2/community-server/README.md)
       * [Set Server IP](developer-documentation/developer-documentation/api-endpoints-v2/community-server/set-server-ip.md)
