@@ -245,6 +245,10 @@ Right-click on a channel to individually increase or decrease transmission volum
 
 Some integrations like ACE perm sync or scanner permissions may require you to enter the internal ID number of a specific channel.
 
+These IDs are shown in the customization menu when configuring channels.
+
+<figure><img src="../../../.gitbook/assets/image (164).png" alt=""><figcaption></figcaption></figure>
+
 Select the `#` symbol on the last channel in the dispatch panel to toggle ID visibility.
 
 ![](<../../../.gitbook/assets/image (108).png>)
