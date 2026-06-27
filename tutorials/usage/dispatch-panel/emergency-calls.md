@@ -68,6 +68,12 @@ Once the call has ended, a `Re-dial {user}` option will appear. Click the green 
 
 <figure><img src="../../../.gitbook/assets/image (3) (4).png" alt=""><figcaption></figcaption></figure>
 
+## Dial a Specific Number
+
+Dispatchers can also manually dial an in-game number to call someone directly.
+
+<figure><img src="../../../.gitbook/assets/image (166).png" alt=""><figcaption></figcaption></figure>
+
 ## Customize The Emergency Number & Banner
 
 By [editing the config file](../../getting-started/installing-the-in-game-resource.md#updates) you can customize the following options:
