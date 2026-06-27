@@ -4,6 +4,26 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.27.6 06/27/2026
+
+{% tabs %}
+{% tab title="New" %}
+FiveM Phone Dial
+
+* Added the ability to dial specific phone numbers in FIveM from the dispatch panel
+
+Server Rename
+
+* Added the ability to manually rename a server name in the radio panel for communities who have multiple
+{% endtab %}
+
+{% tab title="Changed" %}
+Channel ID Display
+
+* Channel IDs are now displayed in the admin configuration menu
+{% endtab %}
+
+{% endtabs %}
 ### 2.27.2 06/08/2026
 
 {% tabs %}
