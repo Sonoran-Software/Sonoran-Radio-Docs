@@ -11,6 +11,10 @@ description: View the changelog for the Sonoran Radio application and in-game re
 Transmission Transcripts
 
 * All transmission logs for pro communities now contain transcripts from localized AI, no longer requiring communities to enter an external API key and pay for AI usage.
+
+Tone Board Voice Effects
+
+* Added a customization option to disable voice effects for tone board tones.
 {% endtab %}
 
 {% tab title="Fixed" %}
@@ -18,8 +22,8 @@ Tone Board TTS
 
 * Fixed an issue causing the localized text-to-speech tones on the tone board requiring pro instead of the free version
 {% endtab %}
-
 {% endtabs %}
+
 ### 2.27.6 06/27/2026
 
 {% tabs %}
@@ -38,8 +42,8 @@ Channel ID Display
 
 * Channel IDs are now displayed in the admin configuration menu
 {% endtab %}
-
 {% endtabs %}
+
 ### 2.27.2 06/08/2026
 
 {% tabs %}
@@ -48,8 +52,8 @@ Dispatch AI v2
 
 * An overhaul to the AI dispatcher, no longer requiring you to bring your own AI API key.
 {% endtab %}
-
 {% endtabs %}
+
 ### 2.27.0 06/01/2026
 
 {% tabs %}
