@@ -114,3 +114,9 @@ Similar to [pre-configured AI speech tones](custom-tone-board.md#ai-text-to-spee
 Enter text into the **AI Text-To-Speech** input or use the **Microphone** icon to enter text via voice recording. Press **Enter** to generate and send the text-to-speech tone to the broadcast or tone stack.
 
 <figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+## Tone Board Voice Effects
+
+By default, tones played over the radio have the channel's, or local, voice effects applied to them. This can be disabled in the settings menu, or by the [community's default settings](default-user-settings.md).
+
+<figure><img src="../../../.gitbook/assets/image (167).png" alt=""><figcaption></figcaption></figure>
