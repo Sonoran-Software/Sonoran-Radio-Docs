@@ -4,6 +4,22 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.27.7 07/01/2026
+
+{% tabs %}
+{% tab title="New" %}
+Transmission Transcripts
+
+* All transmission logs for pro communities now contain transcripts from localized AI, no longer requiring communities to enter an external API key and pay for AI usage.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Tone Board TTS
+
+* Fixed an issue causing the localized text-to-speech tones on the tone board requiring pro instead of the free version
+{% endtab %}
+
+{% endtabs %}
 ### 2.27.6 06/27/2026
 
 {% tabs %}
