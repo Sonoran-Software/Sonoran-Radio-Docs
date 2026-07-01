@@ -56,7 +56,6 @@
 * [Integrations](tutorials/integrations/README.md)
   * [Stream Deck Plugin](tutorials/integrations/stream-deck-plugin.md)
   * [Dispatch AI](tutorials/integrations/dispatch-ai.md)
-  * [AI Keys](tutorials/integrations/ai.md)
   * [Sonoran CMS](tutorials/integrations/sonoran-cms.md)
   * [Sonoran CAD Integration](tutorials/integrations/sonoran-cad-integration.md)
   * [Vehicle Radio Display](tutorials/integrations/vehicle-radio-display.md)

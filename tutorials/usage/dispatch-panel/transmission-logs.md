@@ -28,9 +28,7 @@ Transmission logs have the following properties:
 
 ## AI Audio Transcripts
 
-Audio transcripts can also be automatically generated for each transmission recording.
-
-Communities can optionally enable the `Transmission Log STT` option in the [AI configuration panel](../../integrations/ai.md#ai-options).
+Audio transcripts are automatically generated with every transmission.
 
 ## Disable User Transmission Recording
 
