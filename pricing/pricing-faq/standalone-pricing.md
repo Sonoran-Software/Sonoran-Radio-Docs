@@ -130,3 +130,15 @@ Experience immersive, realistic transmissions with in-game sirens, rotor blades,
 | Free         | 🚫    |
 | Standard     | ✅     |
 | Pro          | ✅     |
+
+### [Dispatch AI](../../tutorials/integrations/dispatch-ai.md)
+
+Dispatch AI usage is limited by total AI token usage. Token usage varies depending on request length, task complexity, and the number of actions performed.
+
+The limits below are conservative estimates of the number of requests supported by each tier.
+
+| Subscription | Average Number of Prompts per Month |
+| ------------ | ----------------------------------- |
+| Free         | \~140-360                           |
+| Standard     | \~1,400-3,600                       |
+| Pro          | \~4,200-10,750                      |

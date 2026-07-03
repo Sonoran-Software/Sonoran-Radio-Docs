@@ -17,7 +17,7 @@ Dispatch AI is not yet approved for full, production use. Utilize dispatch AI at
 {% endhint %}
 
 {% hint style="warning" %}
-This feature requires both **Sonoran CAD Pro** and **Sonoran Radio Pro**.
+This feature has limits based on your current subscription tier, but is still fully available on the free version of both Sonoran CAD and Sonoran Radio.
 
 [Learn more about our paid subscription plans.](../../pricing/pricing-faq/standalone-pricing.md)
 {% endhint %}
@@ -131,8 +131,8 @@ Upon detection of the wake word, an audible beep indicates that the AI has been 
 If your wake word is **Dispatch**, then your transmissions to the AI would be as follows:
 
 \<wake word>, \<optional: my unit number>, \<action to do>\
-&#xNAN;_**Dispatch**, A-10, mark me as available._\
-&#xNAN;_**Dispatch**, A-10, run a lookup on the license plate ABC123_
+\&#xNAN;_**Dispatch**, A-10, mark me as available._\
+\&#xNAN;_**Dispatch**, A-10, run a lookup on the license plate ABC123_
 
 </details>
 
@@ -360,3 +360,11 @@ By default, users hear AI replies directed to anyone in their primary or scanned
 <figure><img src="../../.gitbook/assets/image (160).png" alt="" width="352"><figcaption></figcaption></figure>
 
 </details>
+
+## Token Usage
+
+Dispatch AI usage is limited by total AI token usage. Token usage varies depending on request length, task complexity, and the number of actions performed. You can learn more about these limits on our [pricing page](../../pricing/pricing-faq/standalone-pricing.md#dispatch-ai). These limits reset on the first of every month.
+
+#### Viewing Token Usage
+
+Users can view their community's current token usage under **Settings** > **AI** > **Token Usage**. When a community reaches their token usage limit, the AI will be disabled and unable to take additional requests until the limits are reset on the first of the month or the community is upgraded,
