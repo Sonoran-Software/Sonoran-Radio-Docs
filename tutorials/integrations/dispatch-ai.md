@@ -367,4 +367,6 @@ Dispatch AI usage is limited by total AI token usage. Token usage varies dependi
 
 #### Viewing Token Usage
 
-Users can view their community's current token usage under **Settings** > **AI** > **Token Usage**. When a community reaches their token usage limit, the AI will be disabled and unable to take additional requests until the limits are reset on the first of the month or the community is upgraded,
+Users can view their community's current token usage under **Settings** > **AI** > **Token Usage**. When a community reaches their token usage limit, the AI will be disabled and unable to take additional requests until the limits are reset on the first of the month or the community is upgraded.
+
+<figure><img src="../../.gitbook/assets/image (168).png" alt=""><figcaption></figcaption></figure>
