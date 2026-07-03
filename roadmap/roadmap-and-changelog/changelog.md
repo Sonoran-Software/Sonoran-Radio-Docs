@@ -4,6 +4,34 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.27.9 07/03/2026
+
+{% tabs %}
+{% tab title="New" %}
+Dispatch AI - Free
+
+* Unlocked dispatch AI to now be available on the free plan of both Sonoran Radio and CAD, with tiered token limits per-month.
+
+Billing Portal UI Revamp
+
+* Updated and revamped the Sonoran Radio billing portal
+
+Portal Revamp
+
+* Updated the main community selection portal to be more consistent with CMS and CAD portals
+
+Account Menu Revamp
+
+* Updated the account menu to be more consistent with the CMS and CAD menus, along with a social connect modal
+{% endtab %}
+
+{% tab title="Changed" %}
+Header Logo Navigation
+
+* Updated the routing behavior when clicking on the Sonoran Radio logo in the top right
+{% endtab %}
+{% endtabs %}
+
 ### 2.27.7 07/01/2026
 
 {% tabs %}
