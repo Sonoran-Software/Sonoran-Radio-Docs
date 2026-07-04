@@ -46,9 +46,11 @@ The server ID can be found in the **Admin** panel > **Customization** > **Server
 
 <summary>Link CAD In Radio</summary>
 
-In the radio **Customization** panel > **Info** > Select a server (or create one) and click on the Sonoran CAD icon. This will open a popup modal to enter in your CAD's community ID, API key, and server ID.
+In the radio **Customization** panel > **Dispatch AI** > Select a server or create one. Then, enter your Sonoran CAD community ID, API key, and server ID.
 
-<div><figure><img src="../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure></div>
+Ensure that you toggle Dispatch AI to **enabled**.
+
+<figure><img src="../../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
