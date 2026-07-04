@@ -4,26 +4,6 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
-### 2.27.10 07/04/2026
-
-{% tabs %}
-{% tab title="New" %}
-ER:LC Setup Helper
-
-* Added an improved walkthrough layout for the ER:LC integration
-
-FiveM Setup Helper
-
-* Added an improved walkthrough layout for the FiveM integration
-{% endtab %}
-
-{% tab title="Fixed" %}
-Dispatch Call Update SFX
-
-* Fixed an issue where dispatchers would hear SFX for all call updates not just the ones they had open
-{% endtab %}
-{% endtabs %}
-
 ### 2.27.9 07/03/2026
 
 {% tabs %}
