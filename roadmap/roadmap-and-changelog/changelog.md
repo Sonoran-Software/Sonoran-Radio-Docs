@@ -4,6 +4,30 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.27.11 07/14/2026
+
+{% tabs %}
+{% tab title="New" %}
+General Theme Update
+
+* Updated the overall theme for dispatchers and admins
+
+Emergency Call Locality
+
+* Added customization to the "Call 911" button to use different numbers other than 911 for other countries
+
+Dial Pad SFX
+
+* Added customizable dial pad SFX when dialing a number in the emergency call tab or in the dispatcher's call tab
+{% endtab %}
+
+{% tab title="Fixed" %}
+AI Wake Word Disabled
+
+* Fixed an issue where dispatch AI would say that it was offline when a wake word was detected even if your community had disabled the AI
+{% endtab %}
+
+{% endtabs %}
 ### 2.27.10 07/13/2026
 
 {% tabs %}
