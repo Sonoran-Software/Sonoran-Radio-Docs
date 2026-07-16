@@ -22,6 +22,12 @@ This feature has limits based on your current subscription tier, but is still fu
 [Learn more about our paid subscription plans.](../../pricing/pricing-faq/standalone-pricing.md)
 {% endhint %}
 
+## Language Support
+
+Sonoran Radio is fully translated in over a dozen languages, with our [public portal allowing communities to submit translation improvements](https://docs.sonoransoftware.com/other/translation-support). By default, dispatch AI uses the same language selected for the app. Users can select a different option just for the AI. Or, [change their app's language](https://docs.sonoransoftware.com/other/translation-support).
+
+<figure><img src="../../.gitbook/assets/image (170).png" alt="" width="375"><figcaption></figcaption></figure>
+
 ## Setup Documentation
 
 ### 1. Copy Sonoran CAD API Information
