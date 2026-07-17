@@ -4,6 +4,16 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.27.12 07/16/2026
+
+{% tabs %}
+{% tab title="New" %}
+Dispatch AI - Translation Support
+
+* Added multi-language support to Dispatch AI. Allowing users to speak and listen to the AI with non-English languages.
+{% endtab %}
+{% endtabs %}
+
 ### 2.27.11 07/14/2026
 
 {% tabs %}
@@ -26,8 +36,8 @@ AI Wake Word Disabled
 
 * Fixed an issue where dispatch AI would say that it was offline when a wake word was detected even if your community had disabled the AI
 {% endtab %}
-
 {% endtabs %}
+
 ### 2.27.10 07/13/2026
 
 {% tabs %}
@@ -36,8 +46,8 @@ Hotkey Clear
 
 * When pressing ESC on hotkey recording, the radio now properly clears the key instead of only working with the right click menu.
 {% endtab %}
-
 {% endtabs %}
+
 ### 2.27.9 07/03/2026
 
 {% tabs %}
