@@ -16,8 +16,18 @@ Sonoran CMS allows you to automatically add and manage user permissions with use
 
 If you are building your own integration, Sonoran Radio also exposes API endpoints to approve members, kick members, ban members, update member display names, and set member permissions.
 
-{% content-ref url="../../developer-documentation/developer-documentation/api-endpoints/users/README.md" %}
-[README.md](../../developer-documentation/developer-documentation/api-endpoints/users/README.md)
+{% content-ref url="../../developer-documentation/developer-documentation/api-endpoints/users/" %}
+[users](../../developer-documentation/developer-documentation/api-endpoints/users/)
+{% endcontent-ref %}
+
+***
+
+## Discord Role Sync
+
+Sync radio permissions with Discord roles.
+
+{% content-ref url="https://app.gitbook.com/s/gJnyZgUQPWpA5p9njAAR/tutorials/sonoran-radio-integration" %}
+[Sonoran Radio Integration](https://app.gitbook.com/s/gJnyZgUQPWpA5p9njAAR/tutorials/sonoran-radio-integration)
 {% endcontent-ref %}
 
 ***
@@ -47,7 +57,7 @@ When logged into Sonoran Radio, they can select the `+` button in the portal to 
 
 When a member joins your community with an invite code, they will be pending until approved.
 
-Users with the `Approve Pending Members`  permission can approve in the `Members` tab
+Users with the `Approve Pending Members` permission can approve in the `Members` tab
 
 <figure><img src="../../.gitbook/assets/chrome_q9hd1Yw3VE.png" alt="" width="375"><figcaption><p>Sonoran Radio - Approve Members</p></figcaption></figure>
 
