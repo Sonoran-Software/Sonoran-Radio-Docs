@@ -236,7 +236,7 @@ Enable the feature in `config.lua`:
 Config.enableVehicleRepeaters = true
 ```
 
-Vehicle models are managed in-game, so administrators do not need to find or enter spawn codes.
+Vehicle models are configured via in-game menu.
 
 #### Configure a Vehicle Model
 
@@ -247,6 +247,8 @@ Configuration requires the `command.radiomenu` [ACE permission](configuring-ace-
 3. Select **Radio Repeaters** > **Mobile Repeater Vehicles**.
 4. Select **Add Current Vehicle** or **Add Attached Trailer**.
 5. Set the menu label and repeater range, then select **Save Vehicle Repeater**.
+
+<div><figure><img src="../../../.gitbook/assets/image (172).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (173).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (174).png" alt=""><figcaption></figcaption></figure></div>
 
 The range must be between `1` and `10000`. The detected model is saved, so the configuration applies to every vehicle with that model, not only the vehicle used during setup.
 
@@ -261,31 +263,6 @@ Activation does not require the administrator configuration permission.
 3. Select **Enable Current Vehicle Repeater** or **Enable Attached Trailer Repeater**. The menu displays whether the repeater is active or inactive.
 
 If both the towing vehicle and its attached trailer are configured, the activation menu targets the trailer. Administrators can also activate or deactivate the detected repeater from **Mobile Repeater Vehicles** in `/radiomenu`.
-
-{% hint style="info" %}
-The global `G` keybind is no longer used for mobile repeaters. `G` may still be used to repair damaged physical towers.
-{% endhint %}
-
-#### Persistence and Automatic Migration
-
-Mobile repeater models are stored in `mobileRepeaters.json` inside the `sonoranradio` resource. The resource creates this file from `mobileRepeaters.DEFAULT.json` when needed, and menu changes are synchronized to connected players.
-
-When upgrading from the legacy configuration, leave `Config.repeaterVehicleSpawncodes` in `config.lua` for the first resource start. The resource imports those entries into `mobileRepeaters.json` once. After confirming the migration in the server log and in `/radiomenu`, remove both of these deprecated settings from `config.lua`:
-
-```lua
-Config.repeaterVehicleSpawncodes = {
-    {model = "police", label = "Police Vehicle", range = 200},
-    {model = "police2", label = "Police Vehicle", range = 200},
-}
-
-Config.mobileRepeaterKeybind = {
-    mapperType = "keyboard",
-    map = "g",
-    label = "Toggle Radio Repeater"
-}
-```
-
-Future vehicle changes should be made through `/radiomenu`, not by editing the deprecated spawn-code configuration.
 
 #### Repeater Lifecycle
 
