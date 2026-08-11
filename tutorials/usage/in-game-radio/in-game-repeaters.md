@@ -54,9 +54,9 @@ Additional integrations like the [mobile command center](in-game-repeaters.md#mo
 
 #### Game Menu Configuration
 
-To add, edit, or remove a repeater, open the configuration menu by typing `/radioMenu`
+To add, edit, or remove a repeater, open the configuration menu by typing `/radiomenu`.
 
-Access to this command requires the `sonoranradio.towers` [ACE permission](configuring-ace-permissions.md).
+Access to this command requires the `command.radiomenu` [ACE permission](configuring-ace-permissions.md).
 
 <div><figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Spawn Repeater</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption><p>Move/Edit Repeater</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption><p>Delete Repeater</p></figcaption></figure></div>
 
@@ -228,22 +228,67 @@ Communities can add additional [Sonoran Power Grid](https://www.sonoran.store/pa
 
 ### Mobile (Vehicle) Repeaters
 
-To extend coverage range, communities can also customize what vehicles contain a radio repeater.
+Mobile repeaters extend radio coverage from configured vehicle models and attached trailer models. Their coverage moves with the vehicle while the repeater is active.
 
-In the `config.lua`, you can configure vehucle types and the range of a given vehicle's repeater.
-
-**Example Config Structure:**
+Enable the feature in `config.lua`:
 
 ```lua
--- Enable mobile repeaters
 Config.enableVehicleRepeaters = true
--- Mobile repeater spawncodes
+```
+
+Vehicle models are managed in-game, so administrators do not need to find or enter spawn codes.
+
+#### Configure a Vehicle Model
+
+Configuration requires the `command.radiomenu` [ACE permission](configuring-ace-permissions.md).
+
+1. Enter the vehicle you want to configure. To configure a trailer model, attach the trailer to the vehicle first.
+2. Open `/radiomenu`.
+3. Select **Radio Repeaters** > **Mobile Repeater Vehicles**.
+4. Select **Add Current Vehicle** or **Add Attached Trailer**.
+5. Set the menu label and repeater range, then select **Save Vehicle Repeater**.
+
+The range must be between `1` and `10000`. The detected model is saved, so the configuration applies to every vehicle with that model, not only the vehicle used during setup.
+
+Use the same menu to update an existing model or select **Remove Configured Vehicle** to delete it. Removing a model also disables active repeaters using that model.
+
+#### Activate a Mobile Repeater
+
+Activation does not require the administrator configuration permission.
+
+1. Sit in the driver or front-passenger seat of a configured vehicle.
+2. Run `/radio repeater` to open the activation menu.
+3. Select **Enable Current Vehicle Repeater** or **Enable Attached Trailer Repeater**. The menu displays whether the repeater is active or inactive.
+
+If both the towing vehicle and its attached trailer are configured, the activation menu targets the trailer. Administrators can also activate or deactivate the detected repeater from **Mobile Repeater Vehicles** in `/radiomenu`.
+
+{% hint style="info" %}
+The global `G` keybind is no longer used for mobile repeaters. `G` may still be used to repair damaged physical towers.
+{% endhint %}
+
+#### Persistence and Automatic Migration
+
+Mobile repeater models are stored in `mobileRepeaters.json` inside the `sonoranradio` resource. The resource creates this file from `mobileRepeaters.DEFAULT.json` when needed, and menu changes are synchronized to connected players.
+
+When upgrading from the legacy configuration, leave `Config.repeaterVehicleSpawncodes` in `config.lua` for the first resource start. The resource imports those entries into `mobileRepeaters.json` once. After confirming the migration in the server log and in `/radiomenu`, remove both of these deprecated settings from `config.lua`:
+
+```lua
 Config.repeaterVehicleSpawncodes = {
     {model = "police", label = "Police Vehicle", range = 200},
     {model = "police2", label = "Police Vehicle", range = 200},
 }
+
+Config.mobileRepeaterKeybind = {
+    mapperType = "keyboard",
+    map = "g",
+    label = "Toggle Radio Repeater"
+}
 ```
 
-In-game, you can press `G` to toggle the mobile repeater on a configured vehicle.
+Future vehicle changes should be made through `/radiomenu`, not by editing the deprecated spawn-code configuration.
 
-If a vehicle is destroyed, it will no longer function as a radio repeater.
+#### Repeater Lifecycle
+
+The server tracks active mobile repeaters as their networked vehicles move. A mobile repeater is automatically disabled when its vehicle is destroyed, despawns, or its model is removed from the configuration.
+
+If menu changes do not persist, check the server log and verify that the resource has permission to write `mobileRepeaters.json`.

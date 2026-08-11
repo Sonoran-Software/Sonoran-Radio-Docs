@@ -364,6 +364,10 @@ This is is also available from the auto-updater's `config.CHANGEME.lua`
 
 <summary>2.8.1 Release (Mobile Repeater Default Key)</summary>
 
+{% hint style="warning" %}
+This section applies only to older 2.8.1-era resource versions. Current versions no longer register `Config.mobileRepeaterKeybind`. Players use `/radio repeater`, and administrators manage compatible vehicle models through **Radio Repeaters** > **Mobile Repeater Vehicles** in `/radiomenu`.
+{% endhint %}
+
 Version 2.8.1 introduces a new configuration value to customize the default user keybind to toggle mobile repeaters.
 
 Note: _This new default key mapping will only apply to new users who have not joined the server and had their keybind set yet._

@@ -49,10 +49,6 @@ Config.autoPttOnPanic = {
 
 This keybind will quickly adjust your volume up/down, [based on the percentage set in your settings menu](./#radio-volume).
 
-### Toggle Radio Repeater
-
-This keybind will toggle your [vehicle's mobile signal repeater](../in-game-repeaters.md#mobile-vehicle-repeaters).
-
 ### Toggle Radio Users
 
 This keybind will display the [current radio connected user list](../connected-users-list.md).
@@ -94,6 +90,14 @@ To toggle on/off a specific [scan list](./#custom-scan-lists) use the command
 To toggle on/off [scanning a specific channel](./#channel-scanning-listening) use the command
 
 `/radio scan ID`
+
+### Mobile Repeater Menu
+
+To activate or deactivate a configured [vehicle or trailer repeater](../in-game-repeaters.md#mobile-vehicle-repeaters), use the command
+
+`/radio repeater`
+
+This opens an activation-only menu for all players. Configuring which vehicle models have repeaters remains restricted to administrators through `/radiomenu`.
 
 ***
 
