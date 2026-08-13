@@ -26,6 +26,13 @@ These endpoints manage the canonical GEO and degradation zone configuration for 
 
 POST and PATCH accept a `zone` object. GEO zones contain `transmitChannels`, `scanChannels`, and `acePerms`; degradation zones contain `degradeStrength`.
 
+A zone must use exactly one supported shape:
+
+- Polygon: `points` containing at least three finite `{ x, y }` coordinates.
+- Circle: `center` containing finite `{ x, y }` coordinates and a positive finite `radius`.
+
+Both shapes use `options.minZ` and `options.maxZ` for their vertical bounds. For example, a circle shape can replace the `points` property in the examples below with `center: { x: 0, y: 0 }, radius: 100`.
+
 **Examples**
 
 {% tabs %}
@@ -140,6 +147,36 @@ components:
     bearerAuth:
       type: http
       scheme: bearer
+  schemas:
+    RadioZone:
+      allOf:
+        - type: object
+          required: [options]
+          properties:
+            options: { type: object }
+        - oneOf:
+            - type: object
+              required: [points]
+              properties:
+                points:
+                  type: array
+                  minItems: 3
+                  items:
+                    type: object
+                    required: [x, y]
+                    properties:
+                      x: { type: number }
+                      y: { type: number }
+            - type: object
+              required: [center, radius]
+              properties:
+                center:
+                  type: object
+                  required: [x, y]
+                  properties:
+                    x: { type: number }
+                    y: { type: number }
+                radius: { type: number, exclusiveMinimum: 0 }
 paths:
   /v2/servers/{communityId}/rooms/{roomId}/zones:
     get:
@@ -164,7 +201,7 @@ paths:
               type: object
               required: [zone]
               properties:
-                zone: { type: object }
+                zone: { $ref: "#/components/schemas/RadioZone" }
       responses:
         "201": { description: Canonical room zone snapshot }
   /v2/servers/{communityId}/rooms/{roomId}/zones/{zoneType}/{zoneName}:
@@ -183,7 +220,7 @@ paths:
               type: object
               required: [zone]
               properties:
-                zone: { type: object }
+                zone: { $ref: "#/components/schemas/RadioZone" }
       responses:
         "200": { description: Canonical room zone snapshot }
     delete:

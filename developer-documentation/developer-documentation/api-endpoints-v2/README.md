@@ -106,6 +106,38 @@ components:
     bearerAuth:
       type: http
       scheme: bearer
+  schemas:
+    RadioZone:
+      description: A polygon or circle GEO/degradation zone with an options object.
+      allOf:
+        - type: object
+          required: [options]
+          properties:
+            options:
+              type: object
+        - oneOf:
+            - type: object
+              required: [points]
+              properties:
+                points:
+                  type: array
+                  minItems: 3
+                  items:
+                    type: object
+                    required: [x, y]
+                    properties:
+                      x: { type: number }
+                      y: { type: number }
+            - type: object
+              required: [center, radius]
+              properties:
+                center:
+                  type: object
+                  required: [x, y]
+                  properties:
+                    x: { type: number }
+                    y: { type: number }
+                radius: { type: number, exclusiveMinimum: 0 }
 paths:
   /v2/server-subscriptions/by-ip:
     get:
@@ -612,7 +644,7 @@ paths:
               required: [zone]
               properties:
                 zone:
-                  type: object
+                  $ref: "#/components/schemas/RadioZone"
       responses:
         "201":
           description: Canonical room zone snapshot
@@ -654,7 +686,7 @@ paths:
               required: [zone]
               properties:
                 zone:
-                  type: object
+                  $ref: "#/components/schemas/RadioZone"
       responses:
         "200":
           description: Canonical room zone snapshot
