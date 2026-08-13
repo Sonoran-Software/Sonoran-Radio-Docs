@@ -128,6 +128,7 @@
       * [Set Server IP](developer-documentation/developer-documentation/api-endpoints-v2/community-server/set-server-ip.md)
       * [Get Server Subscription from IP](developer-documentation/developer-documentation/api-endpoints-v2/community-server/get-server-subscription-from-ip.md)
       * [Set In-Game Speaker Locations](developer-documentation/developer-documentation/api-endpoints-v2/community-server/set-in-game-speaker-locations.md)
+      * [Manage Room Zones](developer-documentation/developer-documentation/api-endpoints-v2/community-server/manage-zones.md)
   * [Push Events](developer-documentation/developer-documentation/push-events/README.md)
     * [Play Tone](developer-documentation/developer-documentation/push-events/play-tone.md)
     * [User Connected](developer-documentation/developer-documentation/push-events/user-connected.md)

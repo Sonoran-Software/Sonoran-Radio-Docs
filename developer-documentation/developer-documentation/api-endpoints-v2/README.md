@@ -42,7 +42,7 @@ Channel endpoints cover channel discovery and tone playback operations.
 
 ### Community Server
 
-Community server endpoints cover server IP registration, subscription lookup, and in-game speaker location updates.
+Community server endpoints cover server IP registration, subscription lookup, in-game speaker locations, and backend-authoritative room zones.
 
 {% content-ref url="community-server/" %}
 [community-server](community-server/)
@@ -558,6 +558,137 @@ paths:
       responses:
         "200":
           description: Speaker locations updated
+  /v2/servers/{communityId}/rooms/{roomId}/zones:
+    get:
+      summary: Get canonical room GEO and degradation zones
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: path
+          name: communityId
+          required: true
+          schema:
+            type: string
+            example: YOUR_COMMUNITY_ID
+        - in: path
+          name: roomId
+          required: true
+          schema:
+            type: integer
+            example: 1
+      responses:
+        "200":
+          description: Canonical room zone snapshot
+  /v2/servers/{communityId}/rooms/{roomId}/zones/{zoneType}:
+    post:
+      summary: Create or replace a GEO or degradation zone by name
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: path
+          name: communityId
+          required: true
+          schema:
+            type: string
+            example: YOUR_COMMUNITY_ID
+        - in: path
+          name: roomId
+          required: true
+          schema:
+            type: integer
+            example: 1
+        - in: path
+          name: zoneType
+          required: true
+          schema:
+            type: string
+            enum: [geo, degrade]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [zone]
+              properties:
+                zone:
+                  type: object
+      responses:
+        "201":
+          description: Canonical room zone snapshot
+  /v2/servers/{communityId}/rooms/{roomId}/zones/{zoneType}/{zoneName}:
+    patch:
+      summary: Replace an existing GEO or degradation zone
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: path
+          name: communityId
+          required: true
+          schema:
+            type: string
+            example: YOUR_COMMUNITY_ID
+        - in: path
+          name: roomId
+          required: true
+          schema:
+            type: integer
+            example: 1
+        - in: path
+          name: zoneType
+          required: true
+          schema:
+            type: string
+            enum: [geo, degrade]
+        - in: path
+          name: zoneName
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [zone]
+              properties:
+                zone:
+                  type: object
+      responses:
+        "200":
+          description: Canonical room zone snapshot
+    delete:
+      summary: Delete an existing GEO or degradation zone
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: path
+          name: communityId
+          required: true
+          schema:
+            type: string
+            example: YOUR_COMMUNITY_ID
+        - in: path
+          name: roomId
+          required: true
+          schema:
+            type: integer
+            example: 1
+        - in: path
+          name: zoneType
+          required: true
+          schema:
+            type: string
+            enum: [geo, degrade]
+        - in: path
+          name: zoneName
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Canonical room zone snapshot
   /v2/servers/{communityId}/tones/play:
     post:
       summary: Play tone
