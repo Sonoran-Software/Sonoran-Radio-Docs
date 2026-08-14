@@ -8,9 +8,9 @@ description: >-
 
 <details>
 
-<summary>2.26.0 (Display Name Sync)</summary>
+<summary>2.26.0 (Display Name Sync and Configurable PTT Animation)</summary>
 
-Version 2.26.0 adds a new configuration option to set user's radio display names to match their in-game name.
+Version 2.26.0 adds new configuration options to set users' radio display names to match their in-game names and customize the push-to-talk animation.
 
 1. Open your existing `config.lua`
 2. Add the new properties to the configuration file
@@ -19,6 +19,15 @@ If set to `true` the radio display name will be set to the QBCore, QBox, ESX, or
 
 ```lua
 Config.syncPlayerNameToRadio = false -- Sync the player's in-game character name to their Sonoran Radio display name
+```
+
+Add the following table to customize the animation used while transmitting on foot with the radio closed. The values below preserve the existing default animation.
+
+```lua
+Config.pttAnimation = {
+	dictionary = 'random@arrests', -- Animation dictionary used while transmitting with the radio closed
+	name = 'generic_radio_chatter' -- Animation name used while transmitting with the radio closed
+}
 ```
 
 </details>
