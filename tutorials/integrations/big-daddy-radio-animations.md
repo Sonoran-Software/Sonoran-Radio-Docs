@@ -70,4 +70,4 @@ This script also makes **users talk on their in-game microphone when they talk o
 To disable this, ensure the `Config.talkSync` is disabled in the Sonoran Radio `config.lua` and the `TalkSync` is set to `false` in Big Daddy's Animation `settings.ini` file.
 {% endhint %}
 
-[See the documentation for more information about configuration options and commands.](https://wiki.bigdaddyscripts.com/en/documentation/Radio-Animation)
+[See the documentation for more information about configuration options and commands.](https://wiki.bigdaddyscripts.com/documentation/sonoran-radio-animation/)
