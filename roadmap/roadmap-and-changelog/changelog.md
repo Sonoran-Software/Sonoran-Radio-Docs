@@ -4,6 +4,16 @@ description: View the changelog for the Sonoran Radio application and in-game re
 
 # 📋 Changelog
 
+### 2.27.18 08/19/2026
+
+{% tabs %}
+{% tab title="Fixed" %}
+Desktop Overlay: Fullscreen Support
+
+* Fixed desktop radio overlays disappearing behind fullscreen applications when interacted with.
+{% endtab %}
+
+{% endtabs %}
 ### 2.27.12 07/16/2026
 
 {% tabs %}
