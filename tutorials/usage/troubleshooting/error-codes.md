@@ -356,6 +356,24 @@ Direct links can target any code on this page using fragments such as `#ERR-121`
 
 **First Troubleshooting Step:** Move chatter exclusion management to `earpieces.json` or the in-game menu.
 
+<a id="WRN-216"></a>
+#### WRN-216
+
+**Internal Key:** `WRN_MOBILE_REPEATERS_CONFIG_MIGRATED`
+
+**Meaning:** Legacy `Config.repeaterVehicleSpawncodes` entries were imported into `mobileRepeaters.json`.
+
+**First Troubleshooting Step:** Remove the deprecated `Config.repeaterVehicleSpawncodes` block and use `/radiomenu` for future changes.
+
+<a id="WRN-217"></a>
+#### WRN-217
+
+**Internal Key:** `WRN_LISTENER_PRO_REQUIRED`
+
+**Meaning:** Nearby radio chatter and scanners were disabled because the community does not have a Pro subscription.
+
+**First Troubleshooting Step:** Upgrade the Radio community to Pro, or set `Config.chatter` to `false`.
+
 ## Legacy Troubleshooting Codes
 
 The entries below are older support references that may still appear in existing guides, logs, or support replies.
