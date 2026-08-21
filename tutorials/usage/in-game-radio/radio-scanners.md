@@ -18,6 +18,8 @@ Due to bandwidth usage, this feature is automatically enabled with the Pro versi
 
 ### Enabling the Scanner
 
+An active Sonoran Radio Pro subscription is required for nearby radio chatter and all scanner types, including permanent scanners.
+
 1. Enable the `config.chatter`  option in your [config.lua](../../getting-started/installing-the-in-game-resource.md#updates).
 2. Add the `sonoranradio.scanner` [ace permission](configuring-ace-permissions.md).
 
