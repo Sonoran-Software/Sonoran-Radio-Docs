@@ -161,6 +161,8 @@ Play Dispatch Tones: `sonoranradio.radiotones`
 
 Override Talkover Protection: `sonoranradio.radiotalkover`&#x20;
 
+Stun Radio Users: `sonoranradio.radiostun`
+
 
 
 ![](<../../../.gitbook/assets/image (109).png>)
@@ -179,6 +181,9 @@ add_ace group.admin sonoranradio.admin allow
 
 # Grant the talkover-override permission to everyone in the admin group
 add_ace group.admin sonoranradio.radiotalkover
+
+# Grant the radio-stun permission to everyone in the admin group
+add_ace group.admin sonoranradio.radiostun allow
 
 # Auto-approve everyone in the leo group
 add_ace group.leo sonoranradio.autoapprove allow
