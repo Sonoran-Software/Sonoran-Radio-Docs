@@ -4,7 +4,7 @@ description: Select FiveM or ER:LC and connect your game server to Sonoran Radio
 
 # Configure a Game Integration
 
-Each Sonoran Radio community server can be configured for **FiveM** or **Emergency Response: Liberty County (ER:LC)**. Your selection controls the setup tools shown in the admin panel and the map available under **Zones**.
+Each Sonoran Radio community server can be configured for **FiveM** or **Emergency Response: Liberty County (ER:LC)**. Your selection controls the setup tools shown under **Game Integration** and the map used for emergency zones under **Zones**.
 
 Open your Radio community, then navigate to **Customize** > **Game Integration**.
 
@@ -17,6 +17,8 @@ Continue with [Installing the In-Game Resource](installing-the-in-game-resource.
 ## ER:LC
 
 Select **ER:LC** to connect an ER:LC private server and enable location-based radio signal.
+
+<figure><img src="../../.gitbook/assets/erlc-towers/erlc-unlinked-server.png" alt="Sonoran Radio Game Integration panel with ER:LC selected, the Roblox link banner, and an unlinked private server"><figcaption><p>Select ER:LC to display Roblox account linking, private-server linking, and the virtual tower editor.</p></figcaption></figure>
 
 ### 1. Link Your Roblox Account
 
@@ -52,13 +54,15 @@ Treat the ER:LC API key like a password. Do not post it in Discord, screenshots,
 2. Select **Link Server**.
 3. Confirm that the panel displays **Hub synced** and the private server's join code.
 
+<figure><img src="../../.gitbook/assets/erlc-towers/erlc-linked-server.png" alt="Linked ER:LC private server displaying the Hub synced status in Sonoran Radio"><figcaption><p>Hub synced confirms that Sonoran Radio is connected to the ER:LC private server.</p></figcaption></figure>
+
 The API key is stored securely by Sonoran Radio and is not returned to players or displayed again. To replace it, enter a new key and select **Update Link**.
 
 To disconnect the private server, select **Unlink** and confirm the prompt. Live player positions and ER:LC signal updates stop until another server is linked.
 
 ### 4. Configure Signal Coverage
 
-After the server is linked, configure its coverage under **Customize** > **Zones** > **Signal Towers**.
+The **Virtual Signal Towers** editor appears directly below the ER:LC private-server settings. You can lay out towers before linking the server, but the server must be synced before Radio can display live players or update their signal.
 
 {% content-ref url="../usage/in-game-radio/erlc-signal-towers.md" %}
 [erlc-signal-towers.md](../usage/in-game-radio/erlc-signal-towers.md)

@@ -25,6 +25,8 @@ Use a unique **Tower ID** when mission scripts need to update the tower later. A
 3. Click the desired location on the map or in the world.
 4. Complete the **Sonoran Radio Tower** dialog and select **OK**.
 
+<figure><img src="../../../.gitbook/assets/arma-3/zeus-tower-configuration.jpg" alt="Sonoran Radio Tower configuration dialog in Arma 3 Zeus"><figcaption><p>Configure the repeater model, signal range, dishes, power, damage, and visibility before placing the tower.</p></figcaption></figure>
+
 The physical object is created by the server and added to active curators. Double-click the Sonoran Radio module logic to change its range, power, dish state, or other settings during the mission.
 
 Deleting the module unregisters its signal and removes any physical object that the module spawned.
@@ -48,6 +50,8 @@ Deleting the module unregisters its signal and removes any physical object that 
 | Small Repeater | `Land_TTowerSmall_1_F` |
 | Tall Repeater | `Land_TTowerSmall_2_F` |
 | Large Radio Tower | `Land_TTowerBig_1_F` |
+
+<figure><img src="../../../.gitbook/assets/arma-3/large-radio-tower.jpg" alt="Large Sonoran Radio signal tower placed in an Arma 3 mission"><figcaption><p>The Large Radio Tower physical preset in-game.</p></figcaption></figure>
 
 ## Invisible towers
 

@@ -11,18 +11,18 @@ Virtual signal towers let ER:LC communities apply location-based signal quality 
 Make sure that:
 
 * The community server is set to **ER:LC** under **Customize** > **Game Integration**.
-* The ER:LC private server displays **Hub synced**.
-* Each player has linked the Roblox account they use in ER:LC to their Sonoran account.
+* The ER:LC private server displays **Hub synced** if you want to preview live players and apply signal changes.
+* Each player has linked the Roblox account they use in ER:LC to their Sonoran account for live signal.
 
 If the private server is not connected yet, follow [Configure a Game Integration](../../getting-started/configure-game-integration.md#erlc).
 
-## Open the ER:LC Map
+## Open the ER:LC Tower Map
 
-1. Navigate to **Customize** > **Zones**.
-2. Select the community server you want to configure.
-3. Select **Signal Towers**.
+1. Navigate to **Customize** > **Game Integration**.
+2. Select **ER:LC**.
+3. Scroll to **Virtual Signal Towers** below the private-server settings.
 
-The Zones page automatically displays the map for the game selected under **Game Integration**. ER:LC servers show the ER:LC map and Signal Towers editor. FiveM servers continue to show their FiveM map with Geo Channels and Degrade Zones.
+The separate **Zones** page also uses your game selection automatically. ER:LC servers use the ER:LC map for emergency zones, while FiveM servers use the FiveM map and continue to provide Geo Channels and Degrade Zones.
 
 ## Place a Tower
 
@@ -32,6 +32,8 @@ The Zones page automatically displays the map for the game selected under **Game
 4. Set the tower's **Range** in map units.
 
 Changes save automatically. Drag a tower marker to reposition it, or use the delete button beside a tower to remove it.
+
+<figure><img src="../../../.gitbook/assets/erlc-towers/erlc-tower-configuration.png" alt="ER:LC map with three overlapping virtual signal towers, live player markers, and a signal percentage tooltip"><figcaption><p>Overlapping tower ranges use the strongest signal and live player markers display their current percentage.</p></figcaption></figure>
 
 ## Understand Signal Coverage
 
@@ -56,9 +58,9 @@ Each connected user's Radio signal also refreshes every five seconds. Moving clo
 
 ## Troubleshooting
 
-### Signal Towers Is Not Available
+### The Tower Editor Is Not Available
 
-Open **Customize** > **Game Integration** and confirm that the selected community server is set to **ER:LC**. The Signal Towers option is not shown for FiveM servers.
+Open **Customize** > **Game Integration** and confirm that the community server is set to **ER:LC**. The Virtual Signal Towers editor is not shown while FiveM is selected.
 
 ### The Server Does Not Show Hub Synced
 

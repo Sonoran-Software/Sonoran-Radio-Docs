@@ -13,6 +13,8 @@ The Arma mod reports the player's radio `CfgWeapons` class to the local desktop 
 | Sonoran Radio (BLUFOR) | `SonoranRadio_Item_BLUFOR` | ARMA 3 BLUFOR |
 | Sonoran Radio (OPFOR) | `SonoranRadio_Item_OPFOR` | ARMA 3 OPFOR |
 
+<figure><img src="../../../.gitbook/assets/arma-3/desktop-radio-overlay.jpg" alt="Sonoran Radio desktop radio frame displayed over Arma 3 gameplay"><figcaption><p>The desktop radio overlay remains visible and usable while playing Arma 3.</p></figcaption></figure>
+
 Newly created Radio communities include the two example desktop frames and mappings. Existing communities can map these classes to an existing frame or create new frames.
 
 ## Give a player a radio
