@@ -20,13 +20,19 @@ You can [view our 4-part tutorial series covering installation, configuration, a
 [invite-and-manage-users.md](invite-and-manage-users.md)
 {% endcontent-ref %}
 
-### 3. Installing the In-Game Resource
+### 3. Configure a Game Integration
+
+{% content-ref url="configure-game-integration.md" %}
+[configure-game-integration.md](configure-game-integration.md)
+{% endcontent-ref %}
+
+### 4. Installing the FiveM In-Game Resource
 
 {% content-ref url="installing-the-in-game-resource.md" %}
 [installing-the-in-game-resource.md](installing-the-in-game-resource.md)
 {% endcontent-ref %}
 
-### 4. Using the Radio
+### 5. Using the Radio
 
 {% content-ref url="../usage/" %}
 [usage](../usage/)

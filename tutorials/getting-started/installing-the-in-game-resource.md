@@ -1,8 +1,10 @@
 ---
-description: Learn how to download and install the in-game resource.
+description: Learn how to download and install the Sonoran Radio FiveM resource.
 ---
 
-# Installing the In-Game Resource
+# Installing the FiveM In-Game Resource
+
+This guide installs the Sonoran Radio resource for **FiveM**. ER:LC does not require a game resource; follow [Configure a Game Integration](configure-game-integration.md#erlc) instead.
 
 ## A. One-Click Installation (RocketNode)
 
@@ -21,7 +23,7 @@ We've partnered with Rocket Node to bring you one-click Sonoran Radio installati
 
 Download a pre-configured version of the in-game resource from the panel. This download will already have your community ID and API key in the `config.lua` file.
 
-Navigate to `Customization` > `FiveM Integration` > `Download Resource`
+Navigate to **Customize** > **Game Integration** > **FiveM** > **Download Resource**.
 
 ### 2. Extract the ZIP File
 

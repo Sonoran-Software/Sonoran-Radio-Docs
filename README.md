@@ -12,6 +12,10 @@ Sonoran Radio is the most advanced push-to-talk system for gaming communities.
 
 With customizable voice effects, live emergency calls, and deep FiveM integrations like nearby radio audio, background noise injection, and destructible towers—Sonoran Radio keeps your team connected and in control.
 
+ER:LC communities can link a private server, match players through their Roblox accounts, and create [virtual signal towers](tutorials/usage/in-game-radio/erlc-signal-towers.md) with live location-based coverage.
+
+Arma 3 communities can use the [Arma 3 integration](tutorials/integrations/arma-3/) for physical or invisible signal towers, inventory-linked team radio frames, terrain-based signal loss, and optional AI hearing.
+
 {% content-ref url="tutorials/getting-started/" %}
 [getting-started](tutorials/getting-started/)
 {% endcontent-ref %}
