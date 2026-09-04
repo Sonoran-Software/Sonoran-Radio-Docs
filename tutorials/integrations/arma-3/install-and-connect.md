@@ -1,5 +1,7 @@
 ---
-description: Install the Sonoran Radio Arma 3 mod on a dedicated server and each player's Windows client.
+description: >-
+  Install the Sonoran Radio Arma 3 mod on a dedicated server and each player's
+  Windows client.
 ---
 
 # Install and Connect
@@ -7,7 +9,7 @@ description: Install the Sonoran Radio Arma 3 mod on a dedicated server and each
 ## Requirements
 
 * Arma 3 version 2.12 or newer
-* [CBA_A3](https://steamcommunity.com/sharedfiles/filedetails/?id=450814997)
+* [CBA\_A3](https://steamcommunity.com/sharedfiles/filedetails/?id=450814997)
 * The Sonoran Radio Arma 3 mod on the server and every player client
 * The Sonoran Radio desktop app for each player
 * Windows on player computers; the client bridge uses the packaged `sonoran_radio_x64.dll` and PowerShell
@@ -18,32 +20,7 @@ TFAR and ACRE are not required. If your community does not want a second radio s
 
 ### Steam Workshop
 
-Subscribe to the Sonoran Radio Arma 3 mod and CBA_A3. Add both mods to the dedicated server's mod list and to the preset distributed to players. Load CBA_A3 before Sonoran Radio.
-
-### Manual package
-
-The release ZIP contains an `@sonoran_radio` folder. Extract that entire folder into the Arma 3 installation directory on the server and every client. Do not move the DLL or `bridge` directory out of the mod folder.
-
-A complete installation contains at least:
-
-```text
-@sonoran_radio/
-├── addons/
-├── bridge/
-├── keys/
-├── mod.cpp
-└── sonoran_radio_x64.dll
-```
-
-Copy the included `.bikey` from `@sonoran_radio\keys` into the dedicated server's root `keys` directory when the server enforces addon signatures.
-
-Launch the server and clients with CBA_A3 and Sonoran Radio enabled. A typical local-mod launch argument is:
-
-```text
--mod=@CBA_A3;@sonoran_radio
-```
-
-The exact CBA folder name may differ for Workshop installations.
+Subscribe to the Sonoran Radio Arma 3 mod and CBA\_A3. Add both mods to the dedicated server's mod list and to the preset distributed to players. Load CBA\_A3 before Sonoran Radio.
 
 ## Connect the desktop overlay
 
@@ -61,7 +38,7 @@ The integration continues to use Sonoran Radio's normal desktop push-to-talk con
 
 After the client enters a mission, open the following address on that same computer:
 
-```text
+```
 http://127.0.0.1:39114/health
 ```
 
